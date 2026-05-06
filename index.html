@@ -9,6 +9,12 @@
       content="A World of Warcraft themed Mythic+ score dashboard for Ahldroni's Raider.IO characters."
     >
     <link rel="preconnect" href="https://render.worldofwarcraft.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -20,6 +26,11 @@
           <p class="lede">
             Current-season score snapshot for the characters attached to the Ahldroni Raider.IO profile.
           </p>
+          <div class="hero__tags" aria-label="Profile highlights">
+            <span>Season MN-1</span>
+            <span>Warband Score 5206.6</span>
+            <span>Heroic Raid 3/9</span>
+          </div>
           <div class="hero__actions">
             <a class="button button--primary" href="https://raider.io/user/Ahldroni" target="_blank" rel="noreferrer">
               View Raider.IO
@@ -59,6 +70,17 @@
           <span>Last fetched</span>
           <strong>May 6, 2026</strong>
         </article>
+      </section>
+
+      <section class="spotlight panel" aria-labelledby="spotlight-title">
+        <div>
+          <p class="kicker">Push Focus</p>
+          <h2 id="spotlight-title">Current active ladder</h2>
+          <p class="spotlight__copy">
+            Warlockzz is carrying the season push, with Ahldrak building secondary coverage and Ahldroni holding the tank route set.
+          </p>
+        </div>
+        <div class="spotlight__rail" id="spotlight-rail"></div>
       </section>
 
       <section class="panel" id="roster" aria-labelledby="roster-title">
