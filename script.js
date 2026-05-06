@@ -171,6 +171,11 @@ const maxScore = Math.max(...characters.map((character) => character.score));
 const cards = document.querySelector("#character-cards");
 const runList = document.querySelector("#run-list");
 const dungeonGrid = document.querySelector("#dungeon-grid");
+const spotlightRail = document.querySelector("#spotlight-rail");
+
+const activeCharacters = [...characters]
+  .filter((character) => character.score > 0)
+  .sort((left, right) => right.score - left.score);
 
 cards.innerHTML = characters
   .map((character) => {
@@ -221,6 +226,25 @@ dungeonGrid.innerHTML = dungeons
       <span>${detail}</span>
     </div>
   `)
+  .join("");
+
+spotlightRail.innerHTML = activeCharacters
+  .map((character, index) => {
+    const label = character.displayName || character.name;
+    const summary =
+      index === 0
+        ? "Primary push character and current score leader."
+        : index === 1
+          ? "Secondary ladder coverage with active alt progression."
+          : "Tank-side route coverage and lower-key stability.";
+    return `
+      <a class="spotlight__card" href="${character.url}" target="_blank" rel="noreferrer">
+        <strong>${label} · ${character.score.toFixed(1)}</strong>
+        <span>${character.spec} ${character.className} · ${character.realm} ${character.region}</span>
+        <span>${summary}</span>
+      </a>
+    `;
+  })
   .join("");
 
 document.querySelectorAll(".segment").forEach((button) => {
