@@ -27,6 +27,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/raiderio.json
+          git add data/raiderio.json data/raiderio-data.js
           git diff --cached --quiet || git commit -m "Update Raider.IO data"
           git push
