@@ -14,6 +14,10 @@ const summaryLastFetched = document.querySelector("#summary-last-fetched");
 const spotlightCopy = document.querySelector("#spotlight-copy");
 const footerStatus = document.querySelector("#footer-status");
 
+function getEmbeddedData() {
+  return window.__RAIDERIO_DATA__ || null;
+}
+
 function formatDate(dateString) {
   return new Date(dateString).toLocaleDateString("en-US", {
     month: "short",
@@ -162,12 +166,21 @@ function bindFilters() {
 
 async function loadData() {
   try {
-    const response = await fetch(`data/raiderio.json?ts=${Date.now()}`);
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+    let data = getEmbeddedData();
+
+    if (!data && window.location.protocol !== "file:") {
+      const response = await fetch(`data/raiderio.json?ts=${Date.now()}`);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      data = await response.json();
     }
 
-    const data = await response.json();
+    if (!data) {
+      throw new Error("No embedded Raider.IO snapshot was found.");
+    }
+
     heroTags.innerHTML = buildHeroTags(data).map((tag) => `<span>${tag}</span>`).join("");
     renderChampion(data.top_character);
     renderSummary(data);
