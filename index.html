@@ -26,11 +26,7 @@
           <p class="lede">
             Current-season score snapshot for the characters attached to the Ahldroni Raider.IO profile.
           </p>
-          <div class="hero__tags" aria-label="Profile highlights">
-            <span>Season MN-1</span>
-            <span>Warband Score 5206.6</span>
-            <span>Heroic Raid 3/9</span>
-          </div>
+          <div class="hero__tags" id="hero-tags" aria-label="Profile highlights"></div>
           <div class="hero__actions">
             <a class="button button--primary" href="https://raider.io/user/Ahldroni" target="_blank" rel="noreferrer">
               View Raider.IO
@@ -41,34 +37,35 @@
         <aside class="champion" aria-label="Top Mythic+ character">
           <img
             class="champion__avatar"
-            src="https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
-            alt="Warlockzz character portrait"
+            id="champion-avatar"
+            src=""
+            alt=""
           >
           <div>
             <p class="champion__label">Top score</p>
-            <p class="champion__name">Warlockzz</p>
-            <p class="champion__meta">Demonology Warlock · Silvermoon EU</p>
+            <p class="champion__name" id="champion-name">Loading...</p>
+            <p class="champion__meta" id="champion-meta"></p>
           </div>
-          <strong class="champion__score">3080.6</strong>
+          <strong class="champion__score" id="champion-score">...</strong>
         </aside>
       </section>
 
       <section class="score-strip" aria-label="Account score summary">
         <article>
           <span>Total current score</span>
-          <strong>5206.6</strong>
+          <strong id="summary-total-score">...</strong>
         </article>
         <article>
           <span>Scored characters</span>
-          <strong>3 / 10</strong>
+          <strong id="summary-scored-characters">...</strong>
         </article>
         <article>
           <span>Highest key</span>
-          <strong>+15 SEAT</strong>
+          <strong id="summary-highest-key">...</strong>
         </article>
         <article>
           <span>Last fetched</span>
-          <strong>May 6, 2026</strong>
+          <strong id="summary-last-fetched">...</strong>
         </article>
       </section>
 
@@ -76,9 +73,7 @@
         <div>
           <p class="kicker">Push Focus</p>
           <h2 id="spotlight-title">Current active ladder</h2>
-          <p class="spotlight__copy">
-            Warlockzz is carrying the season push, with Ahldrak building secondary coverage and Ahldroni holding the tank route set.
-          </p>
+          <p class="spotlight__copy" id="spotlight-copy">Loading current ladder summary...</p>
         </div>
         <div class="spotlight__rail" id="spotlight-rail"></div>
       </section>
@@ -121,7 +116,8 @@
       </section>
 
       <footer class="footer">
-        Data source: public Raider.IO profile and character API. World of Warcraft and Blizzard Entertainment are trademarks of Blizzard Entertainment, Inc.
+        <span id="footer-status">Data source: public Raider.IO profile and character API.</span>
+        World of Warcraft and Blizzard Entertainment are trademarks of Blizzard Entertainment, Inc.
       </footer>
     </main>
     <script src="script.js"></script>
