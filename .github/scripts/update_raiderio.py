@@ -14,6 +14,7 @@ from urllib.request import Request, urlopen
 BASE_URL = "https://raider.io"
 PROFILE_NAME = "Ahldroni"
 OUTPUT_PATH = Path(__file__).resolve().parents[2] / "data" / "raiderio.json"
+JS_OUTPUT_PATH = Path(__file__).resolve().parents[2] / "data" / "raiderio-data.js"
 
 
 def fetch_json(path: str, params: dict[str, Any]) -> dict[str, Any]:
@@ -40,7 +41,7 @@ def build_character_url(region: str, realm: str, name: str) -> str:
 
 def parse_role(spec_role: str | None) -> str:
     if not spec_role:
-        return "dps"
+      return "dps"
     value = spec_role.lower()
     return "tank" if value == "tank" else "healer" if value == "healer" else "dps"
 
@@ -207,6 +208,10 @@ def main() -> None:
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    JS_OUTPUT_PATH.write_text(
+        "window.__RAIDERIO_DATA__ = " + json.dumps(payload, separators=(",", ":")) + ";\n",
+        encoding="utf-8",
+    )
 
 
 if __name__ == "__main__":
