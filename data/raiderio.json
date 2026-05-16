@@ -1,9 +1,9 @@
 {
   "profile_name": "Ahldroni",
-  "generated_at": "2026-05-16T08:08:00.670059+00:00",
+  "generated_at": "2026-05-16T13:27:10.061167+00:00",
   "season_label": "season-mn-1",
   "summary": {
-    "total_score": 5531.5,
+    "total_score": 5710.9,
     "scored_characters": 3,
     "character_count": 10,
     "highest_key": {
@@ -216,8 +216,8 @@
       "role": "dps",
       "level": 90,
       "ilvl": 241.0,
-      "score": 1720.4,
-      "color": "#87ff6a",
+      "score": 1899.8,
+      "color": "#72ff56",
       "avatar": "https://render.worldofwarcraft.com/eu/stormscale/193/167457729-avatar.jpg",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "raid_progress": {
@@ -227,12 +227,28 @@
       },
       "best_runs": [
         {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "level": 10,
+          "score": 335.0,
+          "upgrades": 3,
+          "completed_at": "2026-05-16T10:31:42.000Z"
+        },
+        {
           "dungeon": "Pit of Saron",
           "short_name": "POS",
           "level": 10,
           "score": 332.3,
           "upgrades": 2,
           "completed_at": "2026-05-16T00:56:06.000Z"
+        },
+        {
+          "dungeon": "Nexus-Point Xenas",
+          "short_name": "NPX",
+          "level": 10,
+          "score": 323.2,
+          "upgrades": 1,
+          "completed_at": "2026-05-16T10:02:51.000Z"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -249,22 +265,6 @@
           "score": 245.0,
           "upgrades": 3,
           "completed_at": "2026-05-04T14:26:09.000Z"
-        },
-        {
-          "dungeon": "Nexus-Point Xenas",
-          "short_name": "NPX",
-          "level": 6,
-          "score": 241.3,
-          "upgrades": 2,
-          "completed_at": "2026-05-04T14:51:29.000Z"
-        },
-        {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "level": 6,
-          "score": 237.5,
-          "upgrades": 2,
-          "completed_at": "2026-05-15T23:59:13.000Z"
         },
         {
           "dungeon": "Maisara Caverns",
@@ -390,8 +390,8 @@
       "role": "dps",
       "level": 90,
       "ilvl": 241.0,
-      "score": 1720.4,
-      "color": "#87ff6a",
+      "score": 1899.8,
+      "color": "#72ff56",
       "avatar": "https://render.worldofwarcraft.com/eu/stormscale/193/167457729-avatar.jpg",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "raid_progress": {
@@ -621,8 +621,8 @@
         },
         {
           "character": "Ahldrak",
-          "level": 6,
-          "score": 241.3
+          "level": 10,
+          "score": 323.2
         },
         {
           "character": "Ahldroni",
@@ -679,8 +679,8 @@
         },
         {
           "character": "Ahldrak",
-          "level": 6,
-          "score": 237.5
+          "level": 10,
+          "score": 335.0
         },
         {
           "character": "Ahldroni",
