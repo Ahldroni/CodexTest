@@ -1,9 +1,9 @@
 {
   "profile_name": "Ahldroni",
-  "generated_at": "2026-05-16T13:27:10.061167+00:00",
+  "generated_at": "2026-05-16T19:08:17.128245+00:00",
   "season_label": "season-mn-1",
   "summary": {
-    "total_score": 5710.9,
+    "total_score": 6325.0,
     "scored_characters": 3,
     "character_count": 10,
     "highest_key": {
@@ -24,7 +24,7 @@
     "level": 90,
     "ilvl": 276.0,
     "score": 3080.6,
-    "color": "#4f67e1",
+    "color": "#4369e0",
     "avatar": "https://render.worldofwarcraft.com/eu/silvermoon/15/217155343-avatar.jpg",
     "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
     "raid_progress": {
@@ -121,7 +121,7 @@
       "level": 90,
       "ilvl": 276.0,
       "score": 3080.6,
-      "color": "#4f67e1",
+      "color": "#4369e0",
       "avatar": "https://render.worldofwarcraft.com/eu/silvermoon/15/217155343-avatar.jpg",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "raid_progress": {
@@ -216,8 +216,8 @@
       "role": "dps",
       "level": 90,
       "ilvl": 241.0,
-      "score": 1899.8,
-      "color": "#72ff56",
+      "score": 2513.9,
+      "color": "#5ad36f",
       "avatar": "https://render.worldofwarcraft.com/eu/stormscale/193/167457729-avatar.jpg",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "raid_progress": {
@@ -227,6 +227,14 @@
       },
       "best_runs": [
         {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "level": 12,
+          "score": 371.1,
+          "upgrades": 1,
+          "completed_at": "2026-05-16T13:56:12.000Z"
+        },
+        {
           "dungeon": "Skyreach",
           "short_name": "SR",
           "level": 10,
@@ -235,12 +243,28 @@
           "completed_at": "2026-05-16T10:31:42.000Z"
         },
         {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
           "level": 10,
-          "score": 332.3,
+          "score": 333.6,
           "upgrades": 2,
-          "completed_at": "2026-05-16T00:56:06.000Z"
+          "completed_at": "2026-05-16T16:11:01.000Z"
+        },
+        {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "level": 10,
+          "score": 332.5,
+          "upgrades": 2,
+          "completed_at": "2026-05-16T14:28:23.000Z"
+        },
+        {
+          "dungeon": "Magisters' Terrace",
+          "short_name": "MT",
+          "level": 10,
+          "score": 324.2,
+          "upgrades": 1,
+          "completed_at": "2026-05-16T15:44:30.000Z"
         },
         {
           "dungeon": "Nexus-Point Xenas",
@@ -259,28 +283,12 @@
           "completed_at": "2026-05-05T21:23:24.000Z"
         },
         {
-          "dungeon": "Seat of the Triumvirate",
-          "short_name": "SEAT",
-          "level": 6,
-          "score": 245.0,
-          "upgrades": 3,
-          "completed_at": "2026-05-04T14:26:09.000Z"
-        },
-        {
           "dungeon": "Maisara Caverns",
           "short_name": "MC",
           "level": 5,
           "score": 228.2,
           "upgrades": 2,
           "completed_at": "2026-05-03T11:23:45.000Z"
-        },
-        {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "level": 2,
-          "score": 170.0,
-          "upgrades": 3,
-          "completed_at": "2026-05-03T10:43:46.000Z"
         }
       ],
       "raid_progression": {
@@ -371,7 +379,7 @@
       "level": 90,
       "ilvl": 276.0,
       "score": 3080.6,
-      "color": "#4f67e1",
+      "color": "#4369e0",
       "avatar": "https://render.worldofwarcraft.com/eu/silvermoon/15/217155343-avatar.jpg",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "raid_progress": {
@@ -390,8 +398,8 @@
       "role": "dps",
       "level": 90,
       "ilvl": 241.0,
-      "score": 1899.8,
-      "color": "#72ff56",
+      "score": 2513.9,
+      "color": "#5ad36f",
       "avatar": "https://render.worldofwarcraft.com/eu/stormscale/193/167457729-avatar.jpg",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "raid_progress": {
@@ -607,6 +615,11 @@
           "character": "Warlockzz",
           "level": 12,
           "score": 369.8
+        },
+        {
+          "character": "Ahldrak",
+          "level": 10,
+          "score": 324.2
         }
       ]
     },
@@ -642,8 +655,8 @@
         },
         {
           "character": "Ahldrak",
-          "level": 10,
-          "score": 332.3
+          "level": 12,
+          "score": 371.1
         },
         {
           "character": "Ahldroni",
@@ -663,8 +676,8 @@
         },
         {
           "character": "Ahldrak",
-          "level": 6,
-          "score": 245.0
+          "level": 10,
+          "score": 332.5
         }
       ]
     },
@@ -700,8 +713,8 @@
         },
         {
           "character": "Ahldrak",
-          "level": 2,
-          "score": 170.0
+          "level": 10,
+          "score": 333.6
         }
       ]
     }
