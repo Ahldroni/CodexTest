@@ -1,9 +1,9 @@
 {
   "profile_name": "Ahldroni",
-  "generated_at": "2026-05-15T19:42:10.763442+00:00",
+  "generated_at": "2026-05-16T03:25:38.115775+00:00",
   "season_label": "season-mn-1",
   "summary": {
-    "total_score": 5230.6,
+    "total_score": 5531.5,
     "scored_characters": 3,
     "character_count": 10,
     "highest_key": {
@@ -22,7 +22,7 @@
     "spec": "Demonology",
     "role": "dps",
     "level": 90,
-    "ilvl": 275.0,
+    "ilvl": 276.0,
     "score": 3080.6,
     "color": "#4f67e1",
     "avatar": "https://render.worldofwarcraft.com/eu/silvermoon/15/217155343-avatar.jpg",
@@ -119,7 +119,7 @@
       "spec": "Demonology",
       "role": "dps",
       "level": 90,
-      "ilvl": 275.0,
+      "ilvl": 276.0,
       "score": 3080.6,
       "color": "#4f67e1",
       "avatar": "https://render.worldofwarcraft.com/eu/silvermoon/15/217155343-avatar.jpg",
@@ -216,8 +216,8 @@
       "role": "dps",
       "level": 90,
       "ilvl": 241.0,
-      "score": 1419.5,
-      "color": "#a5ff8a",
+      "score": 1720.4,
+      "color": "#87ff6a",
       "avatar": "https://render.worldofwarcraft.com/eu/stormscale/193/167457729-avatar.jpg",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "raid_progress": {
@@ -229,10 +229,10 @@
         {
           "dungeon": "Pit of Saron",
           "short_name": "POS",
-          "level": 7,
-          "score": 269.0,
+          "level": 10,
+          "score": 332.3,
           "upgrades": 2,
-          "completed_at": "2026-05-06T20:21:24.000Z"
+          "completed_at": "2026-05-16T00:56:06.000Z"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -257,6 +257,14 @@
           "score": 241.3,
           "upgrades": 2,
           "completed_at": "2026-05-04T14:51:29.000Z"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "level": 6,
+          "score": 237.5,
+          "upgrades": 2,
+          "completed_at": "2026-05-15T23:59:13.000Z"
         },
         {
           "dungeon": "Maisara Caverns",
@@ -361,7 +369,7 @@
       "spec": "Demonology",
       "role": "dps",
       "level": 90,
-      "ilvl": 275.0,
+      "ilvl": 276.0,
       "score": 3080.6,
       "color": "#4f67e1",
       "avatar": "https://render.worldofwarcraft.com/eu/silvermoon/15/217155343-avatar.jpg",
@@ -382,8 +390,8 @@
       "role": "dps",
       "level": 90,
       "ilvl": 241.0,
-      "score": 1419.5,
-      "color": "#a5ff8a",
+      "score": 1720.4,
+      "color": "#87ff6a",
       "avatar": "https://render.worldofwarcraft.com/eu/stormscale/193/167457729-avatar.jpg",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "raid_progress": {
@@ -634,8 +642,8 @@
         },
         {
           "character": "Ahldrak",
-          "level": 7,
-          "score": 269.0
+          "level": 10,
+          "score": 332.3
         },
         {
           "character": "Ahldroni",
@@ -668,6 +676,11 @@
           "character": "Warlockzz",
           "level": 14,
           "score": 400.6
+        },
+        {
+          "character": "Ahldrak",
+          "level": 6,
+          "score": 237.5
         },
         {
           "character": "Ahldroni",
