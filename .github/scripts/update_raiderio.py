@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import base64
 import json
+import mimetypes
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -31,12 +33,41 @@ def fetch_json(path: str, params: dict[str, Any]) -> dict[str, Any]:
         return json.load(response)
 
 
+def fetch_bytes(url: str) -> tuple[bytes, str]:
+    request = Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+        },
+    )
+    with urlopen(request) as response:
+        data = response.read()
+        content_type = response.headers.get_content_type() or "application/octet-stream"
+        return data, content_type
+
+
+def to_data_uri(url: str) -> str:
+    data, content_type = fetch_bytes(url)
+    if content_type == "application/octet-stream":
+        guessed, _ = mimetypes.guess_type(url)
+        content_type = guessed or "image/jpeg"
+    return f"data:{content_type};base64,{base64.b64encode(data).decode('ascii')}"
+
+
 def display_name(name: str) -> str:
     return name
 
 
 def build_character_url(region: str, realm: str, name: str) -> str:
     return f"{BASE_URL}/characters/{region.lower()}/{quote(realm.lower())}/{quote(name)}"
+
+
+def build_avatar_url(region: str, thumbnail: str) -> str:
+    return (
+        f"https://render.worldofwarcraft.com/{region}/character/{thumbnail}"
+        "?alt=/wow/static/images/2d/avatar/0-0.jpg"
+    )
 
 
 def parse_role(spec_role: str | None) -> str:
@@ -66,7 +97,7 @@ def build_characters(raw_characters: list[dict[str, Any]]) -> list[dict[str, Any
                 "ilvl": float(character["itemLevelEquipped"]),
                 "score": score,
                 "color": entry["keystoneScores"]["allScoreColor"],
-                "avatar": f"https://render.worldofwarcraft.com/{character['region']['slug']}/{character['thumbnail']}",
+                "avatar": build_avatar_url(character["region"]["slug"], character["thumbnail"]),
                 "url": build_character_url(character["region"]["slug"], character["realm"]["slug"], character["name"]),
                 "raid_progress": entry["raidProgress"]["progress"],
             }
@@ -205,6 +236,22 @@ def main() -> None:
         "characters": hydrated_characters,
         "dungeons": build_dungeons(active_characters),
     }
+
+    image_cache: dict[str, str] = {}
+
+    def embed_image(url: str) -> str:
+        if url not in image_cache:
+            image_cache[url] = to_data_uri(url)
+        return image_cache[url]
+
+    payload["top_character"]["avatar"] = embed_image(payload["top_character"]["avatar"])
+    payload["background_image"] = payload["top_character"]["avatar"]
+
+    for character in payload["active_characters"]:
+        character["avatar"] = embed_image(character["avatar"])
+
+    for character in payload["characters"]:
+        character["avatar"] = embed_image(character["avatar"])
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
