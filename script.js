@@ -19,17 +19,12 @@ const progressionStatus = document.querySelector("#progression-status");
 const achievementsSeason = document.querySelector("#achievements-season");
 const achievementGrid = document.querySelector("#achievement-grid");
 
-const SEASONS_MANIFEST_PATH = "data/seasons.json";
-const CHART_JS_URL = "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js";
-
 const seasonState = {
   seasons: [],
   activeSeason: null,
   activeData: null,
   dataCache: new Map(),
   progressionEntries: [],
-  progressionChart: null,
-  chartLibraryPromise: null,
   progressionFailedCount: 0,
   activeFilter: "all",
   isLoading: false,
@@ -66,7 +61,11 @@ function updateUrlState() {
     url.searchParams.set("role", seasonState.activeFilter);
   }
 
-  window.history.replaceState({}, "", url);
+  try {
+    window.history.replaceState({}, "", url);
+  } catch {
+    // Some browsers restrict history updates for local file URLs.
+  }
 }
 
 function formatDate(dateString) {
@@ -336,9 +335,9 @@ function renderSeasonSelector() {
 }
 
 function bindSeasonSelector() {
-  seasonSelect.onchange = async () => {
+  seasonSelect.onchange = () => {
     try {
-      await setActiveSeason(seasonSelect.value);
+      setActiveSeason(seasonSelect.value);
     } catch (error) {
       footerStatus.textContent = "Season data unavailable. The dashboard is still showing the last loaded season.";
       console.error(error);
@@ -346,42 +345,18 @@ function bindSeasonSelector() {
   };
 }
 
-async function fetchJson(path) {
-  const response = await fetch(path);
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status} loading ${path}`);
-  }
-
-  return response.json();
-}
-
-async function loadSeasonData(season) {
+function loadSeasonData(season) {
   if (seasonState.dataCache.has(season.id)) {
     return seasonState.dataCache.get(season.id);
   }
 
-  const data = await fetchJson(season.file);
+  const data = window.MPLUS_SEASON_DATA?.[season.id];
+  if (!data) {
+    throw new Error(`Local season data missing for ${season.id}.`);
+  }
+
   seasonState.dataCache.set(season.id, data);
   return data;
-}
-
-function loadChartLibrary() {
-  if (window.Chart) {
-    return Promise.resolve(window.Chart);
-  }
-
-  if (!seasonState.chartLibraryPromise) {
-    seasonState.chartLibraryPromise = new Promise((resolve, reject) => {
-      const script = document.createElement("script");
-      script.src = CHART_JS_URL;
-      script.async = true;
-      script.onload = () => resolve(window.Chart);
-      script.onerror = () => reject(new Error("Chart.js could not be loaded."));
-      document.head.append(script);
-    });
-  }
-
-  return seasonState.chartLibraryPromise;
 }
 
 function buildProgressionEntry(season, data) {
@@ -392,25 +367,6 @@ function buildProgressionEntry(season, data) {
     highestKey: Number(data.summary.highest_key.level) || 0,
     generatedAt: data.generated_at
   };
-}
-
-function getChartColors() {
-  const styles = getComputedStyle(document.documentElement);
-  return {
-    gold: styles.getPropertyValue("--gold").trim(),
-    arcane: styles.getPropertyValue("--arcane").trim(),
-    ember: styles.getPropertyValue("--ember").trim(),
-    muted: styles.getPropertyValue("--muted").trim(),
-    text: styles.getPropertyValue("--text").trim(),
-    line: styles.getPropertyValue("--line").trim()
-  };
-}
-
-function getProgressionPointColors() {
-  const colors = getChartColors();
-  return seasonState.progressionEntries.map((entry) =>
-    entry.seasonId === seasonState.activeSeason?.id ? colors.gold : colors.arcane
-  );
 }
 
 function updateProgressionStatus() {
@@ -430,131 +386,59 @@ function updateProgressionStatus() {
   progressionStatus.textContent = `${loadedCount} season${loadedCount === 1 ? "" : "s"} loaded.${failedCopy}`;
 }
 
-function updateProgressionChartHighlight() {
-  if (!seasonState.progressionChart) {
-    return;
-  }
-
-  seasonState.progressionChart.data.datasets[0].pointBackgroundColor = getProgressionPointColors();
-  seasonState.progressionChart.update();
+function updateProgressionViewHighlight() {
+  document.querySelectorAll(".progression-bar").forEach((bar) => {
+    bar.classList.toggle("is-active", bar.dataset.seasonId === seasonState.activeSeason?.id);
+  });
 }
 
-async function renderProgressionChart() {
+function renderProgressionView() {
   if (!progressionCanvas || !seasonState.progressionEntries.length) {
     updateProgressionStatus();
     return;
   }
 
-  let Chart;
-  try {
-    Chart = await loadChartLibrary();
-  } catch (error) {
-    progressionStatus.textContent = "Progression chart unavailable. Dashboard data still loaded.";
-    console.error(error);
-    return;
-  }
-
-  const colors = getChartColors();
-  const labels = seasonState.progressionEntries.map((entry) => entry.seasonName);
-  const scores = seasonState.progressionEntries.map((entry) => entry.score);
-  const highestKeys = seasonState.progressionEntries.map((entry) => entry.highestKey);
-
-  if (seasonState.progressionChart) {
-    seasonState.progressionChart.destroy();
-  }
-
-  seasonState.progressionChart = new Chart(progressionCanvas, {
-    type: "line",
-    data: {
-      labels,
-      datasets: [
-        {
-          label: "Mythic+ score",
-          data: scores,
-          borderColor: colors.gold,
-          backgroundColor: "rgba(240, 188, 98, 0.16)",
-          pointBackgroundColor: getProgressionPointColors(),
-          pointBorderColor: colors.text,
-          pointHoverBackgroundColor: colors.ember,
-          pointRadius: 6,
-          pointHoverRadius: 8,
-          borderWidth: 3,
-          fill: true,
-          tension: 0.28
-        }
-      ]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      interaction: {
-        intersect: false,
-        mode: "index"
-      },
-      plugins: {
-        legend: {
-          labels: {
-            color: colors.text,
-            font: {
-              weight: 800
-            }
-          }
-        },
-        tooltip: {
-          callbacks: {
-            afterLabel(context) {
-              return `Highest key: +${highestKeys[context.dataIndex]}`;
-            }
-          }
-        }
-      },
-      scales: {
-        x: {
-          ticks: {
-            color: colors.muted
-          },
-          grid: {
-            color: "rgba(214, 161, 72, 0.12)"
-          }
-        },
-        y: {
-          beginAtZero: true,
-          ticks: {
-            color: colors.muted
-          },
-          grid: {
-            color: "rgba(214, 161, 72, 0.12)"
-          }
-        }
-      }
-    }
-  });
-
+  const maxScore = Math.max(...seasonState.progressionEntries.map((entry) => entry.score), 1);
+  progressionCanvas.innerHTML = seasonState.progressionEntries
+    .map((entry) => {
+      const width = Math.max(4, (entry.score / maxScore) * 100);
+      return `
+        <article class="progression-bar" data-season-id="${entry.seasonId}">
+          <div>
+            <strong>${entry.seasonName}</strong>
+            <span>${entry.score.toFixed(1)} score · +${entry.highestKey} best key</span>
+          </div>
+          <div class="progression-bar__track" aria-hidden="true">
+            <span style="--progress-width:${width}%"></span>
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+  updateProgressionViewHighlight();
   updateProgressionStatus();
 }
 
-async function loadProgressionData() {
-  const results = await Promise.all(
-    seasonState.seasons.map(async (season) => {
-      try {
-        const data = await loadSeasonData(season);
-        return buildProgressionEntry(season, data);
-      } catch (error) {
-        console.error(`Could not load progression data for ${season.id}.`, error);
-        return null;
-      }
-    })
-  );
+function loadProgressionData() {
+  const results = seasonState.seasons.map((season) => {
+    try {
+      const data = loadSeasonData(season);
+      return buildProgressionEntry(season, data);
+    } catch (error) {
+      console.error(`Could not load progression data for ${season.id}.`, error);
+      return null;
+    }
+  });
 
   seasonState.progressionEntries = results.filter(Boolean);
   seasonState.progressionFailedCount = results.length - seasonState.progressionEntries.length;
-  await renderProgressionChart();
+  renderProgressionView();
 }
 
-async function loadSeasons() {
-  const seasons = await fetchJson(SEASONS_MANIFEST_PATH);
+function loadSeasons() {
+  const seasons = window.MPLUS_SEASONS || [];
   if (!Array.isArray(seasons)) {
-    throw new Error("The seasons manifest must be a JSON array.");
+    throw new Error("Local season manifest must be an array.");
   }
 
   return seasons.filter((season) => season.played === true);
@@ -576,7 +460,7 @@ function renderDashboard(data, season) {
   footerStatus.textContent = `Data source: public Raider.IO profile and character API. ${season.name} last updated ${formatDate(data.generated_at)}.`;
   bindFilters();
   applyRosterFilter();
-  updateProgressionChartHighlight();
+  updateProgressionViewHighlight();
 }
 
 function restoreActiveSeasonSelection() {
@@ -585,7 +469,7 @@ function restoreActiveSeasonSelection() {
   }
 }
 
-async function setActiveSeason(seasonId) {
+function setActiveSeason(seasonId) {
   if (seasonState.isLoading) {
     return;
   }
@@ -599,7 +483,7 @@ async function setActiveSeason(seasonId) {
   seasonSelect.disabled = true;
 
   try {
-    const data = await loadSeasonData(season);
+    const data = loadSeasonData(season);
     renderDashboard(data, season);
     updateUrlState();
   } catch (error) {
@@ -611,9 +495,9 @@ async function setActiveSeason(seasonId) {
   }
 }
 
-async function loadData() {
+function loadData() {
   try {
-    seasonState.seasons = await loadSeasons();
+    seasonState.seasons = loadSeasons();
     const urlState = getUrlState();
     const requestedSeason = seasonState.seasons.find((season) => season.id === urlState.season);
     const defaultSeason = requestedSeason || seasonState.seasons[0];
@@ -624,14 +508,11 @@ async function loadData() {
     }
 
     bindSeasonSelector();
-    await setActiveSeason(defaultSeason.id);
-    loadProgressionData().catch((error) => {
-      progressionStatus.textContent = "Season history unavailable.";
-      console.error(error);
-    });
+    setActiveSeason(defaultSeason.id);
+    loadProgressionData();
   } catch (error) {
-    footerStatus.textContent = "Data source unavailable. Automatic refresh is configured, but the latest JSON could not be loaded.";
-    spotlightCopy.textContent = "The site could not load the generated Raider.IO snapshot.";
+    footerStatus.textContent = "Local data unavailable. Check that the data scripts are loaded before script.js.";
+    spotlightCopy.textContent = "The site could not load the embedded Mythic+ snapshot.";
     cards.innerHTML = "";
     runList.innerHTML = "";
     dungeonGrid.innerHTML = "";
@@ -657,7 +538,7 @@ window.dashboardSeasonApi = {
   setActiveSeason
 };
 
-window.addEventListener("popstate", async () => {
+window.addEventListener("popstate", () => {
   if (!seasonState.seasons.length) {
     return;
   }
@@ -668,7 +549,7 @@ window.addEventListener("popstate", async () => {
   seasonState.isRestoringUrl = true;
 
   try {
-    await setActiveSeason(season.id);
+    setActiveSeason(season.id);
   } catch (error) {
     footerStatus.textContent = "Season data unavailable. The dashboard is still showing the last loaded season.";
     console.error(error);

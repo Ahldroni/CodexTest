@@ -322,8 +322,48 @@ h2 {
     linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
 }
 
-.progression__chart canvas {
-  width: 100%;
+.progression-bar {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.progression-bar + .progression-bar {
+  margin-top: 10px;
+}
+
+.progression-bar.is-active {
+  border-color: rgba(240, 188, 98, 0.58);
+  background: rgba(240, 188, 98, 0.1);
+}
+
+.progression-bar strong,
+.progression-bar span {
+  display: block;
+}
+
+.progression-bar span {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.progression-bar__track {
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.progression-bar__track span {
+  display: block;
+  width: var(--progress-width);
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--ember), var(--gold), var(--arcane));
 }
 
 .achievements__season {
