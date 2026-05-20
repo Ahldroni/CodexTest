@@ -234,7 +234,7 @@ function bindSeasonSelector() {
 }
 
 async function fetchJson(path) {
-  const response = await fetch(`${path}?ts=${Date.now()}`);
+  const response = await fetch(path);
   if (!response.ok) {
     throw new Error(`HTTP ${response.status} loading ${path}`);
   }
@@ -268,6 +268,12 @@ function renderDashboard(data, season) {
   applyRosterFilter();
 }
 
+function restoreActiveSeasonSelection() {
+  if (seasonState.activeSeason) {
+    seasonSelect.value = seasonState.activeSeason.id;
+  }
+}
+
 async function setActiveSeason(seasonId) {
   if (seasonState.isLoading) {
     return;
@@ -286,9 +292,7 @@ async function setActiveSeason(seasonId) {
     renderDashboard(data, season);
     updateUrlState();
   } catch (error) {
-    if (seasonState.activeSeason) {
-      seasonSelect.value = seasonState.activeSeason.id;
-    }
+    restoreActiveSeasonSelection();
     throw error;
   } finally {
     seasonState.isLoading = false;
