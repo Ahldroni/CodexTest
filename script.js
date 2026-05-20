@@ -16,6 +16,8 @@ const footerStatus = document.querySelector("#footer-status");
 const seasonSelect = document.querySelector("#season-select");
 const progressionCanvas = document.querySelector("#progression-chart");
 const progressionStatus = document.querySelector("#progression-status");
+const achievementsSeason = document.querySelector("#achievements-season");
+const achievementGrid = document.querySelector("#achievement-grid");
 
 const SEASONS_MANIFEST_PATH = "data/seasons.json";
 const CHART_JS_URL = "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js";
@@ -209,6 +211,109 @@ function renderDungeons(dungeons) {
         </div>
       `;
     })
+    .join("");
+}
+
+function getTopCharacterByRole(characters, role) {
+  return characters
+    .filter((character) => character.role === role && character.score > 0)
+    .sort((left, right) => right.score - left.score)[0];
+}
+
+function getMostActiveDungeon(dungeons) {
+  return dungeons
+    .map((dungeon) => {
+      const entries = dungeon.entries || [];
+      const bestEntry = entries
+        .slice()
+        .sort((left, right) => right.level - left.level || right.score - left.score)[0];
+      return {
+        name: dungeon.name,
+        shortName: dungeon.short_name,
+        runCount: entries.length,
+        bestLevel: bestEntry ? bestEntry.level : 0
+      };
+    })
+    .sort((left, right) => right.runCount - left.runCount || right.bestLevel - left.bestLevel)[0];
+}
+
+function getFirstKeystoneMasterRun(runs) {
+  const KSM_KEY_LEVEL = 15;
+  return runs
+    .filter((run) => run.level >= KSM_KEY_LEVEL && run.completed_at)
+    .sort((left, right) => new Date(left.completed_at) - new Date(right.completed_at))[0];
+}
+
+function buildRoleHighlight(characters) {
+  const roleLabels = {
+    tank: "Tank",
+    healer: "Healer",
+    dps: "DPS"
+  };
+
+  return ["tank", "healer", "dps"]
+    .map((role) => {
+      const character = getTopCharacterByRole(characters, role);
+      if (!character) {
+        return null;
+      }
+
+      return `${roleLabels[role]}: ${character.display_name} (${character.score.toFixed(1)})`;
+    })
+    .filter(Boolean);
+}
+
+function buildSeasonAchievements(data) {
+  const topCharacter = data.top_character;
+  const mostActiveDungeon = getMostActiveDungeon(data.dungeons);
+  const firstKsmRun = getFirstKeystoneMasterRun(topCharacter.best_runs || []);
+  const roleHighlights = buildRoleHighlight(data.characters);
+
+  return [
+    {
+      label: "Highest Mythic+ Score",
+      value: `${topCharacter.display_name} · ${topCharacter.score.toFixed(1)}`,
+      detail: `${topCharacter.spec} ${topCharacter.class_name} led the season scoreboard.`
+    },
+    {
+      label: "Highest Key Completed",
+      value: `+${data.summary.highest_key.level} ${data.summary.highest_key.short_name}`,
+      detail: "Best recorded keystone level in the season snapshot."
+    },
+    {
+      label: "Most Active Dungeon",
+      value: mostActiveDungeon
+        ? `${mostActiveDungeon.shortName} · ${mostActiveDungeon.runCount} scorer${mostActiveDungeon.runCount === 1 ? "" : "s"}`
+        : "No dungeon activity",
+      detail: mostActiveDungeon
+        ? `${mostActiveDungeon.name} has the broadest roster coverage.`
+        : "No dungeon entries were available in this dataset."
+    },
+    {
+      label: "First Keystone Master Signal",
+      value: firstKsmRun ? `${firstKsmRun.short_name} +${firstKsmRun.level}` : "Not yet inferred",
+      detail: firstKsmRun
+        ? `${formatDate(firstKsmRun.completed_at)} was the first available +15 or higher run in the snapshot.`
+        : "No +15 or higher run was present in the available best-run data."
+    },
+    {
+      label: "Role Highlights",
+      value: roleHighlights.length ? `${roleHighlights.length} role${roleHighlights.length === 1 ? "" : "s"} represented` : "No role leaders",
+      detail: roleHighlights.length ? roleHighlights.join(" · ") : "No scored role data was available."
+    }
+  ];
+}
+
+function renderAchievements(data, season) {
+  achievementsSeason.textContent = season.name;
+  achievementGrid.innerHTML = buildSeasonAchievements(data)
+    .map((achievement) => `
+      <article class="achievement">
+        <span>${achievement.label}</span>
+        <strong>${achievement.value}</strong>
+        <p>${achievement.detail}</p>
+      </article>
+    `)
     .join("");
 }
 
@@ -466,6 +571,7 @@ function renderDashboard(data, season) {
   renderCards(data.characters);
   renderRuns(data.top_character.best_runs);
   renderDungeons(data.dungeons);
+  renderAchievements(data, season);
   renderSeasonSelector();
   footerStatus.textContent = `Data source: public Raider.IO profile and character API. ${season.name} last updated ${formatDate(data.generated_at)}.`;
   bindFilters();
@@ -529,6 +635,8 @@ async function loadData() {
     cards.innerHTML = "";
     runList.innerHTML = "";
     dungeonGrid.innerHTML = "";
+    achievementGrid.innerHTML = "";
+    achievementsSeason.textContent = "Achievements unavailable.";
     seasonSelect.innerHTML = "<option>Seasons unavailable</option>";
     seasonSelect.disabled = true;
     progressionStatus.textContent = "Season history unavailable.";

@@ -326,6 +326,54 @@ h2 {
   width: 100%;
 }
 
+.achievements__season {
+  max-width: 34ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-align: right;
+}
+
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.achievement {
+  min-height: 170px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background:
+    linear-gradient(150deg, rgba(240, 188, 98, 0.12), transparent 58%),
+    rgba(0, 0, 0, 0.2);
+}
+
+.achievement span {
+  display: block;
+  color: var(--gold);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.achievement strong {
+  display: block;
+  margin-top: 12px;
+  font-size: 1.2rem;
+  line-height: 1.15;
+}
+
+.achievement p {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
 .spotlight__copy {
   max-width: 54ch;
   color: var(--muted);
@@ -611,6 +659,10 @@ h2 {
   .cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .achievement-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 680px) {
@@ -637,6 +689,11 @@ h2 {
     text-align: left;
   }
 
+  .achievements__season {
+    margin-top: 12px;
+    text-align: left;
+  }
+
   .segmented {
     width: 100%;
     margin-top: 16px;
@@ -644,6 +701,7 @@ h2 {
 
   .score-strip,
   .cards,
+  .achievement-grid,
   .dungeon-grid {
     grid-template-columns: 1fr;
   }
