@@ -1,9 +1,9 @@
 {
   "profile_name": "Ahldroni",
-  "generated_at": "2026-05-19T19:54:29.310130+00:00",
+  "generated_at": "2026-05-20T03:49:11.778921+00:00",
   "season_label": "season-mn-1",
   "summary": {
-    "total_score": 6325.0,
+    "total_score": 6327.0,
     "scored_characters": 3,
     "character_count": 10,
     "highest_key": {
@@ -216,8 +216,8 @@
       "role": "dps",
       "level": 90,
       "ilvl": 241.0,
-      "score": 2513.9,
-      "color": "#58d66a",
+      "score": 2515.9,
+      "color": "#5ad171",
       "avatar": "https://render.worldofwarcraft.com/eu/stormscale/193/167457729-avatar.jpg",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "raid_progress": {
@@ -243,20 +243,20 @@
           "completed_at": "2026-05-16T10:31:42.000Z"
         },
         {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "level": 10,
+          "score": 334.5,
+          "upgrades": 2,
+          "completed_at": "2026-05-19T21:11:31.000Z"
+        },
+        {
           "dungeon": "Windrunner Spire",
           "short_name": "WS",
           "level": 10,
           "score": 333.6,
           "upgrades": 2,
           "completed_at": "2026-05-16T16:11:01.000Z"
-        },
-        {
-          "dungeon": "Seat of the Triumvirate",
-          "short_name": "SEAT",
-          "level": 10,
-          "score": 332.5,
-          "upgrades": 2,
-          "completed_at": "2026-05-16T14:28:23.000Z"
         },
         {
           "dungeon": "Magisters' Terrace",
@@ -398,8 +398,8 @@
       "role": "dps",
       "level": 90,
       "ilvl": 241.0,
-      "score": 2513.9,
-      "color": "#58d66a",
+      "score": 2515.9,
+      "color": "#5ad171",
       "avatar": "https://render.worldofwarcraft.com/eu/stormscale/193/167457729-avatar.jpg",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "raid_progress": {
@@ -677,7 +677,7 @@
         {
           "character": "Ahldrak",
           "level": 10,
-          "score": 332.5
+          "score": 334.5
         }
       ]
     },
