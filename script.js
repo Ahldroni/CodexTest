@@ -31,6 +31,14 @@ const seasonState = {
   isRestoringUrl: false
 };
 
+const EXPANSION_GROUP_ORDER = [
+  "The War Within",
+  "Dragonflight",
+  "Shadowlands",
+  "Battle for Azeroth",
+  "Legion"
+];
+
 function getRoleFilters() {
   return [...document.querySelectorAll(".segment")].map((button) => button.dataset.filter);
 }
@@ -66,6 +74,14 @@ function updateUrlState() {
   } catch {
     // Some browsers restrict history updates for local file URLs.
   }
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
 }
 
 function formatDate(dateString) {
@@ -327,8 +343,26 @@ function bindFilters() {
 }
 
 function renderSeasonSelector() {
-  seasonSelect.innerHTML = seasonState.seasons
-    .map((season) => `<option value="${season.id}">${season.name}</option>`)
+  const groupedSeasons = seasonState.seasons.reduce((groups, season) => {
+    const expansion = season.expansion || "Other";
+    groups.set(expansion, [...(groups.get(expansion) || []), season]);
+    return groups;
+  }, new Map());
+
+  const orderedExpansions = [
+    ...EXPANSION_GROUP_ORDER.filter((expansion) => groupedSeasons.has(expansion)),
+    ...[...groupedSeasons.keys()].filter((expansion) => !EXPANSION_GROUP_ORDER.includes(expansion)).sort()
+  ];
+
+  seasonSelect.innerHTML = orderedExpansions
+    .map((expansion) => `
+      <optgroup label="${escapeHtml(expansion)}">
+        ${groupedSeasons
+          .get(expansion)
+          .map((season) => `<option value="${escapeHtml(season.id)}">${escapeHtml(season.shortName || season.name)}</option>`)
+          .join("")}
+      </optgroup>
+    `)
     .join("");
   seasonSelect.disabled = seasonState.seasons.length < 2;
   seasonSelect.value = seasonState.activeSeason ? seasonState.activeSeason.id : seasonState.seasons[0].id;
@@ -346,17 +380,29 @@ function bindSeasonSelector() {
 }
 
 function loadSeasonData(season) {
-  if (seasonState.dataCache.has(season.id)) {
-    return seasonState.dataCache.get(season.id);
+  const dataKey = season.dataKey || season.id;
+  if (seasonState.dataCache.has(dataKey)) {
+    return seasonState.dataCache.get(dataKey);
   }
 
-  const data = window.MPLUS_SEASON_DATA?.[season.id];
-  if (!data) {
-    throw new Error(`Local season data missing for ${season.id}.`);
+  const data = window.MPLUS_SEASON_DATA?.[dataKey];
+  if (!isUsableSeasonData(data)) {
+    throw new Error(`Local season data missing or empty for ${season.id}.`);
   }
 
-  seasonState.dataCache.set(season.id, data);
+  seasonState.dataCache.set(dataKey, data);
   return data;
+}
+
+function isUsableSeasonData(data) {
+  return Boolean(
+    data &&
+      data.summary &&
+      data.top_character &&
+      Array.isArray(data.characters) &&
+      data.characters.length &&
+      Array.isArray(data.dungeons)
+  );
 }
 
 function buildProgressionEntry(season, data) {
@@ -441,7 +487,14 @@ function loadSeasons() {
     throw new Error("Local season manifest must be an array.");
   }
 
-  return seasons.filter((season) => season.played === true);
+  return seasons.filter((season) => {
+    if (season.played !== true) {
+      return false;
+    }
+
+    const data = window.MPLUS_SEASON_DATA?.[season.dataKey || season.id];
+    return isUsableSeasonData(data);
+  });
 }
 
 function renderDashboard(data, season) {
