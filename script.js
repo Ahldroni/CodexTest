@@ -22,8 +22,42 @@ const seasonState = {
   activeSeason: null,
   activeData: null,
   activeFilter: "all",
-  isLoading: false
+  isLoading: false,
+  isRestoringUrl: false
 };
+
+function getRoleFilters() {
+  return [...document.querySelectorAll(".segment")].map((button) => button.dataset.filter);
+}
+
+function getUrlState() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    season: params.get("season"),
+    role: params.get("role")
+  };
+}
+
+function getValidRoleFilter(role) {
+  return getRoleFilters().includes(role) ? role : "all";
+}
+
+function updateUrlState() {
+  if (seasonState.isRestoringUrl || !seasonState.activeSeason) {
+    return;
+  }
+
+  const url = new URL(window.location.href);
+  url.searchParams.set("season", seasonState.activeSeason.id);
+
+  if (seasonState.activeFilter === "all") {
+    url.searchParams.delete("role");
+  } else {
+    url.searchParams.set("role", seasonState.activeFilter);
+  }
+
+  window.history.replaceState({}, "", url);
+}
 
 function formatDate(dateString) {
   return new Date(dateString).toLocaleDateString("en-US", {
@@ -175,6 +209,7 @@ function bindFilters() {
     button.onclick = () => {
       seasonState.activeFilter = button.dataset.filter;
       applyRosterFilter();
+      updateUrlState();
     };
   });
 }
@@ -249,6 +284,7 @@ async function setActiveSeason(seasonId) {
   try {
     const data = await fetchJson(season.file);
     renderDashboard(data, season);
+    updateUrlState();
   } catch (error) {
     if (seasonState.activeSeason) {
       seasonSelect.value = seasonState.activeSeason.id;
@@ -263,7 +299,10 @@ async function setActiveSeason(seasonId) {
 async function loadData() {
   try {
     seasonState.seasons = await loadSeasons();
-    const defaultSeason = seasonState.seasons[0];
+    const urlState = getUrlState();
+    const requestedSeason = seasonState.seasons.find((season) => season.id === urlState.season);
+    const defaultSeason = requestedSeason || seasonState.seasons[0];
+    seasonState.activeFilter = getValidRoleFilter(urlState.role);
 
     if (!defaultSeason) {
       throw new Error("No played Mythic+ seasons are available.");
@@ -295,5 +334,25 @@ window.dashboardSeasonApi = {
   },
   setActiveSeason
 };
+
+window.addEventListener("popstate", async () => {
+  if (!seasonState.seasons.length) {
+    return;
+  }
+
+  const urlState = getUrlState();
+  const season = seasonState.seasons.find((candidate) => candidate.id === urlState.season) || seasonState.seasons[0];
+  seasonState.activeFilter = getValidRoleFilter(urlState.role);
+  seasonState.isRestoringUrl = true;
+
+  try {
+    await setActiveSeason(season.id);
+  } catch (error) {
+    footerStatus.textContent = "Season data unavailable. The dashboard is still showing the last loaded season.";
+    console.error(error);
+  } finally {
+    seasonState.isRestoringUrl = false;
+  }
+});
 
 loadData();
