@@ -1,0 +1,597 @@
+{
+  "profile_name": "Ahldroni",
+  "generated_at": "2026-05-20T12:30:56.541Z",
+  "season_label": "tww-s1",
+  "summary": {
+    "total_score": 3811.1,
+    "scored_characters": 2,
+    "character_count": 2,
+    "highest_key": {
+      "level": 15,
+      "short_name": "SEAT"
+    },
+    "heroic_bosses": 3,
+    "raid_bosses": 9,
+    "dungeon_count": 8
+  },
+  "top_character": {
+    "name": "Warlockzz",
+    "display_name": "Warlockzz",
+    "realm": "Silvermoon",
+    "region": "eu",
+    "class_name": "Warlock",
+    "spec": "Demonology",
+    "role": "dps",
+    "level": 0,
+    "ilvl": 276,
+    "score": 3080.6,
+    "color": "#8788ee",
+    "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+    "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+    "raid_progress": {
+      "normal": 0,
+      "heroic": 3,
+      "mythic": 0
+    },
+    "best_runs": [
+      {
+        "dungeon": "Seat of the Triumvirate",
+        "short_name": "SEAT",
+        "level": 15,
+        "score": 413.6,
+        "upgrades": 1,
+        "completed_at": "2026-04-21T19:19:03.000Z",
+        "character": "Warlockzz"
+      },
+      {
+        "dungeon": "Skyreach",
+        "short_name": "SR",
+        "level": 14,
+        "score": 400.6,
+        "upgrades": 1,
+        "completed_at": "2026-05-05T14:04:42.000Z",
+        "character": "Warlockzz"
+      },
+      {
+        "dungeon": "Maisara Caverns",
+        "short_name": "MC",
+        "level": 13,
+        "score": 387.6,
+        "upgrades": 2,
+        "completed_at": "2026-04-21T18:28:30.000Z",
+        "character": "Warlockzz"
+      },
+      {
+        "dungeon": "Pit of Saron",
+        "short_name": "POS",
+        "level": 13,
+        "score": 384.8,
+        "upgrades": 1,
+        "completed_at": "2026-04-14T18:05:40.000Z",
+        "character": "Warlockzz"
+      },
+      {
+        "dungeon": "Algeth'ar Academy",
+        "short_name": "AA",
+        "level": 13,
+        "score": 381.4,
+        "upgrades": 1,
+        "completed_at": "2026-05-04T16:19:55.000Z",
+        "character": "Warlockzz"
+      },
+      {
+        "dungeon": "Nexus-Point Xenas",
+        "short_name": "NPX",
+        "level": 12,
+        "score": 372.3,
+        "upgrades": 1,
+        "completed_at": "2026-04-20T22:47:32.000Z",
+        "character": "Warlockzz"
+      },
+      {
+        "dungeon": "Windrunner Spire",
+        "short_name": "WS",
+        "level": 12,
+        "score": 370.5,
+        "upgrades": 1,
+        "completed_at": "2026-04-20T23:20:15.000Z",
+        "character": "Warlockzz"
+      },
+      {
+        "dungeon": "Magisters' Terrace",
+        "short_name": "MT",
+        "level": 12,
+        "score": 369.8,
+        "upgrades": 1,
+        "completed_at": "2026-04-21T09:51:37.000Z",
+        "character": "Warlockzz"
+      }
+    ],
+    "alternate_runs": [],
+    "raid_progression": {
+      "tier-mn-1": {
+        "summary": "3/9 H",
+        "expansion_id": 11,
+        "total_bosses": 9,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 3,
+        "mythic_bosses_killed": 0
+      }
+    }
+  },
+  "active_characters": [
+    {
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 276,
+      "score": 3080.6,
+      "color": "#8788ee",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 3,
+        "mythic": 0
+      },
+      "best_runs": [
+        {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "level": 15,
+          "score": 413.6,
+          "upgrades": 1,
+          "completed_at": "2026-04-21T19:19:03.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "level": 14,
+          "score": 400.6,
+          "upgrades": 1,
+          "completed_at": "2026-05-05T14:04:42.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Maisara Caverns",
+          "short_name": "MC",
+          "level": 13,
+          "score": 387.6,
+          "upgrades": 2,
+          "completed_at": "2026-04-21T18:28:30.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "level": 13,
+          "score": 384.8,
+          "upgrades": 1,
+          "completed_at": "2026-04-14T18:05:40.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 13,
+          "score": 381.4,
+          "upgrades": 1,
+          "completed_at": "2026-05-04T16:19:55.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Nexus-Point Xenas",
+          "short_name": "NPX",
+          "level": 12,
+          "score": 372.3,
+          "upgrades": 1,
+          "completed_at": "2026-04-20T22:47:32.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "level": 12,
+          "score": 370.5,
+          "upgrades": 1,
+          "completed_at": "2026-04-20T23:20:15.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Magisters' Terrace",
+          "short_name": "MT",
+          "level": 12,
+          "score": 369.8,
+          "upgrades": 1,
+          "completed_at": "2026-04-21T09:51:37.000Z",
+          "character": "Warlockzz"
+        }
+      ],
+      "alternate_runs": [],
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "3/9 H",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 3,
+          "mythic_bosses_killed": 0
+        }
+      }
+    },
+    {
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 240,
+      "score": 730.5,
+      "color": "#ff7c0a",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      },
+      "best_runs": [
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2026-04-20T21:38:51.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Nexus-Point Xenas",
+          "short_name": "NPX",
+          "level": 4,
+          "score": 196,
+          "upgrades": 2,
+          "completed_at": "2026-04-27T17:47:17.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2026-04-27T17:19:11.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "level": 2,
+          "score": 164.5,
+          "upgrades": 2,
+          "completed_at": "2026-04-20T12:58:42.000Z",
+          "character": "Ahldroni"
+        }
+      ],
+      "alternate_runs": [],
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      }
+    }
+  ],
+  "characters": [
+    {
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 276,
+      "score": 3080.6,
+      "color": "#8788ee",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 3,
+        "mythic": 0
+      },
+      "best_runs": [
+        {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "level": 15,
+          "score": 413.6,
+          "upgrades": 1,
+          "completed_at": "2026-04-21T19:19:03.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "level": 14,
+          "score": 400.6,
+          "upgrades": 1,
+          "completed_at": "2026-05-05T14:04:42.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Maisara Caverns",
+          "short_name": "MC",
+          "level": 13,
+          "score": 387.6,
+          "upgrades": 2,
+          "completed_at": "2026-04-21T18:28:30.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "level": 13,
+          "score": 384.8,
+          "upgrades": 1,
+          "completed_at": "2026-04-14T18:05:40.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 13,
+          "score": 381.4,
+          "upgrades": 1,
+          "completed_at": "2026-05-04T16:19:55.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Nexus-Point Xenas",
+          "short_name": "NPX",
+          "level": 12,
+          "score": 372.3,
+          "upgrades": 1,
+          "completed_at": "2026-04-20T22:47:32.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "level": 12,
+          "score": 370.5,
+          "upgrades": 1,
+          "completed_at": "2026-04-20T23:20:15.000Z",
+          "character": "Warlockzz"
+        },
+        {
+          "dungeon": "Magisters' Terrace",
+          "short_name": "MT",
+          "level": 12,
+          "score": 369.8,
+          "upgrades": 1,
+          "completed_at": "2026-04-21T09:51:37.000Z",
+          "character": "Warlockzz"
+        }
+      ],
+      "alternate_runs": [],
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "3/9 H",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 3,
+          "mythic_bosses_killed": 0
+        }
+      }
+    },
+    {
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 240,
+      "score": 730.5,
+      "color": "#ff7c0a",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      },
+      "best_runs": [
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2026-04-20T21:38:51.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Nexus-Point Xenas",
+          "short_name": "NPX",
+          "level": 4,
+          "score": 196,
+          "upgrades": 2,
+          "completed_at": "2026-04-27T17:47:17.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2026-04-27T17:19:11.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "level": 2,
+          "score": 164.5,
+          "upgrades": 2,
+          "completed_at": "2026-04-20T12:58:42.000Z",
+          "character": "Ahldroni"
+        }
+      ],
+      "alternate_runs": [],
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      }
+    }
+  ],
+  "dungeons": [
+    {
+      "short_name": "AA",
+      "name": "Algeth'ar Academy",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 13,
+          "score": 381.4,
+          "completed_at": "2026-05-04T16:19:55.000Z"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 200,
+          "completed_at": "2026-04-20T21:38:51.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "MC",
+      "name": "Maisara Caverns",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 13,
+          "score": 387.6,
+          "completed_at": "2026-04-21T18:28:30.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "MT",
+      "name": "Magisters' Terrace",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 12,
+          "score": 369.8,
+          "completed_at": "2026-04-21T09:51:37.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "NPX",
+      "name": "Nexus-Point Xenas",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 12,
+          "score": 372.3,
+          "completed_at": "2026-04-20T22:47:32.000Z"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 196,
+          "completed_at": "2026-04-27T17:47:17.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "POS",
+      "name": "Pit of Saron",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 13,
+          "score": 384.8,
+          "completed_at": "2026-04-14T18:05:40.000Z"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 2,
+          "score": 164.5,
+          "completed_at": "2026-04-20T12:58:42.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "SEAT",
+      "name": "Seat of the Triumvirate",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 15,
+          "score": 413.6,
+          "completed_at": "2026-04-21T19:19:03.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "SR",
+      "name": "Skyreach",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 14,
+          "score": 400.6,
+          "completed_at": "2026-05-05T14:04:42.000Z"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 2,
+          "score": 170,
+          "completed_at": "2026-04-27T17:19:11.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "WS",
+      "name": "Windrunner Spire",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 12,
+          "score": 370.5,
+          "completed_at": "2026-04-20T23:20:15.000Z"
+        }
+      ]
+    }
+  ],
+  "background_image": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+}

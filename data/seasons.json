@@ -1,0 +1,34 @@
+[
+  {
+    "id": "tww-s1",
+    "expansion": "The War Within",
+    "name": "The War Within Season 1",
+    "shortName": "TWW S1",
+    "played": true,
+    "file": "data/current.json"
+  },
+  {
+    "id": "df-s4",
+    "expansion": "Dragonflight",
+    "name": "Dragonflight Season 4",
+    "shortName": "DF S4",
+    "played": true,
+    "file": "data/df-s4.json"
+  },
+  {
+    "id": "df-s3",
+    "expansion": "Dragonflight",
+    "name": "Dragonflight Season 3",
+    "shortName": "DF S3",
+    "played": true,
+    "file": "data/df-s3.json"
+  },
+  {
+    "id": "sl-s4",
+    "expansion": "Shadowlands",
+    "name": "Shadowlands Season 4",
+    "shortName": "SL S4",
+    "played": true,
+    "file": "data/sl-s4.json"
+  }
+]

@@ -1,0 +1,243 @@
+{
+  "profile_name": "Ahldroni",
+  "generated_at": "2024-08-20T12:00:00.000Z",
+  "season_label": "df-s4",
+  "is_placeholder": true,
+  "summary": {
+    "total_score": 7451.8,
+    "scored_characters": 3,
+    "character_count": 3,
+    "highest_key": {
+      "level": 15,
+      "short_name": "RLP"
+    },
+    "heroic_bosses": 0,
+    "raid_bosses": 0
+  },
+  "top_character": {
+    "name": "Warlockzz",
+    "display_name": "Warlockzz",
+    "realm": "Silvermoon",
+    "region": "EU",
+    "class_name": "Warlock",
+    "spec": "Demonology",
+    "role": "dps",
+    "level": 70,
+    "ilvl": 528,
+    "score": 2860.4,
+    "color": "#406ae0",
+    "avatar": "",
+    "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+    "raid_progress": {
+      "normal": 0,
+      "heroic": 0,
+      "mythic": 0
+    },
+    "best_runs": [
+      {
+        "dungeon": "Ruby Life Pools",
+        "short_name": "RLP",
+        "level": 15,
+        "score": 405.2,
+        "upgrades": 1,
+        "completed_at": "2024-06-02T18:30:00.000Z"
+      },
+      {
+        "dungeon": "Algeth'ar Academy",
+        "short_name": "AA",
+        "level": 14,
+        "score": 392.8,
+        "upgrades": 1,
+        "completed_at": "2024-06-09T19:10:00.000Z"
+      },
+      {
+        "dungeon": "The Azure Vault",
+        "short_name": "AV",
+        "level": 14,
+        "score": 388.5,
+        "upgrades": 0,
+        "completed_at": "2024-06-15T20:25:00.000Z"
+      }
+    ],
+    "raid_progression": {}
+  },
+  "active_characters": [
+    {
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "EU",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 70,
+      "ilvl": 528,
+      "score": 2860.4,
+      "color": "#406ae0",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    },
+    {
+      "name": "Ahldrak",
+      "display_name": "Ahldrak",
+      "realm": "Stormscale",
+      "region": "EU",
+      "class_name": "Evoker",
+      "spec": "Augmentation",
+      "role": "dps",
+      "level": 70,
+      "ilvl": 519,
+      "score": 2442.8,
+      "color": "#5ad171",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    },
+    {
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "EU",
+      "class_name": "Unknown",
+      "spec": "Unknown",
+      "role": "unknown",
+      "level": 70,
+      "ilvl": 505,
+      "score": 2148.6,
+      "color": "#9aa3ad",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "EU",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 70,
+      "ilvl": 528,
+      "score": 2860.4,
+      "color": "#406ae0",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    },
+    {
+      "name": "Ahldrak",
+      "display_name": "Ahldrak",
+      "realm": "Stormscale",
+      "region": "EU",
+      "class_name": "Evoker",
+      "spec": "Augmentation",
+      "role": "dps",
+      "level": 70,
+      "ilvl": 519,
+      "score": 2442.8,
+      "color": "#5ad171",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    },
+    {
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "EU",
+      "class_name": "Unknown",
+      "spec": "Unknown",
+      "role": "unknown",
+      "level": 70,
+      "ilvl": 505,
+      "score": 2148.6,
+      "color": "#9aa3ad",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    }
+  ],
+  "dungeons": [
+    {
+      "short_name": "RLP",
+      "name": "Ruby Life Pools",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 15,
+          "score": 405.2
+        },
+        {
+          "character": "Ahldrak",
+          "level": 13,
+          "score": 372.4
+        },
+        {
+          "character": "Ahldroni",
+          "level": 12,
+          "score": 354.1
+        }
+      ]
+    },
+    {
+      "short_name": "AA",
+      "name": "Algeth'ar Academy",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 14,
+          "score": 392.8
+        },
+        {
+          "character": "Ahldrak",
+          "level": 12,
+          "score": 360.2
+        }
+      ]
+    },
+    {
+      "short_name": "AV",
+      "name": "The Azure Vault",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 14,
+          "score": 388.5
+        },
+        {
+          "character": "Ahldroni",
+          "level": 11,
+          "score": 341.9
+        }
+      ]
+    }
+  ]
+}

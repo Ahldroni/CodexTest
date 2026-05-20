@@ -1,0 +1,218 @@
+{
+  "profile_name": "Ahldroni",
+  "generated_at": "2024-03-12T12:00:00.000Z",
+  "season_label": "df-s3",
+  "is_placeholder": true,
+  "summary": {
+    "total_score": 6815.2,
+    "scored_characters": 3,
+    "character_count": 3,
+    "highest_key": {
+      "level": 14,
+      "short_name": "FALL"
+    },
+    "heroic_bosses": 0,
+    "raid_bosses": 0
+  },
+  "top_character": {
+    "name": "Ahldrak",
+    "display_name": "Ahldrak",
+    "realm": "Stormscale",
+    "region": "EU",
+    "class_name": "Evoker",
+    "spec": "Augmentation",
+    "role": "dps",
+    "level": 70,
+    "ilvl": 519,
+    "score": 2710.5,
+    "color": "#5ad171",
+    "avatar": "",
+    "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
+    "raid_progress": {
+      "normal": 0,
+      "heroic": 0,
+      "mythic": 0
+    },
+    "best_runs": [],
+    "raid_progression": {}
+  },
+  "active_characters": [
+    {
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "EU",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 70,
+      "ilvl": 528,
+      "score": 2644.7,
+      "color": "#406ae0",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    },
+    {
+      "name": "Ahldrak",
+      "display_name": "Ahldrak",
+      "realm": "Stormscale",
+      "region": "EU",
+      "class_name": "Evoker",
+      "spec": "Augmentation",
+      "role": "dps",
+      "level": 70,
+      "ilvl": 519,
+      "score": 2710.5,
+      "color": "#5ad171",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    },
+    {
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "EU",
+      "class_name": "Unknown",
+      "spec": "Unknown",
+      "role": "unknown",
+      "level": 70,
+      "ilvl": 505,
+      "score": 1919,
+      "color": "#9aa3ad",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "EU",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 70,
+      "ilvl": 528,
+      "score": 2644.7,
+      "color": "#406ae0",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    },
+    {
+      "name": "Ahldrak",
+      "display_name": "Ahldrak",
+      "realm": "Stormscale",
+      "region": "EU",
+      "class_name": "Evoker",
+      "spec": "Augmentation",
+      "role": "dps",
+      "level": 70,
+      "ilvl": 519,
+      "score": 2710.5,
+      "color": "#5ad171",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    },
+    {
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "EU",
+      "class_name": "Unknown",
+      "spec": "Unknown",
+      "role": "unknown",
+      "level": 70,
+      "ilvl": 505,
+      "score": 1919,
+      "color": "#9aa3ad",
+      "avatar": "",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progress": {
+        "normal": 0,
+        "heroic": 0,
+        "mythic": 0
+      }
+    }
+  ],
+  "dungeons": [
+    {
+      "short_name": "FALL",
+      "name": "Galakrond's Fall",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 14,
+          "score": 392.4
+        },
+        {
+          "character": "Ahldrak",
+          "level": 12,
+          "score": 358.6
+        }
+      ]
+    },
+    {
+      "short_name": "DHT",
+      "name": "Darkheart Thicket",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 13,
+          "score": 374.8
+        },
+        {
+          "character": "Ahldroni",
+          "level": 11,
+          "score": 338.7
+        }
+      ]
+    },
+    {
+      "short_name": "WM",
+      "name": "Waycrest Manor",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 13,
+          "score": 369.2
+        },
+        {
+          "character": "Ahldrak",
+          "level": 11,
+          "score": 340.4
+        },
+        {
+          "character": "Ahldroni",
+          "level": 10,
+          "score": 322.2
+        }
+      ]
+    }
+  ]
+}

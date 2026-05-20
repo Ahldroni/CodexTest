@@ -32,8 +32,8 @@ body {
     radial-gradient(circle at 88% 14%, rgba(93, 136, 216, 0.2), transparent 24rem),
     linear-gradient(135deg, rgba(9, 8, 6, 0.88), rgba(29, 18, 10, 0.95)),
     var(--hero-image);
-  background-size: auto, auto, 44rem;
-  background-position: center, center, right -8rem top -10rem;
+  background-size: auto, auto, auto, 44rem;
+  background-position: center, center, center, right -8rem top -10rem;
   background-repeat: no-repeat;
 }
 
@@ -315,7 +315,9 @@ h2 {
 .progression__chart {
   position: relative;
   min-height: 320px;
+  max-width: 100%;
   padding: 16px;
+  overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
   background:
@@ -326,6 +328,8 @@ h2 {
 .progression-bar {
   display: grid;
   gap: 10px;
+  max-width: 100%;
+  overflow: hidden;
   padding: 14px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
@@ -344,6 +348,7 @@ h2 {
 .progression-bar strong,
 .progression-bar span {
   display: block;
+  overflow-wrap: anywhere;
 }
 
 .progression-bar span {
@@ -353,6 +358,8 @@ h2 {
 }
 
 .progression-bar__track {
+  width: 100%;
+  max-width: 100%;
   height: 10px;
   overflow: hidden;
   border-radius: 999px;
@@ -717,8 +724,8 @@ h2 {
 
 @media (max-width: 680px) {
   body {
-    background-size: auto, auto, 24rem;
-    background-position: center, center, right -10rem top -4rem;
+    background-size: auto, auto, auto, 24rem;
+    background-position: center, center, center, right -10rem top -4rem;
   }
 
   .shell {
