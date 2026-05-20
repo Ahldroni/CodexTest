@@ -1,5 +1,6 @@
 :root {
   color-scheme: dark;
+  --hero-image: none;
   --bg: #090806;
   --panel: rgba(24, 18, 13, 0.83);
   --panel-strong: rgba(39, 28, 18, 0.86);
@@ -30,7 +31,7 @@ body {
     radial-gradient(circle at 12% 5%, rgba(207, 91, 47, 0.3), transparent 32rem),
     radial-gradient(circle at 88% 14%, rgba(93, 136, 216, 0.2), transparent 24rem),
     linear-gradient(135deg, rgba(9, 8, 6, 0.88), rgba(29, 18, 10, 0.95)),
-    url("https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg");
+    var(--hero-image);
   background-size: auto, auto, 44rem;
   background-position: center, center, right -8rem top -10rem;
   background-repeat: no-repeat;
