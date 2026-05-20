@@ -298,6 +298,34 @@ h2 {
   align-items: center;
 }
 
+.progression {
+  overflow: hidden;
+}
+
+.progression__status {
+  max-width: 34ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-align: right;
+}
+
+.progression__chart {
+  position: relative;
+  min-height: 320px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 8% 20%, rgba(240, 188, 98, 0.1), transparent 18rem),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
+}
+
+.progression__chart canvas {
+  width: 100%;
+}
+
 .spotlight__copy {
   max-width: 54ch;
   color: var(--muted);
@@ -602,6 +630,11 @@ h2 {
 
   .section-heading {
     display: block;
+  }
+
+  .progression__status {
+    margin-top: 12px;
+    text-align: left;
   }
 
   .segmented {

@@ -14,13 +14,21 @@ const summaryLastFetched = document.querySelector("#summary-last-fetched");
 const spotlightCopy = document.querySelector("#spotlight-copy");
 const footerStatus = document.querySelector("#footer-status");
 const seasonSelect = document.querySelector("#season-select");
+const progressionCanvas = document.querySelector("#progression-chart");
+const progressionStatus = document.querySelector("#progression-status");
 
 const SEASONS_MANIFEST_PATH = "data/seasons.json";
+const CHART_JS_URL = "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js";
 
 const seasonState = {
   seasons: [],
   activeSeason: null,
   activeData: null,
+  dataCache: new Map(),
+  progressionEntries: [],
+  progressionChart: null,
+  chartLibraryPromise: null,
+  progressionFailedCount: 0,
   activeFilter: "all",
   isLoading: false,
   isRestoringUrl: false
@@ -242,6 +250,202 @@ async function fetchJson(path) {
   return response.json();
 }
 
+async function loadSeasonData(season) {
+  if (seasonState.dataCache.has(season.id)) {
+    return seasonState.dataCache.get(season.id);
+  }
+
+  const data = await fetchJson(season.file);
+  seasonState.dataCache.set(season.id, data);
+  return data;
+}
+
+function loadChartLibrary() {
+  if (window.Chart) {
+    return Promise.resolve(window.Chart);
+  }
+
+  if (!seasonState.chartLibraryPromise) {
+    seasonState.chartLibraryPromise = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = CHART_JS_URL;
+      script.async = true;
+      script.onload = () => resolve(window.Chart);
+      script.onerror = () => reject(new Error("Chart.js could not be loaded."));
+      document.head.append(script);
+    });
+  }
+
+  return seasonState.chartLibraryPromise;
+}
+
+function buildProgressionEntry(season, data) {
+  return {
+    seasonId: season.id,
+    seasonName: season.name,
+    score: Number(data.summary.total_score) || 0,
+    highestKey: Number(data.summary.highest_key.level) || 0,
+    generatedAt: data.generated_at
+  };
+}
+
+function getChartColors() {
+  const styles = getComputedStyle(document.documentElement);
+  return {
+    gold: styles.getPropertyValue("--gold").trim(),
+    arcane: styles.getPropertyValue("--arcane").trim(),
+    ember: styles.getPropertyValue("--ember").trim(),
+    muted: styles.getPropertyValue("--muted").trim(),
+    text: styles.getPropertyValue("--text").trim(),
+    line: styles.getPropertyValue("--line").trim()
+  };
+}
+
+function getProgressionPointColors() {
+  const colors = getChartColors();
+  return seasonState.progressionEntries.map((entry) =>
+    entry.seasonId === seasonState.activeSeason?.id ? colors.gold : colors.arcane
+  );
+}
+
+function updateProgressionStatus() {
+  if (!progressionStatus) {
+    return;
+  }
+
+  const loadedCount = seasonState.progressionEntries.length;
+  if (!loadedCount) {
+    progressionStatus.textContent = "Season history unavailable.";
+    return;
+  }
+
+  const failedCopy = seasonState.progressionFailedCount
+    ? ` ${seasonState.progressionFailedCount} season dataset could not be loaded.`
+    : "";
+  progressionStatus.textContent = `${loadedCount} season${loadedCount === 1 ? "" : "s"} loaded.${failedCopy}`;
+}
+
+function updateProgressionChartHighlight() {
+  if (!seasonState.progressionChart) {
+    return;
+  }
+
+  seasonState.progressionChart.data.datasets[0].pointBackgroundColor = getProgressionPointColors();
+  seasonState.progressionChart.update();
+}
+
+async function renderProgressionChart() {
+  if (!progressionCanvas || !seasonState.progressionEntries.length) {
+    updateProgressionStatus();
+    return;
+  }
+
+  let Chart;
+  try {
+    Chart = await loadChartLibrary();
+  } catch (error) {
+    progressionStatus.textContent = "Progression chart unavailable. Dashboard data still loaded.";
+    console.error(error);
+    return;
+  }
+
+  const colors = getChartColors();
+  const labels = seasonState.progressionEntries.map((entry) => entry.seasonName);
+  const scores = seasonState.progressionEntries.map((entry) => entry.score);
+  const highestKeys = seasonState.progressionEntries.map((entry) => entry.highestKey);
+
+  if (seasonState.progressionChart) {
+    seasonState.progressionChart.destroy();
+  }
+
+  seasonState.progressionChart = new Chart(progressionCanvas, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Mythic+ score",
+          data: scores,
+          borderColor: colors.gold,
+          backgroundColor: "rgba(240, 188, 98, 0.16)",
+          pointBackgroundColor: getProgressionPointColors(),
+          pointBorderColor: colors.text,
+          pointHoverBackgroundColor: colors.ember,
+          pointRadius: 6,
+          pointHoverRadius: 8,
+          borderWidth: 3,
+          fill: true,
+          tension: 0.28
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: {
+        intersect: false,
+        mode: "index"
+      },
+      plugins: {
+        legend: {
+          labels: {
+            color: colors.text,
+            font: {
+              weight: 800
+            }
+          }
+        },
+        tooltip: {
+          callbacks: {
+            afterLabel(context) {
+              return `Highest key: +${highestKeys[context.dataIndex]}`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: {
+            color: colors.muted
+          },
+          grid: {
+            color: "rgba(214, 161, 72, 0.12)"
+          }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: {
+            color: colors.muted
+          },
+          grid: {
+            color: "rgba(214, 161, 72, 0.12)"
+          }
+        }
+      }
+    }
+  });
+
+  updateProgressionStatus();
+}
+
+async function loadProgressionData() {
+  const results = await Promise.all(
+    seasonState.seasons.map(async (season) => {
+      try {
+        const data = await loadSeasonData(season);
+        return buildProgressionEntry(season, data);
+      } catch (error) {
+        console.error(`Could not load progression data for ${season.id}.`, error);
+        return null;
+      }
+    })
+  );
+
+  seasonState.progressionEntries = results.filter(Boolean);
+  seasonState.progressionFailedCount = results.length - seasonState.progressionEntries.length;
+  await renderProgressionChart();
+}
+
 async function loadSeasons() {
   const seasons = await fetchJson(SEASONS_MANIFEST_PATH);
   if (!Array.isArray(seasons)) {
@@ -266,6 +470,7 @@ function renderDashboard(data, season) {
   footerStatus.textContent = `Data source: public Raider.IO profile and character API. ${season.name} last updated ${formatDate(data.generated_at)}.`;
   bindFilters();
   applyRosterFilter();
+  updateProgressionChartHighlight();
 }
 
 function restoreActiveSeasonSelection() {
@@ -288,7 +493,7 @@ async function setActiveSeason(seasonId) {
   seasonSelect.disabled = true;
 
   try {
-    const data = await fetchJson(season.file);
+    const data = await loadSeasonData(season);
     renderDashboard(data, season);
     updateUrlState();
   } catch (error) {
@@ -314,6 +519,10 @@ async function loadData() {
 
     bindSeasonSelector();
     await setActiveSeason(defaultSeason.id);
+    loadProgressionData().catch((error) => {
+      progressionStatus.textContent = "Season history unavailable.";
+      console.error(error);
+    });
   } catch (error) {
     footerStatus.textContent = "Data source unavailable. Automatic refresh is configured, but the latest JSON could not be loaded.";
     spotlightCopy.textContent = "The site could not load the generated Raider.IO snapshot.";
@@ -322,6 +531,7 @@ async function loadData() {
     dungeonGrid.innerHTML = "";
     seasonSelect.innerHTML = "<option>Seasons unavailable</option>";
     seasonSelect.disabled = true;
+    progressionStatus.textContent = "Season history unavailable.";
     console.error(error);
   }
 }
