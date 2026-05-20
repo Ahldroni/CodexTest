@@ -40,6 +40,9 @@ function buildHeroTags(data) {
 }
 
 function renderChampion(character) {
+  if (document.body && character.avatar) {
+    document.body.style.setProperty("--hero-image", `url("${character.avatar}")`);
+  }
   championAvatar.src = character.avatar;
   championAvatar.alt = `${character.display_name} character portrait`;
   championName.textContent = character.display_name;
