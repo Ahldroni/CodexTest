@@ -138,6 +138,43 @@ h2 {
   margin-top: 30px;
 }
 
+.season-picker {
+  display: inline-grid;
+  gap: 8px;
+  min-width: min(100%, 280px);
+  margin-top: 24px;
+}
+
+.season-picker__label {
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.season-picker__select {
+  min-height: 46px;
+  padding: 0 42px 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  background:
+    linear-gradient(45deg, transparent 50%, var(--gold) 50%) right 18px center / 7px 7px no-repeat,
+    linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03)),
+    rgba(0, 0, 0, 0.28);
+  font: inherit;
+  font-weight: 800;
+  appearance: none;
+  cursor: pointer;
+}
+
+.season-picker__select:disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
 .button,
 .segment {
   min-height: 42px;

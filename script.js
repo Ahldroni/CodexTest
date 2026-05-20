@@ -13,13 +13,16 @@ const summaryHighestKey = document.querySelector("#summary-highest-key");
 const summaryLastFetched = document.querySelector("#summary-last-fetched");
 const spotlightCopy = document.querySelector("#spotlight-copy");
 const footerStatus = document.querySelector("#footer-status");
+const seasonSelect = document.querySelector("#season-select");
 
 const SEASONS_MANIFEST_PATH = "data/seasons.json";
 
 const seasonState = {
   seasons: [],
   activeSeason: null,
-  activeData: null
+  activeData: null,
+  activeFilter: "all",
+  isLoading: false
 };
 
 function formatDate(dateString) {
@@ -121,6 +124,20 @@ function renderCards(characters) {
     .join("");
 }
 
+function applyRosterFilter() {
+  document.querySelectorAll(".segment").forEach((segment) => {
+    segment.classList.toggle("is-active", segment.dataset.filter === seasonState.activeFilter);
+  });
+
+  document.querySelectorAll(".card").forEach((card) => {
+    const isMatch =
+      seasonState.activeFilter === "all" ||
+      (seasonState.activeFilter === "scored" && card.dataset.scored === "true") ||
+      card.dataset.role === seasonState.activeFilter;
+    card.classList.toggle("is-hidden", !isMatch);
+  });
+}
+
 function renderRuns(runs) {
   runList.innerHTML = runs
     .map((run) => `
@@ -156,19 +173,29 @@ function renderDungeons(dungeons) {
 function bindFilters() {
   document.querySelectorAll(".segment").forEach((button) => {
     button.onclick = () => {
-      document.querySelectorAll(".segment").forEach((segment) => segment.classList.remove("is-active"));
-      button.classList.add("is-active");
-      const filter = button.dataset.filter;
-
-      document.querySelectorAll(".card").forEach((card) => {
-        const isMatch =
-          filter === "all" ||
-          (filter === "scored" && card.dataset.scored === "true") ||
-          card.dataset.role === filter;
-        card.classList.toggle("is-hidden", !isMatch);
-      });
+      seasonState.activeFilter = button.dataset.filter;
+      applyRosterFilter();
     };
   });
+}
+
+function renderSeasonSelector() {
+  seasonSelect.innerHTML = seasonState.seasons
+    .map((season) => `<option value="${season.id}">${season.name}</option>`)
+    .join("");
+  seasonSelect.disabled = seasonState.seasons.length < 2;
+  seasonSelect.value = seasonState.activeSeason ? seasonState.activeSeason.id : seasonState.seasons[0].id;
+}
+
+function bindSeasonSelector() {
+  seasonSelect.onchange = async () => {
+    try {
+      await setActiveSeason(seasonSelect.value);
+    } catch (error) {
+      footerStatus.textContent = "Season data unavailable. The dashboard is still showing the last loaded season.";
+      console.error(error);
+    }
+  };
 }
 
 async function fetchJson(path) {
@@ -200,18 +227,37 @@ function renderDashboard(data, season) {
   renderCards(data.characters);
   renderRuns(data.top_character.best_runs);
   renderDungeons(data.dungeons);
+  renderSeasonSelector();
   footerStatus.textContent = `Data source: public Raider.IO profile and character API. ${season.name} last updated ${formatDate(data.generated_at)}.`;
   bindFilters();
+  applyRosterFilter();
 }
 
 async function setActiveSeason(seasonId) {
+  if (seasonState.isLoading) {
+    return;
+  }
+
   const season = seasonState.seasons.find((candidate) => candidate.id === seasonId);
   if (!season) {
     throw new Error(`Season ${seasonId} is not available.`);
   }
 
-  const data = await fetchJson(season.file);
-  renderDashboard(data, season);
+  seasonState.isLoading = true;
+  seasonSelect.disabled = true;
+
+  try {
+    const data = await fetchJson(season.file);
+    renderDashboard(data, season);
+  } catch (error) {
+    if (seasonState.activeSeason) {
+      seasonSelect.value = seasonState.activeSeason.id;
+    }
+    throw error;
+  } finally {
+    seasonState.isLoading = false;
+    seasonSelect.disabled = seasonState.seasons.length < 2;
+  }
 }
 
 async function loadData() {
@@ -223,6 +269,7 @@ async function loadData() {
       throw new Error("No played Mythic+ seasons are available.");
     }
 
+    bindSeasonSelector();
     await setActiveSeason(defaultSeason.id);
   } catch (error) {
     footerStatus.textContent = "Data source unavailable. Automatic refresh is configured, but the latest JSON could not be loaded.";
@@ -230,6 +277,8 @@ async function loadData() {
     cards.innerHTML = "";
     runList.innerHTML = "";
     dungeonGrid.innerHTML = "";
+    seasonSelect.innerHTML = "<option>Seasons unavailable</option>";
+    seasonSelect.disabled = true;
     console.error(error);
   }
 }
