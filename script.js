@@ -14,9 +14,13 @@ const summaryLastFetched = document.querySelector("#summary-last-fetched");
 const spotlightCopy = document.querySelector("#spotlight-copy");
 const footerStatus = document.querySelector("#footer-status");
 
-function getEmbeddedData() {
-  return window.__RAIDERIO_DATA__ || null;
-}
+const SEASONS_MANIFEST_PATH = "data/seasons.json";
+
+const seasonState = {
+  seasons: [],
+  activeSeason: null,
+  activeData: null
+};
 
 function formatDate(dateString) {
   return new Date(dateString).toLocaleDateString("en-US", {
@@ -151,7 +155,7 @@ function renderDungeons(dungeons) {
 
 function bindFilters() {
   document.querySelectorAll(".segment").forEach((button) => {
-    button.addEventListener("click", () => {
+    button.onclick = () => {
       document.querySelectorAll(".segment").forEach((segment) => segment.classList.remove("is-active"));
       button.classList.add("is-active");
       const filter = button.dataset.filter;
@@ -163,36 +167,63 @@ function bindFilters() {
           card.dataset.role === filter;
         card.classList.toggle("is-hidden", !isMatch);
       });
-    });
+    };
   });
+}
+
+async function fetchJson(path) {
+  const response = await fetch(`${path}?ts=${Date.now()}`);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status} loading ${path}`);
+  }
+
+  return response.json();
+}
+
+async function loadSeasons() {
+  const seasons = await fetchJson(SEASONS_MANIFEST_PATH);
+  if (!Array.isArray(seasons)) {
+    throw new Error("The seasons manifest must be a JSON array.");
+  }
+
+  return seasons.filter((season) => season.played === true);
+}
+
+function renderDashboard(data, season) {
+  seasonState.activeSeason = season;
+  seasonState.activeData = data;
+
+  heroTags.innerHTML = buildHeroTags(data).map((tag) => `<span>${tag}</span>`).join("");
+  renderChampion(data.top_character);
+  renderSummary(data);
+  renderSpotlight(data.active_characters);
+  renderCards(data.characters);
+  renderRuns(data.top_character.best_runs);
+  renderDungeons(data.dungeons);
+  footerStatus.textContent = `Data source: public Raider.IO profile and character API. ${season.name} last updated ${formatDate(data.generated_at)}.`;
+  bindFilters();
+}
+
+async function setActiveSeason(seasonId) {
+  const season = seasonState.seasons.find((candidate) => candidate.id === seasonId);
+  if (!season) {
+    throw new Error(`Season ${seasonId} is not available.`);
+  }
+
+  const data = await fetchJson(season.file);
+  renderDashboard(data, season);
 }
 
 async function loadData() {
   try {
-    let data = getEmbeddedData();
+    seasonState.seasons = await loadSeasons();
+    const defaultSeason = seasonState.seasons[0];
 
-    if (!data && window.location.protocol !== "file:") {
-      const response = await fetch(`data/raiderio.json?ts=${Date.now()}`);
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
-      }
-
-      data = await response.json();
+    if (!defaultSeason) {
+      throw new Error("No played Mythic+ seasons are available.");
     }
 
-    if (!data) {
-      throw new Error("No embedded Raider.IO snapshot was found.");
-    }
-
-    heroTags.innerHTML = buildHeroTags(data).map((tag) => `<span>${tag}</span>`).join("");
-    renderChampion(data.top_character);
-    renderSummary(data);
-    renderSpotlight(data.active_characters);
-    renderCards(data.characters);
-    renderRuns(data.top_character.best_runs);
-    renderDungeons(data.dungeons);
-    footerStatus.textContent = `Data source: public Raider.IO profile and character API. Last updated ${formatDate(data.generated_at)}.`;
-    bindFilters();
+    await setActiveSeason(defaultSeason.id);
   } catch (error) {
     footerStatus.textContent = "Data source unavailable. Automatic refresh is configured, but the latest JSON could not be loaded.";
     spotlightCopy.textContent = "The site could not load the generated Raider.IO snapshot.";
@@ -202,5 +233,18 @@ async function loadData() {
     console.error(error);
   }
 }
+
+window.dashboardSeasonApi = {
+  get seasons() {
+    return [...seasonState.seasons];
+  },
+  get activeSeason() {
+    return seasonState.activeSeason;
+  },
+  get activeData() {
+    return seasonState.activeData;
+  },
+  setActiveSeason
+};
 
 loadData();
