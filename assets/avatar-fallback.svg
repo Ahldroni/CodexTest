@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Fallback character portrait">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2118"/>
+      <stop offset="0.52" stop-color="#1f2a38"/>
+      <stop offset="1" stop-color="#10151d"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2bf5c"/>
+      <stop offset="1" stop-color="#8fb6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="28" fill="url(#bg)"/>
+  <circle cx="128" cy="96" r="45" fill="#d9c5a0" opacity="0.9"/>
+  <path d="M48 220c9-47 39-76 80-76s71 29 80 76" fill="#d9c5a0" opacity="0.9"/>
+  <path d="M43 45l85-23 85 23v62c0 53-33 95-85 119-52-24-85-66-85-119z" fill="none" stroke="url(#ring)" stroke-width="10" opacity="0.55"/>
+  <path d="M75 87h106M88 115h80" stroke="#f2bf5c" stroke-width="10" stroke-linecap="round" opacity="0.45"/>
+</svg>

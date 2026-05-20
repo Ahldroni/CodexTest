@@ -18,6 +18,10 @@ const progressionCanvas = document.querySelector("#progression-chart");
 const progressionStatus = document.querySelector("#progression-status");
 const achievementsSeason = document.querySelector("#achievements-season");
 const achievementGrid = document.querySelector("#achievement-grid");
+const runsTitle = document.querySelector("#runs-title");
+const runsProfileLink = document.querySelector("#runs-profile-link");
+
+const FALLBACK_AVATAR_PATH = "assets/avatar-fallback.svg";
 
 const seasonState = {
   seasons: [],
@@ -98,18 +102,73 @@ function formatSeasonLabel(seasonLabel) {
 
 function buildHeroTags(data) {
   const heroicProgress = `${data.summary.heroic_bosses}/${data.summary.raid_bosses}`;
-  return [
+  const tags = [
     `Season ${formatSeasonLabel(data.season_label)}`,
     `Warband Score ${data.summary.total_score.toFixed(1)}`,
     `Heroic Raid ${heroicProgress}`
   ];
+
+  if (data.is_placeholder) {
+    tags.push("Manual placeholder data");
+  }
+
+  return tags;
+}
+
+function hasRealAvatar(character) {
+  return Boolean(character?.avatar && character.avatar.trim());
+}
+
+function getCharacterAvatar(character) {
+  return hasRealAvatar(character) ? character.avatar : FALLBACK_AVATAR_PATH;
+}
+
+function handleAvatarError(image) {
+  image.onerror = null;
+  image.src = FALLBACK_AVATAR_PATH;
+}
+
+function getCharacterIdentity(character) {
+  return character?.name || character?.display_name || "";
+}
+
+function mergeTopCharacterData(selectedCharacter, dataTopCharacter) {
+  if (!selectedCharacter) {
+    return dataTopCharacter || null;
+  }
+
+  if (getCharacterIdentity(selectedCharacter) !== getCharacterIdentity(dataTopCharacter)) {
+    return selectedCharacter;
+  }
+
+  return {
+    ...dataTopCharacter,
+    ...selectedCharacter,
+    best_runs: selectedCharacter.best_runs || dataTopCharacter.best_runs || [],
+    raid_progression: selectedCharacter.raid_progression || dataTopCharacter.raid_progression || {}
+  };
+}
+
+function getSeasonTopCharacter(data) {
+  const characters = Array.isArray(data.characters) ? data.characters : [];
+  const scoredCharacters = characters.filter((character) => Number(character.score) > 0);
+  const candidateCharacters = scoredCharacters.length ? scoredCharacters : characters;
+  const selectedCharacter = candidateCharacters
+    .slice()
+    .sort((left, right) => Number(right.score || 0) - Number(left.score || 0))[0];
+
+  return mergeTopCharacterData(selectedCharacter, data.top_character);
 }
 
 function renderChampion(character) {
-  if (document.body && character.avatar) {
+  if (document.body && hasRealAvatar(character)) {
     document.body.style.setProperty("--hero-image", `url("${character.avatar}")`);
+  } else {
+    document.body?.style?.removeProperty?.("--hero-image");
   }
-  championAvatar.src = character.avatar;
+
+  championAvatar.onerror = () => handleAvatarError(championAvatar);
+  championAvatar.src = getCharacterAvatar(character);
   championAvatar.alt = `${character.display_name} character portrait`;
   championName.textContent = character.display_name;
   championMeta.textContent = `${character.spec} ${character.class_name} · ${character.realm} ${character.region}`;
@@ -123,17 +182,33 @@ function renderSummary(data) {
   summaryLastFetched.textContent = formatDate(data.generated_at);
 }
 
-function renderSpotlight(activeCharacters) {
-  if (!activeCharacters.length) {
+function getSpotlightCharacters(activeCharacters, topCharacter) {
+  const seen = new Set();
+  return [topCharacter, ...(activeCharacters || [])]
+    .filter(Boolean)
+    .filter((character) => {
+      const identity = getCharacterIdentity(character);
+      if (!identity || seen.has(identity)) {
+        return false;
+      }
+
+      seen.add(identity);
+      return true;
+    });
+}
+
+function renderSpotlight(activeCharacters, topCharacter) {
+  const spotlightCharacters = getSpotlightCharacters(activeCharacters, topCharacter);
+  if (!spotlightCharacters.length) {
     spotlightCopy.textContent = "No active Mythic+ characters found in the current data snapshot.";
     spotlightRail.innerHTML = "";
     return;
   }
 
-  const highlightNames = activeCharacters.map((character) => character.display_name);
-  spotlightCopy.textContent = `${highlightNames[0]} leads the current push, with ${highlightNames[1] || "no secondary scorer yet"}${highlightNames[2] ? ` and ${highlightNames[2]} filling out the active ladder` : ""}.`;
+  const highlightNames = spotlightCharacters.map((character) => character.display_name);
+  spotlightCopy.textContent = `${highlightNames[0]} leads this season's push, with ${highlightNames[1] || "no secondary scorer yet"}${highlightNames[2] ? ` and ${highlightNames[2]} filling out the active ladder` : ""}.`;
 
-  spotlightRail.innerHTML = activeCharacters
+  spotlightRail.innerHTML = spotlightCharacters
     .map((character, index) => {
       const summary =
         index === 0
@@ -154,6 +229,7 @@ function renderSpotlight(activeCharacters) {
 
 function renderCards(characters) {
   const maxScore = Math.max(...characters.map((character) => character.score), 0);
+  const fallbackHandler = `this.onerror=null;this.src='${FALLBACK_AVATAR_PATH}';`;
 
   cards.innerHTML = characters
     .map((character) => {
@@ -162,7 +238,7 @@ function renderCards(characters) {
       const badgeClass = character.score ? "badge" : "badge badge--zero";
       return `
         <a class="card" href="${character.url}" target="_blank" rel="noreferrer" data-role="${character.role}" data-scored="${character.score > 0}">
-          <img class="card__avatar" src="${character.avatar}" alt="${character.display_name} character portrait">
+          <img class="card__avatar" src="${getCharacterAvatar(character)}" alt="${character.display_name} character portrait" onerror="${fallbackHandler}">
           <div>
             <div class="card__top">
               <div>
@@ -197,8 +273,27 @@ function applyRosterFilter() {
   });
 }
 
-function renderRuns(runs) {
-  runList.innerHTML = runs
+function renderRuns(runs, character) {
+  const safeRuns = Array.isArray(runs) ? runs : [];
+  if (runsTitle) {
+    runsTitle.textContent = `${character.display_name} Push Board`;
+  }
+
+  if (runsProfileLink) {
+    runsProfileLink.href = character.url;
+    runsProfileLink.textContent = `${character.display_name} Profile`;
+  }
+
+  if (!safeRuns.length) {
+    runList.innerHTML = `
+      <div class="empty-state">
+        No best runs are available for ${character.display_name} in this season snapshot yet.
+      </div>
+    `;
+    return;
+  }
+
+  runList.innerHTML = safeRuns
     .map((run) => `
       <div class="run">
         <span class="run__level">+${run.level}</span>
@@ -278,8 +373,7 @@ function buildRoleHighlight(characters) {
     .filter(Boolean);
 }
 
-function buildSeasonAchievements(data) {
-  const topCharacter = data.top_character;
+function buildSeasonAchievements(data, topCharacter) {
   const mostActiveDungeon = getMostActiveDungeon(data.dungeons);
   const firstKsmRun = getFirstKeystoneMasterRun(topCharacter.best_runs || []);
   const roleHighlights = buildRoleHighlight(data.characters);
@@ -319,9 +413,9 @@ function buildSeasonAchievements(data) {
   ];
 }
 
-function renderAchievements(data, season) {
+function renderAchievements(data, season, topCharacter) {
   achievementsSeason.textContent = season.name;
-  achievementGrid.innerHTML = buildSeasonAchievements(data)
+  achievementGrid.innerHTML = buildSeasonAchievements(data, topCharacter)
     .map((achievement) => `
       <article class="achievement">
         <span>${achievement.label}</span>
@@ -500,15 +594,16 @@ function loadSeasons() {
 function renderDashboard(data, season) {
   seasonState.activeSeason = season;
   seasonState.activeData = data;
+  const topCharacter = getSeasonTopCharacter(data);
 
   heroTags.innerHTML = buildHeroTags(data).map((tag) => `<span>${tag}</span>`).join("");
-  renderChampion(data.top_character);
+  renderChampion(topCharacter);
   renderSummary(data);
-  renderSpotlight(data.active_characters);
+  renderSpotlight(data.active_characters, topCharacter);
   renderCards(data.characters);
-  renderRuns(data.top_character.best_runs);
+  renderRuns(topCharacter.best_runs, topCharacter);
   renderDungeons(data.dungeons);
-  renderAchievements(data, season);
+  renderAchievements(data, season, topCharacter);
   renderSeasonSelector();
   footerStatus.textContent = `Data source: public Raider.IO profile and character API. ${season.name} last updated ${formatDate(data.generated_at)}.`;
   bindFilters();
@@ -588,6 +683,7 @@ window.dashboardSeasonApi = {
   get activeData() {
     return seasonState.activeData;
   },
+  getSeasonTopCharacter,
   setActiveSeason
 };
 

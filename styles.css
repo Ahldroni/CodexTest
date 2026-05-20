@@ -216,6 +216,7 @@ h2 {
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid rgba(242, 191, 92, 0.35);
+  background: rgba(255, 255, 255, 0.05);
   filter: saturate(1.08) contrast(1.02);
 }
 
@@ -510,6 +511,15 @@ h2 {
   border-radius: 8px;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.empty-state {
+  padding: 18px;
+  border: 1px dashed rgba(242, 191, 92, 0.3);
+  border-radius: 8px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .card__top {

@@ -2,7 +2,7 @@ window.MPLUS_SEASONS = window.MPLUS_SEASONS || [];
 window.MPLUS_SEASON_DATA = window.MPLUS_SEASON_DATA || {};
 
 // Manual historical placeholders.
-// Replace these objects with exported Raider.IO snapshots when real archives are available.
+// TODO: Replace every placeholder class/spec/role/avatar with real exported Raider.IO snapshots when archives are available.
 window.MPLUS_SEASONS.push(
   {
     id: "df-s4",
@@ -71,18 +71,18 @@ const historicalCharacters = {
       mythic: 0
     }
   },
-  ahldroniProtection: {
+  ahldroniUnknown: {
     name: "Ahldroni",
     display_name: "Ahldroni",
     realm: "Silvermoon",
     region: "EU",
-    class_name: "Paladin",
-    spec: "Protection",
-    role: "tank",
+    class_name: "Unknown",
+    spec: "Unknown",
+    role: "unknown",
     level: 70,
     ilvl: 505,
     score: 2148.6,
-    color: "#f48cba",
+    color: "#9aa3ad",
     avatar: "",
     url: "https://raider.io/characters/eu/silvermoon/Ahldroni",
     raid_progress: {
@@ -122,12 +122,12 @@ window.MPLUS_SEASON_DATA["df-s4"] = {
   active_characters: [
     { ...historicalCharacters.warlockzzDemonology, score: 2860.4 },
     { ...historicalCharacters.ahldrakAugmentation, score: 2442.8 },
-    { ...historicalCharacters.ahldroniProtection, score: 2148.6 }
+    { ...historicalCharacters.ahldroniUnknown, score: 2148.6 }
   ],
   characters: [
     { ...historicalCharacters.warlockzzDemonology, score: 2860.4 },
     { ...historicalCharacters.ahldrakAugmentation, score: 2442.8 },
-    { ...historicalCharacters.ahldroniProtection, score: 2148.6 }
+    { ...historicalCharacters.ahldroniUnknown, score: 2148.6 }
   ],
   dungeons: [
     {
@@ -175,24 +175,20 @@ window.MPLUS_SEASON_DATA["df-s3"] = {
     raid_bosses: 0
   },
   top_character: {
-    ...historicalCharacters.warlockzzDemonology,
-    score: 2644.7,
-    best_runs: [
-      { dungeon: "Galakrond's Fall", short_name: "FALL", level: 14, score: 392.4, upgrades: 1, completed_at: "2024-01-14T17:40:00.000Z" },
-      { dungeon: "Darkheart Thicket", short_name: "DHT", level: 13, score: 374.8, upgrades: 1, completed_at: "2024-01-21T18:45:00.000Z" },
-      { dungeon: "Waycrest Manor", short_name: "WM", level: 13, score: 369.2, upgrades: 0, completed_at: "2024-02-03T20:05:00.000Z" }
-    ],
+    ...historicalCharacters.ahldrakAugmentation,
+    score: 2710.5,
+    best_runs: [],
     raid_progression: {}
   },
   active_characters: [
     { ...historicalCharacters.warlockzzDemonology, score: 2644.7 },
-    { ...historicalCharacters.ahldrakAugmentation, score: 2251.5 },
-    { ...historicalCharacters.ahldroniProtection, score: 1919.0 }
+    { ...historicalCharacters.ahldrakAugmentation, score: 2710.5 },
+    { ...historicalCharacters.ahldroniUnknown, score: 1919.0 }
   ],
   characters: [
     { ...historicalCharacters.warlockzzDemonology, score: 2644.7 },
-    { ...historicalCharacters.ahldrakAugmentation, score: 2251.5 },
-    { ...historicalCharacters.ahldroniProtection, score: 1919.0 }
+    { ...historicalCharacters.ahldrakAugmentation, score: 2710.5 },
+    { ...historicalCharacters.ahldroniUnknown, score: 1919.0 }
   ],
   dungeons: [
     {
@@ -253,11 +249,11 @@ window.MPLUS_SEASON_DATA["sl-s4"] = {
   },
   active_characters: [
     { ...historicalCharacters.warlockzzDemonology, level: 60, ilvl: 298, score: 2768.3 },
-    { ...historicalCharacters.ahldroniProtection, level: 60, ilvl: 286, score: 2153.4 }
+    { ...historicalCharacters.ahldroniUnknown, level: 60, ilvl: 286, score: 2153.4 }
   ],
   characters: [
     { ...historicalCharacters.warlockzzDemonology, level: 60, ilvl: 298, score: 2768.3 },
-    { ...historicalCharacters.ahldroniProtection, level: 60, ilvl: 286, score: 2153.4 }
+    { ...historicalCharacters.ahldroniUnknown, level: 60, ilvl: 286, score: 2153.4 }
   ],
   dungeons: [
     {
