@@ -31,7 +31,7 @@ const seasonState = {
   dataCache: new Map(),
   progressionEntries: [],
   progressionFailedCount: 0,
-  activeFilter: "all",
+  activeFilter: "scored",
   isLoading: false,
   isRestoringUrl: false
 };
@@ -57,7 +57,7 @@ function getUrlState() {
 }
 
 function getValidRoleFilter(role) {
-  return getRoleFilters().includes(role) ? role : "all";
+  return getRoleFilters().includes(role) ? role : "scored";
 }
 
 function updateUrlState() {
@@ -68,7 +68,7 @@ function updateUrlState() {
   const url = new URL(window.location.href);
   url.searchParams.set("season", seasonState.activeSeason.id);
 
-  if (seasonState.activeFilter === "all") {
+  if (seasonState.activeFilter === "scored") {
     url.searchParams.delete("role");
   } else {
     url.searchParams.set("role", seasonState.activeFilter);
@@ -179,6 +179,41 @@ function getCharacterIdentity(character) {
   return character?.name || character?.display_name || "";
 }
 
+function getCharacterDungeonEntryNames(data) {
+  const names = new Set();
+  (Array.isArray(data.dungeons) ? data.dungeons : []).forEach((dungeon) => {
+    (dungeon.entries || []).forEach((entry) => {
+      if (entry.character) {
+        names.add(entry.character);
+      }
+    });
+  });
+  return names;
+}
+
+function hasSeasonRuns(character) {
+  return Boolean(
+    character &&
+      ((Array.isArray(character.best_runs) && character.best_runs.length) ||
+        (Array.isArray(character.mythic_plus_best_runs) && character.mythic_plus_best_runs.length))
+  );
+}
+
+function getScoredCharacters(characters, data = {}) {
+  const dungeonEntryNames = getCharacterDungeonEntryNames(data);
+  return (Array.isArray(characters) ? characters : [])
+    .filter((character) => {
+      const identity = getCharacterIdentity(character);
+      return (
+        Number(character.score || 0) > 0 ||
+        hasSeasonRuns(character) ||
+        dungeonEntryNames.has(identity) ||
+        dungeonEntryNames.has(character.display_name)
+      );
+    })
+    .sort((left, right) => Number(right.score || 0) - Number(left.score || 0));
+}
+
 function mergeTopCharacterData(selectedCharacter, dataTopCharacter) {
   if (!selectedCharacter) {
     return dataTopCharacter || null;
@@ -197,13 +232,11 @@ function mergeTopCharacterData(selectedCharacter, dataTopCharacter) {
 }
 
 function getSortedCharacters(data) {
-  return (Array.isArray(data.characters) ? data.characters : [])
-    .slice()
-    .sort((left, right) => Number(right.score || 0) - Number(left.score || 0));
+  return getScoredCharacters(data.characters, data);
 }
 
 function getSeasonTopCharacter(data) {
-  const characters = getSortedCharacters(data);
+  const characters = getScoredCharacters(data.characters, data);
   const selectedCharacter = characters.find((character) => Number(character.score) > 0) || characters[0];
   return mergeTopCharacterData(selectedCharacter, data.top_character);
 }
@@ -247,7 +280,7 @@ function getSeasonBestRuns(data) {
     }
   };
 
-  (Array.isArray(data.characters) ? data.characters : []).forEach((character) => {
+  getScoredCharacters(data.characters, data).forEach((character) => {
     (character.best_runs || []).forEach((run) => addRun(run, character.display_name || character.name));
   });
 
@@ -293,8 +326,22 @@ function renderChampion(character) {
   championScore.textContent = Number(character.score || 0).toFixed(1);
 }
 
-function renderSummary(data) {
+function buildRenderedSummary(data, characters, bestRuns) {
   const summary = data.summary || {};
+  const highestRun = bestRuns[0];
+  return {
+    ...summary,
+    total_score: characters.reduce((total, character) => total + Number(character.score || 0), 0),
+    scored_characters: characters.length,
+    character_count: characters.length,
+    highest_key: highestRun
+      ? { level: highestRun.level, short_name: highestRun.short_name }
+      : summary.highest_key || { level: 0, short_name: "N/A" }
+  };
+}
+
+function renderSummary(data, characters, bestRuns) {
+  const summary = buildRenderedSummary(data, characters, bestRuns);
   const highestKey = summary.highest_key || { level: 0, short_name: "N/A" };
   summaryTotalScore.textContent = Number(summary.total_score || 0).toFixed(1);
   summaryScoredCharacters.textContent = `${summary.scored_characters || 0} / ${summary.character_count || 0}`;
@@ -388,7 +435,6 @@ function applyRosterFilter() {
 
   document.querySelectorAll(".card").forEach((card) => {
     const isMatch =
-      seasonState.activeFilter === "all" ||
       (seasonState.activeFilter === "scored" && card.dataset.scored === "true") ||
       card.dataset.role === seasonState.activeFilter;
     card.classList.toggle("is-hidden", !isMatch);
@@ -560,6 +606,19 @@ function bindFilters() {
   });
 }
 
+function renderRoleFilters(characters) {
+  const availableRoles = new Set(characters.map((character) => character.role).filter(Boolean));
+  document.querySelectorAll(".segment").forEach((button) => {
+    const filter = button.dataset.filter;
+    const shouldShow = filter === "scored" || availableRoles.has(filter);
+    button.hidden = !shouldShow;
+  });
+
+  if (seasonState.activeFilter !== "scored" && !availableRoles.has(seasonState.activeFilter)) {
+    seasonState.activeFilter = "scored";
+  }
+}
+
 function renderSeasonSelector() {
   const groupedSeasons = seasonState.seasons.reduce((groups, season) => {
     const expansion = season.expansion || "Other";
@@ -620,7 +679,7 @@ function isUsableSeasonData(data) {
     data &&
       data.summary &&
       Array.isArray(data.characters) &&
-      data.characters.length &&
+      getScoredCharacters(data.characters, data).length &&
       Array.isArray(data.dungeons)
   );
 }
@@ -713,13 +772,13 @@ function renderDashboard(data, season) {
   seasonState.activeSeason = season;
   seasonState.activeData = data;
   const topCharacter = getSeasonTopCharacter(data);
-  const sortedCharacters = getSortedCharacters(data);
-  const activeCharacters = sortedCharacters.filter((character) => Number(character.score || 0) > 0);
+  const sortedCharacters = getScoredCharacters(data.characters, data);
+  const activeCharacters = sortedCharacters;
   const bestRuns = getSeasonBestRuns(data);
 
   heroTags.innerHTML = buildHeroTags(data).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
   renderChampion(topCharacter);
-  renderSummary(data);
+  renderSummary(data, sortedCharacters, bestRuns);
   renderSpotlight(activeCharacters, topCharacter);
   renderCards(sortedCharacters);
   renderRuns(bestRuns, topCharacter);
@@ -728,6 +787,7 @@ function renderDashboard(data, season) {
   renderSeasonSelector();
   footerStatus.textContent = `Data source: public Raider.IO profile and character API. ${season.name} last updated ${formatDate(data.generated_at)}.`;
   bindFilters();
+  renderRoleFilters(sortedCharacters);
   applyRosterFilter();
   updateProgressionViewHighlight();
 }
@@ -798,6 +858,7 @@ window.dashboardSeasonApi = {
   },
   getSeasonBestRuns,
   getSeasonTopCharacter,
+  getScoredCharacters,
   setActiveSeason
 };
 

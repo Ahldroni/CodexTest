@@ -129,9 +129,19 @@ function normalizeCharacter(profile, configuredCharacter) {
       mythic: raidProgress.mythic
     },
     best_runs: bestRuns,
+    mythic_plus_best_runs: bestRuns,
     alternate_runs: alternateRuns,
     raid_progression: profile.raid_progression || {}
   };
+}
+
+function isPlayedCharacter(character) {
+  return Boolean(
+    character &&
+      (Number(character.score || 0) > 0 ||
+        (Array.isArray(character.best_runs) && character.best_runs.length) ||
+        (Array.isArray(character.mythic_plus_best_runs) && character.mythic_plus_best_runs.length))
+  );
 }
 
 function getSeasonTopCharacter(characters) {
@@ -238,8 +248,15 @@ async function main() {
   if (!profiles.length) {
     throw new Error("No Raider.IO character profiles could be loaded.");
   }
-  const characters = profiles.sort((left, right) => Number(right.score || 0) - Number(left.score || 0));
-  const activeCharacters = characters.filter((character) => Number(character.score || 0) > 0);
+  const characters = profiles
+    .filter(isPlayedCharacter)
+    .sort((left, right) => Number(right.score || 0) - Number(left.score || 0));
+
+  if (!characters.length) {
+    throw new Error("No played/scored Mythic+ characters were found for the current season.");
+  }
+
+  const activeCharacters = characters;
   const topCharacter = getSeasonTopCharacter(characters);
   const dungeons = buildDungeons(characters);
 
