@@ -300,6 +300,10 @@ h2 {
 }
 
 .progression {
+  width: 100%;
+  max-width: 980px;
+  margin-right: auto;
+  margin-left: auto;
   overflow: hidden;
 }
 
@@ -315,7 +319,10 @@ h2 {
 .progression__chart {
   position: relative;
   min-height: 320px;
+  width: 100%;
   max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   padding: 16px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -328,6 +335,7 @@ h2 {
 .progression-bar {
   display: grid;
   gap: 10px;
+  width: 100%;
   max-width: 100%;
   overflow: hidden;
   padding: 14px;

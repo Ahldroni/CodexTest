@@ -1,179 +1,591 @@
 {
   "profile_name": "Ahldroni",
-  "generated_at": "2024-03-12T12:00:00.000Z",
-  "season_label": "df-s3",
-  "is_placeholder": true,
+  "generated_at": "2026-05-21T07:01:11.023Z",
+  "season_id": "df-s3",
+  "season_label": "season-df-3",
   "summary": {
-    "total_score": 6815.2,
-    "scored_characters": 3,
-    "character_count": 3,
+    "total_score": 714.6,
+    "scored_characters": 2,
+    "character_count": 2,
     "highest_key": {
-      "level": 14,
-      "short_name": "FALL"
+      "level": 11,
+      "short_name": "WM"
     },
-    "heroic_bosses": 0,
-    "raid_bosses": 0
+    "heroic_bosses": 3,
+    "raid_bosses": 9,
+    "dungeon_count": 8
   },
   "top_character": {
-    "name": "Ahldrak",
-    "display_name": "Ahldrak",
-    "realm": "Stormscale",
-    "region": "EU",
-    "class_name": "Evoker",
-    "spec": "Augmentation",
-    "role": "dps",
-    "level": 70,
-    "ilvl": 519,
-    "score": 2710.5,
-    "color": "#5ad171",
-    "avatar": "",
-    "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
-    "raid_progress": {
-      "normal": 0,
-      "heroic": 0,
-      "mythic": 0
+    "key": "eu:silvermoon:ahldroni",
+    "name": "Ahldroni",
+    "display_name": "Ahldroni",
+    "realm": "Silvermoon",
+    "region": "eu",
+    "class_name": "Druid",
+    "spec": "Guardian",
+    "role": "tank",
+    "level": 0,
+    "ilvl": 240,
+    "color": "#b0ff97",
+    "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+    "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+    "raid_progression": {
+      "tier-mn-1": {
+        "summary": "",
+        "expansion_id": 11,
+        "total_bosses": 9,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
     },
-    "best_runs": [],
-    "raid_progression": {}
+    "score": 647.1,
+    "best_runs": [
+      {
+        "dungeon": "Waycrest Manor",
+        "short_name": "WM",
+        "level": 11,
+        "score": 348.2,
+        "upgrades": 2,
+        "completed_at": "2024-01-07T22:08:33.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "Darkheart Thicket",
+        "short_name": "DHT",
+        "level": 8,
+        "score": 290,
+        "upgrades": 3,
+        "completed_at": "2024-01-07T21:37:55.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "DOTI: Galakrond's Fall",
+        "short_name": "FALL",
+        "level": 5,
+        "score": 230,
+        "upgrades": 3,
+        "completed_at": "2024-03-23T15:19:08.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "Atal'Dazar",
+        "short_name": "AD",
+        "level": 5,
+        "score": 230,
+        "upgrades": 3,
+        "completed_at": "2024-03-29T13:28:47.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "Black Rook Hold",
+        "short_name": "BRH",
+        "level": 5,
+        "score": 230,
+        "upgrades": 3,
+        "completed_at": "2024-01-07T21:14:28.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "The Everbloom",
+        "short_name": "EB",
+        "level": 2,
+        "score": 170,
+        "upgrades": 3,
+        "completed_at": "2024-01-07T20:47:34.000Z",
+        "character": "Ahldroni"
+      }
+    ],
+    "mythic_plus_best_runs": [
+      {
+        "dungeon": "Waycrest Manor",
+        "short_name": "WM",
+        "level": 11,
+        "score": 348.2,
+        "upgrades": 2,
+        "completed_at": "2024-01-07T22:08:33.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "Darkheart Thicket",
+        "short_name": "DHT",
+        "level": 8,
+        "score": 290,
+        "upgrades": 3,
+        "completed_at": "2024-01-07T21:37:55.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "DOTI: Galakrond's Fall",
+        "short_name": "FALL",
+        "level": 5,
+        "score": 230,
+        "upgrades": 3,
+        "completed_at": "2024-03-23T15:19:08.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "Atal'Dazar",
+        "short_name": "AD",
+        "level": 5,
+        "score": 230,
+        "upgrades": 3,
+        "completed_at": "2024-03-29T13:28:47.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "Black Rook Hold",
+        "short_name": "BRH",
+        "level": 5,
+        "score": 230,
+        "upgrades": 3,
+        "completed_at": "2024-01-07T21:14:28.000Z",
+        "character": "Ahldroni"
+      },
+      {
+        "dungeon": "The Everbloom",
+        "short_name": "EB",
+        "level": 2,
+        "score": 170,
+        "upgrades": 3,
+        "completed_at": "2024-01-07T20:47:34.000Z",
+        "character": "Ahldroni"
+      }
+    ],
+    "mythic_plus_alternate_runs": [
+      {
+        "dungeon": "Darkheart Thicket",
+        "short_name": "DHT",
+        "level": 5,
+        "score": 230,
+        "upgrades": 3,
+        "completed_at": "2024-03-25T15:04:30.000Z",
+        "character": "Ahldroni"
+      }
+    ]
   },
   "active_characters": [
     {
-      "name": "Warlockzz",
-      "display_name": "Warlockzz",
-      "realm": "Silvermoon",
-      "region": "EU",
-      "class_name": "Warlock",
-      "spec": "Demonology",
-      "role": "dps",
-      "level": 70,
-      "ilvl": 528,
-      "score": 2644.7,
-      "color": "#406ae0",
-      "avatar": "",
-      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "raid_progress": {
-        "normal": 0,
-        "heroic": 0,
-        "mythic": 0
-      }
-    },
-    {
-      "name": "Ahldrak",
-      "display_name": "Ahldrak",
-      "realm": "Stormscale",
-      "region": "EU",
-      "class_name": "Evoker",
-      "spec": "Augmentation",
-      "role": "dps",
-      "level": 70,
-      "ilvl": 519,
-      "score": 2710.5,
-      "color": "#5ad171",
-      "avatar": "",
-      "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
-      "raid_progress": {
-        "normal": 0,
-        "heroic": 0,
-        "mythic": 0
-      }
-    },
-    {
+      "key": "eu:silvermoon:ahldroni",
       "name": "Ahldroni",
       "display_name": "Ahldroni",
       "realm": "Silvermoon",
-      "region": "EU",
-      "class_name": "Unknown",
-      "spec": "Unknown",
-      "role": "unknown",
-      "level": 70,
-      "ilvl": 505,
-      "score": 1919,
-      "color": "#9aa3ad",
-      "avatar": "",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 240,
+      "color": "#b0ff97",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
-      "raid_progress": {
-        "normal": 0,
-        "heroic": 0,
-        "mythic": 0
-      }
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 647.1,
+      "best_runs": [
+        {
+          "dungeon": "Waycrest Manor",
+          "short_name": "WM",
+          "level": 11,
+          "score": 348.2,
+          "upgrades": 2,
+          "completed_at": "2024-01-07T22:08:33.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Darkheart Thicket",
+          "short_name": "DHT",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T21:37:55.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "DOTI: Galakrond's Fall",
+          "short_name": "FALL",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-23T15:19:08.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-29T13:28:47.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Black Rook Hold",
+          "short_name": "BRH",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T21:14:28.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T20:47:34.000Z",
+          "character": "Ahldroni"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Waycrest Manor",
+          "short_name": "WM",
+          "level": 11,
+          "score": 348.2,
+          "upgrades": 2,
+          "completed_at": "2024-01-07T22:08:33.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Darkheart Thicket",
+          "short_name": "DHT",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T21:37:55.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "DOTI: Galakrond's Fall",
+          "short_name": "FALL",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-23T15:19:08.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-29T13:28:47.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Black Rook Hold",
+          "short_name": "BRH",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T21:14:28.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T20:47:34.000Z",
+          "character": "Ahldroni"
+        }
+      ],
+      "mythic_plus_alternate_runs": [
+        {
+          "dungeon": "Darkheart Thicket",
+          "short_name": "DHT",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-25T15:04:30.000Z",
+          "character": "Ahldroni"
+        }
+      ]
+    },
+    {
+      "key": "eu:silvermoon:warlockzz",
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 276,
+      "color": "#ffffff",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "3/9 H",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 3,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 67.5,
+      "best_runs": [
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-03-27T22:23:10.000Z",
+          "character": "Warlockzz"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-03-27T22:23:10.000Z",
+          "character": "Warlockzz"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
     }
   ],
   "characters": [
     {
-      "name": "Warlockzz",
-      "display_name": "Warlockzz",
-      "realm": "Silvermoon",
-      "region": "EU",
-      "class_name": "Warlock",
-      "spec": "Demonology",
-      "role": "dps",
-      "level": 70,
-      "ilvl": 528,
-      "score": 2644.7,
-      "color": "#406ae0",
-      "avatar": "",
-      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "raid_progress": {
-        "normal": 0,
-        "heroic": 0,
-        "mythic": 0
-      }
-    },
-    {
-      "name": "Ahldrak",
-      "display_name": "Ahldrak",
-      "realm": "Stormscale",
-      "region": "EU",
-      "class_name": "Evoker",
-      "spec": "Augmentation",
-      "role": "dps",
-      "level": 70,
-      "ilvl": 519,
-      "score": 2710.5,
-      "color": "#5ad171",
-      "avatar": "",
-      "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
-      "raid_progress": {
-        "normal": 0,
-        "heroic": 0,
-        "mythic": 0
-      }
-    },
-    {
+      "key": "eu:silvermoon:ahldroni",
       "name": "Ahldroni",
       "display_name": "Ahldroni",
       "realm": "Silvermoon",
-      "region": "EU",
-      "class_name": "Unknown",
-      "spec": "Unknown",
-      "role": "unknown",
-      "level": 70,
-      "ilvl": 505,
-      "score": 1919,
-      "color": "#9aa3ad",
-      "avatar": "",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 240,
+      "color": "#b0ff97",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
-      "raid_progress": {
-        "normal": 0,
-        "heroic": 0,
-        "mythic": 0
-      }
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 647.1,
+      "best_runs": [
+        {
+          "dungeon": "Waycrest Manor",
+          "short_name": "WM",
+          "level": 11,
+          "score": 348.2,
+          "upgrades": 2,
+          "completed_at": "2024-01-07T22:08:33.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Darkheart Thicket",
+          "short_name": "DHT",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T21:37:55.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "DOTI: Galakrond's Fall",
+          "short_name": "FALL",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-23T15:19:08.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-29T13:28:47.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Black Rook Hold",
+          "short_name": "BRH",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T21:14:28.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T20:47:34.000Z",
+          "character": "Ahldroni"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Waycrest Manor",
+          "short_name": "WM",
+          "level": 11,
+          "score": 348.2,
+          "upgrades": 2,
+          "completed_at": "2024-01-07T22:08:33.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Darkheart Thicket",
+          "short_name": "DHT",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T21:37:55.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "DOTI: Galakrond's Fall",
+          "short_name": "FALL",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-23T15:19:08.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-29T13:28:47.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "Black Rook Hold",
+          "short_name": "BRH",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T21:14:28.000Z",
+          "character": "Ahldroni"
+        },
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-01-07T20:47:34.000Z",
+          "character": "Ahldroni"
+        }
+      ],
+      "mythic_plus_alternate_runs": [
+        {
+          "dungeon": "Darkheart Thicket",
+          "short_name": "DHT",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2024-03-25T15:04:30.000Z",
+          "character": "Ahldroni"
+        }
+      ]
+    },
+    {
+      "key": "eu:silvermoon:warlockzz",
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 276,
+      "color": "#ffffff",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "3/9 H",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 3,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 67.5,
+      "best_runs": [
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-03-27T22:23:10.000Z",
+          "character": "Warlockzz"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-03-27T22:23:10.000Z",
+          "character": "Warlockzz"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
     }
   ],
   "dungeons": [
     {
-      "short_name": "FALL",
-      "name": "Galakrond's Fall",
+      "short_name": "AD",
+      "name": "Atal'Dazar",
       "entries": [
         {
-          "character": "Warlockzz",
-          "level": 14,
-          "score": 392.4
-        },
+          "character": "Ahldroni",
+          "level": 5,
+          "score": 230,
+          "completed_at": "2024-03-29T13:28:47.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "BRH",
+      "name": "Black Rook Hold",
+      "entries": [
         {
-          "character": "Ahldrak",
-          "level": 12,
-          "score": 358.6
+          "character": "Ahldroni",
+          "level": 5,
+          "score": 230,
+          "completed_at": "2024-01-07T21:14:28.000Z"
         }
       ]
     },
@@ -182,14 +594,40 @@
       "name": "Darkheart Thicket",
       "entries": [
         {
-          "character": "Warlockzz",
-          "level": 13,
-          "score": 374.8
-        },
+          "character": "Ahldroni",
+          "level": 8,
+          "score": 290,
+          "completed_at": "2024-01-07T21:37:55.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "EB",
+      "name": "The Everbloom",
+      "entries": [
         {
           "character": "Ahldroni",
-          "level": 11,
-          "score": 338.7
+          "level": 2,
+          "score": 170,
+          "completed_at": "2024-01-07T20:47:34.000Z"
+        },
+        {
+          "character": "Warlockzz",
+          "level": 2,
+          "score": 170,
+          "completed_at": "2024-03-27T22:23:10.000Z"
+        }
+      ]
+    },
+    {
+      "short_name": "FALL",
+      "name": "DOTI: Galakrond's Fall",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 5,
+          "score": 230,
+          "completed_at": "2024-03-23T15:19:08.000Z"
         }
       ]
     },
@@ -198,21 +636,13 @@
       "name": "Waycrest Manor",
       "entries": [
         {
-          "character": "Warlockzz",
-          "level": 13,
-          "score": 369.2
-        },
-        {
-          "character": "Ahldrak",
-          "level": 11,
-          "score": 340.4
-        },
-        {
           "character": "Ahldroni",
-          "level": 10,
-          "score": 322.2
+          "level": 11,
+          "score": 348.2,
+          "completed_at": "2024-01-07T22:08:33.000Z"
         }
       ]
     }
-  ]
+  ],
+  "background_image": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg"
 }

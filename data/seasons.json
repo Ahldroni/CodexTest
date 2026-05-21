@@ -1,14 +1,16 @@
 [
   {
-    "id": "tww-s1",
-    "expansion": "The War Within",
-    "name": "The War Within Season 1",
-    "shortName": "TWW S1",
+    "id": "season-mn-1",
+    "apiSeasonId": "season-mn-1",
+    "expansion": "Current",
+    "name": "Current Mythic+ Season (season-mn-1)",
+    "shortName": "Current",
     "played": true,
     "file": "data/current.json"
   },
   {
     "id": "df-s4",
+    "apiSeasonId": "season-df-4",
     "expansion": "Dragonflight",
     "name": "Dragonflight Season 4",
     "shortName": "DF S4",
@@ -17,6 +19,7 @@
   },
   {
     "id": "df-s3",
+    "apiSeasonId": "season-df-3",
     "expansion": "Dragonflight",
     "name": "Dragonflight Season 3",
     "shortName": "DF S3",
@@ -25,6 +28,7 @@
   },
   {
     "id": "sl-s4",
+    "apiSeasonId": "season-sl-4",
     "expansion": "Shadowlands",
     "name": "Shadowlands Season 4",
     "shortName": "SL S4",

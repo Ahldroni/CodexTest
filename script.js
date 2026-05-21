@@ -37,6 +37,7 @@ const seasonState = {
 };
 
 const EXPANSION_GROUP_ORDER = [
+  "Current",
   "The War Within",
   "Dragonflight",
   "Shadowlands",
@@ -282,6 +283,8 @@ function getSeasonBestRuns(data) {
 
   getScoredCharacters(data.characters, data).forEach((character) => {
     (character.best_runs || []).forEach((run) => addRun(run, character.display_name || character.name));
+    (character.mythic_plus_best_runs || []).forEach((run) => addRun(run, character.display_name || character.name));
+    (character.mythic_plus_alternate_runs || []).forEach((run) => addRun(run, character.display_name || character.name));
   });
 
   (data.top_character?.best_runs || []).forEach((run) => {
@@ -545,7 +548,7 @@ function buildRoleHighlight(characters) {
 function buildSeasonAchievements(data, topCharacter, bestRuns) {
   const mostActiveDungeon = getMostActiveDungeon(data.dungeons);
   const firstKsmRun = getFirstKeystoneMasterRun(bestRuns);
-  const roleHighlights = buildRoleHighlight(data.characters || []);
+  const roleHighlights = buildRoleHighlight(getScoredCharacters(data.characters, data));
   const highestRun = bestRuns[0];
 
   return [
@@ -685,11 +688,14 @@ function isUsableSeasonData(data) {
 }
 
 function buildProgressionEntry(season, data) {
+  const characters = getScoredCharacters(data.characters, data);
+  const bestRuns = getSeasonBestRuns(data);
+  const summary = buildRenderedSummary(data, characters, bestRuns);
   return {
     seasonId: season.id,
     seasonName: season.name,
-    score: Number(data.summary?.total_score) || 0,
-    highestKey: Number(data.summary?.highest_key?.level) || 0,
+    score: Number(summary.total_score) || 0,
+    highestKey: Number(summary.highest_key?.level) || 0,
     generatedAt: data.generated_at
   };
 }
@@ -775,6 +781,12 @@ function renderDashboard(data, season) {
   const sortedCharacters = getScoredCharacters(data.characters, data);
   const activeCharacters = sortedCharacters;
   const bestRuns = getSeasonBestRuns(data);
+
+  cards.innerHTML = "";
+  runList.innerHTML = "";
+  dungeonGrid.innerHTML = "";
+  spotlightRail.innerHTML = "";
+  achievementGrid.innerHTML = "";
 
   heroTags.innerHTML = buildHeroTags(data).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
   renderChampion(topCharacter);
