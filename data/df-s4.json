@@ -9,7 +9,7 @@
     "theme": "dragonflight",
     "file": "data/df-s4.json"
   },
-  "generated_at": "2026-05-27T08:56:44.117Z",
+  "generated_at": "2026-05-27T14:49:59.086Z",
   "summary": {
     "total_score": 4506.8,
     "average_score": 901.4,
@@ -30,8 +30,8 @@
       "realm": "Stormrage",
       "region": "eu",
       "class_name": "Priest",
-      "spec": "Shadow",
-      "role": "dps",
+      "spec": "Discipline",
+      "role": "healing",
       "level": 0,
       "ilvl": 83,
       "color": "#1572da",
