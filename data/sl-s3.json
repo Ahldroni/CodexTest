@@ -1,0 +1,776 @@
+{
+  "season": {
+    "id": "sl-s3",
+    "apiSeasonId": "season-sl-3",
+    "expansion": "Shadowlands",
+    "name": "Shadowlands Season 3",
+    "shortName": "SL S3",
+    "isCurrent": false,
+    "theme": "shadowlands",
+    "file": "data/sl-s3.json"
+  },
+  "generated_at": "2026-05-27T07:32:04.019Z",
+  "summary": {
+    "total_score": 2720,
+    "average_score": 2720,
+    "scored_characters": 1,
+    "character_count": 1,
+    "dungeon_count": 10,
+    "best_run_count": 19,
+    "highest_key": {
+      "level": 21,
+      "short_name": "SOA"
+    }
+  },
+  "characters": [
+    {
+      "key": "eu:silvermoon:warlockzz",
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 276,
+      "color": "#7c55e7",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "3/9 H",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 3,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 2720,
+      "best_runs": [
+        {
+          "dungeon": "Spires of Ascension",
+          "short_name": "SOA",
+          "level": 21,
+          "score": 500.3,
+          "upgrades": 1,
+          "completed_at": "2022-07-14T21:31:42.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18490759-21-spires-of-ascension"
+        },
+        {
+          "dungeon": "Halls of Atonement",
+          "short_name": "HOA",
+          "level": 20,
+          "score": 488.5,
+          "upgrades": 1,
+          "completed_at": "2022-07-02T14:59:47.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17379859-20-halls-of-atonement"
+        },
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 19,
+          "score": 482.2,
+          "upgrades": 2,
+          "completed_at": "2022-07-14T20:37:10.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18486214-19-de-other-side"
+        },
+        {
+          "dungeon": "Tazavesh: Streets of Wonder",
+          "short_name": "STRT",
+          "level": 19,
+          "score": 477.4,
+          "upgrades": 1,
+          "completed_at": "2022-07-05T20:38:27.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17713274-19-tazavesh-streets-of-wonder"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 19,
+          "score": 472.2,
+          "upgrades": 1,
+          "completed_at": "2022-07-02T14:12:25.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17376631-19-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "Sanguine Depths",
+          "short_name": "SD",
+          "level": 20,
+          "score": 316.2,
+          "upgrades": 0,
+          "completed_at": "2022-06-30T18:51:55.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17209070-20-sanguine-depths"
+        },
+        {
+          "dungeon": "The Necrotic Wake",
+          "short_name": "NW",
+          "level": 17,
+          "score": 455,
+          "upgrades": 3,
+          "completed_at": "2022-06-30T17:52:51.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17204440-17-the-necrotic-wake"
+        },
+        {
+          "dungeon": "Plaguefall",
+          "short_name": "PF",
+          "level": 17,
+          "score": 448.6,
+          "upgrades": 2,
+          "completed_at": "2022-07-14T19:51:04.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18482518-17-plaguefall"
+        },
+        {
+          "dungeon": "Tazavesh: So'leah's Gambit",
+          "short_name": "GMBT",
+          "level": 17,
+          "score": 446.3,
+          "upgrades": 1,
+          "completed_at": "2022-07-05T12:05:54.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17672823-17-tazavesh-soleahs-gambit"
+        },
+        {
+          "dungeon": "Theater of Pain",
+          "short_name": "TOP",
+          "level": 18,
+          "score": 312.8,
+          "upgrades": 0,
+          "completed_at": "2022-06-28T23:31:36.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17049157-18-theater-of-pain"
+        }
+      ],
+      "alternate_runs": [
+        {
+          "dungeon": "The Necrotic Wake",
+          "short_name": "NW",
+          "level": 17,
+          "score": 451.3,
+          "upgrades": 2,
+          "completed_at": "2022-07-06T15:53:59.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17778225-17-the-necrotic-wake"
+        },
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 16,
+          "score": 435.2,
+          "upgrades": 2,
+          "completed_at": "2022-06-13T21:54:35.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15332809-16-de-other-side"
+        },
+        {
+          "dungeon": "Theater of Pain",
+          "short_name": "TOP",
+          "level": 16,
+          "score": 432.3,
+          "upgrades": 1,
+          "completed_at": "2022-07-14T16:37:41.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18469491-16-theater-of-pain"
+        },
+        {
+          "dungeon": "Tazavesh: So'leah's Gambit",
+          "short_name": "GMBT",
+          "level": 15,
+          "score": 423.5,
+          "upgrades": 2,
+          "completed_at": "2022-07-26T22:03:30.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19496694-15-tazavesh-soleahs-gambit"
+        },
+        {
+          "dungeon": "Spires of Ascension",
+          "short_name": "SOA",
+          "level": 15,
+          "score": 421.2,
+          "upgrades": 2,
+          "completed_at": "2022-06-28T22:34:35.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17043386-15-spires-of-ascension"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 15,
+          "score": 420.6,
+          "upgrades": 2,
+          "completed_at": "2022-06-14T23:47:29.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15474936-15-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "Halls of Atonement",
+          "short_name": "HOA",
+          "level": 13,
+          "score": 390.8,
+          "upgrades": 2,
+          "completed_at": "2022-06-14T23:19:17.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15468572-13-halls-of-atonement"
+        },
+        {
+          "dungeon": "Plaguefall",
+          "short_name": "PF",
+          "level": 13,
+          "score": 306.7,
+          "upgrades": 0,
+          "completed_at": "2022-07-06T19:29:49.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17793111-13-plaguefall"
+        },
+        {
+          "dungeon": "Tazavesh: Streets of Wonder",
+          "short_name": "STRT",
+          "level": 10,
+          "score": 334.5,
+          "upgrades": 2,
+          "completed_at": "2022-06-13T18:29:17.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15305310-10-tazavesh-streets-of-wonder"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Spires of Ascension",
+          "short_name": "SOA",
+          "level": 21,
+          "score": 500.3,
+          "upgrades": 1,
+          "completed_at": "2022-07-14T21:31:42.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18490759-21-spires-of-ascension"
+        },
+        {
+          "dungeon": "Halls of Atonement",
+          "short_name": "HOA",
+          "level": 20,
+          "score": 488.5,
+          "upgrades": 1,
+          "completed_at": "2022-07-02T14:59:47.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17379859-20-halls-of-atonement"
+        },
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 19,
+          "score": 482.2,
+          "upgrades": 2,
+          "completed_at": "2022-07-14T20:37:10.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18486214-19-de-other-side"
+        },
+        {
+          "dungeon": "Tazavesh: Streets of Wonder",
+          "short_name": "STRT",
+          "level": 19,
+          "score": 477.4,
+          "upgrades": 1,
+          "completed_at": "2022-07-05T20:38:27.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17713274-19-tazavesh-streets-of-wonder"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 19,
+          "score": 472.2,
+          "upgrades": 1,
+          "completed_at": "2022-07-02T14:12:25.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17376631-19-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "Sanguine Depths",
+          "short_name": "SD",
+          "level": 20,
+          "score": 316.2,
+          "upgrades": 0,
+          "completed_at": "2022-06-30T18:51:55.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17209070-20-sanguine-depths"
+        },
+        {
+          "dungeon": "The Necrotic Wake",
+          "short_name": "NW",
+          "level": 17,
+          "score": 455,
+          "upgrades": 3,
+          "completed_at": "2022-06-30T17:52:51.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17204440-17-the-necrotic-wake"
+        },
+        {
+          "dungeon": "Plaguefall",
+          "short_name": "PF",
+          "level": 17,
+          "score": 448.6,
+          "upgrades": 2,
+          "completed_at": "2022-07-14T19:51:04.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18482518-17-plaguefall"
+        },
+        {
+          "dungeon": "Tazavesh: So'leah's Gambit",
+          "short_name": "GMBT",
+          "level": 17,
+          "score": 446.3,
+          "upgrades": 1,
+          "completed_at": "2022-07-05T12:05:54.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17672823-17-tazavesh-soleahs-gambit"
+        },
+        {
+          "dungeon": "Theater of Pain",
+          "short_name": "TOP",
+          "level": 18,
+          "score": 312.8,
+          "upgrades": 0,
+          "completed_at": "2022-06-28T23:31:36.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17049157-18-theater-of-pain"
+        }
+      ],
+      "mythic_plus_alternate_runs": [
+        {
+          "dungeon": "The Necrotic Wake",
+          "short_name": "NW",
+          "level": 17,
+          "score": 451.3,
+          "upgrades": 2,
+          "completed_at": "2022-07-06T15:53:59.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17778225-17-the-necrotic-wake"
+        },
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 16,
+          "score": 435.2,
+          "upgrades": 2,
+          "completed_at": "2022-06-13T21:54:35.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15332809-16-de-other-side"
+        },
+        {
+          "dungeon": "Theater of Pain",
+          "short_name": "TOP",
+          "level": 16,
+          "score": 432.3,
+          "upgrades": 1,
+          "completed_at": "2022-07-14T16:37:41.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18469491-16-theater-of-pain"
+        },
+        {
+          "dungeon": "Tazavesh: So'leah's Gambit",
+          "short_name": "GMBT",
+          "level": 15,
+          "score": 423.5,
+          "upgrades": 2,
+          "completed_at": "2022-07-26T22:03:30.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19496694-15-tazavesh-soleahs-gambit"
+        },
+        {
+          "dungeon": "Spires of Ascension",
+          "short_name": "SOA",
+          "level": 15,
+          "score": 421.2,
+          "upgrades": 2,
+          "completed_at": "2022-06-28T22:34:35.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17043386-15-spires-of-ascension"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 15,
+          "score": 420.6,
+          "upgrades": 2,
+          "completed_at": "2022-06-14T23:47:29.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15474936-15-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "Halls of Atonement",
+          "short_name": "HOA",
+          "level": 13,
+          "score": 390.8,
+          "upgrades": 2,
+          "completed_at": "2022-06-14T23:19:17.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15468572-13-halls-of-atonement"
+        },
+        {
+          "dungeon": "Plaguefall",
+          "short_name": "PF",
+          "level": 13,
+          "score": 306.7,
+          "upgrades": 0,
+          "completed_at": "2022-07-06T19:29:49.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17793111-13-plaguefall"
+        },
+        {
+          "dungeon": "Tazavesh: Streets of Wonder",
+          "short_name": "STRT",
+          "level": 10,
+          "score": 334.5,
+          "upgrades": 2,
+          "completed_at": "2022-06-13T18:29:17.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15305310-10-tazavesh-streets-of-wonder"
+        }
+      ]
+    }
+  ],
+  "dungeons": [
+    {
+      "short_name": "DOS",
+      "name": "De Other Side",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 19,
+          "score": 482.2,
+          "upgrades": 2,
+          "completed_at": "2022-07-14T20:37:10.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18486214-19-de-other-side"
+        }
+      ]
+    },
+    {
+      "short_name": "GMBT",
+      "name": "Tazavesh: So'leah's Gambit",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 17,
+          "score": 446.3,
+          "upgrades": 1,
+          "completed_at": "2022-07-05T12:05:54.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17672823-17-tazavesh-soleahs-gambit"
+        }
+      ]
+    },
+    {
+      "short_name": "HOA",
+      "name": "Halls of Atonement",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 20,
+          "score": 488.5,
+          "upgrades": 1,
+          "completed_at": "2022-07-02T14:59:47.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17379859-20-halls-of-atonement"
+        }
+      ]
+    },
+    {
+      "short_name": "MISTS",
+      "name": "Mists of Tirna Scithe",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 19,
+          "score": 472.2,
+          "upgrades": 1,
+          "completed_at": "2022-07-02T14:12:25.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17376631-19-mists-of-tirna-scithe"
+        }
+      ]
+    },
+    {
+      "short_name": "NW",
+      "name": "The Necrotic Wake",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 17,
+          "score": 455,
+          "upgrades": 3,
+          "completed_at": "2022-06-30T17:52:51.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17204440-17-the-necrotic-wake"
+        }
+      ]
+    },
+    {
+      "short_name": "PF",
+      "name": "Plaguefall",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 17,
+          "score": 448.6,
+          "upgrades": 2,
+          "completed_at": "2022-07-14T19:51:04.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18482518-17-plaguefall"
+        }
+      ]
+    },
+    {
+      "short_name": "SD",
+      "name": "Sanguine Depths",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 20,
+          "score": 316.2,
+          "upgrades": 0,
+          "completed_at": "2022-06-30T18:51:55.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17209070-20-sanguine-depths"
+        }
+      ]
+    },
+    {
+      "short_name": "SOA",
+      "name": "Spires of Ascension",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 21,
+          "score": 500.3,
+          "upgrades": 1,
+          "completed_at": "2022-07-14T21:31:42.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18490759-21-spires-of-ascension"
+        }
+      ]
+    },
+    {
+      "short_name": "STRT",
+      "name": "Tazavesh: Streets of Wonder",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 19,
+          "score": 477.4,
+          "upgrades": 1,
+          "completed_at": "2022-07-05T20:38:27.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17713274-19-tazavesh-streets-of-wonder"
+        }
+      ]
+    },
+    {
+      "short_name": "TOP",
+      "name": "Theater of Pain",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 18,
+          "score": 312.8,
+          "upgrades": 0,
+          "completed_at": "2022-06-28T23:31:36.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17049157-18-theater-of-pain"
+        }
+      ]
+    }
+  ],
+  "best_runs": [
+    {
+      "dungeon": "Spires of Ascension",
+      "short_name": "SOA",
+      "level": 21,
+      "score": 500.3,
+      "upgrades": 1,
+      "completed_at": "2022-07-14T21:31:42.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18490759-21-spires-of-ascension"
+    },
+    {
+      "dungeon": "Halls of Atonement",
+      "short_name": "HOA",
+      "level": 20,
+      "score": 488.5,
+      "upgrades": 1,
+      "completed_at": "2022-07-02T14:59:47.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17379859-20-halls-of-atonement"
+    },
+    {
+      "dungeon": "Sanguine Depths",
+      "short_name": "SD",
+      "level": 20,
+      "score": 316.2,
+      "upgrades": 0,
+      "completed_at": "2022-06-30T18:51:55.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17209070-20-sanguine-depths"
+    },
+    {
+      "dungeon": "De Other Side",
+      "short_name": "DOS",
+      "level": 19,
+      "score": 482.2,
+      "upgrades": 2,
+      "completed_at": "2022-07-14T20:37:10.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18486214-19-de-other-side"
+    },
+    {
+      "dungeon": "Tazavesh: Streets of Wonder",
+      "short_name": "STRT",
+      "level": 19,
+      "score": 477.4,
+      "upgrades": 1,
+      "completed_at": "2022-07-05T20:38:27.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17713274-19-tazavesh-streets-of-wonder"
+    },
+    {
+      "dungeon": "Mists of Tirna Scithe",
+      "short_name": "MISTS",
+      "level": 19,
+      "score": 472.2,
+      "upgrades": 1,
+      "completed_at": "2022-07-02T14:12:25.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17376631-19-mists-of-tirna-scithe"
+    },
+    {
+      "dungeon": "Theater of Pain",
+      "short_name": "TOP",
+      "level": 18,
+      "score": 312.8,
+      "upgrades": 0,
+      "completed_at": "2022-06-28T23:31:36.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17049157-18-theater-of-pain"
+    },
+    {
+      "dungeon": "The Necrotic Wake",
+      "short_name": "NW",
+      "level": 17,
+      "score": 455,
+      "upgrades": 3,
+      "completed_at": "2022-06-30T17:52:51.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17204440-17-the-necrotic-wake"
+    },
+    {
+      "dungeon": "The Necrotic Wake",
+      "short_name": "NW",
+      "level": 17,
+      "score": 451.3,
+      "upgrades": 2,
+      "completed_at": "2022-07-06T15:53:59.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17778225-17-the-necrotic-wake"
+    },
+    {
+      "dungeon": "Plaguefall",
+      "short_name": "PF",
+      "level": 17,
+      "score": 448.6,
+      "upgrades": 2,
+      "completed_at": "2022-07-14T19:51:04.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18482518-17-plaguefall"
+    },
+    {
+      "dungeon": "Tazavesh: So'leah's Gambit",
+      "short_name": "GMBT",
+      "level": 17,
+      "score": 446.3,
+      "upgrades": 1,
+      "completed_at": "2022-07-05T12:05:54.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17672823-17-tazavesh-soleahs-gambit"
+    },
+    {
+      "dungeon": "De Other Side",
+      "short_name": "DOS",
+      "level": 16,
+      "score": 435.2,
+      "upgrades": 2,
+      "completed_at": "2022-06-13T21:54:35.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15332809-16-de-other-side"
+    },
+    {
+      "dungeon": "Theater of Pain",
+      "short_name": "TOP",
+      "level": 16,
+      "score": 432.3,
+      "upgrades": 1,
+      "completed_at": "2022-07-14T16:37:41.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18469491-16-theater-of-pain"
+    },
+    {
+      "dungeon": "Tazavesh: So'leah's Gambit",
+      "short_name": "GMBT",
+      "level": 15,
+      "score": 423.5,
+      "upgrades": 2,
+      "completed_at": "2022-07-26T22:03:30.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/19496694-15-tazavesh-soleahs-gambit"
+    },
+    {
+      "dungeon": "Spires of Ascension",
+      "short_name": "SOA",
+      "level": 15,
+      "score": 421.2,
+      "upgrades": 2,
+      "completed_at": "2022-06-28T22:34:35.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17043386-15-spires-of-ascension"
+    },
+    {
+      "dungeon": "Mists of Tirna Scithe",
+      "short_name": "MISTS",
+      "level": 15,
+      "score": 420.6,
+      "upgrades": 2,
+      "completed_at": "2022-06-14T23:47:29.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15474936-15-mists-of-tirna-scithe"
+    },
+    {
+      "dungeon": "Halls of Atonement",
+      "short_name": "HOA",
+      "level": 13,
+      "score": 390.8,
+      "upgrades": 2,
+      "completed_at": "2022-06-14T23:19:17.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15468572-13-halls-of-atonement"
+    },
+    {
+      "dungeon": "Plaguefall",
+      "short_name": "PF",
+      "level": 13,
+      "score": 306.7,
+      "upgrades": 0,
+      "completed_at": "2022-07-06T19:29:49.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17793111-13-plaguefall"
+    },
+    {
+      "dungeon": "Tazavesh: Streets of Wonder",
+      "short_name": "STRT",
+      "level": 10,
+      "score": 334.5,
+      "upgrades": 2,
+      "completed_at": "2022-06-13T18:29:17.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15305310-10-tazavesh-streets-of-wonder"
+    }
+  ]
+}

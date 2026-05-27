@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readdir, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const DATA_DIR = path.resolve("data");
@@ -9,31 +9,34 @@ const TRACKED_CHARACTERS = [
   { region: "eu", realm: "silvermoon", name: "Ahldroni" }
 ];
 
-const STATIC_SEASONS = [
-  {
-    id: "df-s4",
-    apiSeasonId: "season-df-4",
-    fileName: "df-s4.json",
-    expansion: "Dragonflight",
-    name: "Dragonflight Season 4",
-    shortName: "DF S4"
-  },
-  {
-    id: "df-s3",
-    apiSeasonId: "season-df-3",
-    fileName: "df-s3.json",
-    expansion: "Dragonflight",
-    name: "Dragonflight Season 3",
-    shortName: "DF S3"
-  },
-  {
-    id: "sl-s4",
-    apiSeasonId: "season-sl-4",
-    fileName: "sl-s4.json",
-    expansion: "Shadowlands",
-    name: "Shadowlands Season 4",
-    shortName: "SL S4"
-  }
+const CURRENT_SEASON = {
+  id: "midnight-current",
+  apiSeasonId: "season-mn-1",
+  fileName: "midnight-current.json",
+  expansion: "Midnight",
+  name: "Midnight Season 1",
+  shortName: "Midnight S1",
+  isCurrent: true,
+  theme: "midnight"
+};
+
+const HISTORICAL_SEASONS = [
+  { id: "tww-s3", apiSeasonId: "season-tww-3", fileName: "tww-s3.json", expansion: "The War Within", name: "The War Within Season 3", shortName: "TWW S3", theme: "war-within" },
+  { id: "tww-s2", apiSeasonId: "season-tww-2", fileName: "tww-s2.json", expansion: "The War Within", name: "The War Within Season 2", shortName: "TWW S2", theme: "war-within" },
+  { id: "tww-s1", apiSeasonId: "season-tww-1", fileName: "tww-s1.json", expansion: "The War Within", name: "The War Within Season 1", shortName: "TWW S1", theme: "war-within" },
+  { id: "df-s4", apiSeasonId: "season-df-4", fileName: "df-s4.json", expansion: "Dragonflight", name: "Dragonflight Season 4", shortName: "DF S4", theme: "dragonflight" },
+  { id: "df-s3", apiSeasonId: "season-df-3", fileName: "df-s3.json", expansion: "Dragonflight", name: "Dragonflight Season 3", shortName: "DF S3", theme: "dragonflight" },
+  { id: "df-s2", apiSeasonId: "season-df-2", fileName: "df-s2.json", expansion: "Dragonflight", name: "Dragonflight Season 2", shortName: "DF S2", theme: "dragonflight" },
+  { id: "df-s1", apiSeasonId: "season-df-1", fileName: "df-s1.json", expansion: "Dragonflight", name: "Dragonflight Season 1", shortName: "DF S1", theme: "dragonflight" },
+  { id: "sl-s4", apiSeasonId: "season-sl-4", fileName: "sl-s4.json", expansion: "Shadowlands", name: "Shadowlands Season 4", shortName: "SL S4", theme: "shadowlands" },
+  { id: "sl-s3", apiSeasonId: "season-sl-3", fileName: "sl-s3.json", expansion: "Shadowlands", name: "Shadowlands Season 3", shortName: "SL S3", theme: "shadowlands" },
+  { id: "sl-s2", apiSeasonId: "season-sl-2", fileName: "sl-s2.json", expansion: "Shadowlands", name: "Shadowlands Season 2", shortName: "SL S2", theme: "shadowlands" },
+  { id: "sl-s1", apiSeasonId: "season-sl-1", fileName: "sl-s1.json", expansion: "Shadowlands", name: "Shadowlands Season 1", shortName: "SL S1", theme: "shadowlands" },
+  { id: "bfa-s4", apiSeasonId: "season-bfa-4", fileName: "bfa-s4.json", expansion: "Battle for Azeroth", name: "Battle for Azeroth Season 4", shortName: "BFA S4", theme: "bfa" },
+  { id: "bfa-s3", apiSeasonId: "season-bfa-3", fileName: "bfa-s3.json", expansion: "Battle for Azeroth", name: "Battle for Azeroth Season 3", shortName: "BFA S3", theme: "bfa" },
+  { id: "bfa-s2", apiSeasonId: "season-bfa-2", fileName: "bfa-s2.json", expansion: "Battle for Azeroth", name: "Battle for Azeroth Season 2", shortName: "BFA S2", theme: "bfa" },
+  { id: "bfa-s1", apiSeasonId: "season-bfa-1", fileName: "bfa-s1.json", expansion: "Battle for Azeroth", name: "Battle for Azeroth Season 1", shortName: "BFA S1", theme: "bfa" },
+  { id: "legion-7-3-2", apiSeasonId: "season-7.3.2", fileName: "legion-7-3-2.json", expansion: "Legion", name: "Legion 7.3.2", shortName: "Legion", theme: "legion" }
 ];
 
 const CLASS_COLORS = {
@@ -84,12 +87,14 @@ async function fetchJson(url) {
   return response.json();
 }
 
-function getRole(profile) {
+function role(profile) {
   return String(profile.active_spec_role || "unknown").toLowerCase();
 }
 
 function normalizeIdentity(profile, configuredCharacter) {
   const className = profile.class || "Unknown";
+  const profileUrl = profile.profile_url || characterUrl(configuredCharacter);
+
   return {
     key: characterKey(configuredCharacter),
     name: profile.name || configuredCharacter.name,
@@ -98,31 +103,15 @@ function normalizeIdentity(profile, configuredCharacter) {
     region: profile.region || configuredCharacter.region,
     class_name: className,
     spec: profile.active_spec_name || "Unknown",
-    role: getRole(profile),
+    role: role(profile),
     level: Number(profile.level || 0),
     ilvl: Number(profile.gear?.item_level_equipped || 0),
     color: CLASS_COLORS[className] || "#aaa",
     avatar: profile.thumbnail_url || "",
-    url: profile.profile_url || characterUrl(configuredCharacter),
+    profile_url: profileUrl,
+    url: profileUrl,
     raid_progression: profile.raid_progression || {}
   };
-}
-
-function getRaidSummary(raidProgression) {
-  return Object.values(raidProgression || {}).reduce(
-    (summary, raid) => ({
-      normal: Math.max(summary.normal, Number(raid.normal_bosses_killed || 0)),
-      heroic: Math.max(summary.heroic, Number(raid.heroic_bosses_killed || 0)),
-      mythic: Math.max(summary.mythic, Number(raid.mythic_bosses_killed || 0)),
-      total: Math.max(summary.total, Number(raid.total_bosses || 0))
-    }),
-    { normal: 0, heroic: 0, mythic: 0, total: 0 }
-  );
-}
-
-function getCurrentSeasonId(profile) {
-  const currentSeason = (profile.mythic_plus_scores_by_season || []).find((entry) => entry.season);
-  return currentSeason?.season || "current";
 }
 
 function normalizeRun(run, characterName) {
@@ -133,82 +122,59 @@ function normalizeRun(run, characterName) {
     score: Number(run.score || 0),
     upgrades: Number(run.num_keystone_upgrades || run.upgrades || 0),
     completed_at: run.completed_at || null,
-    character: characterName
+    character: characterName,
+    url: run.url || ""
   };
 }
 
-function getSeasonScore(profile, seasonId) {
-  const seasonScores = profile.mythic_plus_scores_by_season || [];
-  const season = seasonScores.find((entry) => entry.season === seasonId) || seasonScores[0];
+function seasonScore(profile, apiSeasonId) {
+  const season = (profile.mythic_plus_scores_by_season || []).find((entry) => entry.season === apiSeasonId);
   return Number(season?.scores?.all || 0);
 }
 
-function isPlayedSeasonCharacter(character) {
-  return Boolean(
-    character &&
-      (Number(character.score || 0) > 0 ||
-        (Array.isArray(character.best_runs) && character.best_runs.length) ||
-        (Array.isArray(character.mythic_plus_best_runs) && character.mythic_plus_best_runs.length) ||
-        (Array.isArray(character.mythic_plus_alternate_runs) && character.mythic_plus_alternate_runs.length))
-  );
+function scoreColor(profile, apiSeasonId, fallback) {
+  const season = (profile.mythic_plus_scores_by_season || []).find((entry) => entry.season === apiSeasonId);
+  return season?.segments?.all?.color || fallback;
 }
 
-function getSeasonTopCharacter(characters) {
-  return characters
-    .slice()
-    .sort((left, right) => Number(right.score || 0) - Number(left.score || 0))[0];
+function hasPlayedSeason(character) {
+  return Number(character.score || 0) > 0 || character.best_runs.length > 0 || character.alternate_runs.length > 0;
 }
 
-function getCharacterRuns(character) {
-  return [
-    ...(character.best_runs || []),
-    ...(character.mythic_plus_best_runs || []),
-    ...(character.mythic_plus_alternate_runs || [])
-  ];
+function runsForCharacter(character) {
+  return [...character.best_runs, ...character.alternate_runs];
 }
 
-function getSeasonBestRuns(seasonData) {
-  const runs = [];
-  const seen = new Set();
-
-  const addRun = (run, characterName) => {
-    const normalized = normalizeRun(run, characterName);
-    if (!normalized.level) {
-      return;
-    }
-
-    const key = [
-      normalized.character,
-      normalized.short_name,
-      normalized.level,
-      normalized.score
-    ].join("|");
-
-    if (!seen.has(key)) {
-      seen.add(key);
-      runs.push(normalized);
-    }
+function buildSeasonMeta(season) {
+  return {
+    id: season.id,
+    apiSeasonId: season.apiSeasonId,
+    expansion: season.expansion,
+    name: season.name,
+    shortName: season.shortName,
+    isCurrent: Boolean(season.isCurrent),
+    theme: season.theme,
+    file: `data/${season.fileName}`
   };
+}
 
-  for (const character of seasonData.characters || []) {
-    for (const run of getCharacterRuns(character)) {
-      addRun(run, character.display_name || character.name);
-    }
-  }
+function buildBestRuns(characters) {
+  const seen = new Set();
+  const runs = [];
 
-  for (const dungeon of seasonData.dungeons || []) {
-    for (const entry of dungeon.entries || []) {
-      addRun(
-        {
-          dungeon: dungeon.name,
-          short_name: dungeon.short_name,
-          level: entry.level,
-          score: entry.score,
-          completed_at: entry.completed_at,
-          character: entry.character
-        },
-        entry.character
-      );
+  for (const character of characters) {
+    for (const run of runsForCharacter(character)) {
+      if (!run.level) {
+        continue;
+      }
+
+      const key = `${character.key}|${run.short_name}|${run.level}|${run.score}|${run.completed_at || ""}`;
+      if (seen.has(key)) {
+        continue;
+      }
+
+      seen.add(key);
+      runs.push({ ...run, character: character.display_name });
     }
   }
 
@@ -219,22 +185,31 @@ function buildDungeons(characters) {
   const grouped = new Map();
 
   for (const character of characters) {
-    for (const run of getCharacterRuns(character)) {
+    for (const run of runsForCharacter(character)) {
+      if (!run.level) {
+        continue;
+      }
+
       const key = run.short_name || run.dungeon;
       const dungeon = grouped.get(key) || {
         short_name: run.short_name,
         name: run.dungeon,
         entries: new Map()
       };
-      const existing = dungeon.entries.get(character.display_name);
-      if (!existing || run.level > existing.level || (run.level === existing.level && run.score > existing.score)) {
-        dungeon.entries.set(character.display_name, {
-          character: character.display_name,
-          level: run.level,
-          score: run.score,
-          completed_at: run.completed_at
-        });
+      const existing = dungeon.entries.get(character.key);
+      const entry = {
+        character: character.display_name,
+        level: run.level,
+        score: run.score,
+        upgrades: run.upgrades,
+        completed_at: run.completed_at,
+        url: run.url
+      };
+
+      if (!existing || entry.level > existing.level || (entry.level === existing.level && entry.score > existing.score)) {
+        dungeon.entries.set(character.key, entry);
       }
+
       grouped.set(key, dungeon);
     }
   }
@@ -248,65 +223,36 @@ function buildDungeons(characters) {
     .sort((left, right) => left.short_name.localeCompare(right.short_name));
 }
 
-function buildSummary(characters, bestRuns) {
-  const raidProgress = characters.reduce(
-    (summary, character) => {
-      const raid = getRaidSummary(character.raid_progression);
-      return {
-        heroic: Math.max(summary.heroic, raid.heroic),
-        total: Math.max(summary.total, raid.total)
-      };
-    },
-    { heroic: 0, total: 0 }
-  );
+function buildSummary(characters, bestRuns, dungeons) {
+  const totalScore = characters.reduce((total, character) => total + Number(character.score || 0), 0);
   const highestRun = bestRuns[0];
 
   return {
-    total_score: Number(characters.reduce((total, character) => total + Number(character.score || 0), 0).toFixed(1)),
+    total_score: Number(totalScore.toFixed(1)),
+    average_score: characters.length ? Number((totalScore / characters.length).toFixed(1)) : 0,
     scored_characters: characters.length,
     character_count: characters.length,
+    dungeon_count: dungeons.length,
+    best_run_count: bestRuns.length,
     highest_key: {
       level: highestRun?.level || 0,
       short_name: highestRun?.short_name || "N/A"
-    },
-    heroic_bosses: raidProgress.heroic,
-    raid_bosses: raidProgress.total,
-    dungeon_count: bestRuns.length
-  };
-}
-
-function getCurrentSeasonMeta(seasonId) {
-  return {
-    id: seasonId,
-    apiSeasonId: seasonId,
-    fileName: "current.json",
-    expansion: "Current",
-    name: `Current Mythic+ Season (${seasonId})`,
-    shortName: "Current"
+    }
   };
 }
 
 async function fetchIdentityProfiles() {
   const results = await Promise.allSettled(
     TRACKED_CHARACTERS.map(async (character) => {
-      const profile = await fetchJson(
-        profileApiUrl(character, [
-          "mythic_plus_scores_by_season:current",
-          "gear",
-          "raid_progression"
-        ])
-      );
+      const profile = await fetchJson(profileApiUrl(character, ["gear", "raid_progression"]));
       return {
         configuredCharacter: character,
-        profile,
         identity: normalizeIdentity(profile, character)
       };
     })
   );
 
-  const loaded = results
-    .filter((result) => result.status === "fulfilled")
-    .map((result) => result.value);
+  const loaded = results.filter((result) => result.status === "fulfilled").map((result) => result.value);
 
   for (const failure of results.filter((result) => result.status === "rejected")) {
     console.warn(failure.reason);
@@ -319,46 +265,38 @@ async function fetchIdentityProfiles() {
   return loaded;
 }
 
-async function fetchSeasonCharacter(identityProfile, seasonId) {
+async function fetchSeasonCharacter(identityProfile, season) {
   const { configuredCharacter, identity } = identityProfile;
   const profile = await fetchJson(
     profileApiUrl(configuredCharacter, [
-      `mythic_plus_scores_by_season:${seasonId}`,
-      `mythic_plus_best_runs:${seasonId}`,
-      `mythic_plus_alternate_runs:${seasonId}`,
-      "gear",
-      "raid_progression"
+      `mythic_plus_scores_by_season:${season.apiSeasonId}`,
+      `mythic_plus_best_runs:${season.apiSeasonId}`,
+      `mythic_plus_alternate_runs:${season.apiSeasonId}`
     ])
   );
   const bestRuns = (profile.mythic_plus_best_runs || []).map((run) => normalizeRun(run, identity.display_name));
   const alternateRuns = (profile.mythic_plus_alternate_runs || []).map((run) => normalizeRun(run, identity.display_name));
-  const score = getSeasonScore(profile, seasonId);
-
-  return {
+  const character = {
     ...identity,
-    class_name: profile.class || identity.class_name,
-    spec: profile.active_spec_name || identity.spec,
-    role: getRole(profile) || identity.role,
-    level: Number(profile.level || identity.level || 0),
-    ilvl: Number(profile.gear?.item_level_equipped || identity.ilvl || 0),
-    score,
-    color: score ? profile.mythic_plus_scores_by_season?.[0]?.segments?.all?.color || identity.color : identity.color,
-    raid_progression: profile.raid_progression || identity.raid_progression || {},
+    score: seasonScore(profile, season.apiSeasonId),
+    color: scoreColor(profile, season.apiSeasonId, identity.color),
     best_runs: bestRuns,
+    alternate_runs: alternateRuns,
     mythic_plus_best_runs: bestRuns,
     mythic_plus_alternate_runs: alternateRuns
   };
+
+  return hasPlayedSeason(character) ? character : null;
 }
 
-async function buildSeasonData(season, identityProfiles) {
-  const apiSeasonId = season.apiSeasonId || season.id;
+async function buildSeasonData(season, identityProfiles, generatedAt) {
   const results = await Promise.allSettled(
-    identityProfiles.map((identityProfile) => fetchSeasonCharacter(identityProfile, apiSeasonId))
+    identityProfiles.map((identityProfile) => fetchSeasonCharacter(identityProfile, season))
   );
   const characters = results
     .filter((result) => result.status === "fulfilled")
     .map((result) => result.value)
-    .filter(isPlayedSeasonCharacter)
+    .filter(Boolean)
     .sort((left, right) => Number(right.score || 0) - Number(left.score || 0));
 
   for (const failure of results.filter((result) => result.status === "rejected")) {
@@ -370,21 +308,27 @@ async function buildSeasonData(season, identityProfiles) {
   }
 
   const dungeons = buildDungeons(characters);
-  const seasonData = {
-    profile_name: "Ahldroni",
-    generated_at: new Date().toISOString(),
-    season_id: season.id,
-    season_label: apiSeasonId,
-    summary: {},
-    top_character: getSeasonTopCharacter(characters),
-    active_characters: characters,
+  const bestRuns = buildBestRuns(characters);
+
+  return {
+    season: buildSeasonMeta(season),
+    generated_at: generatedAt,
+    summary: buildSummary(characters, bestRuns, dungeons),
     characters,
     dungeons,
-    background_image: getSeasonTopCharacter(characters)?.avatar || ""
+    best_runs: bestRuns
   };
-  const bestRuns = getSeasonBestRuns(seasonData);
-  seasonData.summary = buildSummary(characters, bestRuns);
-  return seasonData;
+}
+
+async function removeExistingJson() {
+  await mkdir(DATA_DIR, { recursive: true });
+  const files = await readdir(DATA_DIR);
+
+  await Promise.all(
+    files
+      .filter((file) => file.endsWith(".json"))
+      .map((file) => unlink(path.join(DATA_DIR, file)))
+  );
 }
 
 async function writeJson(file, value) {
@@ -392,44 +336,34 @@ async function writeJson(file, value) {
 }
 
 async function main() {
-  await mkdir(DATA_DIR, { recursive: true });
+  const generatedAt = new Date().toISOString();
   const identityProfiles = await fetchIdentityProfiles();
-  const currentSeasonId = getCurrentSeasonId(identityProfiles[0].profile);
-  const seasonsToGenerate = [
-    getCurrentSeasonMeta(currentSeasonId),
-    ...STATIC_SEASONS.filter((season) => season.id !== currentSeasonId)
-  ];
-  const seasonManifest = [];
+  const seasonsToTry = [CURRENT_SEASON, ...HISTORICAL_SEASONS];
+  const generatedSeasons = [];
+  const generatedData = [];
 
-  for (const season of seasonsToGenerate) {
-    const seasonData = await buildSeasonData(season, identityProfiles);
+  for (const season of seasonsToTry) {
+    const seasonData = await buildSeasonData(season, identityProfiles, generatedAt);
+
     if (!seasonData) {
       continue;
     }
 
-    const filePath = path.join(DATA_DIR, season.fileName);
-    await writeJson(filePath, seasonData);
-
-    seasonManifest.push({
-      id: season.id,
-      apiSeasonId: season.apiSeasonId || season.id,
-      expansion: season.expansion,
-      name: season.name,
-      shortName: season.shortName,
-      played: true,
-      file: `data/${season.fileName}`
-    });
-
-    if (season.fileName === "current.json") {
-      await writeJson(path.join(DATA_DIR, `${season.id}.json`), seasonData);
-    }
+    generatedSeasons.push(seasonData.season);
+    generatedData.push({ fileName: season.fileName, data: seasonData });
   }
 
-  if (!seasonManifest.length) {
-    throw new Error("No played Mythic+ seasons could be generated.");
+  if (!generatedData.some((entry) => entry.data.season.id === CURRENT_SEASON.id)) {
+    throw new Error(`No played current season data found for ${CURRENT_SEASON.apiSeasonId}.`);
   }
 
-  await writeJson(SEASONS_FILE, seasonManifest);
+  await removeExistingJson();
+
+  for (const entry of generatedData) {
+    await writeJson(path.join(DATA_DIR, entry.fileName), entry.data);
+  }
+
+  await writeJson(SEASONS_FILE, generatedSeasons);
 }
 
 main().catch((error) => {

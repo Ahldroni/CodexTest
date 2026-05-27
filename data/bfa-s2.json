@@ -1,0 +1,504 @@
+{
+  "season": {
+    "id": "bfa-s2",
+    "apiSeasonId": "season-bfa-2",
+    "expansion": "Battle for Azeroth",
+    "name": "Battle for Azeroth Season 2",
+    "shortName": "BFA S2",
+    "isCurrent": false,
+    "theme": "bfa",
+    "file": "data/bfa-s2.json"
+  },
+  "generated_at": "2026-05-27T07:32:04.019Z",
+  "summary": {
+    "total_score": 609.9,
+    "average_score": 609.9,
+    "scored_characters": 1,
+    "character_count": 1,
+    "dungeon_count": 10,
+    "best_run_count": 10,
+    "highest_key": {
+      "level": 10,
+      "short_name": "TOS"
+    }
+  },
+  "characters": [
+    {
+      "key": "eu:silvermoon:ahldroni",
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 240,
+      "color": "#5ead9c",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 609.9,
+      "best_runs": [
+        {
+          "dungeon": "Temple of Sethraliss",
+          "short_name": "TOS",
+          "level": 10,
+          "score": 324.4,
+          "upgrades": 1,
+          "completed_at": "2019-06-16T12:07:35.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12710089-10-temple-of-sethraliss"
+        },
+        {
+          "dungeon": "The MOTHERLODE!!",
+          "short_name": "ML",
+          "level": 9,
+          "score": 300,
+          "upgrades": 2,
+          "completed_at": "2019-06-15T12:59:39.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12636797-9-the-motherlode"
+        },
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "level": 8,
+          "score": 286.9,
+          "upgrades": 2,
+          "completed_at": "2019-04-27T17:49:07.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/9188843-8-kings-rest"
+        },
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 8,
+          "score": 280.6,
+          "upgrades": 1,
+          "completed_at": "2019-06-11T18:46:13.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12395897-8-freehold"
+        },
+        {
+          "dungeon": "The Underrot",
+          "short_name": "UNDR",
+          "level": 8,
+          "score": 276.5,
+          "upgrades": 1,
+          "completed_at": "2019-04-23T14:33:28.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8802216-8-the-underrot"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 6,
+          "score": 213.4,
+          "upgrades": 0,
+          "completed_at": "2019-04-19T21:52:33.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8531005-6-ataldazar"
+        },
+        {
+          "dungeon": "Tol Dagor",
+          "short_name": "TD",
+          "level": 5,
+          "score": 197.4,
+          "upgrades": 0,
+          "completed_at": "2019-03-30T14:08:45.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6759343-5-tol-dagor"
+        },
+        {
+          "dungeon": "Siege of Boralus",
+          "short_name": "SIEGE",
+          "level": 3,
+          "score": 180.5,
+          "upgrades": 2,
+          "completed_at": "2019-04-15T22:27:57.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8238689-3-siege-of-boralus"
+        },
+        {
+          "dungeon": "Waycrest Manor",
+          "short_name": "WM",
+          "level": 4,
+          "score": 167.2,
+          "upgrades": 0,
+          "completed_at": "2019-04-14T21:04:30.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8167079-4-waycrest-manor"
+        },
+        {
+          "dungeon": "Shrine of the Storm",
+          "short_name": "SOTS",
+          "level": 2,
+          "score": 156.1,
+          "upgrades": 1,
+          "completed_at": "2019-03-10T19:20:52.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/4879890-2-shrine-of-the-storm"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Temple of Sethraliss",
+          "short_name": "TOS",
+          "level": 10,
+          "score": 324.4,
+          "upgrades": 1,
+          "completed_at": "2019-06-16T12:07:35.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12710089-10-temple-of-sethraliss"
+        },
+        {
+          "dungeon": "The MOTHERLODE!!",
+          "short_name": "ML",
+          "level": 9,
+          "score": 300,
+          "upgrades": 2,
+          "completed_at": "2019-06-15T12:59:39.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12636797-9-the-motherlode"
+        },
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "level": 8,
+          "score": 286.9,
+          "upgrades": 2,
+          "completed_at": "2019-04-27T17:49:07.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/9188843-8-kings-rest"
+        },
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 8,
+          "score": 280.6,
+          "upgrades": 1,
+          "completed_at": "2019-06-11T18:46:13.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12395897-8-freehold"
+        },
+        {
+          "dungeon": "The Underrot",
+          "short_name": "UNDR",
+          "level": 8,
+          "score": 276.5,
+          "upgrades": 1,
+          "completed_at": "2019-04-23T14:33:28.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8802216-8-the-underrot"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 6,
+          "score": 213.4,
+          "upgrades": 0,
+          "completed_at": "2019-04-19T21:52:33.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8531005-6-ataldazar"
+        },
+        {
+          "dungeon": "Tol Dagor",
+          "short_name": "TD",
+          "level": 5,
+          "score": 197.4,
+          "upgrades": 0,
+          "completed_at": "2019-03-30T14:08:45.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6759343-5-tol-dagor"
+        },
+        {
+          "dungeon": "Siege of Boralus",
+          "short_name": "SIEGE",
+          "level": 3,
+          "score": 180.5,
+          "upgrades": 2,
+          "completed_at": "2019-04-15T22:27:57.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8238689-3-siege-of-boralus"
+        },
+        {
+          "dungeon": "Waycrest Manor",
+          "short_name": "WM",
+          "level": 4,
+          "score": 167.2,
+          "upgrades": 0,
+          "completed_at": "2019-04-14T21:04:30.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8167079-4-waycrest-manor"
+        },
+        {
+          "dungeon": "Shrine of the Storm",
+          "short_name": "SOTS",
+          "level": 2,
+          "score": 156.1,
+          "upgrades": 1,
+          "completed_at": "2019-03-10T19:20:52.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/4879890-2-shrine-of-the-storm"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
+    }
+  ],
+  "dungeons": [
+    {
+      "short_name": "AD",
+      "name": "Atal'Dazar",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 6,
+          "score": 213.4,
+          "upgrades": 0,
+          "completed_at": "2019-04-19T21:52:33.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8531005-6-ataldazar"
+        }
+      ]
+    },
+    {
+      "short_name": "FH",
+      "name": "Freehold",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 8,
+          "score": 280.6,
+          "upgrades": 1,
+          "completed_at": "2019-06-11T18:46:13.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12395897-8-freehold"
+        }
+      ]
+    },
+    {
+      "short_name": "KR",
+      "name": "Kings' Rest",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 8,
+          "score": 286.9,
+          "upgrades": 2,
+          "completed_at": "2019-04-27T17:49:07.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/9188843-8-kings-rest"
+        }
+      ]
+    },
+    {
+      "short_name": "ML",
+      "name": "The MOTHERLODE!!",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 9,
+          "score": 300,
+          "upgrades": 2,
+          "completed_at": "2019-06-15T12:59:39.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12636797-9-the-motherlode"
+        }
+      ]
+    },
+    {
+      "short_name": "SIEGE",
+      "name": "Siege of Boralus",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 3,
+          "score": 180.5,
+          "upgrades": 2,
+          "completed_at": "2019-04-15T22:27:57.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8238689-3-siege-of-boralus"
+        }
+      ]
+    },
+    {
+      "short_name": "SOTS",
+      "name": "Shrine of the Storm",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 2,
+          "score": 156.1,
+          "upgrades": 1,
+          "completed_at": "2019-03-10T19:20:52.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/4879890-2-shrine-of-the-storm"
+        }
+      ]
+    },
+    {
+      "short_name": "TD",
+      "name": "Tol Dagor",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 5,
+          "score": 197.4,
+          "upgrades": 0,
+          "completed_at": "2019-03-30T14:08:45.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6759343-5-tol-dagor"
+        }
+      ]
+    },
+    {
+      "short_name": "TOS",
+      "name": "Temple of Sethraliss",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 10,
+          "score": 324.4,
+          "upgrades": 1,
+          "completed_at": "2019-06-16T12:07:35.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12710089-10-temple-of-sethraliss"
+        }
+      ]
+    },
+    {
+      "short_name": "UNDR",
+      "name": "The Underrot",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 8,
+          "score": 276.5,
+          "upgrades": 1,
+          "completed_at": "2019-04-23T14:33:28.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8802216-8-the-underrot"
+        }
+      ]
+    },
+    {
+      "short_name": "WM",
+      "name": "Waycrest Manor",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 167.2,
+          "upgrades": 0,
+          "completed_at": "2019-04-14T21:04:30.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8167079-4-waycrest-manor"
+        }
+      ]
+    }
+  ],
+  "best_runs": [
+    {
+      "dungeon": "Temple of Sethraliss",
+      "short_name": "TOS",
+      "level": 10,
+      "score": 324.4,
+      "upgrades": 1,
+      "completed_at": "2019-06-16T12:07:35.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12710089-10-temple-of-sethraliss"
+    },
+    {
+      "dungeon": "The MOTHERLODE!!",
+      "short_name": "ML",
+      "level": 9,
+      "score": 300,
+      "upgrades": 2,
+      "completed_at": "2019-06-15T12:59:39.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12636797-9-the-motherlode"
+    },
+    {
+      "dungeon": "Kings' Rest",
+      "short_name": "KR",
+      "level": 8,
+      "score": 286.9,
+      "upgrades": 2,
+      "completed_at": "2019-04-27T17:49:07.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/9188843-8-kings-rest"
+    },
+    {
+      "dungeon": "Freehold",
+      "short_name": "FH",
+      "level": 8,
+      "score": 280.6,
+      "upgrades": 1,
+      "completed_at": "2019-06-11T18:46:13.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12395897-8-freehold"
+    },
+    {
+      "dungeon": "The Underrot",
+      "short_name": "UNDR",
+      "level": 8,
+      "score": 276.5,
+      "upgrades": 1,
+      "completed_at": "2019-04-23T14:33:28.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/8802216-8-the-underrot"
+    },
+    {
+      "dungeon": "Atal'Dazar",
+      "short_name": "AD",
+      "level": 6,
+      "score": 213.4,
+      "upgrades": 0,
+      "completed_at": "2019-04-19T21:52:33.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/8531005-6-ataldazar"
+    },
+    {
+      "dungeon": "Tol Dagor",
+      "short_name": "TD",
+      "level": 5,
+      "score": 197.4,
+      "upgrades": 0,
+      "completed_at": "2019-03-30T14:08:45.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/6759343-5-tol-dagor"
+    },
+    {
+      "dungeon": "Waycrest Manor",
+      "short_name": "WM",
+      "level": 4,
+      "score": 167.2,
+      "upgrades": 0,
+      "completed_at": "2019-04-14T21:04:30.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/8167079-4-waycrest-manor"
+    },
+    {
+      "dungeon": "Siege of Boralus",
+      "short_name": "SIEGE",
+      "level": 3,
+      "score": 180.5,
+      "upgrades": 2,
+      "completed_at": "2019-04-15T22:27:57.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/8238689-3-siege-of-boralus"
+    },
+    {
+      "dungeon": "Shrine of the Storm",
+      "short_name": "SOTS",
+      "level": 2,
+      "score": 156.1,
+      "upgrades": 1,
+      "completed_at": "2019-03-10T19:20:52.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/4879890-2-shrine-of-the-storm"
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "season": {
+    "id": "df-s2",
+    "apiSeasonId": "season-df-2",
+    "expansion": "Dragonflight",
+    "name": "Dragonflight Season 2",
+    "shortName": "DF S2",
+    "isCurrent": false,
+    "theme": "dragonflight",
+    "file": "data/df-s2.json"
+  },
+  "generated_at": "2026-05-27T07:32:04.019Z",
+  "summary": {
+    "total_score": 778.5,
+    "average_score": 778.5,
+    "scored_characters": 1,
+    "character_count": 1,
+    "dungeon_count": 6,
+    "best_run_count": 8,
+    "highest_key": {
+      "level": 11,
+      "short_name": "FH"
+    }
+  },
+  "characters": [
+    {
+      "key": "eu:silvermoon:ahldroni",
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 240,
+      "color": "#65ff49",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 778.5,
+      "best_runs": [
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 11,
+          "score": 350,
+          "upgrades": 3,
+          "completed_at": "2023-08-01T13:59:30.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17410477-11-freehold"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 11,
+          "score": 343.5,
+          "upgrades": 2,
+          "completed_at": "2023-07-28T15:23:28.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16789230-11-neltharus"
+        },
+        {
+          "dungeon": "The Underrot",
+          "short_name": "UNDR",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2023-07-26T17:49:59.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16551123-8-the-underrot"
+        },
+        {
+          "dungeon": "Brackenhide Hollow",
+          "short_name": "BH",
+          "level": 7,
+          "score": 275,
+          "upgrades": 3,
+          "completed_at": "2023-07-26T18:14:58.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16553867-7-brackenhide-hollow"
+        },
+        {
+          "dungeon": "The Vortex Pinnacle",
+          "short_name": "VP",
+          "level": 5,
+          "score": 226.6,
+          "upgrades": 2,
+          "completed_at": "2023-07-26T17:08:46.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16545131-5-the-vortex-pinnacle"
+        },
+        {
+          "dungeon": "Neltharion's Lair",
+          "short_name": "NL",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-07-25T21:16:36.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16421071-2-neltharions-lair"
+        }
+      ],
+      "alternate_runs": [
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2023-07-25T11:53:56.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16339047-8-freehold"
+        },
+        {
+          "dungeon": "The Underrot",
+          "short_name": "UNDR",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2023-07-25T21:56:15.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16428676-5-the-underrot"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 11,
+          "score": 350,
+          "upgrades": 3,
+          "completed_at": "2023-08-01T13:59:30.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17410477-11-freehold"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 11,
+          "score": 343.5,
+          "upgrades": 2,
+          "completed_at": "2023-07-28T15:23:28.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16789230-11-neltharus"
+        },
+        {
+          "dungeon": "The Underrot",
+          "short_name": "UNDR",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2023-07-26T17:49:59.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16551123-8-the-underrot"
+        },
+        {
+          "dungeon": "Brackenhide Hollow",
+          "short_name": "BH",
+          "level": 7,
+          "score": 275,
+          "upgrades": 3,
+          "completed_at": "2023-07-26T18:14:58.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16553867-7-brackenhide-hollow"
+        },
+        {
+          "dungeon": "The Vortex Pinnacle",
+          "short_name": "VP",
+          "level": 5,
+          "score": 226.6,
+          "upgrades": 2,
+          "completed_at": "2023-07-26T17:08:46.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16545131-5-the-vortex-pinnacle"
+        },
+        {
+          "dungeon": "Neltharion's Lair",
+          "short_name": "NL",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-07-25T21:16:36.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16421071-2-neltharions-lair"
+        }
+      ],
+      "mythic_plus_alternate_runs": [
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2023-07-25T11:53:56.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16339047-8-freehold"
+        },
+        {
+          "dungeon": "The Underrot",
+          "short_name": "UNDR",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2023-07-25T21:56:15.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16428676-5-the-underrot"
+        }
+      ]
+    }
+  ],
+  "dungeons": [
+    {
+      "short_name": "BH",
+      "name": "Brackenhide Hollow",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 7,
+          "score": 275,
+          "upgrades": 3,
+          "completed_at": "2023-07-26T18:14:58.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16553867-7-brackenhide-hollow"
+        }
+      ]
+    },
+    {
+      "short_name": "FH",
+      "name": "Freehold",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 11,
+          "score": 350,
+          "upgrades": 3,
+          "completed_at": "2023-08-01T13:59:30.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17410477-11-freehold"
+        }
+      ]
+    },
+    {
+      "short_name": "NELT",
+      "name": "Neltharus",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 11,
+          "score": 343.5,
+          "upgrades": 2,
+          "completed_at": "2023-07-28T15:23:28.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16789230-11-neltharus"
+        }
+      ]
+    },
+    {
+      "short_name": "NL",
+      "name": "Neltharion's Lair",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-07-25T21:16:36.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16421071-2-neltharions-lair"
+        }
+      ]
+    },
+    {
+      "short_name": "UNDR",
+      "name": "The Underrot",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2023-07-26T17:49:59.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16551123-8-the-underrot"
+        }
+      ]
+    },
+    {
+      "short_name": "VP",
+      "name": "The Vortex Pinnacle",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 5,
+          "score": 226.6,
+          "upgrades": 2,
+          "completed_at": "2023-07-26T17:08:46.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/16545131-5-the-vortex-pinnacle"
+        }
+      ]
+    }
+  ],
+  "best_runs": [
+    {
+      "dungeon": "Freehold",
+      "short_name": "FH",
+      "level": 11,
+      "score": 350,
+      "upgrades": 3,
+      "completed_at": "2023-08-01T13:59:30.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17410477-11-freehold"
+    },
+    {
+      "dungeon": "Neltharus",
+      "short_name": "NELT",
+      "level": 11,
+      "score": 343.5,
+      "upgrades": 2,
+      "completed_at": "2023-07-28T15:23:28.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/16789230-11-neltharus"
+    },
+    {
+      "dungeon": "The Underrot",
+      "short_name": "UNDR",
+      "level": 8,
+      "score": 290,
+      "upgrades": 3,
+      "completed_at": "2023-07-26T17:49:59.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/16551123-8-the-underrot"
+    },
+    {
+      "dungeon": "Freehold",
+      "short_name": "FH",
+      "level": 8,
+      "score": 290,
+      "upgrades": 3,
+      "completed_at": "2023-07-25T11:53:56.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/16339047-8-freehold"
+    },
+    {
+      "dungeon": "Brackenhide Hollow",
+      "short_name": "BH",
+      "level": 7,
+      "score": 275,
+      "upgrades": 3,
+      "completed_at": "2023-07-26T18:14:58.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/16553867-7-brackenhide-hollow"
+    },
+    {
+      "dungeon": "The Underrot",
+      "short_name": "UNDR",
+      "level": 5,
+      "score": 230,
+      "upgrades": 3,
+      "completed_at": "2023-07-25T21:56:15.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/16428676-5-the-underrot"
+    },
+    {
+      "dungeon": "The Vortex Pinnacle",
+      "short_name": "VP",
+      "level": 5,
+      "score": 226.6,
+      "upgrades": 2,
+      "completed_at": "2023-07-26T17:08:46.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/16545131-5-the-vortex-pinnacle"
+    },
+    {
+      "dungeon": "Neltharion's Lair",
+      "short_name": "NL",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2023-07-25T21:16:36.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/16421071-2-neltharions-lair"
+    }
+  ]
+}

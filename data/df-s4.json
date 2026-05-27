@@ -1,386 +1,27 @@
 {
-  "profile_name": "Ahldroni",
-  "generated_at": "2026-05-27T02:03:17.612Z",
-  "season_id": "df-s4",
-  "season_label": "season-df-4",
+  "season": {
+    "id": "df-s4",
+    "apiSeasonId": "season-df-4",
+    "expansion": "Dragonflight",
+    "name": "Dragonflight Season 4",
+    "shortName": "DF S4",
+    "isCurrent": false,
+    "theme": "dragonflight",
+    "file": "data/df-s4.json"
+  },
+  "generated_at": "2026-05-27T07:32:04.019Z",
   "summary": {
     "total_score": 1382.7,
+    "average_score": 691.4,
     "scored_characters": 2,
     "character_count": 2,
+    "dungeon_count": 7,
+    "best_run_count": 10,
     "highest_key": {
       "level": 5,
       "short_name": "BH"
-    },
-    "heroic_bosses": 3,
-    "raid_bosses": 9,
-    "dungeon_count": 10
-  },
-  "top_character": {
-    "key": "eu:silvermoon:ahldroni",
-    "name": "Ahldroni",
-    "display_name": "Ahldroni",
-    "realm": "Silvermoon",
-    "region": "eu",
-    "class_name": "Druid",
-    "spec": "Guardian",
-    "role": "tank",
-    "level": 0,
-    "ilvl": 240,
-    "color": "#34f72c",
-    "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
-    "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
-    "raid_progression": {
-      "tier-mn-1": {
-        "summary": "",
-        "expansion_id": 11,
-        "total_bosses": 9,
-        "normal_bosses_killed": 0,
-        "heroic_bosses_killed": 0,
-        "mythic_bosses_killed": 0
-      }
-    },
-    "score": 1001.6,
-    "best_runs": [
-      {
-        "dungeon": "Brackenhide Hollow",
-        "short_name": "BH",
-        "level": 5,
-        "score": 225.5,
-        "upgrades": 2,
-        "completed_at": "2024-07-07T14:27:02.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "The Nokhud Offensive",
-        "short_name": "NO",
-        "level": 4,
-        "score": 200,
-        "upgrades": 3,
-        "completed_at": "2024-07-22T23:39:58.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "Algeth'ar Academy",
-        "short_name": "AA",
-        "level": 4,
-        "score": 193,
-        "upgrades": 2,
-        "completed_at": "2024-07-22T11:28:50.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "The Azure Vault",
-        "short_name": "AV",
-        "level": 4,
-        "score": 192.4,
-        "upgrades": 1,
-        "completed_at": "2024-07-16T22:46:30.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "Halls of Infusion",
-        "short_name": "HOI",
-        "level": 4,
-        "score": 189.6,
-        "upgrades": 1,
-        "completed_at": "2024-07-16T22:07:10.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "Uldaman: Legacy of Tyr",
-        "short_name": "ULD",
-        "level": 2,
-        "score": 159.8,
-        "upgrades": 1,
-        "completed_at": "2024-07-06T13:19:21.000Z",
-        "character": "Ahldroni"
-      }
-    ],
-    "mythic_plus_best_runs": [
-      {
-        "dungeon": "Brackenhide Hollow",
-        "short_name": "BH",
-        "level": 5,
-        "score": 225.5,
-        "upgrades": 2,
-        "completed_at": "2024-07-07T14:27:02.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "The Nokhud Offensive",
-        "short_name": "NO",
-        "level": 4,
-        "score": 200,
-        "upgrades": 3,
-        "completed_at": "2024-07-22T23:39:58.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "Algeth'ar Academy",
-        "short_name": "AA",
-        "level": 4,
-        "score": 193,
-        "upgrades": 2,
-        "completed_at": "2024-07-22T11:28:50.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "The Azure Vault",
-        "short_name": "AV",
-        "level": 4,
-        "score": 192.4,
-        "upgrades": 1,
-        "completed_at": "2024-07-16T22:46:30.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "Halls of Infusion",
-        "short_name": "HOI",
-        "level": 4,
-        "score": 189.6,
-        "upgrades": 1,
-        "completed_at": "2024-07-16T22:07:10.000Z",
-        "character": "Ahldroni"
-      },
-      {
-        "dungeon": "Uldaman: Legacy of Tyr",
-        "short_name": "ULD",
-        "level": 2,
-        "score": 159.8,
-        "upgrades": 1,
-        "completed_at": "2024-07-06T13:19:21.000Z",
-        "character": "Ahldroni"
-      }
-    ],
-    "mythic_plus_alternate_runs": []
-  },
-  "active_characters": [
-    {
-      "key": "eu:silvermoon:ahldroni",
-      "name": "Ahldroni",
-      "display_name": "Ahldroni",
-      "realm": "Silvermoon",
-      "region": "eu",
-      "class_name": "Druid",
-      "spec": "Guardian",
-      "role": "tank",
-      "level": 0,
-      "ilvl": 240,
-      "color": "#34f72c",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
-      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
-      "raid_progression": {
-        "tier-mn-1": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 1001.6,
-      "best_runs": [
-        {
-          "dungeon": "Brackenhide Hollow",
-          "short_name": "BH",
-          "level": 5,
-          "score": 225.5,
-          "upgrades": 2,
-          "completed_at": "2024-07-07T14:27:02.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "The Nokhud Offensive",
-          "short_name": "NO",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2024-07-22T23:39:58.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 4,
-          "score": 193,
-          "upgrades": 2,
-          "completed_at": "2024-07-22T11:28:50.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "The Azure Vault",
-          "short_name": "AV",
-          "level": 4,
-          "score": 192.4,
-          "upgrades": 1,
-          "completed_at": "2024-07-16T22:46:30.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "Halls of Infusion",
-          "short_name": "HOI",
-          "level": 4,
-          "score": 189.6,
-          "upgrades": 1,
-          "completed_at": "2024-07-16T22:07:10.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "Uldaman: Legacy of Tyr",
-          "short_name": "ULD",
-          "level": 2,
-          "score": 159.8,
-          "upgrades": 1,
-          "completed_at": "2024-07-06T13:19:21.000Z",
-          "character": "Ahldroni"
-        }
-      ],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Brackenhide Hollow",
-          "short_name": "BH",
-          "level": 5,
-          "score": 225.5,
-          "upgrades": 2,
-          "completed_at": "2024-07-07T14:27:02.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "The Nokhud Offensive",
-          "short_name": "NO",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2024-07-22T23:39:58.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 4,
-          "score": 193,
-          "upgrades": 2,
-          "completed_at": "2024-07-22T11:28:50.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "The Azure Vault",
-          "short_name": "AV",
-          "level": 4,
-          "score": 192.4,
-          "upgrades": 1,
-          "completed_at": "2024-07-16T22:46:30.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "Halls of Infusion",
-          "short_name": "HOI",
-          "level": 4,
-          "score": 189.6,
-          "upgrades": 1,
-          "completed_at": "2024-07-16T22:07:10.000Z",
-          "character": "Ahldroni"
-        },
-        {
-          "dungeon": "Uldaman: Legacy of Tyr",
-          "short_name": "ULD",
-          "level": 2,
-          "score": 159.8,
-          "upgrades": 1,
-          "completed_at": "2024-07-06T13:19:21.000Z",
-          "character": "Ahldroni"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
-    },
-    {
-      "key": "eu:silvermoon:warlockzz",
-      "name": "Warlockzz",
-      "display_name": "Warlockzz",
-      "realm": "Silvermoon",
-      "region": "eu",
-      "class_name": "Warlock",
-      "spec": "Demonology",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 276,
-      "color": "#ddffcf",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
-      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "raid_progression": {
-        "tier-mn-1": {
-          "summary": "3/9 H",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 3,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 381.1,
-      "best_runs": [
-        {
-          "dungeon": "Uldaman: Legacy of Tyr",
-          "short_name": "ULD",
-          "level": 2,
-          "score": 164.6,
-          "upgrades": 2,
-          "completed_at": "2024-07-10T12:37:33.000Z",
-          "character": "Warlockzz"
-        },
-        {
-          "dungeon": "Neltharus",
-          "short_name": "NELT",
-          "level": 2,
-          "score": 158.6,
-          "upgrades": 1,
-          "completed_at": "2024-07-16T17:38:33.000Z",
-          "character": "Warlockzz"
-        }
-      ],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Uldaman: Legacy of Tyr",
-          "short_name": "ULD",
-          "level": 2,
-          "score": 164.6,
-          "upgrades": 2,
-          "completed_at": "2024-07-10T12:37:33.000Z",
-          "character": "Warlockzz"
-        },
-        {
-          "dungeon": "Neltharus",
-          "short_name": "NELT",
-          "level": 2,
-          "score": 158.6,
-          "upgrades": 1,
-          "completed_at": "2024-07-16T17:38:33.000Z",
-          "character": "Warlockzz"
-        }
-      ],
-      "mythic_plus_alternate_runs": [
-        {
-          "dungeon": "Uldaman: Legacy of Tyr",
-          "short_name": "ULD",
-          "level": 2,
-          "score": 162.5,
-          "upgrades": 1,
-          "completed_at": "2024-08-17T14:01:02.000Z",
-          "character": "Warlockzz"
-        },
-        {
-          "dungeon": "Neltharus",
-          "short_name": "NELT",
-          "level": 2,
-          "score": 138.9,
-          "upgrades": 0,
-          "completed_at": "2024-07-09T23:52:42.000Z",
-          "character": "Warlockzz"
-        }
-      ]
     }
-  ],
+  },
   "characters": [
     {
       "key": "eu:silvermoon:ahldroni",
@@ -395,6 +36,7 @@
       "ilvl": 240,
       "color": "#34f72c",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "raid_progression": {
         "tier-mn-1": {
@@ -415,7 +57,8 @@
           "score": 225.5,
           "upgrades": 2,
           "completed_at": "2024-07-07T14:27:02.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10473955-5-brackenhide-hollow"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -424,7 +67,8 @@
           "score": 200,
           "upgrades": 3,
           "completed_at": "2024-07-22T23:39:58.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11257593-4-the-nokhud-offensive"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -433,7 +77,8 @@
           "score": 193,
           "upgrades": 2,
           "completed_at": "2024-07-22T11:28:50.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11234816-4-algethar-academy"
         },
         {
           "dungeon": "The Azure Vault",
@@ -442,7 +87,8 @@
           "score": 192.4,
           "upgrades": 1,
           "completed_at": "2024-07-16T22:46:30.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017370-4-the-azure-vault"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -451,7 +97,8 @@
           "score": 189.6,
           "upgrades": 1,
           "completed_at": "2024-07-16T22:07:10.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017903-4-halls-of-infusion"
         },
         {
           "dungeon": "Uldaman: Legacy of Tyr",
@@ -460,9 +107,11 @@
           "score": 159.8,
           "upgrades": 1,
           "completed_at": "2024-07-06T13:19:21.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
         }
       ],
+      "alternate_runs": [],
       "mythic_plus_best_runs": [
         {
           "dungeon": "Brackenhide Hollow",
@@ -471,7 +120,8 @@
           "score": 225.5,
           "upgrades": 2,
           "completed_at": "2024-07-07T14:27:02.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10473955-5-brackenhide-hollow"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -480,7 +130,8 @@
           "score": 200,
           "upgrades": 3,
           "completed_at": "2024-07-22T23:39:58.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11257593-4-the-nokhud-offensive"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -489,7 +140,8 @@
           "score": 193,
           "upgrades": 2,
           "completed_at": "2024-07-22T11:28:50.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11234816-4-algethar-academy"
         },
         {
           "dungeon": "The Azure Vault",
@@ -498,7 +150,8 @@
           "score": 192.4,
           "upgrades": 1,
           "completed_at": "2024-07-16T22:46:30.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017370-4-the-azure-vault"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -507,7 +160,8 @@
           "score": 189.6,
           "upgrades": 1,
           "completed_at": "2024-07-16T22:07:10.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017903-4-halls-of-infusion"
         },
         {
           "dungeon": "Uldaman: Legacy of Tyr",
@@ -516,7 +170,8 @@
           "score": 159.8,
           "upgrades": 1,
           "completed_at": "2024-07-06T13:19:21.000Z",
-          "character": "Ahldroni"
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
         }
       ],
       "mythic_plus_alternate_runs": []
@@ -534,6 +189,7 @@
       "ilvl": 276,
       "color": "#ddffcf",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "raid_progression": {
         "tier-mn-1": {
@@ -554,7 +210,8 @@
           "score": 164.6,
           "upgrades": 2,
           "completed_at": "2024-07-10T12:37:33.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "Neltharus",
@@ -563,7 +220,30 @@
           "score": 158.6,
           "upgrades": 1,
           "completed_at": "2024-07-16T17:38:33.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
+        }
+      ],
+      "alternate_runs": [
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 2,
+          "score": 162.5,
+          "upgrades": 1,
+          "completed_at": "2024-08-17T14:01:02.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 2,
+          "score": 138.9,
+          "upgrades": 0,
+          "completed_at": "2024-07-09T23:52:42.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
         }
       ],
       "mythic_plus_best_runs": [
@@ -574,7 +254,8 @@
           "score": 164.6,
           "upgrades": 2,
           "completed_at": "2024-07-10T12:37:33.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "Neltharus",
@@ -583,7 +264,8 @@
           "score": 158.6,
           "upgrades": 1,
           "completed_at": "2024-07-16T17:38:33.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
         }
       ],
       "mythic_plus_alternate_runs": [
@@ -594,7 +276,8 @@
           "score": 162.5,
           "upgrades": 1,
           "completed_at": "2024-08-17T14:01:02.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "Neltharus",
@@ -603,7 +286,8 @@
           "score": 138.9,
           "upgrades": 0,
           "completed_at": "2024-07-09T23:52:42.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
         }
       ]
     }
@@ -617,7 +301,9 @@
           "character": "Ahldroni",
           "level": 4,
           "score": 193,
-          "completed_at": "2024-07-22T11:28:50.000Z"
+          "upgrades": 2,
+          "completed_at": "2024-07-22T11:28:50.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11234816-4-algethar-academy"
         }
       ]
     },
@@ -629,7 +315,9 @@
           "character": "Ahldroni",
           "level": 4,
           "score": 192.4,
-          "completed_at": "2024-07-16T22:46:30.000Z"
+          "upgrades": 1,
+          "completed_at": "2024-07-16T22:46:30.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017370-4-the-azure-vault"
         }
       ]
     },
@@ -641,7 +329,9 @@
           "character": "Ahldroni",
           "level": 5,
           "score": 225.5,
-          "completed_at": "2024-07-07T14:27:02.000Z"
+          "upgrades": 2,
+          "completed_at": "2024-07-07T14:27:02.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10473955-5-brackenhide-hollow"
         }
       ]
     },
@@ -653,7 +343,9 @@
           "character": "Ahldroni",
           "level": 4,
           "score": 189.6,
-          "completed_at": "2024-07-16T22:07:10.000Z"
+          "upgrades": 1,
+          "completed_at": "2024-07-16T22:07:10.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017903-4-halls-of-infusion"
         }
       ]
     },
@@ -665,7 +357,9 @@
           "character": "Warlockzz",
           "level": 2,
           "score": 158.6,
-          "completed_at": "2024-07-16T17:38:33.000Z"
+          "upgrades": 1,
+          "completed_at": "2024-07-16T17:38:33.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
         }
       ]
     },
@@ -677,7 +371,9 @@
           "character": "Ahldroni",
           "level": 4,
           "score": 200,
-          "completed_at": "2024-07-22T23:39:58.000Z"
+          "upgrades": 3,
+          "completed_at": "2024-07-22T23:39:58.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11257593-4-the-nokhud-offensive"
         }
       ]
     },
@@ -689,16 +385,121 @@
           "character": "Warlockzz",
           "level": 2,
           "score": 164.6,
-          "completed_at": "2024-07-10T12:37:33.000Z"
+          "upgrades": 2,
+          "completed_at": "2024-07-10T12:37:33.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
         },
         {
           "character": "Ahldroni",
           "level": 2,
           "score": 159.8,
-          "completed_at": "2024-07-06T13:19:21.000Z"
+          "upgrades": 1,
+          "completed_at": "2024-07-06T13:19:21.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
         }
       ]
     }
   ],
-  "background_image": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg"
+  "best_runs": [
+    {
+      "dungeon": "Brackenhide Hollow",
+      "short_name": "BH",
+      "level": 5,
+      "score": 225.5,
+      "upgrades": 2,
+      "completed_at": "2024-07-07T14:27:02.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10473955-5-brackenhide-hollow"
+    },
+    {
+      "dungeon": "The Nokhud Offensive",
+      "short_name": "NO",
+      "level": 4,
+      "score": 200,
+      "upgrades": 3,
+      "completed_at": "2024-07-22T23:39:58.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11257593-4-the-nokhud-offensive"
+    },
+    {
+      "dungeon": "Algeth'ar Academy",
+      "short_name": "AA",
+      "level": 4,
+      "score": 193,
+      "upgrades": 2,
+      "completed_at": "2024-07-22T11:28:50.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11234816-4-algethar-academy"
+    },
+    {
+      "dungeon": "The Azure Vault",
+      "short_name": "AV",
+      "level": 4,
+      "score": 192.4,
+      "upgrades": 1,
+      "completed_at": "2024-07-16T22:46:30.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017370-4-the-azure-vault"
+    },
+    {
+      "dungeon": "Halls of Infusion",
+      "short_name": "HOI",
+      "level": 4,
+      "score": 189.6,
+      "upgrades": 1,
+      "completed_at": "2024-07-16T22:07:10.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017903-4-halls-of-infusion"
+    },
+    {
+      "dungeon": "Uldaman: Legacy of Tyr",
+      "short_name": "ULD",
+      "level": 2,
+      "score": 164.6,
+      "upgrades": 2,
+      "completed_at": "2024-07-10T12:37:33.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
+    },
+    {
+      "dungeon": "Uldaman: Legacy of Tyr",
+      "short_name": "ULD",
+      "level": 2,
+      "score": 162.5,
+      "upgrades": 1,
+      "completed_at": "2024-08-17T14:01:02.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
+    },
+    {
+      "dungeon": "Uldaman: Legacy of Tyr",
+      "short_name": "ULD",
+      "level": 2,
+      "score": 159.8,
+      "upgrades": 1,
+      "completed_at": "2024-07-06T13:19:21.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
+    },
+    {
+      "dungeon": "Neltharus",
+      "short_name": "NELT",
+      "level": 2,
+      "score": 158.6,
+      "upgrades": 1,
+      "completed_at": "2024-07-16T17:38:33.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
+    },
+    {
+      "dungeon": "Neltharus",
+      "short_name": "NELT",
+      "level": 2,
+      "score": 138.9,
+      "upgrades": 0,
+      "completed_at": "2024-07-09T23:52:42.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
+    }
+  ]
 }

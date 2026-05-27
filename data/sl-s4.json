@@ -1,192 +1,27 @@
 {
-  "profile_name": "Ahldroni",
-  "generated_at": "2026-05-27T02:03:17.850Z",
-  "season_id": "sl-s4",
-  "season_label": "season-sl-4",
+  "season": {
+    "id": "sl-s4",
+    "apiSeasonId": "season-sl-4",
+    "expansion": "Shadowlands",
+    "name": "Shadowlands Season 4",
+    "shortName": "SL S4",
+    "isCurrent": false,
+    "theme": "shadowlands",
+    "file": "data/sl-s4.json"
+  },
+  "generated_at": "2026-05-27T07:32:04.019Z",
   "summary": {
     "total_score": 505.3,
+    "average_score": 505.3,
     "scored_characters": 1,
     "character_count": 1,
+    "dungeon_count": 3,
+    "best_run_count": 3,
     "highest_key": {
       "level": 16,
       "short_name": "YARD"
-    },
-    "heroic_bosses": 3,
-    "raid_bosses": 9,
-    "dungeon_count": 3
-  },
-  "top_character": {
-    "key": "eu:silvermoon:warlockzz",
-    "name": "Warlockzz",
-    "display_name": "Warlockzz",
-    "realm": "Silvermoon",
-    "region": "eu",
-    "class_name": "Warlock",
-    "spec": "Demonology",
-    "role": "dps",
-    "level": 0,
-    "ilvl": 276,
-    "color": "#80ff64",
-    "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
-    "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-    "raid_progression": {
-      "tier-mn-1": {
-        "summary": "3/9 H",
-        "expansion_id": 11,
-        "total_bosses": 9,
-        "normal_bosses_killed": 0,
-        "heroic_bosses_killed": 3,
-        "mythic_bosses_killed": 0
-      }
-    },
-    "score": 505.3,
-    "best_runs": [
-      {
-        "dungeon": "Mechagon Junkyard",
-        "short_name": "YARD",
-        "level": 16,
-        "score": 431.4,
-        "upgrades": 1,
-        "completed_at": "2022-08-03T14:16:37.000Z",
-        "character": "Warlockzz"
-      },
-      {
-        "dungeon": "Mechagon Workshop",
-        "short_name": "WORK",
-        "level": 15,
-        "score": 413.1,
-        "upgrades": 1,
-        "completed_at": "2022-08-04T12:56:44.000Z",
-        "character": "Warlockzz"
-      },
-      {
-        "dungeon": "Tazavesh: So'leah's Gambit",
-        "short_name": "GMBT",
-        "level": 7,
-        "score": 271.2,
-        "upgrades": 2,
-        "completed_at": "2022-08-03T13:31:28.000Z",
-        "character": "Warlockzz"
-      }
-    ],
-    "mythic_plus_best_runs": [
-      {
-        "dungeon": "Mechagon Junkyard",
-        "short_name": "YARD",
-        "level": 16,
-        "score": 431.4,
-        "upgrades": 1,
-        "completed_at": "2022-08-03T14:16:37.000Z",
-        "character": "Warlockzz"
-      },
-      {
-        "dungeon": "Mechagon Workshop",
-        "short_name": "WORK",
-        "level": 15,
-        "score": 413.1,
-        "upgrades": 1,
-        "completed_at": "2022-08-04T12:56:44.000Z",
-        "character": "Warlockzz"
-      },
-      {
-        "dungeon": "Tazavesh: So'leah's Gambit",
-        "short_name": "GMBT",
-        "level": 7,
-        "score": 271.2,
-        "upgrades": 2,
-        "completed_at": "2022-08-03T13:31:28.000Z",
-        "character": "Warlockzz"
-      }
-    ],
-    "mythic_plus_alternate_runs": []
-  },
-  "active_characters": [
-    {
-      "key": "eu:silvermoon:warlockzz",
-      "name": "Warlockzz",
-      "display_name": "Warlockzz",
-      "realm": "Silvermoon",
-      "region": "eu",
-      "class_name": "Warlock",
-      "spec": "Demonology",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 276,
-      "color": "#80ff64",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
-      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "raid_progression": {
-        "tier-mn-1": {
-          "summary": "3/9 H",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 3,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 505.3,
-      "best_runs": [
-        {
-          "dungeon": "Mechagon Junkyard",
-          "short_name": "YARD",
-          "level": 16,
-          "score": 431.4,
-          "upgrades": 1,
-          "completed_at": "2022-08-03T14:16:37.000Z",
-          "character": "Warlockzz"
-        },
-        {
-          "dungeon": "Mechagon Workshop",
-          "short_name": "WORK",
-          "level": 15,
-          "score": 413.1,
-          "upgrades": 1,
-          "completed_at": "2022-08-04T12:56:44.000Z",
-          "character": "Warlockzz"
-        },
-        {
-          "dungeon": "Tazavesh: So'leah's Gambit",
-          "short_name": "GMBT",
-          "level": 7,
-          "score": 271.2,
-          "upgrades": 2,
-          "completed_at": "2022-08-03T13:31:28.000Z",
-          "character": "Warlockzz"
-        }
-      ],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Mechagon Junkyard",
-          "short_name": "YARD",
-          "level": 16,
-          "score": 431.4,
-          "upgrades": 1,
-          "completed_at": "2022-08-03T14:16:37.000Z",
-          "character": "Warlockzz"
-        },
-        {
-          "dungeon": "Mechagon Workshop",
-          "short_name": "WORK",
-          "level": 15,
-          "score": 413.1,
-          "upgrades": 1,
-          "completed_at": "2022-08-04T12:56:44.000Z",
-          "character": "Warlockzz"
-        },
-        {
-          "dungeon": "Tazavesh: So'leah's Gambit",
-          "short_name": "GMBT",
-          "level": 7,
-          "score": 271.2,
-          "upgrades": 2,
-          "completed_at": "2022-08-03T13:31:28.000Z",
-          "character": "Warlockzz"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
     }
-  ],
+  },
   "characters": [
     {
       "key": "eu:silvermoon:warlockzz",
@@ -201,6 +36,7 @@
       "ilvl": 276,
       "color": "#80ff64",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "raid_progression": {
         "tier-mn-1": {
@@ -221,7 +57,8 @@
           "score": 431.4,
           "upgrades": 1,
           "completed_at": "2022-08-03T14:16:37.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/95000-16-operation-mechagon-junkyard"
         },
         {
           "dungeon": "Mechagon Workshop",
@@ -230,7 +67,8 @@
           "score": 413.1,
           "upgrades": 1,
           "completed_at": "2022-08-04T12:56:44.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/279445-15-operation-mechagon-workshop"
         },
         {
           "dungeon": "Tazavesh: So'leah's Gambit",
@@ -239,9 +77,11 @@
           "score": 271.2,
           "upgrades": 2,
           "completed_at": "2022-08-03T13:31:28.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/89740-7-tazavesh-soleahs-gambit"
         }
       ],
+      "alternate_runs": [],
       "mythic_plus_best_runs": [
         {
           "dungeon": "Mechagon Junkyard",
@@ -250,7 +90,8 @@
           "score": 431.4,
           "upgrades": 1,
           "completed_at": "2022-08-03T14:16:37.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/95000-16-operation-mechagon-junkyard"
         },
         {
           "dungeon": "Mechagon Workshop",
@@ -259,7 +100,8 @@
           "score": 413.1,
           "upgrades": 1,
           "completed_at": "2022-08-04T12:56:44.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/279445-15-operation-mechagon-workshop"
         },
         {
           "dungeon": "Tazavesh: So'leah's Gambit",
@@ -268,7 +110,8 @@
           "score": 271.2,
           "upgrades": 2,
           "completed_at": "2022-08-03T13:31:28.000Z",
-          "character": "Warlockzz"
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/89740-7-tazavesh-soleahs-gambit"
         }
       ],
       "mythic_plus_alternate_runs": []
@@ -283,7 +126,9 @@
           "character": "Warlockzz",
           "level": 7,
           "score": 271.2,
-          "completed_at": "2022-08-03T13:31:28.000Z"
+          "upgrades": 2,
+          "completed_at": "2022-08-03T13:31:28.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/89740-7-tazavesh-soleahs-gambit"
         }
       ]
     },
@@ -295,7 +140,9 @@
           "character": "Warlockzz",
           "level": 15,
           "score": 413.1,
-          "completed_at": "2022-08-04T12:56:44.000Z"
+          "upgrades": 1,
+          "completed_at": "2022-08-04T12:56:44.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/279445-15-operation-mechagon-workshop"
         }
       ]
     },
@@ -307,10 +154,43 @@
           "character": "Warlockzz",
           "level": 16,
           "score": 431.4,
-          "completed_at": "2022-08-03T14:16:37.000Z"
+          "upgrades": 1,
+          "completed_at": "2022-08-03T14:16:37.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/95000-16-operation-mechagon-junkyard"
         }
       ]
     }
   ],
-  "background_image": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg"
+  "best_runs": [
+    {
+      "dungeon": "Mechagon Junkyard",
+      "short_name": "YARD",
+      "level": 16,
+      "score": 431.4,
+      "upgrades": 1,
+      "completed_at": "2022-08-03T14:16:37.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/95000-16-operation-mechagon-junkyard"
+    },
+    {
+      "dungeon": "Mechagon Workshop",
+      "short_name": "WORK",
+      "level": 15,
+      "score": 413.1,
+      "upgrades": 1,
+      "completed_at": "2022-08-04T12:56:44.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/279445-15-operation-mechagon-workshop"
+    },
+    {
+      "dungeon": "Tazavesh: So'leah's Gambit",
+      "short_name": "GMBT",
+      "level": 7,
+      "score": 271.2,
+      "upgrades": 2,
+      "completed_at": "2022-08-03T13:31:28.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/89740-7-tazavesh-soleahs-gambit"
+    }
+  ]
 }

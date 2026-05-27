@@ -1,0 +1,196 @@
+{
+  "season": {
+    "id": "tww-s3",
+    "apiSeasonId": "season-tww-3",
+    "expansion": "The War Within",
+    "name": "The War Within Season 3",
+    "shortName": "TWW S3",
+    "isCurrent": false,
+    "theme": "war-within",
+    "file": "data/tww-s3.json"
+  },
+  "generated_at": "2026-05-27T07:32:04.019Z",
+  "summary": {
+    "total_score": 474.4,
+    "average_score": 474.4,
+    "scored_characters": 1,
+    "character_count": 1,
+    "dungeon_count": 3,
+    "best_run_count": 3,
+    "highest_key": {
+      "level": 2,
+      "short_name": "EDA"
+    }
+  },
+  "characters": [
+    {
+      "key": "eu:silvermoon:ahldroni",
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 240,
+      "color": "#e7ffdd",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 474.4,
+      "best_runs": [
+        {
+          "dungeon": "Eco-Dome Al'dani",
+          "short_name": "EDA",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2025-09-21T12:40:02.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18670862-2-ecodome-aldani"
+        },
+        {
+          "dungeon": "Ara-Kara, City of Echoes",
+          "short_name": "ARAK",
+          "level": 2,
+          "score": 169.8,
+          "upgrades": 2,
+          "completed_at": "2025-09-21T12:14:06.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18685737-2-arakara-city-of-echoes"
+        },
+        {
+          "dungeon": "Tazavesh: Streets of Wonder",
+          "short_name": "STRT",
+          "level": 2,
+          "score": 134.6,
+          "upgrades": 0,
+          "completed_at": "2025-09-08T18:06:20.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13338896-2-tazavesh-streets-of-wonder"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Eco-Dome Al'dani",
+          "short_name": "EDA",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2025-09-21T12:40:02.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18670862-2-ecodome-aldani"
+        },
+        {
+          "dungeon": "Ara-Kara, City of Echoes",
+          "short_name": "ARAK",
+          "level": 2,
+          "score": 169.8,
+          "upgrades": 2,
+          "completed_at": "2025-09-21T12:14:06.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18685737-2-arakara-city-of-echoes"
+        },
+        {
+          "dungeon": "Tazavesh: Streets of Wonder",
+          "short_name": "STRT",
+          "level": 2,
+          "score": 134.6,
+          "upgrades": 0,
+          "completed_at": "2025-09-08T18:06:20.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13338896-2-tazavesh-streets-of-wonder"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
+    }
+  ],
+  "dungeons": [
+    {
+      "short_name": "ARAK",
+      "name": "Ara-Kara, City of Echoes",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 2,
+          "score": 169.8,
+          "upgrades": 2,
+          "completed_at": "2025-09-21T12:14:06.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18685737-2-arakara-city-of-echoes"
+        }
+      ]
+    },
+    {
+      "short_name": "EDA",
+      "name": "Eco-Dome Al'dani",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2025-09-21T12:40:02.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18670862-2-ecodome-aldani"
+        }
+      ]
+    },
+    {
+      "short_name": "STRT",
+      "name": "Tazavesh: Streets of Wonder",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 2,
+          "score": 134.6,
+          "upgrades": 0,
+          "completed_at": "2025-09-08T18:06:20.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13338896-2-tazavesh-streets-of-wonder"
+        }
+      ]
+    }
+  ],
+  "best_runs": [
+    {
+      "dungeon": "Eco-Dome Al'dani",
+      "short_name": "EDA",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2025-09-21T12:40:02.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18670862-2-ecodome-aldani"
+    },
+    {
+      "dungeon": "Ara-Kara, City of Echoes",
+      "short_name": "ARAK",
+      "level": 2,
+      "score": 169.8,
+      "upgrades": 2,
+      "completed_at": "2025-09-21T12:14:06.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18685737-2-arakara-city-of-echoes"
+    },
+    {
+      "dungeon": "Tazavesh: Streets of Wonder",
+      "short_name": "STRT",
+      "level": 2,
+      "score": 134.6,
+      "upgrades": 0,
+      "completed_at": "2025-09-08T18:06:20.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/13338896-2-tazavesh-streets-of-wonder"
+    }
+  ]
+}

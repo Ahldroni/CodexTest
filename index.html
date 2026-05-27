@@ -3,153 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ahldroni Warband Mythic+ Ledger</title>
-    <meta
-      name="description"
-      content="A World of Warcraft themed Mythic+ score dashboard for Ahldroni's Raider.IO characters."
-    >
-    <link rel="preconnect" href="https://render.worldofwarcraft.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Manrope:wght@400;500;700;800&display=swap"
-      rel="stylesheet"
-    >
+    <meta name="description" content="Ahldroni Mythic+ dashboard for GitHub Pages.">
+    <title>Mythic+ Dashboard</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <main class="shell">
-      <section class="hero" aria-labelledby="page-title">
-        <div class="hero__content">
-          <p class="kicker">Raider.IO Warband Ledger</p>
-          <h1 id="page-title">Ahldroni's Mythic+ Scoreboard</h1>
-          <p class="lede">
-            Current-season score snapshot for the characters attached to the Ahldroni Raider.IO profile.
-          </p>
-          <div class="season-picker" aria-label="Season selector">
-            <label class="season-picker__label" for="season-select">Season</label>
-            <select class="season-picker__select" id="season-select" disabled>
-              <option>Loading seasons...</option>
-            </select>
-          </div>
-          <div class="hero__tags" id="hero-tags" aria-label="Profile highlights"></div>
-          <div class="hero__actions">
-            <a class="button button--primary" href="https://raider.io/user/Ahldroni" target="_blank" rel="noreferrer">
-              View Raider.IO
-            </a>
-            <a class="button" href="#roster">Roster</a>
-          </div>
-        </div>
-        <aside class="champion" aria-label="Top Mythic+ character">
-          <img
-            class="champion__avatar"
-            id="champion-avatar"
-            src="assets/avatar-fallback.svg"
-            alt="Fallback character portrait"
-          >
-          <div>
-            <p class="champion__label">Top score</p>
-            <p class="champion__name" id="champion-name">Loading...</p>
-            <p class="champion__meta" id="champion-meta"></p>
-          </div>
-          <strong class="champion__score" id="champion-score">...</strong>
-        </aside>
+  <body data-theme="midnight">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Mythic+ dashboard home">
+        <span class="brand__mark" aria-hidden="true">M+</span>
+        <span>Ahldroni Dashboard</span>
+      </a>
+      <label class="top-select">
+        <span>Season</span>
+        <select id="season-select" disabled>
+          <option>Loading seasons...</option>
+        </select>
+      </label>
+    </header>
+
+    <main id="app" class="dashboard" aria-live="polite">
+      <section class="error-panel">
+        <p class="eyebrow">Loading</p>
+        <h1>Preparing Mythic+ dashboard</h1>
+        <p>Fetching <code>data/seasons.json</code> and the current season snapshot.</p>
       </section>
-
-      <section class="score-strip" aria-label="Account score summary">
-        <article>
-          <span>Total current score</span>
-          <strong id="summary-total-score">...</strong>
-        </article>
-        <article>
-          <span>Scored characters</span>
-          <strong id="summary-scored-characters">...</strong>
-        </article>
-        <article>
-          <span>Highest key</span>
-          <strong id="summary-highest-key">...</strong>
-        </article>
-        <article>
-          <span>Last fetched</span>
-          <strong id="summary-last-fetched">...</strong>
-        </article>
-      </section>
-
-      <section class="panel progression" aria-labelledby="progression-title">
-        <div class="section-heading">
-          <div>
-            <p class="kicker">Season Progression</p>
-            <h2 id="progression-title">Mythic+ Score Timeline</h2>
-          </div>
-          <p class="progression__status" id="progression-status">Loading season history...</p>
-        </div>
-        <div class="progression__chart">
-          <div id="progression-chart" aria-label="Mythic+ score by season" role="img"></div>
-        </div>
-      </section>
-
-      <section class="panel achievements" aria-labelledby="achievements-title">
-        <div class="section-heading">
-          <div>
-            <p class="kicker">Seasonal Achievements</p>
-            <h2 id="achievements-title">Milestones Earned</h2>
-          </div>
-          <p class="achievements__season" id="achievements-season">Loading season achievements...</p>
-        </div>
-        <div class="achievement-grid" id="achievement-grid"></div>
-      </section>
-
-      <section class="spotlight panel" aria-labelledby="spotlight-title">
-        <div>
-          <p class="kicker">Push Focus</p>
-          <h2 id="spotlight-title">Current active ladder</h2>
-          <p class="spotlight__copy" id="spotlight-copy">Loading current ladder summary...</p>
-        </div>
-        <div class="spotlight__rail" id="spotlight-rail"></div>
-      </section>
-
-      <section class="panel" id="roster" aria-labelledby="roster-title">
-        <div class="section-heading">
-          <div>
-            <p class="kicker">Character Roster</p>
-            <h2 id="roster-title">Mythic+ Standings</h2>
-          </div>
-          <div class="segmented" aria-label="Roster filter">
-            <button class="segment is-active" type="button" data-filter="scored">Scored</button>
-            <button class="segment" type="button" data-filter="dps">DPS</button>
-            <button class="segment" type="button" data-filter="tank">Tank</button>
-            <button class="segment" type="button" data-filter="healer">Healer</button>
-          </div>
-        </div>
-        <div class="cards" id="character-cards"></div>
-      </section>
-
-      <section class="split">
-        <article class="panel" aria-labelledby="runs-title">
-          <div class="section-heading">
-            <div>
-              <p class="kicker">Best Runs</p>
-              <h2 id="runs-title">Best Runs Board</h2>
-            </div>
-            <a class="text-link" id="runs-profile-link" href="https://raider.io/characters/eu/silvermoon/Warlockzz" target="_blank" rel="noreferrer">
-              Profile
-            </a>
-          </div>
-          <div class="run-list" id="run-list"></div>
-        </article>
-
-        <article class="panel" aria-labelledby="route-title">
-          <p class="kicker">Dungeon Coverage</p>
-          <h2 id="route-title">Season Map</h2>
-          <div class="dungeon-grid" id="dungeon-grid"></div>
-        </article>
-      </section>
-
-      <footer class="footer">
-        <span id="footer-status">Data source: public Raider.IO profile and character API.</span>
-        World of Warcraft and Blizzard Entertainment are trademarks of Blizzard Entertainment, Inc.
-      </footer>
     </main>
-    <script src="script.js"></script>
+
+    <footer class="site-footer">
+      <span id="status">Waiting for season data...</span>
+    </footer>
+
+    <script src="script.js" defer></script>
   </body>
 </html>

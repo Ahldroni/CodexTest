@@ -1,0 +1,240 @@
+{
+  "season": {
+    "id": "bfa-s1",
+    "apiSeasonId": "season-bfa-1",
+    "expansion": "Battle for Azeroth",
+    "name": "Battle for Azeroth Season 1",
+    "shortName": "BFA S1",
+    "isCurrent": false,
+    "theme": "bfa",
+    "file": "data/bfa-s1.json"
+  },
+  "generated_at": "2026-05-27T07:32:04.019Z",
+  "summary": {
+    "total_score": 152.9,
+    "average_score": 152.9,
+    "scored_characters": 1,
+    "character_count": 1,
+    "dungeon_count": 4,
+    "best_run_count": 4,
+    "highest_key": {
+      "level": 6,
+      "short_name": "FH"
+    }
+  },
+  "characters": [
+    {
+      "key": "eu:silvermoon:ahldroni",
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 240,
+      "color": "#1eff00",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 152.9,
+      "best_runs": [
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 6,
+          "score": 234.1,
+          "upgrades": 1,
+          "completed_at": "2018-11-20T20:01:09.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8588638-6-freehold"
+        },
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "level": 5,
+          "score": 199.1,
+          "upgrades": 0,
+          "completed_at": "2018-11-01T16:38:25.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/7051609-5-kings-rest"
+        },
+        {
+          "dungeon": "Shrine of the Storm",
+          "short_name": "SOTS",
+          "level": 4,
+          "score": 167.2,
+          "upgrades": 0,
+          "completed_at": "2018-10-31T14:08:50.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6937574-4-shrine-of-the-storm"
+        },
+        {
+          "dungeon": "Tol Dagor",
+          "short_name": "TD",
+          "level": 2,
+          "score": 166.5,
+          "upgrades": 2,
+          "completed_at": "2018-10-30T10:06:29.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6842975-2-tol-dagor"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 6,
+          "score": 234.1,
+          "upgrades": 1,
+          "completed_at": "2018-11-20T20:01:09.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8588638-6-freehold"
+        },
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "level": 5,
+          "score": 199.1,
+          "upgrades": 0,
+          "completed_at": "2018-11-01T16:38:25.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/7051609-5-kings-rest"
+        },
+        {
+          "dungeon": "Shrine of the Storm",
+          "short_name": "SOTS",
+          "level": 4,
+          "score": 167.2,
+          "upgrades": 0,
+          "completed_at": "2018-10-31T14:08:50.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6937574-4-shrine-of-the-storm"
+        },
+        {
+          "dungeon": "Tol Dagor",
+          "short_name": "TD",
+          "level": 2,
+          "score": 166.5,
+          "upgrades": 2,
+          "completed_at": "2018-10-30T10:06:29.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6842975-2-tol-dagor"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
+    }
+  ],
+  "dungeons": [
+    {
+      "short_name": "FH",
+      "name": "Freehold",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 6,
+          "score": 234.1,
+          "upgrades": 1,
+          "completed_at": "2018-11-20T20:01:09.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8588638-6-freehold"
+        }
+      ]
+    },
+    {
+      "short_name": "KR",
+      "name": "Kings' Rest",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 5,
+          "score": 199.1,
+          "upgrades": 0,
+          "completed_at": "2018-11-01T16:38:25.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/7051609-5-kings-rest"
+        }
+      ]
+    },
+    {
+      "short_name": "SOTS",
+      "name": "Shrine of the Storm",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 167.2,
+          "upgrades": 0,
+          "completed_at": "2018-10-31T14:08:50.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6937574-4-shrine-of-the-storm"
+        }
+      ]
+    },
+    {
+      "short_name": "TD",
+      "name": "Tol Dagor",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 2,
+          "score": 166.5,
+          "upgrades": 2,
+          "completed_at": "2018-10-30T10:06:29.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6842975-2-tol-dagor"
+        }
+      ]
+    }
+  ],
+  "best_runs": [
+    {
+      "dungeon": "Freehold",
+      "short_name": "FH",
+      "level": 6,
+      "score": 234.1,
+      "upgrades": 1,
+      "completed_at": "2018-11-20T20:01:09.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/8588638-6-freehold"
+    },
+    {
+      "dungeon": "Kings' Rest",
+      "short_name": "KR",
+      "level": 5,
+      "score": 199.1,
+      "upgrades": 0,
+      "completed_at": "2018-11-01T16:38:25.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/7051609-5-kings-rest"
+    },
+    {
+      "dungeon": "Shrine of the Storm",
+      "short_name": "SOTS",
+      "level": 4,
+      "score": 167.2,
+      "upgrades": 0,
+      "completed_at": "2018-10-31T14:08:50.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/6937574-4-shrine-of-the-storm"
+    },
+    {
+      "dungeon": "Tol Dagor",
+      "short_name": "TD",
+      "level": 2,
+      "score": 166.5,
+      "upgrades": 2,
+      "completed_at": "2018-10-30T10:06:29.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/6842975-2-tol-dagor"
+    }
+  ]
+}
