@@ -23,7 +23,7 @@ function escapeHtml(value) {
 
 function formatNumber(value, digits = 1) {
   return Number(value || 0).toLocaleString("en-US", {
-    minimumFractionDigits: digits,
+    minimumFractionDigits: 0,
     maximumFractionDigits: digits
   });
 }
@@ -210,15 +210,15 @@ function buildDungeonCoverage(data, runs) {
 
 function buildSummary(data, characters, runs, dungeons) {
   const highestRun = runs[0] || null;
-  const totalScore = characters.reduce((total, character) => total + Number(character.score || 0), 0);
+  const rosterScore = characters.reduce((total, character) => total + Number(character.score || 0), 0);
   const summary = data?.summary || {};
 
   return {
-    totalScore: totalScore || Number(summary.total_score || 0),
-    characterCount: characters.length || Number(summary.character_count || 0),
-    scoredCharacters: characters.filter((character) => Number(character.score || 0) > 0).length || Number(summary.scored_characters || 0),
+    totalScore: Number(summary.total_score ?? rosterScore ?? 0),
+    characterCount: Number(summary.character_count ?? characters.length ?? 0),
+    scoredCharacters: Number(summary.scored_characters ?? characters.filter((character) => Number(character.score || 0) > 0).length ?? 0),
     highestKey: highestRun || summary.highest_key || null,
-    dungeonCount: dungeons.length || Number(summary.dungeon_count || 0),
+    dungeonCount: Number(summary.dungeon_count ?? dungeons.length ?? 0),
     heroicBosses: Number(summary.heroic_bosses || 0),
     raidBosses: Number(summary.raid_bosses || 0)
   };
@@ -258,7 +258,7 @@ function renderHero(season, data, characters, runs, summary, theme) {
         <h1>${escapeHtml(data?.profile_name || "Ahldroni")} Mythic+ Dashboard</h1>
         <p class="lede">${escapeHtml(themeCopy)} This page is rebuilt from the season JSON each time you switch seasons.</p>
         <div class="metric-strip" aria-label="Season summary">
-          <div><strong>${formatNumber(summary.totalScore)}</strong><span>Warband score</span></div>
+          <div><strong>${formatNumber(summary.totalScore)}</strong><span>Roster score</span></div>
           <div><strong>${summary.scoredCharacters}/${summary.characterCount}</strong><span>Scored characters</span></div>
           <div><strong>${escapeHtml(highestLabel)}</strong><span>Highest key</span></div>
           <div><strong>${summary.dungeonCount}</strong><span>Dungeons tracked</span></div>
@@ -517,6 +517,7 @@ async function selectSeason(seasonId, updateUrl = true) {
     throw new Error("No seasons are configured.");
   }
 
+  const requestedSeasonId = season.id;
   state.selectedSeasonId = season.id;
   state.selectedSeason = season;
   statusNode.textContent = `Loading ${seasonTitle(season)}...`;
@@ -529,7 +530,12 @@ async function selectSeason(seasonId, updateUrl = true) {
     setUrlSeason(season.id);
   }
 
-  state.selectedData = await loadSeasonData(season);
+  const data = await loadSeasonData(season);
+  if (state.selectedSeasonId !== requestedSeasonId) {
+    return;
+  }
+
+  state.selectedData = data;
   render();
 }
 

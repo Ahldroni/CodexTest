@@ -3,10 +3,19 @@ import path from "node:path";
 
 const DATA_DIR = path.resolve("data");
 const SEASONS_FILE = path.join(DATA_DIR, "seasons.json");
+const RAIDERIO_USER_NAME = "Ahldroni";
 
-const TRACKED_CHARACTERS = [
+const FALLBACK_TRACKED_CHARACTERS = [
+  { region: "eu", realm: "stormrage", name: "Lifekiller" },
+  { region: "eu", realm: "stormscale", name: "Kexa" },
+  { region: "eu", realm: "silvermoon", name: "Ahldroni" },
+  { region: "eu", realm: "stormscale", name: "Ahldrak" },
+  { region: "eu", realm: "silvermoon", name: "Megakûk" },
+  { region: "eu", realm: "silvermoon", name: "Kexã" },
+  { region: "eu", realm: "silvermoon", name: "Fyñdir" },
+  { region: "eu", realm: "silvermoon", name: "Xãvier" },
+  { region: "eu", realm: "stormrage", name: "Starseeker" },
   { region: "eu", realm: "silvermoon", name: "Warlockzz" },
-  { region: "eu", realm: "silvermoon", name: "Ahldroni" }
 ];
 
 const CURRENT_SEASON = {
@@ -72,6 +81,12 @@ function profileApiUrl(character, fields) {
   return url;
 }
 
+function userCharactersApiUrl(userName) {
+  const url = new URL("https://raider.io/api/user/view-characters");
+  url.searchParams.set("name", userName);
+  return url;
+}
+
 async function fetchJson(url) {
   const response = await fetch(url, {
     headers: {
@@ -112,6 +127,47 @@ function normalizeIdentity(profile, configuredCharacter) {
     url: profileUrl,
     raid_progression: profile.raid_progression || {}
   };
+}
+
+function normalizeConfiguredCharacter(entry) {
+  const character = entry?.character || entry;
+  const region = character?.region?.slug || character?.region?.name || character?.region;
+  const realm = character?.realm?.slug || character?.realm?.name || character?.realm;
+  const name = character?.name;
+
+  if (!region || !realm || !name) {
+    return null;
+  }
+
+  return {
+    region: String(region).toLowerCase(),
+    realm: String(realm).toLowerCase(),
+    name: String(name)
+  };
+}
+
+async function fetchTrackedCharacters() {
+  try {
+    const data = await fetchJson(userCharactersApiUrl(RAIDERIO_USER_NAME));
+    const characters = data?.viewUserCharactersApi?.characters || [];
+    const discovered = characters
+      .map(normalizeConfiguredCharacter)
+      .filter(Boolean);
+
+    if (discovered.length) {
+      const unique = new Map();
+      for (const character of discovered) {
+        unique.set(characterKey(character), character);
+      }
+
+      return [...unique.values()];
+    }
+  } catch (error) {
+    console.warn(`Unable to discover Raider.IO user roster for ${RAIDERIO_USER_NAME}; using fallback roster.`);
+    console.warn(error);
+  }
+
+  return FALLBACK_TRACKED_CHARACTERS;
 }
 
 function normalizeRun(run, characterName) {
@@ -241,9 +297,9 @@ function buildSummary(characters, bestRuns, dungeons) {
   };
 }
 
-async function fetchIdentityProfiles() {
+async function fetchIdentityProfiles(trackedCharacters) {
   const results = await Promise.allSettled(
-    TRACKED_CHARACTERS.map(async (character) => {
+    trackedCharacters.map(async (character) => {
       const profile = await fetchJson(profileApiUrl(character, ["gear", "raid_progression"]));
       return {
         configuredCharacter: character,
@@ -337,7 +393,9 @@ async function writeJson(file, value) {
 
 async function main() {
   const generatedAt = new Date().toISOString();
-  const identityProfiles = await fetchIdentityProfiles();
+  const trackedCharacters = await fetchTrackedCharacters();
+  console.log(`Tracking ${trackedCharacters.length} Raider.IO characters for ${RAIDERIO_USER_NAME}.`);
+  const identityProfiles = await fetchIdentityProfiles(trackedCharacters);
   const seasonsToTry = [CURRENT_SEASON, ...HISTORICAL_SEASONS];
   const generatedSeasons = [];
   const generatedData = [];
