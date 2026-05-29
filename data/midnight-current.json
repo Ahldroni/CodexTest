@@ -9,7 +9,7 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-05-29T14:33:16.130Z",
+  "generated_at": "2026-05-29T20:04:22.095Z",
   "summary": {
     "total_score": 6637.2,
     "average_score": 2212.4,
@@ -227,7 +227,7 @@
       "role": "dps",
       "level": 0,
       "ilvl": 266,
-      "color": "#579bb0",
+      "color": "#589cae",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
