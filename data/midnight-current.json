@@ -9,10 +9,10 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-05-30T08:12:54.212Z",
+  "generated_at": "2026-05-30T12:57:41.394Z",
   "summary": {
-    "total_score": 6637.2,
-    "average_score": 2212.4,
+    "total_score": 6673.9,
+    "average_score": 2224.6,
     "scored_characters": 3,
     "character_count": 3,
     "dungeon_count": 8,
@@ -226,8 +226,8 @@
       "spec": "Augmentation",
       "role": "dps",
       "level": 0,
-      "ilvl": 266,
-      "color": "#589cae",
+      "ilvl": 267.125,
+      "color": "#5292b9",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
@@ -241,7 +241,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 2826.1,
+      "score": 2862.8,
       "best_runs": [
         {
           "dungeon": "Nexus-Point Xenas",
@@ -274,6 +274,16 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/26376410-12-pit-of-saron"
         },
         {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "level": 12,
+          "score": 370.3,
+          "upgrades": 1,
+          "completed_at": "2026-05-30T12:43:03.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31516000-12-windrunner-spire"
+        },
+        {
           "dungeon": "Maisara Caverns",
           "short_name": "MC",
           "level": 12,
@@ -302,16 +312,6 @@
           "completed_at": "2026-05-19T21:11:31.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/27701473-10-seat-of-the-triumvirate"
-        },
-        {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "level": 10,
-          "score": 333.6,
-          "upgrades": 2,
-          "completed_at": "2026-05-16T16:11:01.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26420544-10-windrunner-spire"
         },
         {
           "dungeon": "Magisters' Terrace",
@@ -357,6 +357,16 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/26376410-12-pit-of-saron"
         },
         {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "level": 12,
+          "score": 370.3,
+          "upgrades": 1,
+          "completed_at": "2026-05-30T12:43:03.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31516000-12-windrunner-spire"
+        },
+        {
           "dungeon": "Maisara Caverns",
           "short_name": "MC",
           "level": 12,
@@ -385,16 +395,6 @@
           "completed_at": "2026-05-19T21:11:31.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/27701473-10-seat-of-the-triumvirate"
-        },
-        {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "level": 10,
-          "score": 333.6,
-          "upgrades": 2,
-          "completed_at": "2026-05-16T16:11:01.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26420544-10-windrunner-spire"
         },
         {
           "dungeon": "Magisters' Terrace",
@@ -724,11 +724,11 @@
         },
         {
           "character": "Ahldrak",
-          "level": 10,
-          "score": 333.6,
-          "upgrades": 2,
-          "completed_at": "2026-05-16T16:11:01.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26420544-10-windrunner-spire"
+          "level": 12,
+          "score": 370.3,
+          "upgrades": 1,
+          "completed_at": "2026-05-30T12:43:03.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31516000-12-windrunner-spire"
         }
       ]
     }
@@ -835,6 +835,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/15538811-12-windrunner-spire"
     },
     {
+      "dungeon": "Windrunner Spire",
+      "short_name": "WS",
+      "level": 12,
+      "score": 370.3,
+      "upgrades": 1,
+      "completed_at": "2026-05-30T12:43:03.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/31516000-12-windrunner-spire"
+    },
+    {
       "dungeon": "Magisters' Terrace",
       "short_name": "MT",
       "level": 12,
@@ -873,16 +883,6 @@
       "completed_at": "2026-05-19T21:11:31.000Z",
       "character": "Ahldrak",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/27701473-10-seat-of-the-triumvirate"
-    },
-    {
-      "dungeon": "Windrunner Spire",
-      "short_name": "WS",
-      "level": 10,
-      "score": 333.6,
-      "upgrades": 2,
-      "completed_at": "2026-05-16T16:11:01.000Z",
-      "character": "Ahldrak",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/26420544-10-windrunner-spire"
     },
     {
       "dungeon": "Magisters' Terrace",
