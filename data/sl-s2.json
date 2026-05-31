@@ -1,0 +1,420 @@
+{
+  "season": {
+    "id": "sl-s2",
+    "apiSeasonId": "season-sl-2",
+    "expansion": "Shadowlands",
+    "name": "Shadowlands Season 2",
+    "shortName": "SL S2",
+    "isCurrent": false,
+    "theme": "shadowlands",
+    "file": "data/sl-s2.json"
+  },
+  "generated_at": "2026-05-31T18:59:04.579Z",
+  "summary": {
+    "total_score": 1162.3,
+    "average_score": 1162.3,
+    "scored_characters": 1,
+    "character_count": 1,
+    "dungeon_count": 6,
+    "best_run_count": 9,
+    "highest_key": {
+      "level": 16,
+      "short_name": "SD"
+    }
+  },
+  "characters": [
+    {
+      "key": "eu:silvermoon:ahldroni",
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 240,
+      "color": "#5fbd8a",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 1162.3,
+      "best_runs": [
+        {
+          "dungeon": "Sanguine Depths",
+          "short_name": "SD",
+          "level": 16,
+          "score": 440,
+          "upgrades": 3,
+          "completed_at": "2021-11-30T20:12:54.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14404097-16-sanguine-depths"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 16,
+          "score": 427.8,
+          "upgrades": 1,
+          "completed_at": "2021-12-06T11:38:53.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14765281-16-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 15,
+          "score": 414.4,
+          "upgrades": 1,
+          "completed_at": "2021-12-14T14:59:32.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15292535-15-de-other-side"
+        },
+        {
+          "dungeon": "Plaguefall",
+          "short_name": "PF",
+          "level": 15,
+          "score": 412.4,
+          "upgrades": 1,
+          "completed_at": "2021-12-01T21:46:14.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14476299-15-plaguefall"
+        },
+        {
+          "dungeon": "Halls of Atonement",
+          "short_name": "HOA",
+          "level": 11,
+          "score": 342.4,
+          "upgrades": 1,
+          "completed_at": "2021-11-26T13:31:49.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14033908-11-halls-of-atonement"
+        },
+        {
+          "dungeon": "Spires of Ascension",
+          "short_name": "SOA",
+          "level": 7,
+          "score": 271.6,
+          "upgrades": 2,
+          "completed_at": "2021-11-19T13:16:26.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13523158-7-spires-of-ascension"
+        }
+      ],
+      "alternate_runs": [
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 11,
+          "score": 340.3,
+          "upgrades": 1,
+          "completed_at": "2021-11-19T20:56:38.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13546400-11-de-other-side"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 4,
+          "score": 197.2,
+          "upgrades": 2,
+          "completed_at": "2021-07-08T22:48:14.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/229778-4-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "Spires of Ascension",
+          "short_name": "SOA",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2021-11-25T17:04:42.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13975438-2-spires-of-ascension"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Sanguine Depths",
+          "short_name": "SD",
+          "level": 16,
+          "score": 440,
+          "upgrades": 3,
+          "completed_at": "2021-11-30T20:12:54.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14404097-16-sanguine-depths"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 16,
+          "score": 427.8,
+          "upgrades": 1,
+          "completed_at": "2021-12-06T11:38:53.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14765281-16-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 15,
+          "score": 414.4,
+          "upgrades": 1,
+          "completed_at": "2021-12-14T14:59:32.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15292535-15-de-other-side"
+        },
+        {
+          "dungeon": "Plaguefall",
+          "short_name": "PF",
+          "level": 15,
+          "score": 412.4,
+          "upgrades": 1,
+          "completed_at": "2021-12-01T21:46:14.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14476299-15-plaguefall"
+        },
+        {
+          "dungeon": "Halls of Atonement",
+          "short_name": "HOA",
+          "level": 11,
+          "score": 342.4,
+          "upgrades": 1,
+          "completed_at": "2021-11-26T13:31:49.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14033908-11-halls-of-atonement"
+        },
+        {
+          "dungeon": "Spires of Ascension",
+          "short_name": "SOA",
+          "level": 7,
+          "score": 271.6,
+          "upgrades": 2,
+          "completed_at": "2021-11-19T13:16:26.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13523158-7-spires-of-ascension"
+        }
+      ],
+      "mythic_plus_alternate_runs": [
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 11,
+          "score": 340.3,
+          "upgrades": 1,
+          "completed_at": "2021-11-19T20:56:38.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13546400-11-de-other-side"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 4,
+          "score": 197.2,
+          "upgrades": 2,
+          "completed_at": "2021-07-08T22:48:14.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/229778-4-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "Spires of Ascension",
+          "short_name": "SOA",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2021-11-25T17:04:42.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13975438-2-spires-of-ascension"
+        }
+      ]
+    }
+  ],
+  "dungeons": [
+    {
+      "short_name": "DOS",
+      "name": "De Other Side",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 15,
+          "score": 414.4,
+          "upgrades": 1,
+          "completed_at": "2021-12-14T14:59:32.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15292535-15-de-other-side"
+        }
+      ]
+    },
+    {
+      "short_name": "HOA",
+      "name": "Halls of Atonement",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 11,
+          "score": 342.4,
+          "upgrades": 1,
+          "completed_at": "2021-11-26T13:31:49.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14033908-11-halls-of-atonement"
+        }
+      ]
+    },
+    {
+      "short_name": "MISTS",
+      "name": "Mists of Tirna Scithe",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 16,
+          "score": 427.8,
+          "upgrades": 1,
+          "completed_at": "2021-12-06T11:38:53.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14765281-16-mists-of-tirna-scithe"
+        }
+      ]
+    },
+    {
+      "short_name": "PF",
+      "name": "Plaguefall",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 15,
+          "score": 412.4,
+          "upgrades": 1,
+          "completed_at": "2021-12-01T21:46:14.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14476299-15-plaguefall"
+        }
+      ]
+    },
+    {
+      "short_name": "SD",
+      "name": "Sanguine Depths",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 16,
+          "score": 440,
+          "upgrades": 3,
+          "completed_at": "2021-11-30T20:12:54.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/14404097-16-sanguine-depths"
+        }
+      ]
+    },
+    {
+      "short_name": "SOA",
+      "name": "Spires of Ascension",
+      "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 7,
+          "score": 271.6,
+          "upgrades": 2,
+          "completed_at": "2021-11-19T13:16:26.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13523158-7-spires-of-ascension"
+        }
+      ]
+    }
+  ],
+  "best_runs": [
+    {
+      "dungeon": "Sanguine Depths",
+      "short_name": "SD",
+      "level": 16,
+      "score": 440,
+      "upgrades": 3,
+      "completed_at": "2021-11-30T20:12:54.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/14404097-16-sanguine-depths"
+    },
+    {
+      "dungeon": "Mists of Tirna Scithe",
+      "short_name": "MISTS",
+      "level": 16,
+      "score": 427.8,
+      "upgrades": 1,
+      "completed_at": "2021-12-06T11:38:53.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/14765281-16-mists-of-tirna-scithe"
+    },
+    {
+      "dungeon": "De Other Side",
+      "short_name": "DOS",
+      "level": 15,
+      "score": 414.4,
+      "upgrades": 1,
+      "completed_at": "2021-12-14T14:59:32.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15292535-15-de-other-side"
+    },
+    {
+      "dungeon": "Plaguefall",
+      "short_name": "PF",
+      "level": 15,
+      "score": 412.4,
+      "upgrades": 1,
+      "completed_at": "2021-12-01T21:46:14.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/14476299-15-plaguefall"
+    },
+    {
+      "dungeon": "Halls of Atonement",
+      "short_name": "HOA",
+      "level": 11,
+      "score": 342.4,
+      "upgrades": 1,
+      "completed_at": "2021-11-26T13:31:49.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/14033908-11-halls-of-atonement"
+    },
+    {
+      "dungeon": "De Other Side",
+      "short_name": "DOS",
+      "level": 11,
+      "score": 340.3,
+      "upgrades": 1,
+      "completed_at": "2021-11-19T20:56:38.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/13546400-11-de-other-side"
+    },
+    {
+      "dungeon": "Spires of Ascension",
+      "short_name": "SOA",
+      "level": 7,
+      "score": 271.6,
+      "upgrades": 2,
+      "completed_at": "2021-11-19T13:16:26.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/13523158-7-spires-of-ascension"
+    },
+    {
+      "dungeon": "Mists of Tirna Scithe",
+      "short_name": "MISTS",
+      "level": 4,
+      "score": 197.2,
+      "upgrades": 2,
+      "completed_at": "2021-07-08T22:48:14.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/229778-4-mists-of-tirna-scithe"
+    },
+    {
+      "dungeon": "Spires of Ascension",
+      "short_name": "SOA",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2021-11-25T17:04:42.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/13975438-2-spires-of-ascension"
+    }
+  ]
+}

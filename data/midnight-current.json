@@ -9,14 +9,14 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-05-31T13:06:36.160Z",
+  "generated_at": "2026-05-31T18:59:04.579Z",
   "summary": {
-    "total_score": 3811.1,
-    "average_score": 1905.5,
-    "scored_characters": 2,
-    "character_count": 2,
+    "total_score": 6827.8,
+    "average_score": 2275.9,
+    "scored_characters": 3,
+    "character_count": 3,
     "dungeon_count": 8,
-    "best_run_count": 12,
+    "best_run_count": 20,
     "highest_key": {
       "level": 15,
       "short_name": "SEAT"
@@ -217,6 +217,199 @@
       "mythic_plus_alternate_runs": []
     },
     {
+      "key": "eu:stormscale:ahldrak",
+      "name": "Ahldrak",
+      "display_name": "Ahldrak",
+      "realm": "Stormscale",
+      "region": "eu",
+      "class_name": "Evoker",
+      "spec": "Augmentation",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 270.5,
+      "color": "#2175d8",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
+      "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
+      "raid_progression": {
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 3016.7,
+      "best_runs": [
+        {
+          "dungeon": "Maisara Caverns",
+          "short_name": "MC",
+          "level": 13,
+          "score": 382.1,
+          "upgrades": 1,
+          "completed_at": "2026-05-31T17:18:24.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31961720-13-maisara-caverns"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "level": 12,
+          "score": 380,
+          "upgrades": 3,
+          "completed_at": "2026-05-30T13:07:58.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31525275-12-skyreach"
+        },
+        {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "level": 12,
+          "score": 380,
+          "upgrades": 3,
+          "completed_at": "2026-05-30T13:32:33.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31534384-12-seat-of-the-triumvirate"
+        },
+        {
+          "dungeon": "Nexus-Point Xenas",
+          "short_name": "NPX",
+          "level": 12,
+          "score": 379.8,
+          "upgrades": 2,
+          "completed_at": "2026-05-20T14:29:12.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27924063-12-nexuspoint-xenas"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 12,
+          "score": 378.4,
+          "upgrades": 2,
+          "completed_at": "2026-05-20T13:57:34.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27914036-12-algethar-academy"
+        },
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "level": 12,
+          "score": 374.2,
+          "upgrades": 2,
+          "completed_at": "2026-05-31T18:25:33.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31988976-12-pit-of-saron"
+        },
+        {
+          "dungeon": "Magisters' Terrace",
+          "short_name": "MT",
+          "level": 12,
+          "score": 371.9,
+          "upgrades": 1,
+          "completed_at": "2026-05-30T14:10:45.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31541774-12-magisters-terrace"
+        },
+        {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "level": 12,
+          "score": 370.3,
+          "upgrades": 1,
+          "completed_at": "2026-05-30T12:43:03.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31516000-12-windrunner-spire"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Maisara Caverns",
+          "short_name": "MC",
+          "level": 13,
+          "score": 382.1,
+          "upgrades": 1,
+          "completed_at": "2026-05-31T17:18:24.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31961720-13-maisara-caverns"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "level": 12,
+          "score": 380,
+          "upgrades": 3,
+          "completed_at": "2026-05-30T13:07:58.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31525275-12-skyreach"
+        },
+        {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "level": 12,
+          "score": 380,
+          "upgrades": 3,
+          "completed_at": "2026-05-30T13:32:33.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31534384-12-seat-of-the-triumvirate"
+        },
+        {
+          "dungeon": "Nexus-Point Xenas",
+          "short_name": "NPX",
+          "level": 12,
+          "score": 379.8,
+          "upgrades": 2,
+          "completed_at": "2026-05-20T14:29:12.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27924063-12-nexuspoint-xenas"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 12,
+          "score": 378.4,
+          "upgrades": 2,
+          "completed_at": "2026-05-20T13:57:34.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27914036-12-algethar-academy"
+        },
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "level": 12,
+          "score": 374.2,
+          "upgrades": 2,
+          "completed_at": "2026-05-31T18:25:33.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31988976-12-pit-of-saron"
+        },
+        {
+          "dungeon": "Magisters' Terrace",
+          "short_name": "MT",
+          "level": 12,
+          "score": 371.9,
+          "upgrades": 1,
+          "completed_at": "2026-05-30T14:10:45.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31541774-12-magisters-terrace"
+        },
+        {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "level": 12,
+          "score": 370.3,
+          "upgrades": 1,
+          "completed_at": "2026-05-30T12:43:03.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31516000-12-windrunner-spire"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
+    },
+    {
       "key": "eu:silvermoon:ahldroni",
       "name": "Ahldroni",
       "display_name": "Ahldroni",
@@ -344,6 +537,14 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/21514417-13-algethar-academy"
         },
         {
+          "character": "Ahldrak",
+          "level": 12,
+          "score": 378.4,
+          "upgrades": 2,
+          "completed_at": "2026-05-20T13:57:34.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27914036-12-algethar-academy"
+        },
+        {
           "character": "Ahldroni",
           "level": 4,
           "score": 200,
@@ -364,6 +565,14 @@
           "upgrades": 2,
           "completed_at": "2026-04-21T18:28:30.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/15827561-13-maisara-caverns"
+        },
+        {
+          "character": "Ahldrak",
+          "level": 13,
+          "score": 382.1,
+          "upgrades": 1,
+          "completed_at": "2026-05-31T17:18:24.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31961720-13-maisara-caverns"
         }
       ]
     },
@@ -371,6 +580,14 @@
       "short_name": "MT",
       "name": "Magisters' Terrace",
       "entries": [
+        {
+          "character": "Ahldrak",
+          "level": 12,
+          "score": 371.9,
+          "upgrades": 1,
+          "completed_at": "2026-05-30T14:10:45.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31541774-12-magisters-terrace"
+        },
         {
           "character": "Warlockzz",
           "level": 12,
@@ -385,6 +602,14 @@
       "short_name": "NPX",
       "name": "Nexus-Point Xenas",
       "entries": [
+        {
+          "character": "Ahldrak",
+          "level": 12,
+          "score": 379.8,
+          "upgrades": 2,
+          "completed_at": "2026-05-20T14:29:12.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27924063-12-nexuspoint-xenas"
+        },
         {
           "character": "Warlockzz",
           "level": 12,
@@ -416,6 +641,14 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/12559233-13-pit-of-saron"
         },
         {
+          "character": "Ahldrak",
+          "level": 12,
+          "score": 374.2,
+          "upgrades": 2,
+          "completed_at": "2026-05-31T18:25:33.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31988976-12-pit-of-saron"
+        },
+        {
           "character": "Ahldroni",
           "level": 2,
           "score": 164.5,
@@ -436,6 +669,14 @@
           "upgrades": 1,
           "completed_at": "2026-04-21T19:19:03.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/15852896-15-seat-of-the-triumvirate"
+        },
+        {
+          "character": "Ahldrak",
+          "level": 12,
+          "score": 380,
+          "upgrades": 3,
+          "completed_at": "2026-05-30T13:32:33.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31534384-12-seat-of-the-triumvirate"
         }
       ]
     },
@@ -450,6 +691,14 @@
           "upgrades": 1,
           "completed_at": "2026-05-05T14:04:42.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/21922762-14-skyreach"
+        },
+        {
+          "character": "Ahldrak",
+          "level": 12,
+          "score": 380,
+          "upgrades": 3,
+          "completed_at": "2026-05-30T13:07:58.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31525275-12-skyreach"
         },
         {
           "character": "Ahldroni",
@@ -472,6 +721,14 @@
           "upgrades": 1,
           "completed_at": "2026-04-20T23:20:15.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/15538811-12-windrunner-spire"
+        },
+        {
+          "character": "Ahldrak",
+          "level": 12,
+          "score": 370.3,
+          "upgrades": 1,
+          "completed_at": "2026-05-30T12:43:03.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31516000-12-windrunner-spire"
         }
       ]
     }
@@ -518,6 +775,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/12559233-13-pit-of-saron"
     },
     {
+      "dungeon": "Maisara Caverns",
+      "short_name": "MC",
+      "level": 13,
+      "score": 382.1,
+      "upgrades": 1,
+      "completed_at": "2026-05-31T17:18:24.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/31961720-13-maisara-caverns"
+    },
+    {
       "dungeon": "Algeth'ar Academy",
       "short_name": "AA",
       "level": 13,
@@ -526,6 +793,56 @@
       "completed_at": "2026-05-04T16:19:55.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/21514417-13-algethar-academy"
+    },
+    {
+      "dungeon": "Skyreach",
+      "short_name": "SR",
+      "level": 12,
+      "score": 380,
+      "upgrades": 3,
+      "completed_at": "2026-05-30T13:07:58.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/31525275-12-skyreach"
+    },
+    {
+      "dungeon": "Seat of the Triumvirate",
+      "short_name": "SEAT",
+      "level": 12,
+      "score": 380,
+      "upgrades": 3,
+      "completed_at": "2026-05-30T13:32:33.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/31534384-12-seat-of-the-triumvirate"
+    },
+    {
+      "dungeon": "Nexus-Point Xenas",
+      "short_name": "NPX",
+      "level": 12,
+      "score": 379.8,
+      "upgrades": 2,
+      "completed_at": "2026-05-20T14:29:12.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27924063-12-nexuspoint-xenas"
+    },
+    {
+      "dungeon": "Algeth'ar Academy",
+      "short_name": "AA",
+      "level": 12,
+      "score": 378.4,
+      "upgrades": 2,
+      "completed_at": "2026-05-20T13:57:34.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27914036-12-algethar-academy"
+    },
+    {
+      "dungeon": "Pit of Saron",
+      "short_name": "POS",
+      "level": 12,
+      "score": 374.2,
+      "upgrades": 2,
+      "completed_at": "2026-05-31T18:25:33.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/31988976-12-pit-of-saron"
     },
     {
       "dungeon": "Nexus-Point Xenas",
@@ -538,6 +855,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/15527343-12-nexuspoint-xenas"
     },
     {
+      "dungeon": "Magisters' Terrace",
+      "short_name": "MT",
+      "level": 12,
+      "score": 371.9,
+      "upgrades": 1,
+      "completed_at": "2026-05-30T14:10:45.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/31541774-12-magisters-terrace"
+    },
+    {
       "dungeon": "Windrunner Spire",
       "short_name": "WS",
       "level": 12,
@@ -546,6 +873,16 @@
       "completed_at": "2026-04-20T23:20:15.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/15538811-12-windrunner-spire"
+    },
+    {
+      "dungeon": "Windrunner Spire",
+      "short_name": "WS",
+      "level": 12,
+      "score": 370.3,
+      "upgrades": 1,
+      "completed_at": "2026-05-30T12:43:03.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/31516000-12-windrunner-spire"
     },
     {
       "dungeon": "Magisters' Terrace",
