@@ -9,14 +9,14 @@
     "theme": "dragonflight",
     "file": "data/df-s4.json"
   },
-  "generated_at": "2026-05-31T08:31:38.745Z",
+  "generated_at": "2026-05-31T13:06:36.160Z",
   "summary": {
-    "total_score": 4506.8,
-    "average_score": 901.4,
-    "scored_characters": 5,
-    "character_count": 5,
+    "total_score": 4358.3,
+    "average_score": 1089.6,
+    "scored_characters": 4,
+    "character_count": 4,
     "dungeon_count": 8,
-    "best_run_count": 31,
+    "best_run_count": 30,
     "highest_key": {
       "level": 10,
       "short_name": "AA"
@@ -760,59 +760,6 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
         }
       ]
-    },
-    {
-      "key": "eu:silvermoon:megakûk",
-      "name": "Megakûk",
-      "display_name": "Megakûk",
-      "realm": "Silvermoon",
-      "region": "eu",
-      "class_name": "Monk",
-      "spec": "Windwalker",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 499,
-      "color": "#ffffff",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/151/215001751-avatar.jpg?alt=/wow/static/images/2d/avatar/26-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/silvermoon/Megakûk",
-      "url": "https://raider.io/characters/eu/silvermoon/Megakûk",
-      "raid_progression": {
-        "tier-mn-1": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 148.5,
-      "best_runs": [
-        {
-          "dungeon": "Ruby Life Pools",
-          "short_name": "RLP",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2024-07-06T14:20:14.000Z",
-          "character": "Megakûk",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
-        }
-      ],
-      "alternate_runs": [],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Ruby Life Pools",
-          "short_name": "RLP",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2024-07-06T14:20:14.000Z",
-          "character": "Megakûk",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
     }
   ],
   "dungeons": [
@@ -983,14 +930,6 @@
           "upgrades": 2,
           "completed_at": "2024-08-14T18:45:43.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/12633353-8-ruby-life-pools"
-        },
-        {
-          "character": "Megakûk",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2024-07-06T14:20:14.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
         }
       ]
     },
@@ -1253,16 +1192,6 @@
       "completed_at": "2024-07-18T00:39:38.000Z",
       "character": "Lifekiller",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058257-2-the-nokhud-offensive"
-    },
-    {
-      "dungeon": "Ruby Life Pools",
-      "short_name": "RLP",
-      "level": 2,
-      "score": 170,
-      "upgrades": 3,
-      "completed_at": "2024-07-06T14:20:14.000Z",
-      "character": "Megakûk",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
     },
     {
       "dungeon": "Algeth'ar Academy",
