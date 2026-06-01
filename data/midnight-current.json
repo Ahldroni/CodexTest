@@ -9,7 +9,7 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-06-01T17:10:41.572Z",
+  "generated_at": "2026-06-01T21:19:11.070Z",
   "summary": {
     "total_score": 6834.1,
     "average_score": 2278,
@@ -34,7 +34,7 @@
       "role": "dps",
       "level": 0,
       "ilvl": 276,
-      "color": "#286dde",
+      "color": "#0070dd",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
@@ -227,7 +227,7 @@
       "role": "dps",
       "level": 0,
       "ilvl": 271.5,
-      "color": "#2175d8",
+      "color": "#2075d8",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
