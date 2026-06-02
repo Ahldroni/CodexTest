@@ -9,7 +9,7 @@
     "theme": "shadowlands",
     "file": "data/sl-s4.json"
   },
-  "generated_at": "2026-06-01T21:19:11.070Z",
+  "generated_at": "2026-06-02T02:13:35.351Z",
   "summary": {
     "total_score": 505.3,
     "average_score": 505.3,
@@ -39,6 +39,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "raid_progression": {
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "tier-mn-1": {
           "summary": "3/9 H",
           "expansion_id": 11,
