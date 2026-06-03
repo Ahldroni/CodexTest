@@ -9,14 +9,14 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-06-02T20:32:27.099Z",
+  "generated_at": "2026-06-03T02:31:22.201Z",
   "summary": {
-    "total_score": 6834.1,
-    "average_score": 2278,
+    "total_score": 7030.9,
+    "average_score": 2343.6,
     "scored_characters": 3,
     "character_count": 3,
     "dungeon_count": 8,
-    "best_run_count": 20,
+    "best_run_count": 21,
     "highest_key": {
       "level": 15,
       "short_name": "SEAT"
@@ -234,7 +234,7 @@
       "spec": "Augmentation",
       "role": "dps",
       "level": 0,
-      "ilvl": 271.5,
+      "ilvl": 272,
       "color": "#2075d8",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
@@ -435,8 +435,8 @@
       "spec": "Guardian",
       "role": "tank",
       "level": 0,
-      "ilvl": 240,
-      "color": "#dcffce",
+      "ilvl": 241.25,
+      "color": "#ceffbc",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
@@ -458,7 +458,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 730.5,
+      "score": 927.3,
       "best_runs": [
         {
           "dungeon": "Algeth'ar Academy",
@@ -469,6 +469,16 @@
           "completed_at": "2026-04-20T21:38:51.000Z",
           "character": "Ahldroni",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/15498465-4-algethar-academy"
+        },
+        {
+          "dungeon": "Magisters' Terrace",
+          "short_name": "MT",
+          "level": 4,
+          "score": 196.8,
+          "upgrades": 2,
+          "completed_at": "2026-06-02T23:56:40.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/32649105-4-magisters-terrace"
         },
         {
           "dungeon": "Nexus-Point Xenas",
@@ -512,6 +522,16 @@
           "completed_at": "2026-04-20T21:38:51.000Z",
           "character": "Ahldroni",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/15498465-4-algethar-academy"
+        },
+        {
+          "dungeon": "Magisters' Terrace",
+          "short_name": "MT",
+          "level": 4,
+          "score": 196.8,
+          "upgrades": 2,
+          "completed_at": "2026-06-02T23:56:40.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/32649105-4-magisters-terrace"
         },
         {
           "dungeon": "Nexus-Point Xenas",
@@ -619,6 +639,14 @@
           "upgrades": 1,
           "completed_at": "2026-04-21T09:51:37.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/15678582-12-magisters-terrace"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 196.8,
+          "upgrades": 2,
+          "completed_at": "2026-06-02T23:56:40.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/32649105-4-magisters-terrace"
         }
       ]
     },
@@ -927,6 +955,16 @@
       "completed_at": "2026-04-20T21:38:51.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/15498465-4-algethar-academy"
+    },
+    {
+      "dungeon": "Magisters' Terrace",
+      "short_name": "MT",
+      "level": 4,
+      "score": 196.8,
+      "upgrades": 2,
+      "completed_at": "2026-06-02T23:56:40.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/32649105-4-magisters-terrace"
     },
     {
       "dungeon": "Nexus-Point Xenas",
