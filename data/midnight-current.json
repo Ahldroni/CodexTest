@@ -9,7 +9,7 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-06-03T20:44:05.808Z",
+  "generated_at": "2026-06-04T02:28:17.646Z",
   "summary": {
     "total_score": 7045.9,
     "average_score": 2348.6,
@@ -235,7 +235,7 @@
       "role": "dps",
       "level": 0,
       "ilvl": 274.688,
-      "color": "#2075d8",
+      "color": "#2175d8",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
@@ -436,7 +436,7 @@
       "role": "tank",
       "level": 0,
       "ilvl": 241.25,
-      "color": "#ceffbc",
+      "color": "#cfffbc",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
