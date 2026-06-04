@@ -9,10 +9,10 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-06-04T14:28:08.301Z",
+  "generated_at": "2026-06-04T19:51:38.626Z",
   "summary": {
-    "total_score": 7049.5,
-    "average_score": 2349.8,
+    "total_score": 7073.5,
+    "average_score": 2357.8,
     "scored_characters": 3,
     "character_count": 3,
     "dungeon_count": 8,
@@ -234,7 +234,7 @@
       "spec": "Augmentation",
       "role": "dps",
       "level": 0,
-      "ilvl": 275.062,
+      "ilvl": 276.438,
       "color": "#2175d8",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
@@ -257,8 +257,18 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 3041.6,
+      "score": 3065.6,
       "best_runs": [
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "level": 14,
+          "score": 408.1,
+          "upgrades": 2,
+          "completed_at": "2026-06-04T14:30:06.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33028203-14-pit-of-saron"
+        },
         {
           "dungeon": "Seat of the Triumvirate",
           "short_name": "SEAT",
@@ -268,16 +278,6 @@
           "completed_at": "2026-06-03T13:38:47.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/32745881-13-seat-of-the-triumvirate"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "level": 13,
-          "score": 384.2,
-          "upgrades": 1,
-          "completed_at": "2026-06-04T13:51:57.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33017450-13-pit-of-saron"
         },
         {
           "dungeon": "Maisara Caverns",
@@ -343,6 +343,16 @@
       "alternate_runs": [],
       "mythic_plus_best_runs": [
         {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "level": 14,
+          "score": 408.1,
+          "upgrades": 2,
+          "completed_at": "2026-06-04T14:30:06.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33028203-14-pit-of-saron"
+        },
+        {
           "dungeon": "Seat of the Triumvirate",
           "short_name": "SEAT",
           "level": 13,
@@ -351,16 +361,6 @@
           "completed_at": "2026-06-03T13:38:47.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/32745881-13-seat-of-the-triumvirate"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "level": 13,
-          "score": 384.2,
-          "upgrades": 1,
-          "completed_at": "2026-06-04T13:51:57.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33017450-13-pit-of-saron"
         },
         {
           "dungeon": "Maisara Caverns",
@@ -435,7 +435,7 @@
       "spec": "Guardian",
       "role": "tank",
       "level": 0,
-      "ilvl": 241.25,
+      "ilvl": 244,
       "color": "#cfffbc",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
@@ -685,20 +685,20 @@
       "name": "Pit of Saron",
       "entries": [
         {
+          "character": "Ahldrak",
+          "level": 14,
+          "score": 408.1,
+          "upgrades": 2,
+          "completed_at": "2026-06-04T14:30:06.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33028203-14-pit-of-saron"
+        },
+        {
           "character": "Warlockzz",
           "level": 13,
           "score": 384.8,
           "upgrades": 1,
           "completed_at": "2026-04-14T18:05:40.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/12559233-13-pit-of-saron"
-        },
-        {
-          "character": "Ahldrak",
-          "level": 13,
-          "score": 384.2,
-          "upgrades": 1,
-          "completed_at": "2026-06-04T13:51:57.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33017450-13-pit-of-saron"
         },
         {
           "character": "Ahldroni",
@@ -797,6 +797,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/15852896-15-seat-of-the-triumvirate"
     },
     {
+      "dungeon": "Pit of Saron",
+      "short_name": "POS",
+      "level": 14,
+      "score": 408.1,
+      "upgrades": 2,
+      "completed_at": "2026-06-04T14:30:06.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/33028203-14-pit-of-saron"
+    },
+    {
       "dungeon": "Skyreach",
       "short_name": "SR",
       "level": 14,
@@ -835,16 +845,6 @@
       "completed_at": "2026-04-14T18:05:40.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/12559233-13-pit-of-saron"
-    },
-    {
-      "dungeon": "Pit of Saron",
-      "short_name": "POS",
-      "level": 13,
-      "score": 384.2,
-      "upgrades": 1,
-      "completed_at": "2026-06-04T13:51:57.000Z",
-      "character": "Ahldrak",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/33017450-13-pit-of-saron"
     },
     {
       "dungeon": "Maisara Caverns",
