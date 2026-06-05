@@ -9,10 +9,10 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-06-05T14:18:03.888Z",
+  "generated_at": "2026-06-05T19:27:09.138Z",
   "summary": {
-    "total_score": 7110.5,
-    "average_score": 2370.2,
+    "total_score": 7129.3,
+    "average_score": 2376.4,
     "scored_characters": 3,
     "character_count": 3,
     "dungeon_count": 8,
@@ -34,7 +34,7 @@
       "role": "dps",
       "level": 0,
       "ilvl": 276.438,
-      "color": "#2a6dde",
+      "color": "#3e6ae0",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
@@ -56,7 +56,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 3102.6,
+      "score": 3121.4,
       "best_runs": [
         {
           "dungeon": "Pit of Saron",
@@ -77,6 +77,16 @@
           "completed_at": "2026-06-05T14:13:38.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 14,
+          "score": 397.1,
+          "upgrades": 1,
+          "completed_at": "2026-06-05T15:45:17.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
         },
         {
           "dungeon": "Seat of the Triumvirate",
@@ -117,16 +127,6 @@
           "completed_at": "2026-05-20T14:29:12.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/27924063-12-nexuspoint-xenas"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 12,
-          "score": 378.4,
-          "upgrades": 2,
-          "completed_at": "2026-05-20T13:57:34.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27914036-12-algethar-academy"
         },
         {
           "dungeon": "Magisters' Terrace",
@@ -162,6 +162,16 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
         },
         {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 14,
+          "score": 397.1,
+          "upgrades": 1,
+          "completed_at": "2026-06-05T15:45:17.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
+        },
+        {
           "dungeon": "Seat of the Triumvirate",
           "short_name": "SEAT",
           "level": 13,
@@ -200,16 +210,6 @@
           "completed_at": "2026-05-20T14:29:12.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/27924063-12-nexuspoint-xenas"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 12,
-          "score": 378.4,
-          "upgrades": 2,
-          "completed_at": "2026-05-20T13:57:34.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27914036-12-algethar-academy"
         },
         {
           "dungeon": "Magisters' Terrace",
@@ -573,20 +573,20 @@
       "name": "Algeth'ar Academy",
       "entries": [
         {
+          "character": "Ahldrak",
+          "level": 14,
+          "score": 397.1,
+          "upgrades": 1,
+          "completed_at": "2026-06-05T15:45:17.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
+        },
+        {
           "character": "Warlockzz",
           "level": 13,
           "score": 381.4,
           "upgrades": 1,
           "completed_at": "2026-05-04T16:19:55.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/21514417-13-algethar-academy"
-        },
-        {
-          "character": "Ahldrak",
-          "level": 12,
-          "score": 378.4,
-          "upgrades": 2,
-          "completed_at": "2026-05-20T13:57:34.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27914036-12-algethar-academy"
         },
         {
           "character": "Ahldroni",
@@ -827,6 +827,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/21922762-14-skyreach"
     },
     {
+      "dungeon": "Algeth'ar Academy",
+      "short_name": "AA",
+      "level": 14,
+      "score": 397.1,
+      "upgrades": 1,
+      "completed_at": "2026-06-05T15:45:17.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
+    },
+    {
       "dungeon": "Seat of the Triumvirate",
       "short_name": "SEAT",
       "level": 13,
@@ -895,16 +905,6 @@
       "completed_at": "2026-05-20T14:29:12.000Z",
       "character": "Ahldrak",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/27924063-12-nexuspoint-xenas"
-    },
-    {
-      "dungeon": "Algeth'ar Academy",
-      "short_name": "AA",
-      "level": 12,
-      "score": 378.4,
-      "upgrades": 2,
-      "completed_at": "2026-05-20T13:57:34.000Z",
-      "character": "Ahldrak",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27914036-12-algethar-academy"
     },
     {
       "dungeon": "Nexus-Point Xenas",
