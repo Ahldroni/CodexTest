@@ -9,7 +9,7 @@
     "theme": "dragonflight",
     "file": "data/df-s2.json"
   },
-  "generated_at": "2026-06-06T19:01:23.735Z",
+  "generated_at": "2026-06-07T02:08:59.531Z",
   "summary": {
     "total_score": 921,
     "average_score": 460.5,
@@ -236,7 +236,7 @@
       "spec": "Augmentation",
       "role": "dps",
       "level": 0,
-      "ilvl": 278.25,
+      "ilvl": 279,
       "color": "#ffffff",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
@@ -251,11 +251,11 @@
           "mythic_bosses_killed": 0
         },
         "tier-mn-1": {
-          "summary": "1/9 H",
+          "summary": "4/9 H",
           "expansion_id": 11,
           "total_bosses": 9,
           "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 1,
+          "heroic_bosses_killed": 4,
           "mythic_bosses_killed": 0
         }
       },
