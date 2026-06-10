@@ -9,7 +9,7 @@
     "theme": "bfa",
     "file": "data/bfa-s2.json"
   },
-  "generated_at": "2026-06-09T19:52:47.209Z",
+  "generated_at": "2026-06-10T02:02:29.746Z",
   "summary": {
     "total_score": 633.4,
     "average_score": 316.7,
@@ -33,7 +33,7 @@
       "spec": "Guardian",
       "role": "tank",
       "level": 0,
-      "ilvl": 244,
+      "ilvl": 246,
       "color": "#5ead9c",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
