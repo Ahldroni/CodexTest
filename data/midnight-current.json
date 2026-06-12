@@ -9,14 +9,14 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-06-11T20:06:23.074Z",
+  "generated_at": "2026-06-12T02:09:35.455Z",
   "summary": {
-    "total_score": 7268.2,
-    "average_score": 2422.7,
-    "scored_characters": 3,
-    "character_count": 3,
+    "total_score": 4187.6,
+    "average_score": 2093.8,
+    "scored_characters": 2,
+    "character_count": 2,
     "dungeon_count": 8,
-    "best_run_count": 21,
+    "best_run_count": 13,
     "highest_key": {
       "level": 16,
       "short_name": "MC"
@@ -225,207 +225,6 @@
       "mythic_plus_alternate_runs": []
     },
     {
-      "key": "eu:silvermoon:warlockzz",
-      "name": "Warlockzz",
-      "display_name": "Warlockzz",
-      "realm": "Silvermoon",
-      "region": "eu",
-      "class_name": "Warlock",
-      "spec": "Demonology",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 276,
-      "color": "#0070dd",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "raid_progression": {
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "3/9 H",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 3,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 3080.6,
-      "best_runs": [
-        {
-          "dungeon": "Seat of the Triumvirate",
-          "short_name": "SEAT",
-          "level": 15,
-          "score": 413.6,
-          "upgrades": 1,
-          "completed_at": "2026-04-21T19:19:03.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15852896-15-seat-of-the-triumvirate"
-        },
-        {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "level": 14,
-          "score": 400.6,
-          "upgrades": 1,
-          "completed_at": "2026-05-05T14:04:42.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21922762-14-skyreach"
-        },
-        {
-          "dungeon": "Maisara Caverns",
-          "short_name": "MC",
-          "level": 13,
-          "score": 387.6,
-          "upgrades": 2,
-          "completed_at": "2026-04-21T18:28:30.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15827561-13-maisara-caverns"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "level": 13,
-          "score": 384.8,
-          "upgrades": 1,
-          "completed_at": "2026-04-14T18:05:40.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12559233-13-pit-of-saron"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 13,
-          "score": 381.4,
-          "upgrades": 1,
-          "completed_at": "2026-05-04T16:19:55.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21514417-13-algethar-academy"
-        },
-        {
-          "dungeon": "Nexus-Point Xenas",
-          "short_name": "NPX",
-          "level": 12,
-          "score": 372.3,
-          "upgrades": 1,
-          "completed_at": "2026-04-20T22:47:32.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15527343-12-nexuspoint-xenas"
-        },
-        {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "level": 12,
-          "score": 370.5,
-          "upgrades": 1,
-          "completed_at": "2026-04-20T23:20:15.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15538811-12-windrunner-spire"
-        },
-        {
-          "dungeon": "Magisters' Terrace",
-          "short_name": "MT",
-          "level": 12,
-          "score": 369.8,
-          "upgrades": 1,
-          "completed_at": "2026-04-21T09:51:37.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15678582-12-magisters-terrace"
-        }
-      ],
-      "alternate_runs": [],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Seat of the Triumvirate",
-          "short_name": "SEAT",
-          "level": 15,
-          "score": 413.6,
-          "upgrades": 1,
-          "completed_at": "2026-04-21T19:19:03.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15852896-15-seat-of-the-triumvirate"
-        },
-        {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "level": 14,
-          "score": 400.6,
-          "upgrades": 1,
-          "completed_at": "2026-05-05T14:04:42.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21922762-14-skyreach"
-        },
-        {
-          "dungeon": "Maisara Caverns",
-          "short_name": "MC",
-          "level": 13,
-          "score": 387.6,
-          "upgrades": 2,
-          "completed_at": "2026-04-21T18:28:30.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15827561-13-maisara-caverns"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "level": 13,
-          "score": 384.8,
-          "upgrades": 1,
-          "completed_at": "2026-04-14T18:05:40.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12559233-13-pit-of-saron"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 13,
-          "score": 381.4,
-          "upgrades": 1,
-          "completed_at": "2026-05-04T16:19:55.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21514417-13-algethar-academy"
-        },
-        {
-          "dungeon": "Nexus-Point Xenas",
-          "short_name": "NPX",
-          "level": 12,
-          "score": 372.3,
-          "upgrades": 1,
-          "completed_at": "2026-04-20T22:47:32.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15527343-12-nexuspoint-xenas"
-        },
-        {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "level": 12,
-          "score": 370.5,
-          "upgrades": 1,
-          "completed_at": "2026-04-20T23:20:15.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15538811-12-windrunner-spire"
-        },
-        {
-          "dungeon": "Magisters' Terrace",
-          "short_name": "MT",
-          "level": 12,
-          "score": 369.8,
-          "upgrades": 1,
-          "completed_at": "2026-04-21T09:51:37.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15678582-12-magisters-terrace"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
-    },
-    {
       "key": "eu:silvermoon:ahldroni",
       "name": "Ahldroni",
       "display_name": "Ahldroni",
@@ -581,14 +380,6 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
         },
         {
-          "character": "Warlockzz",
-          "level": 13,
-          "score": 381.4,
-          "upgrades": 1,
-          "completed_at": "2026-05-04T16:19:55.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21514417-13-algethar-academy"
-        },
-        {
           "character": "Ahldroni",
           "level": 4,
           "score": 200,
@@ -609,14 +400,6 @@
           "upgrades": 1,
           "completed_at": "2026-06-10T09:22:40.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/34507102-16-maisara-caverns"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 13,
-          "score": 387.6,
-          "upgrades": 2,
-          "completed_at": "2026-04-21T18:28:30.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15827561-13-maisara-caverns"
         }
       ]
     },
@@ -631,14 +414,6 @@
           "upgrades": 1,
           "completed_at": "2026-06-08T16:44:40.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/34186248-15-magisters-terrace"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 12,
-          "score": 369.8,
-          "upgrades": 1,
-          "completed_at": "2026-04-21T09:51:37.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15678582-12-magisters-terrace"
         },
         {
           "character": "Ahldroni",
@@ -663,14 +438,6 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/34102925-14-nexuspoint-xenas"
         },
         {
-          "character": "Warlockzz",
-          "level": 12,
-          "score": 372.3,
-          "upgrades": 1,
-          "completed_at": "2026-04-20T22:47:32.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15527343-12-nexuspoint-xenas"
-        },
-        {
           "character": "Ahldroni",
           "level": 4,
           "score": 196,
@@ -693,14 +460,6 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33028203-14-pit-of-saron"
         },
         {
-          "character": "Warlockzz",
-          "level": 13,
-          "score": 384.8,
-          "upgrades": 1,
-          "completed_at": "2026-04-14T18:05:40.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12559233-13-pit-of-saron"
-        },
-        {
           "character": "Ahldroni",
           "level": 2,
           "score": 164.5,
@@ -715,14 +474,6 @@
       "name": "Seat of the Triumvirate",
       "entries": [
         {
-          "character": "Warlockzz",
-          "level": 15,
-          "score": 413.6,
-          "upgrades": 1,
-          "completed_at": "2026-04-21T19:19:03.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15852896-15-seat-of-the-triumvirate"
-        },
-        {
           "character": "Ahldrak",
           "level": 14,
           "score": 401.9,
@@ -736,14 +487,6 @@
       "short_name": "SR",
       "name": "Skyreach",
       "entries": [
-        {
-          "character": "Warlockzz",
-          "level": 14,
-          "score": 400.6,
-          "upgrades": 1,
-          "completed_at": "2026-05-05T14:04:42.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21922762-14-skyreach"
-        },
         {
           "character": "Ahldrak",
           "level": 14,
@@ -773,14 +516,6 @@
           "upgrades": 2,
           "completed_at": "2026-06-05T14:13:38.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 12,
-          "score": 370.5,
-          "upgrades": 1,
-          "completed_at": "2026-04-20T23:20:15.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15538811-12-windrunner-spire"
         }
       ]
     }
@@ -805,16 +540,6 @@
       "completed_at": "2026-06-08T16:44:40.000Z",
       "character": "Ahldrak",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/34186248-15-magisters-terrace"
-    },
-    {
-      "dungeon": "Seat of the Triumvirate",
-      "short_name": "SEAT",
-      "level": 15,
-      "score": 413.6,
-      "upgrades": 1,
-      "completed_at": "2026-04-21T19:19:03.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15852896-15-seat-of-the-triumvirate"
     },
     {
       "dungeon": "Pit of Saron",
@@ -860,16 +585,6 @@
       "dungeon": "Skyreach",
       "short_name": "SR",
       "level": 14,
-      "score": 400.6,
-      "upgrades": 1,
-      "completed_at": "2026-05-05T14:04:42.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/21922762-14-skyreach"
-    },
-    {
-      "dungeon": "Skyreach",
-      "short_name": "SR",
-      "level": 14,
       "score": 398.1,
       "upgrades": 1,
       "completed_at": "2026-06-06T22:32:30.000Z",
@@ -885,66 +600,6 @@
       "completed_at": "2026-06-05T15:45:17.000Z",
       "character": "Ahldrak",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
-    },
-    {
-      "dungeon": "Maisara Caverns",
-      "short_name": "MC",
-      "level": 13,
-      "score": 387.6,
-      "upgrades": 2,
-      "completed_at": "2026-04-21T18:28:30.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15827561-13-maisara-caverns"
-    },
-    {
-      "dungeon": "Pit of Saron",
-      "short_name": "POS",
-      "level": 13,
-      "score": 384.8,
-      "upgrades": 1,
-      "completed_at": "2026-04-14T18:05:40.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12559233-13-pit-of-saron"
-    },
-    {
-      "dungeon": "Algeth'ar Academy",
-      "short_name": "AA",
-      "level": 13,
-      "score": 381.4,
-      "upgrades": 1,
-      "completed_at": "2026-05-04T16:19:55.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/21514417-13-algethar-academy"
-    },
-    {
-      "dungeon": "Nexus-Point Xenas",
-      "short_name": "NPX",
-      "level": 12,
-      "score": 372.3,
-      "upgrades": 1,
-      "completed_at": "2026-04-20T22:47:32.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15527343-12-nexuspoint-xenas"
-    },
-    {
-      "dungeon": "Windrunner Spire",
-      "short_name": "WS",
-      "level": 12,
-      "score": 370.5,
-      "upgrades": 1,
-      "completed_at": "2026-04-20T23:20:15.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15538811-12-windrunner-spire"
-    },
-    {
-      "dungeon": "Magisters' Terrace",
-      "short_name": "MT",
-      "level": 12,
-      "score": 369.8,
-      "upgrades": 1,
-      "completed_at": "2026-04-21T09:51:37.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15678582-12-magisters-terrace"
     },
     {
       "dungeon": "Algeth'ar Academy",
