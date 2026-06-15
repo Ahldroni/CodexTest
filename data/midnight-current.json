@@ -9,10 +9,10 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-06-14T19:04:13.583Z",
+  "generated_at": "2026-06-15T02:28:11.723Z",
   "summary": {
-    "total_score": 7268.2,
-    "average_score": 2422.7,
+    "total_score": 7279.4,
+    "average_score": 2426.5,
     "scored_characters": 3,
     "character_count": 3,
     "dungeon_count": 8,
@@ -33,8 +33,8 @@
       "spec": "Augmentation",
       "role": "dps",
       "level": 0,
-      "ilvl": 281,
-      "color": "#715be5",
+      "ilvl": 281.312,
+      "color": "#7957e7",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
@@ -56,7 +56,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 3260.3,
+      "score": 3271.5,
       "best_runs": [
         {
           "dungeon": "Maisara Caverns",
@@ -79,6 +79,16 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/34186248-15-magisters-terrace"
         },
         {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "level": 15,
+          "score": 413.2,
+          "upgrades": 1,
+          "completed_at": "2026-06-14T19:45:18.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35621666-15-seat-of-the-triumvirate"
+        },
+        {
           "dungeon": "Pit of Saron",
           "short_name": "POS",
           "level": 14,
@@ -97,16 +107,6 @@
           "completed_at": "2026-06-05T14:13:38.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
-        },
-        {
-          "dungeon": "Seat of the Triumvirate",
-          "short_name": "SEAT",
-          "level": 14,
-          "score": 401.9,
-          "upgrades": 1,
-          "completed_at": "2026-06-06T22:00:12.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33691950-14-seat-of-the-triumvirate"
         },
         {
           "dungeon": "Nexus-Point Xenas",
@@ -162,6 +162,16 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/34186248-15-magisters-terrace"
         },
         {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "level": 15,
+          "score": 413.2,
+          "upgrades": 1,
+          "completed_at": "2026-06-14T19:45:18.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35621666-15-seat-of-the-triumvirate"
+        },
+        {
           "dungeon": "Pit of Saron",
           "short_name": "POS",
           "level": 14,
@@ -180,16 +190,6 @@
           "completed_at": "2026-06-05T14:13:38.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
-        },
-        {
-          "dungeon": "Seat of the Triumvirate",
-          "short_name": "SEAT",
-          "level": 14,
-          "score": 401.9,
-          "upgrades": 1,
-          "completed_at": "2026-06-06T22:00:12.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33691950-14-seat-of-the-triumvirate"
         },
         {
           "dungeon": "Nexus-Point Xenas",
@@ -724,11 +724,11 @@
         },
         {
           "character": "Ahldrak",
-          "level": 14,
-          "score": 401.9,
+          "level": 15,
+          "score": 413.2,
           "upgrades": 1,
-          "completed_at": "2026-06-06T22:00:12.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33691950-14-seat-of-the-triumvirate"
+          "completed_at": "2026-06-14T19:45:18.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35621666-15-seat-of-the-triumvirate"
         }
       ]
     },
@@ -817,6 +817,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/15852896-15-seat-of-the-triumvirate"
     },
     {
+      "dungeon": "Seat of the Triumvirate",
+      "short_name": "SEAT",
+      "level": 15,
+      "score": 413.2,
+      "upgrades": 1,
+      "completed_at": "2026-06-14T19:45:18.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/35621666-15-seat-of-the-triumvirate"
+    },
+    {
       "dungeon": "Pit of Saron",
       "short_name": "POS",
       "level": 14,
@@ -835,16 +845,6 @@
       "completed_at": "2026-06-05T14:13:38.000Z",
       "character": "Ahldrak",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
-    },
-    {
-      "dungeon": "Seat of the Triumvirate",
-      "short_name": "SEAT",
-      "level": 14,
-      "score": 401.9,
-      "upgrades": 1,
-      "completed_at": "2026-06-06T22:00:12.000Z",
-      "character": "Ahldrak",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/33691950-14-seat-of-the-triumvirate"
     },
     {
       "dungeon": "Nexus-Point Xenas",
