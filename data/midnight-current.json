@@ -9,10 +9,10 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-06-16T10:49:12.365Z",
+  "generated_at": "2026-06-16T16:18:04.136Z",
   "summary": {
-    "total_score": 7279.4,
-    "average_score": 2426.5,
+    "total_score": 7305.3,
+    "average_score": 2435.1,
     "scored_characters": 3,
     "character_count": 3,
     "dungeon_count": 8,
@@ -34,7 +34,7 @@
       "role": "dps",
       "level": 0,
       "ilvl": 281.312,
-      "color": "#7957e7",
+      "color": "#8153e8",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
@@ -56,7 +56,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 3271.5,
+      "score": 3297.4,
       "best_runs": [
         {
           "dungeon": "Maisara Caverns",
@@ -67,6 +67,26 @@
           "completed_at": "2026-06-10T09:22:40.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/34507102-16-maisara-caverns"
+        },
+        {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "level": 15,
+          "score": 415.6,
+          "upgrades": 1,
+          "completed_at": "2026-06-16T15:04:46.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35977118-15-windrunner-spire"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 15,
+          "score": 414.7,
+          "upgrades": 1,
+          "completed_at": "2026-06-16T15:44:57.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35981360-15-algethar-academy"
         },
         {
           "dungeon": "Magisters' Terrace",
@@ -99,16 +119,6 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33028203-14-pit-of-saron"
         },
         {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "level": 14,
-          "score": 407.3,
-          "upgrades": 2,
-          "completed_at": "2026-06-05T14:13:38.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
-        },
-        {
           "dungeon": "Nexus-Point Xenas",
           "short_name": "NPX",
           "level": 14,
@@ -127,16 +137,6 @@
           "completed_at": "2026-06-06T22:32:30.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33696657-14-skyreach"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 14,
-          "score": 397.1,
-          "upgrades": 1,
-          "completed_at": "2026-06-05T15:45:17.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
         }
       ],
       "alternate_runs": [],
@@ -152,6 +152,26 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/34507102-16-maisara-caverns"
         },
         {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "level": 15,
+          "score": 415.6,
+          "upgrades": 1,
+          "completed_at": "2026-06-16T15:04:46.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35977118-15-windrunner-spire"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 15,
+          "score": 414.7,
+          "upgrades": 1,
+          "completed_at": "2026-06-16T15:44:57.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35981360-15-algethar-academy"
+        },
+        {
           "dungeon": "Magisters' Terrace",
           "short_name": "MT",
           "level": 15,
@@ -182,16 +202,6 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33028203-14-pit-of-saron"
         },
         {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "level": 14,
-          "score": 407.3,
-          "upgrades": 2,
-          "completed_at": "2026-06-05T14:13:38.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
-        },
-        {
           "dungeon": "Nexus-Point Xenas",
           "short_name": "NPX",
           "level": 14,
@@ -210,16 +220,6 @@
           "completed_at": "2026-06-06T22:32:30.000Z",
           "character": "Ahldrak",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33696657-14-skyreach"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 14,
-          "score": 397.1,
-          "upgrades": 1,
-          "completed_at": "2026-06-05T15:45:17.000Z",
-          "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
         }
       ],
       "mythic_plus_alternate_runs": []
@@ -574,11 +574,11 @@
       "entries": [
         {
           "character": "Ahldrak",
-          "level": 14,
-          "score": 397.1,
+          "level": 15,
+          "score": 414.7,
           "upgrades": 1,
-          "completed_at": "2026-06-05T15:45:17.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
+          "completed_at": "2026-06-16T15:44:57.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35981360-15-algethar-academy"
         },
         {
           "character": "Warlockzz",
@@ -768,11 +768,11 @@
       "entries": [
         {
           "character": "Ahldrak",
-          "level": 14,
-          "score": 407.3,
-          "upgrades": 2,
-          "completed_at": "2026-06-05T14:13:38.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
+          "level": 15,
+          "score": 415.6,
+          "upgrades": 1,
+          "completed_at": "2026-06-16T15:04:46.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35977118-15-windrunner-spire"
         },
         {
           "character": "Warlockzz",
@@ -795,6 +795,26 @@
       "completed_at": "2026-06-10T09:22:40.000Z",
       "character": "Ahldrak",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/34507102-16-maisara-caverns"
+    },
+    {
+      "dungeon": "Windrunner Spire",
+      "short_name": "WS",
+      "level": 15,
+      "score": 415.6,
+      "upgrades": 1,
+      "completed_at": "2026-06-16T15:04:46.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/35977118-15-windrunner-spire"
+    },
+    {
+      "dungeon": "Algeth'ar Academy",
+      "short_name": "AA",
+      "level": 15,
+      "score": 414.7,
+      "upgrades": 1,
+      "completed_at": "2026-06-16T15:44:57.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/35981360-15-algethar-academy"
     },
     {
       "dungeon": "Magisters' Terrace",
@@ -837,16 +857,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/33028203-14-pit-of-saron"
     },
     {
-      "dungeon": "Windrunner Spire",
-      "short_name": "WS",
-      "level": 14,
-      "score": 407.3,
-      "upgrades": 2,
-      "completed_at": "2026-06-05T14:13:38.000Z",
-      "character": "Ahldrak",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/33273067-14-windrunner-spire"
-    },
-    {
       "dungeon": "Nexus-Point Xenas",
       "short_name": "NPX",
       "level": 14,
@@ -875,16 +885,6 @@
       "completed_at": "2026-06-06T22:32:30.000Z",
       "character": "Ahldrak",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/33696657-14-skyreach"
-    },
-    {
-      "dungeon": "Algeth'ar Academy",
-      "short_name": "AA",
-      "level": 14,
-      "score": 397.1,
-      "upgrades": 1,
-      "completed_at": "2026-06-05T15:45:17.000Z",
-      "character": "Ahldrak",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/33288953-14-algethar-academy"
     },
     {
       "dungeon": "Maisara Caverns",
