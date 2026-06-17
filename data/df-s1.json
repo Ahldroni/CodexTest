@@ -9,7 +9,7 @@
     "theme": "dragonflight",
     "file": "data/df-s1.json"
   },
-  "generated_at": "2026-06-17T14:45:29.748Z",
+  "generated_at": "2026-06-17T19:55:06.634Z",
   "summary": {
     "total_score": 3320.9,
     "average_score": 1107,
@@ -619,7 +619,7 @@
       "spec": "Augmentation",
       "role": "dps",
       "level": 0,
-      "ilvl": 281.312,
+      "ilvl": 281,
       "color": "#ffffff",
       "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
