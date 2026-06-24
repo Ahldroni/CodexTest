@@ -9,7 +9,7 @@
     "theme": "dragonflight",
     "file": "data/df-s4.json"
   },
-  "generated_at": "2026-06-24T01:56:35.625Z",
+  "generated_at": "2026-06-24T08:49:18.159Z",
   "summary": {
     "total_score": 4506.8,
     "average_score": 901.4,
@@ -39,6 +39,14 @@
       "profile_url": "https://raider.io/characters/eu/stormrage/Starseeker",
       "url": "https://raider.io/characters/eu/stormrage/Starseeker",
       "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "sporefall": {
           "summary": "",
           "expansion_id": 11,
@@ -382,6 +390,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "sporefall": {
           "summary": "",
           "expansion_id": 11,
@@ -543,6 +559,14 @@
       "profile_url": "https://raider.io/characters/eu/stormrage/Lifekiller",
       "url": "https://raider.io/characters/eu/stormrage/Lifekiller",
       "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "sporefall": {
           "summary": "",
           "expansion_id": 11,
@@ -686,6 +710,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "sporefall": {
           "summary": "",
           "expansion_id": 11,
@@ -809,6 +841,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Megakûk",
       "url": "https://raider.io/characters/eu/silvermoon/Megakûk",
       "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "sporefall": {
           "summary": "",
           "expansion_id": 11,

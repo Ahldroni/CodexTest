@@ -9,7 +9,7 @@
     "theme": "bfa",
     "file": "data/bfa-s1.json"
   },
-  "generated_at": "2026-06-24T01:56:35.625Z",
+  "generated_at": "2026-06-24T08:49:18.159Z",
   "summary": {
     "total_score": 152.9,
     "average_score": 152.9,
@@ -39,6 +39,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "sporefall": {
           "summary": "",
           "expansion_id": 11,

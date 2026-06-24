@@ -9,14 +9,14 @@
     "theme": "dragonflight",
     "file": "data/df-s1.json"
   },
-  "generated_at": "2026-06-24T01:56:35.625Z",
+  "generated_at": "2026-06-24T08:49:18.159Z",
   "summary": {
-    "total_score": 3118.4,
-    "average_score": 1559.2,
-    "scored_characters": 2,
-    "character_count": 2,
+    "total_score": 3320.9,
+    "average_score": 1107,
+    "scored_characters": 3,
+    "character_count": 3,
     "dungeon_count": 8,
-    "best_run_count": 25,
+    "best_run_count": 28,
     "highest_key": {
       "level": 17,
       "short_name": "AA"
@@ -39,6 +39,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "sporefall": {
           "summary": "",
           "expansion_id": 11,
@@ -402,6 +410,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "sporefall": {
           "summary": "",
           "expansion_id": 11,
@@ -608,6 +624,115 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/17399240-2-ruby-life-pools"
         }
       ]
+    },
+    {
+      "key": "eu:stormscale:ahldrak",
+      "name": "Ahldrak",
+      "display_name": "Ahldrak",
+      "realm": "Stormscale",
+      "region": "eu",
+      "class_name": "Evoker",
+      "spec": "Augmentation",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 281.938,
+      "color": "#ffffff",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/193/167457729-avatar.jpg?alt=/wow/static/images/2d/avatar/70-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
+      "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
+      "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "4/9 H",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 4,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 202.5,
+      "best_runs": [
+        {
+          "dungeon": "Shadowmoon Burial Grounds",
+          "short_name": "SBG",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-03-30T14:43:19.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30955588-2-shadowmoon-burial-grounds"
+        },
+        {
+          "dungeon": "Halls of Valor",
+          "short_name": "HOV",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-03-27T19:55:41.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30440449-2-halls-of-valor"
+        },
+        {
+          "dungeon": "Court of Stars",
+          "short_name": "COS",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-03-05T14:04:47.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25414675-2-court-of-stars"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Shadowmoon Burial Grounds",
+          "short_name": "SBG",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-03-30T14:43:19.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30955588-2-shadowmoon-burial-grounds"
+        },
+        {
+          "dungeon": "Halls of Valor",
+          "short_name": "HOV",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-03-27T19:55:41.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30440449-2-halls-of-valor"
+        },
+        {
+          "dungeon": "Court of Stars",
+          "short_name": "COS",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-03-05T14:04:47.000Z",
+          "character": "Ahldrak",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25414675-2-court-of-stars"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
     }
   ],
   "dungeons": [
@@ -666,6 +791,14 @@
           "upgrades": 2,
           "completed_at": "2023-02-16T18:12:52.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/20587544-13-court-of-stars"
+        },
+        {
+          "character": "Ahldrak",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-03-05T14:04:47.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25414675-2-court-of-stars"
         }
       ]
     },
@@ -688,6 +821,14 @@
           "upgrades": 1,
           "completed_at": "2023-02-14T18:01:18.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/19825895-10-halls-of-valor"
+        },
+        {
+          "character": "Ahldrak",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-03-27T19:55:41.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30440449-2-halls-of-valor"
         }
       ]
     },
@@ -754,6 +895,14 @@
           "upgrades": 2,
           "completed_at": "2023-02-14T18:31:34.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/19846315-11-shadowmoon-burial-grounds"
+        },
+        {
+          "character": "Ahldrak",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2023-03-30T14:43:19.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30955588-2-shadowmoon-burial-grounds"
         }
       ]
     },
@@ -1030,6 +1179,36 @@
       "completed_at": "2023-02-05T18:36:11.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/17399240-2-ruby-life-pools"
+    },
+    {
+      "dungeon": "Shadowmoon Burial Grounds",
+      "short_name": "SBG",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2023-03-30T14:43:19.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/30955588-2-shadowmoon-burial-grounds"
+    },
+    {
+      "dungeon": "Halls of Valor",
+      "short_name": "HOV",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2023-03-27T19:55:41.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/30440449-2-halls-of-valor"
+    },
+    {
+      "dungeon": "Court of Stars",
+      "short_name": "COS",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2023-03-05T14:04:47.000Z",
+      "character": "Ahldrak",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/25414675-2-court-of-stars"
     }
   ]
 }
