@@ -9,20 +9,269 @@
     "theme": "bfa",
     "file": "data/bfa-s4.json"
   },
-  "generated_at": "2026-07-02T08:37:34.793Z",
+  "generated_at": "2026-07-02T13:24:33.566Z",
   "summary": {
-    "total_score": 1702.1,
-    "average_score": 851,
-    "scored_characters": 2,
-    "character_count": 2,
-    "dungeon_count": 11,
-    "best_run_count": 17,
+    "total_score": 3468.1,
+    "average_score": 867,
+    "scored_characters": 4,
+    "character_count": 4,
+    "dungeon_count": 12,
+    "best_run_count": 36,
     "highest_key": {
-      "level": 13,
-      "short_name": "ML"
+      "level": 18,
+      "short_name": "KR"
     }
   },
   "characters": [
+    {
+      "key": "eu:silvermoon:warlockzz",
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 276,
+      "color": "#266ede",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "3/9 H",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 3,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 1320.2,
+      "best_runs": [
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "level": 18,
+          "score": 459.9,
+          "upgrades": 1,
+          "completed_at": "2020-08-30T16:11:07.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27319567-18-kings-rest"
+        },
+        {
+          "dungeon": "Mechagon Workshop",
+          "short_name": "WORK",
+          "level": 17,
+          "score": 445.7,
+          "upgrades": 1,
+          "completed_at": "2020-09-03T17:27:38.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27612263-17-operation-mechagon-workshop"
+        },
+        {
+          "dungeon": "Mechagon Junkyard",
+          "short_name": "YARD",
+          "level": 17,
+          "score": 319.1,
+          "upgrades": 0,
+          "completed_at": "2020-09-01T13:52:17.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27474642-17-operation-mechagon-junkyard"
+        },
+        {
+          "dungeon": "Shrine of the Storm",
+          "short_name": "SOTS",
+          "level": 15,
+          "score": 418.3,
+          "upgrades": 2,
+          "completed_at": "2020-08-30T14:48:35.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27313472-15-shrine-of-the-storm"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 14,
+          "score": 399.1,
+          "upgrades": 1,
+          "completed_at": "2020-08-30T13:53:40.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27319568-14-ataldazar"
+        },
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 11,
+          "score": 344.9,
+          "upgrades": 2,
+          "completed_at": "2020-08-29T16:54:06.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27237128-11-freehold"
+        },
+        {
+          "dungeon": "Waycrest Manor",
+          "short_name": "WM",
+          "level": 10,
+          "score": 326.3,
+          "upgrades": 1,
+          "completed_at": "2020-09-07T21:08:17.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27889679-10-waycrest-manor"
+        },
+        {
+          "dungeon": "Temple of Sethraliss",
+          "short_name": "TOS",
+          "level": 9,
+          "score": 272.3,
+          "upgrades": 0,
+          "completed_at": "2020-09-06T00:17:12.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27759891-9-temple-of-sethraliss"
+        },
+        {
+          "dungeon": "The Underrot",
+          "short_name": "UNDR",
+          "level": 7,
+          "score": 268.5,
+          "upgrades": 2,
+          "completed_at": "2020-09-06T12:10:48.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27787568-7-the-underrot"
+        },
+        {
+          "dungeon": "Tol Dagor",
+          "short_name": "TD",
+          "level": 5,
+          "score": 217.9,
+          "upgrades": 1,
+          "completed_at": "2020-08-29T11:13:34.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27215447-5-tol-dagor"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "level": 18,
+          "score": 459.9,
+          "upgrades": 1,
+          "completed_at": "2020-08-30T16:11:07.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27319567-18-kings-rest"
+        },
+        {
+          "dungeon": "Mechagon Workshop",
+          "short_name": "WORK",
+          "level": 17,
+          "score": 445.7,
+          "upgrades": 1,
+          "completed_at": "2020-09-03T17:27:38.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27612263-17-operation-mechagon-workshop"
+        },
+        {
+          "dungeon": "Mechagon Junkyard",
+          "short_name": "YARD",
+          "level": 17,
+          "score": 319.1,
+          "upgrades": 0,
+          "completed_at": "2020-09-01T13:52:17.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27474642-17-operation-mechagon-junkyard"
+        },
+        {
+          "dungeon": "Shrine of the Storm",
+          "short_name": "SOTS",
+          "level": 15,
+          "score": 418.3,
+          "upgrades": 2,
+          "completed_at": "2020-08-30T14:48:35.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27313472-15-shrine-of-the-storm"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 14,
+          "score": 399.1,
+          "upgrades": 1,
+          "completed_at": "2020-08-30T13:53:40.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27319568-14-ataldazar"
+        },
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 11,
+          "score": 344.9,
+          "upgrades": 2,
+          "completed_at": "2020-08-29T16:54:06.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27237128-11-freehold"
+        },
+        {
+          "dungeon": "Waycrest Manor",
+          "short_name": "WM",
+          "level": 10,
+          "score": 326.3,
+          "upgrades": 1,
+          "completed_at": "2020-09-07T21:08:17.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27889679-10-waycrest-manor"
+        },
+        {
+          "dungeon": "Temple of Sethraliss",
+          "short_name": "TOS",
+          "level": 9,
+          "score": 272.3,
+          "upgrades": 0,
+          "completed_at": "2020-09-06T00:17:12.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27759891-9-temple-of-sethraliss"
+        },
+        {
+          "dungeon": "The Underrot",
+          "short_name": "UNDR",
+          "level": 7,
+          "score": 268.5,
+          "upgrades": 2,
+          "completed_at": "2020-09-06T12:10:48.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27787568-7-the-underrot"
+        },
+        {
+          "dungeon": "Tol Dagor",
+          "short_name": "TD",
+          "level": 5,
+          "score": 217.9,
+          "upgrades": 1,
+          "completed_at": "2020-08-29T11:13:34.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27215447-5-tol-dagor"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
+    },
     {
       "key": "eu:silvermoon:ahldroni",
       "name": "Ahldroni",
@@ -273,6 +522,235 @@
       "mythic_plus_alternate_runs": []
     },
     {
+      "key": "eu:stormrage:lifekiller",
+      "name": "Lifekiller",
+      "display_name": "Lifekiller",
+      "realm": "Stormrage",
+      "region": "eu",
+      "class_name": "Death Knight",
+      "spec": "Unholy",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 188,
+      "color": "#46eb48",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/stormrage/145/138253713-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/stormrage/Lifekiller",
+      "url": "https://raider.io/characters/eu/stormrage/Lifekiller",
+      "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 445.8,
+      "best_runs": [
+        {
+          "dungeon": "Siege of Boralus",
+          "short_name": "SIEGE",
+          "level": 7,
+          "score": 271.5,
+          "upgrades": 2,
+          "completed_at": "2020-07-14T19:42:01.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22568133-7-siege-of-boralus"
+        },
+        {
+          "dungeon": "Temple of Sethraliss",
+          "short_name": "TOS",
+          "level": 6,
+          "score": 243.9,
+          "upgrades": 2,
+          "completed_at": "2020-07-15T10:29:48.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22633603-6-temple-of-sethraliss"
+        },
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 6,
+          "score": 241.7,
+          "upgrades": 2,
+          "completed_at": "2020-07-28T22:20:26.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24139235-6-freehold"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 5,
+          "score": 223,
+          "upgrades": 2,
+          "completed_at": "2020-04-27T22:05:40.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11545643-5-ataldazar"
+        },
+        {
+          "dungeon": "Shrine of the Storm",
+          "short_name": "SOTS",
+          "level": 5,
+          "score": 215.1,
+          "upgrades": 1,
+          "completed_at": "2020-07-25T17:04:45.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23725848-5-shrine-of-the-storm"
+        },
+        {
+          "dungeon": "Mechagon Junkyard",
+          "short_name": "YARD",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2020-07-14T16:21:03.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542880-4-operation-mechagon-junkyard"
+        },
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "level": 5,
+          "score": 199.8,
+          "upgrades": 0,
+          "completed_at": "2020-04-28T15:24:33.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11639190-5-kings-rest"
+        },
+        {
+          "dungeon": "The MOTHERLODE!!",
+          "short_name": "ML",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2020-07-02T22:34:14.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21121202-2-the-motherlode"
+        },
+        {
+          "dungeon": "Tol Dagor",
+          "short_name": "TD",
+          "level": 2,
+          "score": 166.2,
+          "upgrades": 2,
+          "completed_at": "2020-07-14T15:52:12.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542458-2-tol-dagor"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Siege of Boralus",
+          "short_name": "SIEGE",
+          "level": 7,
+          "score": 271.5,
+          "upgrades": 2,
+          "completed_at": "2020-07-14T19:42:01.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22568133-7-siege-of-boralus"
+        },
+        {
+          "dungeon": "Temple of Sethraliss",
+          "short_name": "TOS",
+          "level": 6,
+          "score": 243.9,
+          "upgrades": 2,
+          "completed_at": "2020-07-15T10:29:48.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22633603-6-temple-of-sethraliss"
+        },
+        {
+          "dungeon": "Freehold",
+          "short_name": "FH",
+          "level": 6,
+          "score": 241.7,
+          "upgrades": 2,
+          "completed_at": "2020-07-28T22:20:26.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24139235-6-freehold"
+        },
+        {
+          "dungeon": "Atal'Dazar",
+          "short_name": "AD",
+          "level": 5,
+          "score": 223,
+          "upgrades": 2,
+          "completed_at": "2020-04-27T22:05:40.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11545643-5-ataldazar"
+        },
+        {
+          "dungeon": "Shrine of the Storm",
+          "short_name": "SOTS",
+          "level": 5,
+          "score": 215.1,
+          "upgrades": 1,
+          "completed_at": "2020-07-25T17:04:45.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23725848-5-shrine-of-the-storm"
+        },
+        {
+          "dungeon": "Mechagon Junkyard",
+          "short_name": "YARD",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2020-07-14T16:21:03.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542880-4-operation-mechagon-junkyard"
+        },
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "level": 5,
+          "score": 199.8,
+          "upgrades": 0,
+          "completed_at": "2020-04-28T15:24:33.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11639190-5-kings-rest"
+        },
+        {
+          "dungeon": "The MOTHERLODE!!",
+          "short_name": "ML",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2020-07-02T22:34:14.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21121202-2-the-motherlode"
+        },
+        {
+          "dungeon": "Tol Dagor",
+          "short_name": "TD",
+          "level": 2,
+          "score": 166.2,
+          "upgrades": 2,
+          "completed_at": "2020-07-14T15:52:12.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542458-2-tol-dagor"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
+    },
+    {
       "key": "eu:stormscale:kexa",
       "name": "Kexa",
       "display_name": "Kexa",
@@ -468,6 +946,14 @@
       "name": "Atal'Dazar",
       "entries": [
         {
+          "character": "Warlockzz",
+          "level": 14,
+          "score": 399.1,
+          "upgrades": 1,
+          "completed_at": "2020-08-30T13:53:40.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27319568-14-ataldazar"
+        },
+        {
           "character": "Ahldroni",
           "level": 12,
           "score": 366.4,
@@ -482,6 +968,14 @@
           "upgrades": 3,
           "completed_at": "2020-07-31T11:53:08.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/24366002-8-ataldazar"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 5,
+          "score": 223,
+          "upgrades": 2,
+          "completed_at": "2020-04-27T22:05:40.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11545643-5-ataldazar"
         }
       ]
     },
@@ -496,6 +990,22 @@
           "upgrades": 1,
           "completed_at": "2020-05-12T17:33:36.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/13660708-12-freehold"
+        },
+        {
+          "character": "Warlockzz",
+          "level": 11,
+          "score": 344.9,
+          "upgrades": 2,
+          "completed_at": "2020-08-29T16:54:06.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27237128-11-freehold"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 6,
+          "score": 241.7,
+          "upgrades": 2,
+          "completed_at": "2020-07-28T22:20:26.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24139235-6-freehold"
         }
       ]
     },
@@ -503,6 +1013,14 @@
       "short_name": "KR",
       "name": "Kings' Rest",
       "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 18,
+          "score": 459.9,
+          "upgrades": 1,
+          "completed_at": "2020-08-30T16:11:07.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27319567-18-kings-rest"
+        },
         {
           "character": "Ahldroni",
           "level": 11,
@@ -518,6 +1036,14 @@
           "upgrades": 2,
           "completed_at": "2020-07-29T10:59:58.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/24183045-7-kings-rest"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 5,
+          "score": 199.8,
+          "upgrades": 0,
+          "completed_at": "2020-04-28T15:24:33.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11639190-5-kings-rest"
         }
       ]
     },
@@ -532,6 +1058,14 @@
           "upgrades": 2,
           "completed_at": "2020-05-16T14:19:07.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/14247412-13-the-motherlode"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2020-07-02T22:34:14.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21121202-2-the-motherlode"
         }
       ]
     },
@@ -546,6 +1080,36 @@
           "upgrades": 0,
           "completed_at": "2020-02-29T14:41:55.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/4250948-11-siege-of-boralus"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 7,
+          "score": 271.5,
+          "upgrades": 2,
+          "completed_at": "2020-07-14T19:42:01.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22568133-7-siege-of-boralus"
+        }
+      ]
+    },
+    {
+      "short_name": "SOTS",
+      "name": "Shrine of the Storm",
+      "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 15,
+          "score": 418.3,
+          "upgrades": 2,
+          "completed_at": "2020-08-30T14:48:35.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27313472-15-shrine-of-the-storm"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 5,
+          "score": 215.1,
+          "upgrades": 1,
+          "completed_at": "2020-07-25T17:04:45.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23725848-5-shrine-of-the-storm"
         }
       ]
     },
@@ -560,6 +1124,22 @@
           "upgrades": 0,
           "completed_at": "2020-02-22T19:07:25.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/3461365-10-tol-dagor"
+        },
+        {
+          "character": "Warlockzz",
+          "level": 5,
+          "score": 217.9,
+          "upgrades": 1,
+          "completed_at": "2020-08-29T11:13:34.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27215447-5-tol-dagor"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 2,
+          "score": 166.2,
+          "upgrades": 2,
+          "completed_at": "2020-07-14T15:52:12.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542458-2-tol-dagor"
         }
       ]
     },
@@ -576,12 +1156,28 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/23834229-12-temple-of-sethraliss"
         },
         {
+          "character": "Warlockzz",
+          "level": 9,
+          "score": 272.3,
+          "upgrades": 0,
+          "completed_at": "2020-09-06T00:17:12.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27759891-9-temple-of-sethraliss"
+        },
+        {
           "character": "Kexa",
           "level": 7,
           "score": 270,
           "upgrades": 2,
           "completed_at": "2020-07-12T13:53:02.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/22275630-7-temple-of-sethraliss"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 6,
+          "score": 243.9,
+          "upgrades": 2,
+          "completed_at": "2020-07-15T10:29:48.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22633603-6-temple-of-sethraliss"
         }
       ]
     },
@@ -589,6 +1185,14 @@
       "short_name": "UNDR",
       "name": "The Underrot",
       "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 7,
+          "score": 268.5,
+          "upgrades": 2,
+          "completed_at": "2020-09-06T12:10:48.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27787568-7-the-underrot"
+        },
         {
           "character": "Kexa",
           "level": 4,
@@ -603,6 +1207,14 @@
       "short_name": "WM",
       "name": "Waycrest Manor",
       "entries": [
+        {
+          "character": "Warlockzz",
+          "level": 10,
+          "score": 326.3,
+          "upgrades": 1,
+          "completed_at": "2020-09-07T21:08:17.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27889679-10-waycrest-manor"
+        },
         {
           "character": "Ahldroni",
           "level": 9,
@@ -626,6 +1238,14 @@
       "name": "Mechagon Workshop",
       "entries": [
         {
+          "character": "Warlockzz",
+          "level": 17,
+          "score": 445.7,
+          "upgrades": 1,
+          "completed_at": "2020-09-03T17:27:38.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27612263-17-operation-mechagon-workshop"
+        },
+        {
           "character": "Ahldroni",
           "level": 10,
           "score": 329.1,
@@ -648,12 +1268,28 @@
       "name": "Mechagon Junkyard",
       "entries": [
         {
+          "character": "Warlockzz",
+          "level": 17,
+          "score": 319.1,
+          "upgrades": 0,
+          "completed_at": "2020-09-01T13:52:17.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27474642-17-operation-mechagon-junkyard"
+        },
+        {
           "character": "Ahldroni",
           "level": 11,
           "score": 335.9,
           "upgrades": 1,
           "completed_at": "2020-02-03T17:08:03.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/1388378-11-operation-mechagon-junkyard"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2020-07-14T16:21:03.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542880-4-operation-mechagon-junkyard"
         },
         {
           "character": "Kexa",
@@ -667,6 +1303,56 @@
     }
   ],
   "best_runs": [
+    {
+      "dungeon": "Kings' Rest",
+      "short_name": "KR",
+      "level": 18,
+      "score": 459.9,
+      "upgrades": 1,
+      "completed_at": "2020-08-30T16:11:07.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27319567-18-kings-rest"
+    },
+    {
+      "dungeon": "Mechagon Workshop",
+      "short_name": "WORK",
+      "level": 17,
+      "score": 445.7,
+      "upgrades": 1,
+      "completed_at": "2020-09-03T17:27:38.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27612263-17-operation-mechagon-workshop"
+    },
+    {
+      "dungeon": "Mechagon Junkyard",
+      "short_name": "YARD",
+      "level": 17,
+      "score": 319.1,
+      "upgrades": 0,
+      "completed_at": "2020-09-01T13:52:17.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27474642-17-operation-mechagon-junkyard"
+    },
+    {
+      "dungeon": "Shrine of the Storm",
+      "short_name": "SOTS",
+      "level": 15,
+      "score": 418.3,
+      "upgrades": 2,
+      "completed_at": "2020-08-30T14:48:35.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27313472-15-shrine-of-the-storm"
+    },
+    {
+      "dungeon": "Atal'Dazar",
+      "short_name": "AD",
+      "level": 14,
+      "score": 399.1,
+      "upgrades": 1,
+      "completed_at": "2020-08-30T13:53:40.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27319568-14-ataldazar"
+    },
     {
       "dungeon": "The MOTHERLODE!!",
       "short_name": "ML",
@@ -706,6 +1392,16 @@
       "completed_at": "2020-04-24T09:33:46.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/10992656-12-ataldazar"
+    },
+    {
+      "dungeon": "Freehold",
+      "short_name": "FH",
+      "level": 11,
+      "score": 344.9,
+      "upgrades": 2,
+      "completed_at": "2020-08-29T16:54:06.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27237128-11-freehold"
     },
     {
       "dungeon": "Mechagon Junkyard",
@@ -748,6 +1444,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/10989719-10-operation-mechagon-workshop"
     },
     {
+      "dungeon": "Waycrest Manor",
+      "short_name": "WM",
+      "level": 10,
+      "score": 326.3,
+      "upgrades": 1,
+      "completed_at": "2020-09-07T21:08:17.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27889679-10-waycrest-manor"
+    },
+    {
       "dungeon": "Tol Dagor",
       "short_name": "TD",
       "level": 10,
@@ -766,6 +1472,16 @@
       "completed_at": "2020-03-08T17:16:36.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/5246832-9-waycrest-manor"
+    },
+    {
+      "dungeon": "Temple of Sethraliss",
+      "short_name": "TOS",
+      "level": 9,
+      "score": 272.3,
+      "upgrades": 0,
+      "completed_at": "2020-09-06T00:17:12.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27759891-9-temple-of-sethraliss"
     },
     {
       "dungeon": "Atal'Dazar",
@@ -788,6 +1504,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/24183045-7-kings-rest"
     },
     {
+      "dungeon": "Siege of Boralus",
+      "short_name": "SIEGE",
+      "level": 7,
+      "score": 271.5,
+      "upgrades": 2,
+      "completed_at": "2020-07-14T19:42:01.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22568133-7-siege-of-boralus"
+    },
+    {
       "dungeon": "Temple of Sethraliss",
       "short_name": "TOS",
       "level": 7,
@@ -798,6 +1524,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/22275630-7-temple-of-sethraliss"
     },
     {
+      "dungeon": "The Underrot",
+      "short_name": "UNDR",
+      "level": 7,
+      "score": 268.5,
+      "upgrades": 2,
+      "completed_at": "2020-09-06T12:10:48.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27787568-7-the-underrot"
+    },
+    {
       "dungeon": "Mechagon Workshop",
       "short_name": "WORK",
       "level": 7,
@@ -806,6 +1542,76 @@
       "completed_at": "2020-09-26T13:02:36.000Z",
       "character": "Kexa",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/29015356-7-operation-mechagon-workshop"
+    },
+    {
+      "dungeon": "Temple of Sethraliss",
+      "short_name": "TOS",
+      "level": 6,
+      "score": 243.9,
+      "upgrades": 2,
+      "completed_at": "2020-07-15T10:29:48.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22633603-6-temple-of-sethraliss"
+    },
+    {
+      "dungeon": "Freehold",
+      "short_name": "FH",
+      "level": 6,
+      "score": 241.7,
+      "upgrades": 2,
+      "completed_at": "2020-07-28T22:20:26.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24139235-6-freehold"
+    },
+    {
+      "dungeon": "Atal'Dazar",
+      "short_name": "AD",
+      "level": 5,
+      "score": 223,
+      "upgrades": 2,
+      "completed_at": "2020-04-27T22:05:40.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11545643-5-ataldazar"
+    },
+    {
+      "dungeon": "Tol Dagor",
+      "short_name": "TD",
+      "level": 5,
+      "score": 217.9,
+      "upgrades": 1,
+      "completed_at": "2020-08-29T11:13:34.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27215447-5-tol-dagor"
+    },
+    {
+      "dungeon": "Shrine of the Storm",
+      "short_name": "SOTS",
+      "level": 5,
+      "score": 215.1,
+      "upgrades": 1,
+      "completed_at": "2020-07-25T17:04:45.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/23725848-5-shrine-of-the-storm"
+    },
+    {
+      "dungeon": "Kings' Rest",
+      "short_name": "KR",
+      "level": 5,
+      "score": 199.8,
+      "upgrades": 0,
+      "completed_at": "2020-04-28T15:24:33.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11639190-5-kings-rest"
+    },
+    {
+      "dungeon": "Mechagon Junkyard",
+      "short_name": "YARD",
+      "level": 4,
+      "score": 200,
+      "upgrades": 3,
+      "completed_at": "2020-07-14T16:21:03.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542880-4-operation-mechagon-junkyard"
     },
     {
       "dungeon": "The Underrot",
@@ -836,6 +1642,26 @@
       "completed_at": "2020-07-11T12:35:27.000Z",
       "character": "Kexa",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/22143712-4-operation-mechagon-junkyard"
+    },
+    {
+      "dungeon": "The MOTHERLODE!!",
+      "short_name": "ML",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2020-07-02T22:34:14.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/21121202-2-the-motherlode"
+    },
+    {
+      "dungeon": "Tol Dagor",
+      "short_name": "TD",
+      "level": 2,
+      "score": 166.2,
+      "upgrades": 2,
+      "completed_at": "2020-07-14T15:52:12.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542458-2-tol-dagor"
     }
   ]
 }

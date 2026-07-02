@@ -9,14 +9,14 @@
     "theme": "dragonflight",
     "file": "data/df-s3.json"
   },
-  "generated_at": "2026-07-02T08:37:34.793Z",
+  "generated_at": "2026-07-02T13:24:33.566Z",
   "summary": {
-    "total_score": 647.1,
-    "average_score": 647.1,
-    "scored_characters": 1,
-    "character_count": 1,
+    "total_score": 714.6,
+    "average_score": 357.3,
+    "scored_characters": 2,
+    "character_count": 2,
     "dungeon_count": 6,
-    "best_run_count": 7,
+    "best_run_count": 8,
     "highest_key": {
       "level": 11,
       "short_name": "WM"
@@ -213,6 +213,75 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/31609676-5-darkheart-thicket"
         }
       ]
+    },
+    {
+      "key": "eu:silvermoon:warlockzz",
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 276,
+      "color": "#ffffff",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progression": {
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "3/9 H",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 3,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 67.5,
+      "best_runs": [
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-03-27T22:23:10.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31902565-2-everbloom"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "The Everbloom",
+          "short_name": "EB",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-03-27T22:23:10.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31902565-2-everbloom"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
     }
   ],
   "dungeons": [
@@ -269,6 +338,14 @@
           "upgrades": 3,
           "completed_at": "2024-01-07T20:47:34.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/18043219-2-everbloom"
+        },
+        {
+          "character": "Warlockzz",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-03-27T22:23:10.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31902565-2-everbloom"
         }
       ]
     },
@@ -371,6 +448,16 @@
       "completed_at": "2024-01-07T20:47:34.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/18043219-2-everbloom"
+    },
+    {
+      "dungeon": "The Everbloom",
+      "short_name": "EB",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2024-03-27T22:23:10.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/31902565-2-everbloom"
     }
   ]
 }
