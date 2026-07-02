@@ -9,14 +9,14 @@
     "theme": "shadowlands",
     "file": "data/sl-s1.json"
   },
-  "generated_at": "2026-07-02T01:59:20.303Z",
+  "generated_at": "2026-07-02T08:37:34.793Z",
   "summary": {
-    "total_score": 923.6,
-    "average_score": 230.9,
-    "scored_characters": 4,
-    "character_count": 4,
+    "total_score": 787.2,
+    "average_score": 262.4,
+    "scored_characters": 3,
+    "character_count": 3,
     "dungeon_count": 8,
-    "best_run_count": 20,
+    "best_run_count": 16,
     "highest_key": {
       "level": 9,
       "short_name": "TOP"
@@ -362,135 +362,6 @@
       "mythic_plus_alternate_runs": []
     },
     {
-      "key": "eu:silvermoon:warlockzz",
-      "name": "Warlockzz",
-      "display_name": "Warlockzz",
-      "realm": "Silvermoon",
-      "region": "eu",
-      "class_name": "Warlock",
-      "spec": "Demonology",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 276,
-      "color": "#ffffff",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "raid_progression": {
-        "the-venomous-abyss": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "3/9 H",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 3,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 136.4,
-      "best_runs": [
-        {
-          "dungeon": "De Other Side",
-          "short_name": "DOS",
-          "level": 4,
-          "score": 189.4,
-          "upgrades": 1,
-          "completed_at": "2021-02-02T21:21:37.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15684798-4-de-other-side"
-        },
-        {
-          "dungeon": "The Necrotic Wake",
-          "short_name": "NW",
-          "level": 5,
-          "score": 196.6,
-          "upgrades": 0,
-          "completed_at": "2021-01-23T23:52:53.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13725348-5-the-necrotic-wake"
-        },
-        {
-          "dungeon": "Plaguefall",
-          "short_name": "PF",
-          "level": 3,
-          "score": 175.1,
-          "upgrades": 1,
-          "completed_at": "2021-01-24T18:35:54.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13924535-3-plaguefall"
-        },
-        {
-          "dungeon": "Mists of Tirna Scithe",
-          "short_name": "MISTS",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2021-01-23T23:00:10.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13708981-2-mists-of-tirna-scithe"
-        }
-      ],
-      "alternate_runs": [],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "De Other Side",
-          "short_name": "DOS",
-          "level": 4,
-          "score": 189.4,
-          "upgrades": 1,
-          "completed_at": "2021-02-02T21:21:37.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15684798-4-de-other-side"
-        },
-        {
-          "dungeon": "The Necrotic Wake",
-          "short_name": "NW",
-          "level": 5,
-          "score": 196.6,
-          "upgrades": 0,
-          "completed_at": "2021-01-23T23:52:53.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13725348-5-the-necrotic-wake"
-        },
-        {
-          "dungeon": "Plaguefall",
-          "short_name": "PF",
-          "level": 3,
-          "score": 175.1,
-          "upgrades": 1,
-          "completed_at": "2021-01-24T18:35:54.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13924535-3-plaguefall"
-        },
-        {
-          "dungeon": "Mists of Tirna Scithe",
-          "short_name": "MISTS",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2021-01-23T23:00:10.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13708981-2-mists-of-tirna-scithe"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
-    },
-    {
       "key": "eu:stormrage:lifekiller",
       "name": "Lifekiller",
       "display_name": "Lifekiller",
@@ -634,14 +505,6 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/21882749-7-de-other-side"
         },
         {
-          "character": "Warlockzz",
-          "level": 4,
-          "score": 189.4,
-          "upgrades": 1,
-          "completed_at": "2021-02-02T21:21:37.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15684798-4-de-other-side"
-        },
-        {
           "character": "Lifekiller",
           "level": 3,
           "score": 178.2,
@@ -708,14 +571,6 @@
           "upgrades": 3,
           "completed_at": "2021-02-08T16:19:47.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/17138979-4-mists-of-tirna-scithe"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2021-01-23T23:00:10.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13708981-2-mists-of-tirna-scithe"
         }
       ]
     },
@@ -723,14 +578,6 @@
       "short_name": "NW",
       "name": "The Necrotic Wake",
       "entries": [
-        {
-          "character": "Warlockzz",
-          "level": 5,
-          "score": 196.6,
-          "upgrades": 0,
-          "completed_at": "2021-01-23T23:52:53.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13725348-5-the-necrotic-wake"
-        },
         {
           "character": "Ahldroni",
           "level": 4,
@@ -752,14 +599,6 @@
           "upgrades": 1,
           "completed_at": "2021-06-29T13:46:55.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/35809959-7-plaguefall"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 3,
-          "score": 175.1,
-          "upgrades": 1,
-          "completed_at": "2021-01-24T18:35:54.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13924535-3-plaguefall"
         }
       ]
     },
@@ -914,16 +753,6 @@
     {
       "dungeon": "The Necrotic Wake",
       "short_name": "NW",
-      "level": 5,
-      "score": 196.6,
-      "upgrades": 0,
-      "completed_at": "2021-01-23T23:52:53.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/13725348-5-the-necrotic-wake"
-    },
-    {
-      "dungeon": "The Necrotic Wake",
-      "short_name": "NW",
       "level": 4,
       "score": 200,
       "upgrades": 3,
@@ -952,16 +781,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/3295154-4-sanguine-depths"
     },
     {
-      "dungeon": "De Other Side",
-      "short_name": "DOS",
-      "level": 4,
-      "score": 189.4,
-      "upgrades": 1,
-      "completed_at": "2021-02-02T21:21:37.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15684798-4-de-other-side"
-    },
-    {
       "dungeon": "Sanguine Depths",
       "short_name": "SD",
       "level": 4,
@@ -980,26 +799,6 @@
       "completed_at": "2021-04-09T23:05:41.000Z",
       "character": "Lifekiller",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/27878731-3-de-other-side"
-    },
-    {
-      "dungeon": "Plaguefall",
-      "short_name": "PF",
-      "level": 3,
-      "score": 175.1,
-      "upgrades": 1,
-      "completed_at": "2021-01-24T18:35:54.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/13924535-3-plaguefall"
-    },
-    {
-      "dungeon": "Mists of Tirna Scithe",
-      "short_name": "MISTS",
-      "level": 2,
-      "score": 170,
-      "upgrades": 3,
-      "completed_at": "2021-01-23T23:00:10.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/13708981-2-mists-of-tirna-scithe"
     },
     {
       "dungeon": "Theater of Pain",

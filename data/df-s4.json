@@ -9,14 +9,14 @@
     "theme": "dragonflight",
     "file": "data/df-s4.json"
   },
-  "generated_at": "2026-07-02T01:59:20.303Z",
+  "generated_at": "2026-07-02T08:37:34.793Z",
   "summary": {
-    "total_score": 4506.8,
-    "average_score": 901.4,
-    "scored_characters": 5,
-    "character_count": 5,
+    "total_score": 4125.7,
+    "average_score": 1031.4,
+    "scored_characters": 4,
+    "character_count": 4,
     "dungeon_count": 8,
-    "best_run_count": 31,
+    "best_run_count": 27,
     "highest_key": {
       "level": 10,
       "short_name": "AA"
@@ -695,137 +695,6 @@
       ]
     },
     {
-      "key": "eu:silvermoon:warlockzz",
-      "name": "Warlockzz",
-      "display_name": "Warlockzz",
-      "realm": "Silvermoon",
-      "region": "eu",
-      "class_name": "Warlock",
-      "spec": "Demonology",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 276,
-      "color": "#ddffcf",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "raid_progression": {
-        "the-venomous-abyss": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "3/9 H",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 3,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 381.1,
-      "best_runs": [
-        {
-          "dungeon": "Uldaman: Legacy of Tyr",
-          "short_name": "ULD",
-          "level": 2,
-          "score": 164.6,
-          "upgrades": 2,
-          "completed_at": "2024-07-10T12:37:33.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
-        },
-        {
-          "dungeon": "Neltharus",
-          "short_name": "NELT",
-          "level": 2,
-          "score": 158.6,
-          "upgrades": 1,
-          "completed_at": "2024-07-16T17:38:33.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
-        }
-      ],
-      "alternate_runs": [
-        {
-          "dungeon": "Uldaman: Legacy of Tyr",
-          "short_name": "ULD",
-          "level": 2,
-          "score": 162.5,
-          "upgrades": 1,
-          "completed_at": "2024-08-17T14:01:02.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
-        },
-        {
-          "dungeon": "Neltharus",
-          "short_name": "NELT",
-          "level": 2,
-          "score": 138.9,
-          "upgrades": 0,
-          "completed_at": "2024-07-09T23:52:42.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
-        }
-      ],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Uldaman: Legacy of Tyr",
-          "short_name": "ULD",
-          "level": 2,
-          "score": 164.6,
-          "upgrades": 2,
-          "completed_at": "2024-07-10T12:37:33.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
-        },
-        {
-          "dungeon": "Neltharus",
-          "short_name": "NELT",
-          "level": 2,
-          "score": 158.6,
-          "upgrades": 1,
-          "completed_at": "2024-07-16T17:38:33.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
-        }
-      ],
-      "mythic_plus_alternate_runs": [
-        {
-          "dungeon": "Uldaman: Legacy of Tyr",
-          "short_name": "ULD",
-          "level": 2,
-          "score": 162.5,
-          "upgrades": 1,
-          "completed_at": "2024-08-17T14:01:02.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
-        },
-        {
-          "dungeon": "Neltharus",
-          "short_name": "NELT",
-          "level": 2,
-          "score": 138.9,
-          "upgrades": 0,
-          "completed_at": "2024-07-09T23:52:42.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
-        }
-      ]
-    },
-    {
       "key": "eu:silvermoon:megakûk",
       "name": "Megakûk",
       "display_name": "Megakûk",
@@ -1011,14 +880,6 @@
           "upgrades": 2,
           "completed_at": "2024-08-17T14:45:43.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/12765672-10-neltharus"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 2,
-          "score": 158.6,
-          "upgrades": 1,
-          "completed_at": "2024-07-16T17:38:33.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
         }
       ]
     },
@@ -1093,14 +954,6 @@
           "upgrades": 1,
           "completed_at": "2024-07-18T01:16:23.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058754-5-uldaman-legacy-of-tyr"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 2,
-          "score": 164.6,
-          "upgrades": 2,
-          "completed_at": "2024-07-10T12:37:33.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
         },
         {
           "character": "Ahldroni",
@@ -1365,16 +1218,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/12812180-2-halls-of-infusion"
     },
     {
-      "dungeon": "Uldaman: Legacy of Tyr",
-      "short_name": "ULD",
-      "level": 2,
-      "score": 164.6,
-      "upgrades": 2,
-      "completed_at": "2024-07-10T12:37:33.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
-    },
-    {
       "dungeon": "The Nokhud Offensive",
       "short_name": "NO",
       "level": 2,
@@ -1388,41 +1231,11 @@
       "dungeon": "Uldaman: Legacy of Tyr",
       "short_name": "ULD",
       "level": 2,
-      "score": 162.5,
-      "upgrades": 1,
-      "completed_at": "2024-08-17T14:01:02.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
-    },
-    {
-      "dungeon": "Uldaman: Legacy of Tyr",
-      "short_name": "ULD",
-      "level": 2,
       "score": 159.8,
       "upgrades": 1,
       "completed_at": "2024-07-06T13:19:21.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
-    },
-    {
-      "dungeon": "Neltharus",
-      "short_name": "NELT",
-      "level": 2,
-      "score": 158.6,
-      "upgrades": 1,
-      "completed_at": "2024-07-16T17:38:33.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
-    },
-    {
-      "dungeon": "Neltharus",
-      "short_name": "NELT",
-      "level": 2,
-      "score": 138.9,
-      "upgrades": 0,
-      "completed_at": "2024-07-09T23:52:42.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
     }
   ]
 }
