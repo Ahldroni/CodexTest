@@ -9,14 +9,14 @@
     "theme": "shadowlands",
     "file": "data/sl-s1.json"
   },
-  "generated_at": "2026-07-08T01:20:59.358Z",
+  "generated_at": "2026-07-08T08:03:29.963Z",
   "summary": {
-    "total_score": 923.6,
-    "average_score": 230.9,
-    "scored_characters": 4,
-    "character_count": 4,
-    "dungeon_count": 8,
-    "best_run_count": 20,
+    "total_score": 576.6,
+    "average_score": 288.3,
+    "scored_characters": 2,
+    "character_count": 2,
+    "dungeon_count": 7,
+    "best_run_count": 11,
     "highest_key": {
       "level": 9,
       "short_name": "TOP"
@@ -213,155 +213,6 @@
       "mythic_plus_alternate_runs": []
     },
     {
-      "key": "eu:stormscale:kexa",
-      "name": "Kexa",
-      "display_name": "Kexa",
-      "realm": "Stormscale",
-      "region": "eu",
-      "class_name": "Mage",
-      "spec": "Fire",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 485,
-      "color": "#ffffff",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/stormscale/15/117908239-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/stormscale/Kexa",
-      "url": "https://raider.io/characters/eu/stormscale/Kexa",
-      "raid_progression": {
-        "the-venomous-abyss": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 221.7,
-      "best_runs": [
-        {
-          "dungeon": "Halls of Atonement",
-          "short_name": "HOA",
-          "level": 6,
-          "score": 233.1,
-          "upgrades": 1,
-          "completed_at": "2020-12-23T19:57:33.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/5550080-6-halls-of-atonement"
-        },
-        {
-          "dungeon": "Mists of Tirna Scithe",
-          "short_name": "MISTS",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2021-02-08T16:19:47.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17138979-4-mists-of-tirna-scithe"
-        },
-        {
-          "dungeon": "Spires of Ascension",
-          "short_name": "SOA",
-          "level": 7,
-          "score": 0,
-          "upgrades": 0,
-          "completed_at": "2020-12-28T18:09:27.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/7071109-7-spires-of-ascension"
-        },
-        {
-          "dungeon": "Sanguine Depths",
-          "short_name": "SD",
-          "level": 4,
-          "score": 196.5,
-          "upgrades": 2,
-          "completed_at": "2020-12-16T20:10:14.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/3295154-4-sanguine-depths"
-        },
-        {
-          "dungeon": "De Other Side",
-          "short_name": "DOS",
-          "level": 2,
-          "score": 168.6,
-          "upgrades": 2,
-          "completed_at": "2020-12-16T16:28:44.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/3242320-2-de-other-side"
-        }
-      ],
-      "alternate_runs": [],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Halls of Atonement",
-          "short_name": "HOA",
-          "level": 6,
-          "score": 233.1,
-          "upgrades": 1,
-          "completed_at": "2020-12-23T19:57:33.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/5550080-6-halls-of-atonement"
-        },
-        {
-          "dungeon": "Mists of Tirna Scithe",
-          "short_name": "MISTS",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2021-02-08T16:19:47.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17138979-4-mists-of-tirna-scithe"
-        },
-        {
-          "dungeon": "Spires of Ascension",
-          "short_name": "SOA",
-          "level": 7,
-          "score": 0,
-          "upgrades": 0,
-          "completed_at": "2020-12-28T18:09:27.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/7071109-7-spires-of-ascension"
-        },
-        {
-          "dungeon": "Sanguine Depths",
-          "short_name": "SD",
-          "level": 4,
-          "score": 196.5,
-          "upgrades": 2,
-          "completed_at": "2020-12-16T20:10:14.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/3295154-4-sanguine-depths"
-        },
-        {
-          "dungeon": "De Other Side",
-          "short_name": "DOS",
-          "level": 2,
-          "score": 168.6,
-          "upgrades": 2,
-          "completed_at": "2020-12-16T16:28:44.000Z",
-          "character": "Kexa",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/3242320-2-de-other-side"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
-    },
-    {
       "key": "eu:silvermoon:warlockzz",
       "name": "Warlockzz",
       "display_name": "Warlockzz",
@@ -489,135 +340,6 @@
         }
       ],
       "mythic_plus_alternate_runs": []
-    },
-    {
-      "key": "eu:stormrage:lifekiller",
-      "name": "Lifekiller",
-      "display_name": "Lifekiller",
-      "realm": "Stormrage",
-      "region": "eu",
-      "class_name": "Death Knight",
-      "spec": "Unholy",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 188,
-      "color": "#ffffff",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/stormrage/145/138253713-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/stormrage/Lifekiller",
-      "url": "https://raider.io/characters/eu/stormrage/Lifekiller",
-      "raid_progression": {
-        "the-venomous-abyss": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 125.3,
-      "best_runs": [
-        {
-          "dungeon": "Sanguine Depths",
-          "short_name": "SD",
-          "level": 4,
-          "score": 188.9,
-          "upgrades": 1,
-          "completed_at": "2021-04-09T22:21:52.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27873410-4-sanguine-depths"
-        },
-        {
-          "dungeon": "De Other Side",
-          "short_name": "DOS",
-          "level": 3,
-          "score": 178.2,
-          "upgrades": 2,
-          "completed_at": "2021-04-09T23:05:41.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27878731-3-de-other-side"
-        },
-        {
-          "dungeon": "Theater of Pain",
-          "short_name": "TOP",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2021-03-30T13:39:49.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26227884-2-theater-of-pain"
-        },
-        {
-          "dungeon": "Halls of Atonement",
-          "short_name": "HOA",
-          "level": 2,
-          "score": 167,
-          "upgrades": 2,
-          "completed_at": "2021-03-26T08:10:17.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25423012-2-halls-of-atonement"
-        }
-      ],
-      "alternate_runs": [],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Sanguine Depths",
-          "short_name": "SD",
-          "level": 4,
-          "score": 188.9,
-          "upgrades": 1,
-          "completed_at": "2021-04-09T22:21:52.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27873410-4-sanguine-depths"
-        },
-        {
-          "dungeon": "De Other Side",
-          "short_name": "DOS",
-          "level": 3,
-          "score": 178.2,
-          "upgrades": 2,
-          "completed_at": "2021-04-09T23:05:41.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27878731-3-de-other-side"
-        },
-        {
-          "dungeon": "Theater of Pain",
-          "short_name": "TOP",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2021-03-30T13:39:49.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26227884-2-theater-of-pain"
-        },
-        {
-          "dungeon": "Halls of Atonement",
-          "short_name": "HOA",
-          "level": 2,
-          "score": 167,
-          "upgrades": 2,
-          "completed_at": "2021-03-26T08:10:17.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25423012-2-halls-of-atonement"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
     }
   ],
   "dungeons": [
@@ -640,22 +362,6 @@
           "upgrades": 1,
           "completed_at": "2021-02-02T21:21:37.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/15684798-4-de-other-side"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 3,
-          "score": 178.2,
-          "upgrades": 2,
-          "completed_at": "2021-04-09T23:05:41.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27878731-3-de-other-side"
-        },
-        {
-          "character": "Kexa",
-          "level": 2,
-          "score": 168.6,
-          "upgrades": 2,
-          "completed_at": "2020-12-16T16:28:44.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/3242320-2-de-other-side"
         }
       ]
     },
@@ -670,22 +376,6 @@
           "upgrades": 2,
           "completed_at": "2021-03-31T16:04:10.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/26428397-6-halls-of-atonement"
-        },
-        {
-          "character": "Kexa",
-          "level": 6,
-          "score": 233.1,
-          "upgrades": 1,
-          "completed_at": "2020-12-23T19:57:33.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/5550080-6-halls-of-atonement"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 2,
-          "score": 167,
-          "upgrades": 2,
-          "completed_at": "2021-03-26T08:10:17.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25423012-2-halls-of-atonement"
         }
       ]
     },
@@ -700,14 +390,6 @@
           "upgrades": 3,
           "completed_at": "2021-03-23T20:34:47.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/25000361-6-mists-of-tirna-scithe"
-        },
-        {
-          "character": "Kexa",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2021-02-08T16:19:47.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17138979-4-mists-of-tirna-scithe"
         },
         {
           "character": "Warlockzz",
@@ -774,36 +456,6 @@
           "upgrades": 3,
           "completed_at": "2021-03-23T21:16:05.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/25009814-5-sanguine-depths"
-        },
-        {
-          "character": "Kexa",
-          "level": 4,
-          "score": 196.5,
-          "upgrades": 2,
-          "completed_at": "2020-12-16T20:10:14.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/3295154-4-sanguine-depths"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 4,
-          "score": 188.9,
-          "upgrades": 1,
-          "completed_at": "2021-04-09T22:21:52.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27873410-4-sanguine-depths"
-        }
-      ]
-    },
-    {
-      "short_name": "SOA",
-      "name": "Spires of Ascension",
-      "entries": [
-        {
-          "character": "Kexa",
-          "level": 7,
-          "score": 0,
-          "upgrades": 0,
-          "completed_at": "2020-12-28T18:09:27.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/7071109-7-spires-of-ascension"
         }
       ]
     },
@@ -818,14 +470,6 @@
           "upgrades": 0,
           "completed_at": "2021-06-27T17:11:36.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/35687216-9-theater-of-pain"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2021-03-30T13:39:49.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26227884-2-theater-of-pain"
         }
       ]
     }
@@ -862,16 +506,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/21882749-7-de-other-side"
     },
     {
-      "dungeon": "Spires of Ascension",
-      "short_name": "SOA",
-      "level": 7,
-      "score": 0,
-      "upgrades": 0,
-      "completed_at": "2020-12-28T18:09:27.000Z",
-      "character": "Kexa",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/7071109-7-spires-of-ascension"
-    },
-    {
       "dungeon": "Mists of Tirna Scithe",
       "short_name": "MISTS",
       "level": 6,
@@ -890,16 +524,6 @@
       "completed_at": "2021-03-31T16:04:10.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/26428397-6-halls-of-atonement"
-    },
-    {
-      "dungeon": "Halls of Atonement",
-      "short_name": "HOA",
-      "level": 6,
-      "score": 233.1,
-      "upgrades": 1,
-      "completed_at": "2020-12-23T19:57:33.000Z",
-      "character": "Kexa",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/5550080-6-halls-of-atonement"
     },
     {
       "dungeon": "Sanguine Depths",
@@ -932,26 +556,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/15838937-4-the-necrotic-wake"
     },
     {
-      "dungeon": "Mists of Tirna Scithe",
-      "short_name": "MISTS",
-      "level": 4,
-      "score": 200,
-      "upgrades": 3,
-      "completed_at": "2021-02-08T16:19:47.000Z",
-      "character": "Kexa",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17138979-4-mists-of-tirna-scithe"
-    },
-    {
-      "dungeon": "Sanguine Depths",
-      "short_name": "SD",
-      "level": 4,
-      "score": 196.5,
-      "upgrades": 2,
-      "completed_at": "2020-12-16T20:10:14.000Z",
-      "character": "Kexa",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/3295154-4-sanguine-depths"
-    },
-    {
       "dungeon": "De Other Side",
       "short_name": "DOS",
       "level": 4,
@@ -960,26 +564,6 @@
       "completed_at": "2021-02-02T21:21:37.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/15684798-4-de-other-side"
-    },
-    {
-      "dungeon": "Sanguine Depths",
-      "short_name": "SD",
-      "level": 4,
-      "score": 188.9,
-      "upgrades": 1,
-      "completed_at": "2021-04-09T22:21:52.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27873410-4-sanguine-depths"
-    },
-    {
-      "dungeon": "De Other Side",
-      "short_name": "DOS",
-      "level": 3,
-      "score": 178.2,
-      "upgrades": 2,
-      "completed_at": "2021-04-09T23:05:41.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/27878731-3-de-other-side"
     },
     {
       "dungeon": "Plaguefall",
@@ -1000,36 +584,6 @@
       "completed_at": "2021-01-23T23:00:10.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/13708981-2-mists-of-tirna-scithe"
-    },
-    {
-      "dungeon": "Theater of Pain",
-      "short_name": "TOP",
-      "level": 2,
-      "score": 170,
-      "upgrades": 3,
-      "completed_at": "2021-03-30T13:39:49.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/26227884-2-theater-of-pain"
-    },
-    {
-      "dungeon": "De Other Side",
-      "short_name": "DOS",
-      "level": 2,
-      "score": 168.6,
-      "upgrades": 2,
-      "completed_at": "2020-12-16T16:28:44.000Z",
-      "character": "Kexa",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/3242320-2-de-other-side"
-    },
-    {
-      "dungeon": "Halls of Atonement",
-      "short_name": "HOA",
-      "level": 2,
-      "score": 167,
-      "upgrades": 2,
-      "completed_at": "2021-03-26T08:10:17.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/25423012-2-halls-of-atonement"
     }
   ]
 }

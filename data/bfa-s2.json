@@ -9,14 +9,14 @@
     "theme": "bfa",
     "file": "data/bfa-s2.json"
   },
-  "generated_at": "2026-07-08T01:20:59.358Z",
+  "generated_at": "2026-07-08T08:03:29.963Z",
   "summary": {
-    "total_score": 633.4,
-    "average_score": 316.7,
-    "scored_characters": 2,
-    "character_count": 2,
+    "total_score": 609.9,
+    "average_score": 609.9,
+    "scored_characters": 1,
+    "character_count": 1,
     "dungeon_count": 10,
-    "best_run_count": 11,
+    "best_run_count": 10,
     "highest_key": {
       "level": 10,
       "short_name": "TOS"
@@ -271,75 +271,6 @@
         }
       ],
       "mythic_plus_alternate_runs": []
-    },
-    {
-      "key": "eu:stormrage:lifekiller",
-      "name": "Lifekiller",
-      "display_name": "Lifekiller",
-      "realm": "Stormrage",
-      "region": "eu",
-      "class_name": "Death Knight",
-      "spec": "Unholy",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 188,
-      "color": "#ffffff",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/stormrage/145/138253713-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/stormrage/Lifekiller",
-      "url": "https://raider.io/characters/eu/stormrage/Lifekiller",
-      "raid_progression": {
-        "the-venomous-abyss": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 23.5,
-      "best_runs": [
-        {
-          "dungeon": "The Underrot",
-          "short_name": "UNDR",
-          "level": 2,
-          "score": 163.5,
-          "upgrades": 2,
-          "completed_at": "2019-07-09T05:40:33.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13606578-2-the-underrot"
-        }
-      ],
-      "alternate_runs": [],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "The Underrot",
-          "short_name": "UNDR",
-          "level": 2,
-          "score": 163.5,
-          "upgrades": 2,
-          "completed_at": "2019-07-09T05:40:33.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13606578-2-the-underrot"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
     }
   ],
   "dungeons": [
@@ -466,14 +397,6 @@
           "upgrades": 1,
           "completed_at": "2019-04-23T14:33:28.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/8802216-8-the-underrot"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 2,
-          "score": 163.5,
-          "upgrades": 2,
-          "completed_at": "2019-07-09T05:40:33.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/13606578-2-the-underrot"
         }
       ]
     },
@@ -582,16 +505,6 @@
       "completed_at": "2019-04-15T22:27:57.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/8238689-3-siege-of-boralus"
-    },
-    {
-      "dungeon": "The Underrot",
-      "short_name": "UNDR",
-      "level": 2,
-      "score": 163.5,
-      "upgrades": 2,
-      "completed_at": "2019-07-09T05:40:33.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/13606578-2-the-underrot"
     },
     {
       "dungeon": "Shrine of the Storm",
