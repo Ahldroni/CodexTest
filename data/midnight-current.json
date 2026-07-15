@@ -9,14 +9,14 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-07-15T01:09:12.277Z",
+  "generated_at": "2026-07-15T07:46:08.739Z",
   "summary": {
-    "total_score": 7305.3,
-    "average_score": 2435.1,
-    "scored_characters": 3,
-    "character_count": 3,
+    "total_score": 6378,
+    "average_score": 3189,
+    "scored_characters": 2,
+    "character_count": 2,
     "dungeon_count": 8,
-    "best_run_count": 21,
+    "best_run_count": 16,
     "highest_key": {
       "level": 16,
       "short_name": "MC"
@@ -440,155 +440,6 @@
         }
       ],
       "mythic_plus_alternate_runs": []
-    },
-    {
-      "key": "eu:silvermoon:ahldroni",
-      "name": "Ahldroni",
-      "display_name": "Ahldroni",
-      "realm": "Silvermoon",
-      "region": "eu",
-      "class_name": "Druid",
-      "spec": "Guardian",
-      "role": "tank",
-      "level": 0,
-      "ilvl": 246,
-      "color": "#cfffbd",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
-      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
-      "raid_progression": {
-        "the-venomous-abyss": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 927.3,
-      "best_runs": [
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2026-04-20T21:38:51.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15498465-4-algethar-academy"
-        },
-        {
-          "dungeon": "Magisters' Terrace",
-          "short_name": "MT",
-          "level": 4,
-          "score": 196.8,
-          "upgrades": 2,
-          "completed_at": "2026-06-02T23:56:40.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/32649105-4-magisters-terrace"
-        },
-        {
-          "dungeon": "Nexus-Point Xenas",
-          "short_name": "NPX",
-          "level": 4,
-          "score": 196,
-          "upgrades": 2,
-          "completed_at": "2026-04-27T17:47:17.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18490861-4-nexuspoint-xenas"
-        },
-        {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2026-04-27T17:19:11.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18478829-2-skyreach"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "level": 2,
-          "score": 164.5,
-          "upgrades": 2,
-          "completed_at": "2026-04-20T12:58:42.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15269172-2-pit-of-saron"
-        }
-      ],
-      "alternate_runs": [],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2026-04-20T21:38:51.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15498465-4-algethar-academy"
-        },
-        {
-          "dungeon": "Magisters' Terrace",
-          "short_name": "MT",
-          "level": 4,
-          "score": 196.8,
-          "upgrades": 2,
-          "completed_at": "2026-06-02T23:56:40.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/32649105-4-magisters-terrace"
-        },
-        {
-          "dungeon": "Nexus-Point Xenas",
-          "short_name": "NPX",
-          "level": 4,
-          "score": 196,
-          "upgrades": 2,
-          "completed_at": "2026-04-27T17:47:17.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18490861-4-nexuspoint-xenas"
-        },
-        {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2026-04-27T17:19:11.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18478829-2-skyreach"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "level": 2,
-          "score": 164.5,
-          "upgrades": 2,
-          "completed_at": "2026-04-20T12:58:42.000Z",
-          "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15269172-2-pit-of-saron"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
     }
   ],
   "dungeons": [
@@ -611,14 +462,6 @@
           "upgrades": 1,
           "completed_at": "2026-05-04T16:19:55.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/21514417-13-algethar-academy"
-        },
-        {
-          "character": "Ahldroni",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2026-04-20T21:38:51.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15498465-4-algethar-academy"
         }
       ]
     },
@@ -663,14 +506,6 @@
           "upgrades": 1,
           "completed_at": "2026-04-21T09:51:37.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/15678582-12-magisters-terrace"
-        },
-        {
-          "character": "Ahldroni",
-          "level": 4,
-          "score": 196.8,
-          "upgrades": 2,
-          "completed_at": "2026-06-02T23:56:40.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/32649105-4-magisters-terrace"
         }
       ]
     },
@@ -693,14 +528,6 @@
           "upgrades": 1,
           "completed_at": "2026-04-20T22:47:32.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/15527343-12-nexuspoint-xenas"
-        },
-        {
-          "character": "Ahldroni",
-          "level": 4,
-          "score": 196,
-          "upgrades": 2,
-          "completed_at": "2026-04-27T17:47:17.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18490861-4-nexuspoint-xenas"
         }
       ]
     },
@@ -723,14 +550,6 @@
           "upgrades": 1,
           "completed_at": "2026-04-14T18:05:40.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/12559233-13-pit-of-saron"
-        },
-        {
-          "character": "Ahldroni",
-          "level": 2,
-          "score": 164.5,
-          "upgrades": 2,
-          "completed_at": "2026-04-20T12:58:42.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15269172-2-pit-of-saron"
         }
       ]
     },
@@ -775,14 +594,6 @@
           "upgrades": 1,
           "completed_at": "2026-06-06T22:32:30.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/33696657-14-skyreach"
-        },
-        {
-          "character": "Ahldroni",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2026-04-27T17:19:11.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18478829-2-skyreach"
         }
       ]
     },
@@ -969,56 +780,6 @@
       "completed_at": "2026-04-21T09:51:37.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/15678582-12-magisters-terrace"
-    },
-    {
-      "dungeon": "Algeth'ar Academy",
-      "short_name": "AA",
-      "level": 4,
-      "score": 200,
-      "upgrades": 3,
-      "completed_at": "2026-04-20T21:38:51.000Z",
-      "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15498465-4-algethar-academy"
-    },
-    {
-      "dungeon": "Magisters' Terrace",
-      "short_name": "MT",
-      "level": 4,
-      "score": 196.8,
-      "upgrades": 2,
-      "completed_at": "2026-06-02T23:56:40.000Z",
-      "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/32649105-4-magisters-terrace"
-    },
-    {
-      "dungeon": "Nexus-Point Xenas",
-      "short_name": "NPX",
-      "level": 4,
-      "score": 196,
-      "upgrades": 2,
-      "completed_at": "2026-04-27T17:47:17.000Z",
-      "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18490861-4-nexuspoint-xenas"
-    },
-    {
-      "dungeon": "Skyreach",
-      "short_name": "SR",
-      "level": 2,
-      "score": 170,
-      "upgrades": 3,
-      "completed_at": "2026-04-27T17:19:11.000Z",
-      "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18478829-2-skyreach"
-    },
-    {
-      "dungeon": "Pit of Saron",
-      "short_name": "POS",
-      "level": 2,
-      "score": 164.5,
-      "upgrades": 2,
-      "completed_at": "2026-04-20T12:58:42.000Z",
-      "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15269172-2-pit-of-saron"
     }
   ]
 }
