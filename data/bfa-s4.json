@@ -9,14 +9,14 @@
     "theme": "bfa",
     "file": "data/bfa-s4.json"
   },
-  "generated_at": "2026-07-17T07:48:11.678Z",
+  "generated_at": "2026-07-17T12:56:36.718Z",
   "summary": {
-    "total_score": 3468.1,
-    "average_score": 867,
-    "scored_characters": 4,
-    "character_count": 4,
+    "total_score": 3022.3,
+    "average_score": 1007.4,
+    "scored_characters": 3,
+    "character_count": 3,
     "dungeon_count": 12,
-    "best_run_count": 36,
+    "best_run_count": 27,
     "highest_key": {
       "level": 18,
       "short_name": "KR"
@@ -522,235 +522,6 @@
       "mythic_plus_alternate_runs": []
     },
     {
-      "key": "eu:stormrage:lifekiller",
-      "name": "Lifekiller",
-      "display_name": "Lifekiller",
-      "realm": "Stormrage",
-      "region": "eu",
-      "class_name": "Death Knight",
-      "spec": "Unholy",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 188,
-      "color": "#46eb48",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/stormrage/145/138253713-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/stormrage/Lifekiller",
-      "url": "https://raider.io/characters/eu/stormrage/Lifekiller",
-      "raid_progression": {
-        "the-venomous-abyss": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 445.8,
-      "best_runs": [
-        {
-          "dungeon": "Siege of Boralus",
-          "short_name": "SIEGE",
-          "level": 7,
-          "score": 271.5,
-          "upgrades": 2,
-          "completed_at": "2020-07-14T19:42:01.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22568133-7-siege-of-boralus"
-        },
-        {
-          "dungeon": "Temple of Sethraliss",
-          "short_name": "TOS",
-          "level": 6,
-          "score": 243.9,
-          "upgrades": 2,
-          "completed_at": "2020-07-15T10:29:48.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22633603-6-temple-of-sethraliss"
-        },
-        {
-          "dungeon": "Freehold",
-          "short_name": "FH",
-          "level": 6,
-          "score": 241.7,
-          "upgrades": 2,
-          "completed_at": "2020-07-28T22:20:26.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24139235-6-freehold"
-        },
-        {
-          "dungeon": "Atal'Dazar",
-          "short_name": "AD",
-          "level": 5,
-          "score": 223,
-          "upgrades": 2,
-          "completed_at": "2020-04-27T22:05:40.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11545643-5-ataldazar"
-        },
-        {
-          "dungeon": "Shrine of the Storm",
-          "short_name": "SOTS",
-          "level": 5,
-          "score": 215.1,
-          "upgrades": 1,
-          "completed_at": "2020-07-25T17:04:45.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23725848-5-shrine-of-the-storm"
-        },
-        {
-          "dungeon": "Mechagon Junkyard",
-          "short_name": "YARD",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2020-07-14T16:21:03.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542880-4-operation-mechagon-junkyard"
-        },
-        {
-          "dungeon": "Kings' Rest",
-          "short_name": "KR",
-          "level": 5,
-          "score": 199.8,
-          "upgrades": 0,
-          "completed_at": "2020-04-28T15:24:33.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11639190-5-kings-rest"
-        },
-        {
-          "dungeon": "The MOTHERLODE!!",
-          "short_name": "ML",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2020-07-02T22:34:14.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21121202-2-the-motherlode"
-        },
-        {
-          "dungeon": "Tol Dagor",
-          "short_name": "TD",
-          "level": 2,
-          "score": 166.2,
-          "upgrades": 2,
-          "completed_at": "2020-07-14T15:52:12.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542458-2-tol-dagor"
-        }
-      ],
-      "alternate_runs": [],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Siege of Boralus",
-          "short_name": "SIEGE",
-          "level": 7,
-          "score": 271.5,
-          "upgrades": 2,
-          "completed_at": "2020-07-14T19:42:01.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22568133-7-siege-of-boralus"
-        },
-        {
-          "dungeon": "Temple of Sethraliss",
-          "short_name": "TOS",
-          "level": 6,
-          "score": 243.9,
-          "upgrades": 2,
-          "completed_at": "2020-07-15T10:29:48.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22633603-6-temple-of-sethraliss"
-        },
-        {
-          "dungeon": "Freehold",
-          "short_name": "FH",
-          "level": 6,
-          "score": 241.7,
-          "upgrades": 2,
-          "completed_at": "2020-07-28T22:20:26.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24139235-6-freehold"
-        },
-        {
-          "dungeon": "Atal'Dazar",
-          "short_name": "AD",
-          "level": 5,
-          "score": 223,
-          "upgrades": 2,
-          "completed_at": "2020-04-27T22:05:40.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11545643-5-ataldazar"
-        },
-        {
-          "dungeon": "Shrine of the Storm",
-          "short_name": "SOTS",
-          "level": 5,
-          "score": 215.1,
-          "upgrades": 1,
-          "completed_at": "2020-07-25T17:04:45.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23725848-5-shrine-of-the-storm"
-        },
-        {
-          "dungeon": "Mechagon Junkyard",
-          "short_name": "YARD",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2020-07-14T16:21:03.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542880-4-operation-mechagon-junkyard"
-        },
-        {
-          "dungeon": "Kings' Rest",
-          "short_name": "KR",
-          "level": 5,
-          "score": 199.8,
-          "upgrades": 0,
-          "completed_at": "2020-04-28T15:24:33.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11639190-5-kings-rest"
-        },
-        {
-          "dungeon": "The MOTHERLODE!!",
-          "short_name": "ML",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2020-07-02T22:34:14.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21121202-2-the-motherlode"
-        },
-        {
-          "dungeon": "Tol Dagor",
-          "short_name": "TD",
-          "level": 2,
-          "score": 166.2,
-          "upgrades": 2,
-          "completed_at": "2020-07-14T15:52:12.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542458-2-tol-dagor"
-        }
-      ],
-      "mythic_plus_alternate_runs": []
-    },
-    {
       "key": "eu:stormscale:kexa",
       "name": "Kexa",
       "display_name": "Kexa",
@@ -968,14 +739,6 @@
           "upgrades": 3,
           "completed_at": "2020-07-31T11:53:08.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/24366002-8-ataldazar"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 5,
-          "score": 223,
-          "upgrades": 2,
-          "completed_at": "2020-04-27T22:05:40.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11545643-5-ataldazar"
         }
       ]
     },
@@ -998,14 +761,6 @@
           "upgrades": 2,
           "completed_at": "2020-08-29T16:54:06.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/27237128-11-freehold"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 6,
-          "score": 241.7,
-          "upgrades": 2,
-          "completed_at": "2020-07-28T22:20:26.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24139235-6-freehold"
         }
       ]
     },
@@ -1036,14 +791,6 @@
           "upgrades": 2,
           "completed_at": "2020-07-29T10:59:58.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/24183045-7-kings-rest"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 5,
-          "score": 199.8,
-          "upgrades": 0,
-          "completed_at": "2020-04-28T15:24:33.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11639190-5-kings-rest"
         }
       ]
     },
@@ -1058,14 +805,6 @@
           "upgrades": 2,
           "completed_at": "2020-05-16T14:19:07.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/14247412-13-the-motherlode"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2020-07-02T22:34:14.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21121202-2-the-motherlode"
         }
       ]
     },
@@ -1080,14 +819,6 @@
           "upgrades": 0,
           "completed_at": "2020-02-29T14:41:55.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/4250948-11-siege-of-boralus"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 7,
-          "score": 271.5,
-          "upgrades": 2,
-          "completed_at": "2020-07-14T19:42:01.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22568133-7-siege-of-boralus"
         }
       ]
     },
@@ -1102,14 +833,6 @@
           "upgrades": 2,
           "completed_at": "2020-08-30T14:48:35.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/27313472-15-shrine-of-the-storm"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 5,
-          "score": 215.1,
-          "upgrades": 1,
-          "completed_at": "2020-07-25T17:04:45.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23725848-5-shrine-of-the-storm"
         }
       ]
     },
@@ -1132,14 +855,6 @@
           "upgrades": 1,
           "completed_at": "2020-08-29T11:13:34.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/27215447-5-tol-dagor"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 2,
-          "score": 166.2,
-          "upgrades": 2,
-          "completed_at": "2020-07-14T15:52:12.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542458-2-tol-dagor"
         }
       ]
     },
@@ -1170,14 +885,6 @@
           "upgrades": 2,
           "completed_at": "2020-07-12T13:53:02.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/22275630-7-temple-of-sethraliss"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 6,
-          "score": 243.9,
-          "upgrades": 2,
-          "completed_at": "2020-07-15T10:29:48.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22633603-6-temple-of-sethraliss"
         }
       ]
     },
@@ -1282,14 +989,6 @@
           "upgrades": 1,
           "completed_at": "2020-02-03T17:08:03.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/1388378-11-operation-mechagon-junkyard"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 4,
-          "score": 200,
-          "upgrades": 3,
-          "completed_at": "2020-07-14T16:21:03.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542880-4-operation-mechagon-junkyard"
         },
         {
           "character": "Kexa",
@@ -1504,16 +1203,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/24183045-7-kings-rest"
     },
     {
-      "dungeon": "Siege of Boralus",
-      "short_name": "SIEGE",
-      "level": 7,
-      "score": 271.5,
-      "upgrades": 2,
-      "completed_at": "2020-07-14T19:42:01.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22568133-7-siege-of-boralus"
-    },
-    {
       "dungeon": "Temple of Sethraliss",
       "short_name": "TOS",
       "level": 7,
@@ -1544,36 +1233,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/29015356-7-operation-mechagon-workshop"
     },
     {
-      "dungeon": "Temple of Sethraliss",
-      "short_name": "TOS",
-      "level": 6,
-      "score": 243.9,
-      "upgrades": 2,
-      "completed_at": "2020-07-15T10:29:48.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22633603-6-temple-of-sethraliss"
-    },
-    {
-      "dungeon": "Freehold",
-      "short_name": "FH",
-      "level": 6,
-      "score": 241.7,
-      "upgrades": 2,
-      "completed_at": "2020-07-28T22:20:26.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24139235-6-freehold"
-    },
-    {
-      "dungeon": "Atal'Dazar",
-      "short_name": "AD",
-      "level": 5,
-      "score": 223,
-      "upgrades": 2,
-      "completed_at": "2020-04-27T22:05:40.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11545643-5-ataldazar"
-    },
-    {
       "dungeon": "Tol Dagor",
       "short_name": "TD",
       "level": 5,
@@ -1582,36 +1241,6 @@
       "completed_at": "2020-08-29T11:13:34.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/27215447-5-tol-dagor"
-    },
-    {
-      "dungeon": "Shrine of the Storm",
-      "short_name": "SOTS",
-      "level": 5,
-      "score": 215.1,
-      "upgrades": 1,
-      "completed_at": "2020-07-25T17:04:45.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/23725848-5-shrine-of-the-storm"
-    },
-    {
-      "dungeon": "Kings' Rest",
-      "short_name": "KR",
-      "level": 5,
-      "score": 199.8,
-      "upgrades": 0,
-      "completed_at": "2020-04-28T15:24:33.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11639190-5-kings-rest"
-    },
-    {
-      "dungeon": "Mechagon Junkyard",
-      "short_name": "YARD",
-      "level": 4,
-      "score": 200,
-      "upgrades": 3,
-      "completed_at": "2020-07-14T16:21:03.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542880-4-operation-mechagon-junkyard"
     },
     {
       "dungeon": "The Underrot",
@@ -1642,26 +1271,6 @@
       "completed_at": "2020-07-11T12:35:27.000Z",
       "character": "Kexa",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/22143712-4-operation-mechagon-junkyard"
-    },
-    {
-      "dungeon": "The MOTHERLODE!!",
-      "short_name": "ML",
-      "level": 2,
-      "score": 170,
-      "upgrades": 3,
-      "completed_at": "2020-07-02T22:34:14.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/21121202-2-the-motherlode"
-    },
-    {
-      "dungeon": "Tol Dagor",
-      "short_name": "TD",
-      "level": 2,
-      "score": 166.2,
-      "upgrades": 2,
-      "completed_at": "2020-07-14T15:52:12.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22542458-2-tol-dagor"
     }
   ]
 }
