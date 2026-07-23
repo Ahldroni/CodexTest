@@ -9,7 +9,7 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-07-22T18:53:04.245Z",
+  "generated_at": "2026-07-23T01:25:28.899Z",
   "summary": {
     "total_score": 7305.3,
     "average_score": 2435.1,
@@ -243,7 +243,7 @@
       "role": "dps",
       "level": 0,
       "ilvl": 276,
-      "color": "#2175d8",
+      "color": "#2075d8",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
@@ -452,7 +452,7 @@
       "role": "tank",
       "level": 0,
       "ilvl": 246,
-      "color": "#cfffbd",
+      "color": "#cfffbc",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
