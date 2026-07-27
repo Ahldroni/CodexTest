@@ -9,14 +9,14 @@
     "theme": "dragonflight",
     "file": "data/df-s1.json"
   },
-  "generated_at": "2026-07-27T01:29:22.486Z",
+  "generated_at": "2026-07-27T14:05:06.222Z",
   "summary": {
-    "total_score": 3320.9,
-    "average_score": 1107,
-    "scored_characters": 3,
-    "character_count": 3,
+    "total_score": 2235.4,
+    "average_score": 1117.7,
+    "scored_characters": 2,
+    "character_count": 2,
     "dungeon_count": 8,
-    "best_run_count": 28,
+    "best_run_count": 19,
     "highest_key": {
       "level": 17,
       "short_name": "AA"
@@ -395,237 +395,6 @@
       ]
     },
     {
-      "key": "eu:silvermoon:warlockzz",
-      "name": "Warlockzz",
-      "display_name": "Warlockzz",
-      "realm": "Silvermoon",
-      "region": "eu",
-      "class_name": "Warlock",
-      "spec": "Demonology",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 276,
-      "color": "#4ee455",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
-      "raid_progression": {
-        "the-venomous-abyss": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "3/9 H",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 3,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 1085.5,
-      "best_runs": [
-        {
-          "dungeon": "Court of Stars",
-          "short_name": "COS",
-          "level": 13,
-          "score": 393.5,
-          "upgrades": 2,
-          "completed_at": "2023-02-16T18:12:52.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20587544-13-court-of-stars"
-        },
-        {
-          "dungeon": "Shadowmoon Burial Grounds",
-          "short_name": "SBG",
-          "level": 11,
-          "score": 349.1,
-          "upgrades": 2,
-          "completed_at": "2023-02-14T18:31:34.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19846315-11-shadowmoon-burial-grounds"
-        },
-        {
-          "dungeon": "The Azure Vault",
-          "short_name": "AV",
-          "level": 11,
-          "score": 346.3,
-          "upgrades": 2,
-          "completed_at": "2023-02-16T17:42:18.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20579498-11-the-azure-vault"
-        },
-        {
-          "dungeon": "Halls of Valor",
-          "short_name": "HOV",
-          "level": 10,
-          "score": 326.5,
-          "upgrades": 1,
-          "completed_at": "2023-02-14T18:01:18.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19825895-10-halls-of-valor"
-        },
-        {
-          "dungeon": "Temple of the Jade Serpent",
-          "short_name": "TJS",
-          "level": 9,
-          "score": 291.8,
-          "upgrades": 1,
-          "completed_at": "2023-02-08T22:56:59.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18287577-9-temple-of-the-jade-serpent"
-        },
-        {
-          "dungeon": "Ruby Life Pools",
-          "short_name": "RLP",
-          "level": 8,
-          "score": 279.8,
-          "upgrades": 1,
-          "completed_at": "2023-02-10T15:45:06.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18654402-8-ruby-life-pools"
-        },
-        {
-          "dungeon": "The Nokhud Offensive",
-          "short_name": "NO",
-          "level": 6,
-          "score": 245,
-          "upgrades": 3,
-          "completed_at": "2023-02-08T22:10:16.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18279041-6-the-nokhud-offensive"
-        }
-      ],
-      "alternate_runs": [
-        {
-          "dungeon": "Temple of the Jade Serpent",
-          "short_name": "TJS",
-          "level": 5,
-          "score": 227,
-          "upgrades": 2,
-          "completed_at": "2023-02-05T20:16:07.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17424733-5-temple-of-the-jade-serpent"
-        },
-        {
-          "dungeon": "Ruby Life Pools",
-          "short_name": "RLP",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2023-02-05T18:36:11.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17399240-2-ruby-life-pools"
-        }
-      ],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Court of Stars",
-          "short_name": "COS",
-          "level": 13,
-          "score": 393.5,
-          "upgrades": 2,
-          "completed_at": "2023-02-16T18:12:52.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20587544-13-court-of-stars"
-        },
-        {
-          "dungeon": "Shadowmoon Burial Grounds",
-          "short_name": "SBG",
-          "level": 11,
-          "score": 349.1,
-          "upgrades": 2,
-          "completed_at": "2023-02-14T18:31:34.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19846315-11-shadowmoon-burial-grounds"
-        },
-        {
-          "dungeon": "The Azure Vault",
-          "short_name": "AV",
-          "level": 11,
-          "score": 346.3,
-          "upgrades": 2,
-          "completed_at": "2023-02-16T17:42:18.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20579498-11-the-azure-vault"
-        },
-        {
-          "dungeon": "Halls of Valor",
-          "short_name": "HOV",
-          "level": 10,
-          "score": 326.5,
-          "upgrades": 1,
-          "completed_at": "2023-02-14T18:01:18.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19825895-10-halls-of-valor"
-        },
-        {
-          "dungeon": "Temple of the Jade Serpent",
-          "short_name": "TJS",
-          "level": 9,
-          "score": 291.8,
-          "upgrades": 1,
-          "completed_at": "2023-02-08T22:56:59.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18287577-9-temple-of-the-jade-serpent"
-        },
-        {
-          "dungeon": "Ruby Life Pools",
-          "short_name": "RLP",
-          "level": 8,
-          "score": 279.8,
-          "upgrades": 1,
-          "completed_at": "2023-02-10T15:45:06.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18654402-8-ruby-life-pools"
-        },
-        {
-          "dungeon": "The Nokhud Offensive",
-          "short_name": "NO",
-          "level": 6,
-          "score": 245,
-          "upgrades": 3,
-          "completed_at": "2023-02-08T22:10:16.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18279041-6-the-nokhud-offensive"
-        }
-      ],
-      "mythic_plus_alternate_runs": [
-        {
-          "dungeon": "Temple of the Jade Serpent",
-          "short_name": "TJS",
-          "level": 5,
-          "score": 227,
-          "upgrades": 2,
-          "completed_at": "2023-02-05T20:16:07.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17424733-5-temple-of-the-jade-serpent"
-        },
-        {
-          "dungeon": "Ruby Life Pools",
-          "short_name": "RLP",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2023-02-05T18:36:11.000Z",
-          "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17399240-2-ruby-life-pools"
-        }
-      ]
-    },
-    {
       "key": "eu:stormscale:ahldrak",
       "name": "Ahldrak",
       "display_name": "Ahldrak",
@@ -761,14 +530,6 @@
           "upgrades": 2,
           "completed_at": "2023-03-24T15:31:31.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/29685865-15-the-azure-vault"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 11,
-          "score": 346.3,
-          "upgrades": 2,
-          "completed_at": "2023-02-16T17:42:18.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20579498-11-the-azure-vault"
         }
       ]
     },
@@ -783,14 +544,6 @@
           "upgrades": 1,
           "completed_at": "2023-02-26T20:35:50.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/23821928-14-court-of-stars"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 13,
-          "score": 393.5,
-          "upgrades": 2,
-          "completed_at": "2023-02-16T18:12:52.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20587544-13-court-of-stars"
         },
         {
           "character": "Ahldrak",
@@ -815,14 +568,6 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/24266762-14-halls-of-valor"
         },
         {
-          "character": "Warlockzz",
-          "level": 10,
-          "score": 326.5,
-          "upgrades": 1,
-          "completed_at": "2023-02-14T18:01:18.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19825895-10-halls-of-valor"
-        },
-        {
           "character": "Ahldrak",
           "level": 2,
           "score": 170,
@@ -843,14 +588,6 @@
           "upgrades": 1,
           "completed_at": "2023-02-27T15:07:44.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/24004935-16-the-nokhud-offensive"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 6,
-          "score": 245,
-          "upgrades": 3,
-          "completed_at": "2023-02-08T22:10:16.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18279041-6-the-nokhud-offensive"
         }
       ]
     },
@@ -865,14 +602,6 @@
           "upgrades": 0,
           "completed_at": "2023-02-27T17:50:12.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/24037180-16-ruby-life-pools"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 8,
-          "score": 279.8,
-          "upgrades": 1,
-          "completed_at": "2023-02-10T15:45:06.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18654402-8-ruby-life-pools"
         }
       ]
     },
@@ -887,14 +616,6 @@
           "upgrades": 0,
           "completed_at": "2023-03-01T13:39:05.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/24495083-17-shadowmoon-burial-grounds"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 11,
-          "score": 349.1,
-          "upgrades": 2,
-          "completed_at": "2023-02-14T18:31:34.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19846315-11-shadowmoon-burial-grounds"
         },
         {
           "character": "Ahldrak",
@@ -917,14 +638,6 @@
           "upgrades": 1,
           "completed_at": "2023-02-27T14:23:15.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/23998799-15-temple-of-the-jade-serpent"
-        },
-        {
-          "character": "Warlockzz",
-          "level": 9,
-          "score": 291.8,
-          "upgrades": 1,
-          "completed_at": "2023-02-08T22:56:59.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18287577-9-temple-of-the-jade-serpent"
         }
       ]
     }
@@ -1031,16 +744,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/23821928-14-court-of-stars"
     },
     {
-      "dungeon": "Court of Stars",
-      "short_name": "COS",
-      "level": 13,
-      "score": 393.5,
-      "upgrades": 2,
-      "completed_at": "2023-02-16T18:12:52.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/20587544-13-court-of-stars"
-    },
-    {
       "dungeon": "Halls of Valor",
       "short_name": "HOV",
       "level": 13,
@@ -1049,46 +752,6 @@
       "completed_at": "2023-03-01T15:19:42.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/24513595-13-halls-of-valor"
-    },
-    {
-      "dungeon": "Shadowmoon Burial Grounds",
-      "short_name": "SBG",
-      "level": 11,
-      "score": 349.1,
-      "upgrades": 2,
-      "completed_at": "2023-02-14T18:31:34.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/19846315-11-shadowmoon-burial-grounds"
-    },
-    {
-      "dungeon": "The Azure Vault",
-      "short_name": "AV",
-      "level": 11,
-      "score": 346.3,
-      "upgrades": 2,
-      "completed_at": "2023-02-16T17:42:18.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/20579498-11-the-azure-vault"
-    },
-    {
-      "dungeon": "Halls of Valor",
-      "short_name": "HOV",
-      "level": 10,
-      "score": 326.5,
-      "upgrades": 1,
-      "completed_at": "2023-02-14T18:01:18.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/19825895-10-halls-of-valor"
-    },
-    {
-      "dungeon": "Temple of the Jade Serpent",
-      "short_name": "TJS",
-      "level": 9,
-      "score": 291.8,
-      "upgrades": 1,
-      "completed_at": "2023-02-08T22:56:59.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18287577-9-temple-of-the-jade-serpent"
     },
     {
       "dungeon": "Court of Stars",
@@ -1101,16 +764,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/22245004-8-court-of-stars"
     },
     {
-      "dungeon": "Ruby Life Pools",
-      "short_name": "RLP",
-      "level": 8,
-      "score": 279.8,
-      "upgrades": 1,
-      "completed_at": "2023-02-10T15:45:06.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18654402-8-ruby-life-pools"
-    },
-    {
       "dungeon": "Algeth'ar Academy",
       "short_name": "AA",
       "level": 7,
@@ -1119,16 +772,6 @@
       "completed_at": "2023-02-20T21:59:07.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/22039976-7-algethar-academy"
-    },
-    {
-      "dungeon": "The Nokhud Offensive",
-      "short_name": "NO",
-      "level": 6,
-      "score": 245,
-      "upgrades": 3,
-      "completed_at": "2023-02-08T22:10:16.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18279041-6-the-nokhud-offensive"
     },
     {
       "dungeon": "The Azure Vault",
@@ -1159,26 +802,6 @@
       "completed_at": "2023-02-21T15:37:47.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/22249842-5-the-nokhud-offensive"
-    },
-    {
-      "dungeon": "Temple of the Jade Serpent",
-      "short_name": "TJS",
-      "level": 5,
-      "score": 227,
-      "upgrades": 2,
-      "completed_at": "2023-02-05T20:16:07.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17424733-5-temple-of-the-jade-serpent"
-    },
-    {
-      "dungeon": "Ruby Life Pools",
-      "short_name": "RLP",
-      "level": 2,
-      "score": 170,
-      "upgrades": 3,
-      "completed_at": "2023-02-05T18:36:11.000Z",
-      "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17399240-2-ruby-life-pools"
     },
     {
       "dungeon": "Shadowmoon Burial Grounds",
