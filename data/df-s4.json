@@ -9,14 +9,14 @@
     "theme": "dragonflight",
     "file": "data/df-s4.json"
   },
-  "generated_at": "2026-07-27T14:05:06.222Z",
+  "generated_at": "2026-07-27T19:06:41.446Z",
   "summary": {
-    "total_score": 3294.7,
-    "average_score": 1647.3,
-    "scored_characters": 2,
-    "character_count": 2,
+    "total_score": 4506.8,
+    "average_score": 901.4,
+    "scored_characters": 5,
+    "character_count": 5,
     "dungeon_count": 8,
-    "best_run_count": 21,
+    "best_run_count": 31,
     "highest_key": {
       "level": 10,
       "short_name": "AA"
@@ -39,6 +39,14 @@
       "profile_url": "https://raider.io/characters/eu/stormrage/Starseeker",
       "url": "https://raider.io/characters/eu/stormrage/Starseeker",
       "raid_progression": {
+        "the-tidebound-grotto": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-venomous-abyss": {
           "summary": "",
           "expansion_id": 11,
@@ -390,6 +398,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "raid_progression": {
+        "the-tidebound-grotto": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-venomous-abyss": {
           "summary": "",
           "expansion_id": 11,
@@ -542,6 +558,381 @@
         }
       ],
       "mythic_plus_alternate_runs": []
+    },
+    {
+      "key": "eu:stormrage:lifekiller",
+      "name": "Lifekiller",
+      "display_name": "Lifekiller",
+      "realm": "Stormrage",
+      "region": "eu",
+      "class_name": "Death Knight",
+      "spec": "Unholy",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 188,
+      "color": "#95ff7a",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/stormrage/145/138253713-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/stormrage/Lifekiller",
+      "url": "https://raider.io/characters/eu/stormrage/Lifekiller",
+      "raid_progression": {
+        "the-tidebound-grotto": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 682.5,
+      "best_runs": [
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 5,
+          "score": 221.4,
+          "upgrades": 1,
+          "completed_at": "2024-07-18T01:16:23.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058754-5-uldaman-legacy-of-tyr"
+        },
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-07-18T00:39:38.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058257-2-the-nokhud-offensive"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 2,
+          "score": 168.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-15T00:35:58.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10909186-2-algethar-academy"
+        },
+        {
+          "dungeon": "Halls of Infusion",
+          "short_name": "HOI",
+          "level": 2,
+          "score": 167.3,
+          "upgrades": 2,
+          "completed_at": "2024-08-18T10:04:29.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12812180-2-halls-of-infusion"
+        }
+      ],
+      "alternate_runs": [
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 2,
+          "score": 163.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-15T01:10:10.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10910267-2-the-nokhud-offensive"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 5,
+          "score": 221.4,
+          "upgrades": 1,
+          "completed_at": "2024-07-18T01:16:23.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058754-5-uldaman-legacy-of-tyr"
+        },
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-07-18T00:39:38.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058257-2-the-nokhud-offensive"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 2,
+          "score": 168.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-15T00:35:58.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10909186-2-algethar-academy"
+        },
+        {
+          "dungeon": "Halls of Infusion",
+          "short_name": "HOI",
+          "level": 2,
+          "score": 167.3,
+          "upgrades": 2,
+          "completed_at": "2024-08-18T10:04:29.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12812180-2-halls-of-infusion"
+        }
+      ],
+      "mythic_plus_alternate_runs": [
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 2,
+          "score": 163.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-15T01:10:10.000Z",
+          "character": "Lifekiller",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10910267-2-the-nokhud-offensive"
+        }
+      ]
+    },
+    {
+      "key": "eu:silvermoon:warlockzz",
+      "name": "Warlockzz",
+      "display_name": "Warlockzz",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Warlock",
+      "spec": "Demonology",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 276,
+      "color": "#ddffcf",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/15/217155343-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
+      "raid_progression": {
+        "the-tidebound-grotto": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "3/9 H",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 3,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 381.1,
+      "best_runs": [
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 2,
+          "score": 164.6,
+          "upgrades": 2,
+          "completed_at": "2024-07-10T12:37:33.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 2,
+          "score": 158.6,
+          "upgrades": 1,
+          "completed_at": "2024-07-16T17:38:33.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
+        }
+      ],
+      "alternate_runs": [
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 2,
+          "score": 162.5,
+          "upgrades": 1,
+          "completed_at": "2024-08-17T14:01:02.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 2,
+          "score": 138.9,
+          "upgrades": 0,
+          "completed_at": "2024-07-09T23:52:42.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 2,
+          "score": 164.6,
+          "upgrades": 2,
+          "completed_at": "2024-07-10T12:37:33.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 2,
+          "score": 158.6,
+          "upgrades": 1,
+          "completed_at": "2024-07-16T17:38:33.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
+        }
+      ],
+      "mythic_plus_alternate_runs": [
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 2,
+          "score": 162.5,
+          "upgrades": 1,
+          "completed_at": "2024-08-17T14:01:02.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 2,
+          "score": 138.9,
+          "upgrades": 0,
+          "completed_at": "2024-07-09T23:52:42.000Z",
+          "character": "Warlockzz",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
+        }
+      ]
+    },
+    {
+      "key": "eu:silvermoon:megakûk",
+      "name": "Megakûk",
+      "display_name": "Megakûk",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Monk",
+      "spec": "Windwalker",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 499,
+      "color": "#ffffff",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/151/215001751-avatar.jpg?alt=/wow/static/images/2d/avatar/26-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Megakûk",
+      "url": "https://raider.io/characters/eu/silvermoon/Megakûk",
+      "raid_progression": {
+        "the-tidebound-grotto": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 148.5,
+      "best_runs": [
+        {
+          "dungeon": "Ruby Life Pools",
+          "short_name": "RLP",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-07-06T14:20:14.000Z",
+          "character": "Megakûk",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Ruby Life Pools",
+          "short_name": "RLP",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-07-06T14:20:14.000Z",
+          "character": "Megakûk",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
     }
   ],
   "dungeons": [
@@ -564,6 +955,14 @@
           "upgrades": 2,
           "completed_at": "2024-07-22T11:28:50.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/11234816-4-algethar-academy"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 2,
+          "score": 168.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-15T00:35:58.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10909186-2-algethar-academy"
         }
       ]
     },
@@ -630,6 +1029,14 @@
           "upgrades": 1,
           "completed_at": "2024-07-16T22:07:10.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017903-4-halls-of-infusion"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 2,
+          "score": 167.3,
+          "upgrades": 2,
+          "completed_at": "2024-08-18T10:04:29.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12812180-2-halls-of-infusion"
         }
       ]
     },
@@ -644,6 +1051,14 @@
           "upgrades": 2,
           "completed_at": "2024-08-17T14:45:43.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/12765672-10-neltharus"
+        },
+        {
+          "character": "Warlockzz",
+          "level": 2,
+          "score": 158.6,
+          "upgrades": 1,
+          "completed_at": "2024-07-16T17:38:33.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
         }
       ]
     },
@@ -666,6 +1081,14 @@
           "upgrades": 3,
           "completed_at": "2024-07-22T23:39:58.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/11257593-4-the-nokhud-offensive"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-07-18T00:39:38.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058257-2-the-nokhud-offensive"
         }
       ]
     },
@@ -680,6 +1103,14 @@
           "upgrades": 2,
           "completed_at": "2024-08-14T18:45:43.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/12633353-8-ruby-life-pools"
+        },
+        {
+          "character": "Megakûk",
+          "level": 2,
+          "score": 170,
+          "upgrades": 3,
+          "completed_at": "2024-07-06T14:20:14.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
         }
       ]
     },
@@ -694,6 +1125,22 @@
           "upgrades": 2,
           "completed_at": "2024-07-30T23:55:19.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/11718089-7-uldaman-legacy-of-tyr"
+        },
+        {
+          "character": "Lifekiller",
+          "level": 5,
+          "score": 221.4,
+          "upgrades": 1,
+          "completed_at": "2024-07-18T01:16:23.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058754-5-uldaman-legacy-of-tyr"
+        },
+        {
+          "character": "Warlockzz",
+          "level": 2,
+          "score": 164.6,
+          "upgrades": 2,
+          "completed_at": "2024-07-10T12:37:33.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
         },
         {
           "character": "Ahldroni",
@@ -848,6 +1295,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/10473955-5-brackenhide-hollow"
     },
     {
+      "dungeon": "Uldaman: Legacy of Tyr",
+      "short_name": "ULD",
+      "level": 5,
+      "score": 221.4,
+      "upgrades": 1,
+      "completed_at": "2024-07-18T01:16:23.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058754-5-uldaman-legacy-of-tyr"
+    },
+    {
       "dungeon": "The Nokhud Offensive",
       "short_name": "NO",
       "level": 4,
@@ -908,6 +1365,76 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/11237762-4-halls-of-infusion"
     },
     {
+      "dungeon": "The Nokhud Offensive",
+      "short_name": "NO",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2024-07-18T00:39:38.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058257-2-the-nokhud-offensive"
+    },
+    {
+      "dungeon": "Ruby Life Pools",
+      "short_name": "RLP",
+      "level": 2,
+      "score": 170,
+      "upgrades": 3,
+      "completed_at": "2024-07-06T14:20:14.000Z",
+      "character": "Megakûk",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
+    },
+    {
+      "dungeon": "Algeth'ar Academy",
+      "short_name": "AA",
+      "level": 2,
+      "score": 168.5,
+      "upgrades": 2,
+      "completed_at": "2024-07-15T00:35:58.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10909186-2-algethar-academy"
+    },
+    {
+      "dungeon": "Halls of Infusion",
+      "short_name": "HOI",
+      "level": 2,
+      "score": 167.3,
+      "upgrades": 2,
+      "completed_at": "2024-08-18T10:04:29.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12812180-2-halls-of-infusion"
+    },
+    {
+      "dungeon": "Uldaman: Legacy of Tyr",
+      "short_name": "ULD",
+      "level": 2,
+      "score": 164.6,
+      "upgrades": 2,
+      "completed_at": "2024-07-10T12:37:33.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
+    },
+    {
+      "dungeon": "The Nokhud Offensive",
+      "short_name": "NO",
+      "level": 2,
+      "score": 163.5,
+      "upgrades": 2,
+      "completed_at": "2024-07-15T01:10:10.000Z",
+      "character": "Lifekiller",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10910267-2-the-nokhud-offensive"
+    },
+    {
+      "dungeon": "Uldaman: Legacy of Tyr",
+      "short_name": "ULD",
+      "level": 2,
+      "score": 162.5,
+      "upgrades": 1,
+      "completed_at": "2024-08-17T14:01:02.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
+    },
+    {
       "dungeon": "Uldaman: Legacy of Tyr",
       "short_name": "ULD",
       "level": 2,
@@ -916,6 +1443,26 @@
       "completed_at": "2024-07-06T13:19:21.000Z",
       "character": "Ahldroni",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
+    },
+    {
+      "dungeon": "Neltharus",
+      "short_name": "NELT",
+      "level": 2,
+      "score": 158.6,
+      "upgrades": 1,
+      "completed_at": "2024-07-16T17:38:33.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
+    },
+    {
+      "dungeon": "Neltharus",
+      "short_name": "NELT",
+      "level": 2,
+      "score": 138.9,
+      "upgrades": 0,
+      "completed_at": "2024-07-09T23:52:42.000Z",
+      "character": "Warlockzz",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
     }
   ]
 }
