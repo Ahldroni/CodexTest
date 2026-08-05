@@ -9,20 +9,217 @@
     "theme": "shadowlands",
     "file": "data/sl-s1.json"
   },
-  "generated_at": "2026-08-05T13:29:35.863Z",
+  "generated_at": "2026-08-05T19:09:03.426Z",
   "summary": {
-    "total_score": 483.4,
-    "average_score": 161.1,
-    "scored_characters": 3,
-    "character_count": 3,
+    "total_score": 923.6,
+    "average_score": 230.9,
+    "scored_characters": 4,
+    "character_count": 4,
     "dungeon_count": 8,
-    "best_run_count": 13,
+    "best_run_count": 20,
     "highest_key": {
-      "level": 7,
-      "short_name": "SOA"
+      "level": 9,
+      "short_name": "TOP"
     }
   },
   "characters": [
+    {
+      "key": "eu:silvermoon:ahldroni",
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Guardian",
+      "role": "tank",
+      "level": 0,
+      "ilvl": 246,
+      "color": "#59d46d",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progression": {
+        "the-tidebound-grotto": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 440.2,
+      "best_runs": [
+        {
+          "dungeon": "Theater of Pain",
+          "short_name": "TOP",
+          "level": 9,
+          "score": 271.2,
+          "upgrades": 0,
+          "completed_at": "2021-06-27T17:11:36.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35687216-9-theater-of-pain"
+        },
+        {
+          "dungeon": "Plaguefall",
+          "short_name": "PF",
+          "level": 7,
+          "score": 267,
+          "upgrades": 1,
+          "completed_at": "2021-06-29T13:46:55.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35809959-7-plaguefall"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 6,
+          "score": 245,
+          "upgrades": 3,
+          "completed_at": "2021-03-23T20:34:47.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25000361-6-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "Halls of Atonement",
+          "short_name": "HOA",
+          "level": 6,
+          "score": 238.7,
+          "upgrades": 2,
+          "completed_at": "2021-03-31T16:04:10.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26428397-6-halls-of-atonement"
+        },
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 7,
+          "score": 244,
+          "upgrades": 0,
+          "completed_at": "2021-03-07T17:40:12.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21882749-7-de-other-side"
+        },
+        {
+          "dungeon": "Sanguine Depths",
+          "short_name": "SD",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2021-03-23T21:16:05.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25009814-5-sanguine-depths"
+        },
+        {
+          "dungeon": "The Necrotic Wake",
+          "short_name": "NW",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2021-02-03T15:27:54.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15838937-4-the-necrotic-wake"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Theater of Pain",
+          "short_name": "TOP",
+          "level": 9,
+          "score": 271.2,
+          "upgrades": 0,
+          "completed_at": "2021-06-27T17:11:36.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35687216-9-theater-of-pain"
+        },
+        {
+          "dungeon": "Plaguefall",
+          "short_name": "PF",
+          "level": 7,
+          "score": 267,
+          "upgrades": 1,
+          "completed_at": "2021-06-29T13:46:55.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35809959-7-plaguefall"
+        },
+        {
+          "dungeon": "Mists of Tirna Scithe",
+          "short_name": "MISTS",
+          "level": 6,
+          "score": 245,
+          "upgrades": 3,
+          "completed_at": "2021-03-23T20:34:47.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25000361-6-mists-of-tirna-scithe"
+        },
+        {
+          "dungeon": "Halls of Atonement",
+          "short_name": "HOA",
+          "level": 6,
+          "score": 238.7,
+          "upgrades": 2,
+          "completed_at": "2021-03-31T16:04:10.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26428397-6-halls-of-atonement"
+        },
+        {
+          "dungeon": "De Other Side",
+          "short_name": "DOS",
+          "level": 7,
+          "score": 244,
+          "upgrades": 0,
+          "completed_at": "2021-03-07T17:40:12.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21882749-7-de-other-side"
+        },
+        {
+          "dungeon": "Sanguine Depths",
+          "short_name": "SD",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2021-03-23T21:16:05.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25009814-5-sanguine-depths"
+        },
+        {
+          "dungeon": "The Necrotic Wake",
+          "short_name": "NW",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2021-02-03T15:27:54.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15838937-4-the-necrotic-wake"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
+    },
     {
       "key": "eu:stormscale:kexa",
       "name": "Kexa",
@@ -461,6 +658,14 @@
       "name": "De Other Side",
       "entries": [
         {
+          "character": "Ahldroni",
+          "level": 7,
+          "score": 244,
+          "upgrades": 0,
+          "completed_at": "2021-03-07T17:40:12.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21882749-7-de-other-side"
+        },
+        {
           "character": "Warlockzz",
           "level": 4,
           "score": 189.4,
@@ -491,6 +696,14 @@
       "name": "Halls of Atonement",
       "entries": [
         {
+          "character": "Ahldroni",
+          "level": 6,
+          "score": 238.7,
+          "upgrades": 2,
+          "completed_at": "2021-03-31T16:04:10.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26428397-6-halls-of-atonement"
+        },
+        {
           "character": "Kexa",
           "level": 6,
           "score": 233.1,
@@ -512,6 +725,14 @@
       "short_name": "MISTS",
       "name": "Mists of Tirna Scithe",
       "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 6,
+          "score": 245,
+          "upgrades": 3,
+          "completed_at": "2021-03-23T20:34:47.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25000361-6-mists-of-tirna-scithe"
+        },
         {
           "character": "Kexa",
           "level": 4,
@@ -541,6 +762,14 @@
           "upgrades": 0,
           "completed_at": "2021-01-23T23:52:53.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/13725348-5-the-necrotic-wake"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2021-02-03T15:27:54.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/15838937-4-the-necrotic-wake"
         }
       ]
     },
@@ -548,6 +777,14 @@
       "short_name": "PF",
       "name": "Plaguefall",
       "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 7,
+          "score": 267,
+          "upgrades": 1,
+          "completed_at": "2021-06-29T13:46:55.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35809959-7-plaguefall"
+        },
         {
           "character": "Warlockzz",
           "level": 3,
@@ -562,6 +799,14 @@
       "short_name": "SD",
       "name": "Sanguine Depths",
       "entries": [
+        {
+          "character": "Ahldroni",
+          "level": 5,
+          "score": 230,
+          "upgrades": 3,
+          "completed_at": "2021-03-23T21:16:05.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25009814-5-sanguine-depths"
+        },
         {
           "character": "Kexa",
           "level": 4,
@@ -599,6 +844,14 @@
       "name": "Theater of Pain",
       "entries": [
         {
+          "character": "Ahldroni",
+          "level": 9,
+          "score": 271.2,
+          "upgrades": 0,
+          "completed_at": "2021-06-27T17:11:36.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35687216-9-theater-of-pain"
+        },
+        {
           "character": "Lifekiller",
           "level": 2,
           "score": 170,
@@ -611,6 +864,36 @@
   ],
   "best_runs": [
     {
+      "dungeon": "Theater of Pain",
+      "short_name": "TOP",
+      "level": 9,
+      "score": 271.2,
+      "upgrades": 0,
+      "completed_at": "2021-06-27T17:11:36.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/35687216-9-theater-of-pain"
+    },
+    {
+      "dungeon": "Plaguefall",
+      "short_name": "PF",
+      "level": 7,
+      "score": 267,
+      "upgrades": 1,
+      "completed_at": "2021-06-29T13:46:55.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/35809959-7-plaguefall"
+    },
+    {
+      "dungeon": "De Other Side",
+      "short_name": "DOS",
+      "level": 7,
+      "score": 244,
+      "upgrades": 0,
+      "completed_at": "2021-03-07T17:40:12.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/21882749-7-de-other-side"
+    },
+    {
       "dungeon": "Spires of Ascension",
       "short_name": "SOA",
       "level": 7,
@@ -619,6 +902,26 @@
       "completed_at": "2020-12-28T18:09:27.000Z",
       "character": "Kexa",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/7071109-7-spires-of-ascension"
+    },
+    {
+      "dungeon": "Mists of Tirna Scithe",
+      "short_name": "MISTS",
+      "level": 6,
+      "score": 245,
+      "upgrades": 3,
+      "completed_at": "2021-03-23T20:34:47.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/25000361-6-mists-of-tirna-scithe"
+    },
+    {
+      "dungeon": "Halls of Atonement",
+      "short_name": "HOA",
+      "level": 6,
+      "score": 238.7,
+      "upgrades": 2,
+      "completed_at": "2021-03-31T16:04:10.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/26428397-6-halls-of-atonement"
     },
     {
       "dungeon": "Halls of Atonement",
@@ -631,6 +934,16 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/5550080-6-halls-of-atonement"
     },
     {
+      "dungeon": "Sanguine Depths",
+      "short_name": "SD",
+      "level": 5,
+      "score": 230,
+      "upgrades": 3,
+      "completed_at": "2021-03-23T21:16:05.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/25009814-5-sanguine-depths"
+    },
+    {
       "dungeon": "The Necrotic Wake",
       "short_name": "NW",
       "level": 5,
@@ -639,6 +952,16 @@
       "completed_at": "2021-01-23T23:52:53.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-1/13725348-5-the-necrotic-wake"
+    },
+    {
+      "dungeon": "The Necrotic Wake",
+      "short_name": "NW",
+      "level": 4,
+      "score": 200,
+      "upgrades": 3,
+      "completed_at": "2021-02-03T15:27:54.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-1/15838937-4-the-necrotic-wake"
     },
     {
       "dungeon": "Mists of Tirna Scithe",
