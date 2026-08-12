@@ -9,7 +9,7 @@
     "theme": "bfa",
     "file": "data/bfa-s4.json"
   },
-  "generated_at": "2026-08-12T12:38:08.020Z",
+  "generated_at": "2026-08-12T18:43:32.402Z",
   "summary": {
     "total_score": 3468.1,
     "average_score": 867,
@@ -287,8 +287,8 @@
       "realm": "Silvermoon",
       "region": "eu",
       "class_name": "Druid",
-      "spec": "Guardian",
-      "role": "tank",
+      "spec": "Feral",
+      "role": "dps",
       "level": 0,
       "ilvl": 246,
       "color": "#1b74d9",
