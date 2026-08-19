@@ -10,6 +10,16 @@
     "file": "data/midnight-current.json"
   },
   {
+    "id": "tww-s3",
+    "apiSeasonId": "season-tww-3",
+    "expansion": "The War Within",
+    "name": "The War Within Season 3",
+    "shortName": "TWW S3",
+    "isCurrent": false,
+    "theme": "war-within",
+    "file": "data/tww-s3.json"
+  },
+  {
     "id": "df-s4",
     "apiSeasonId": "season-df-4",
     "expansion": "Dragonflight",
