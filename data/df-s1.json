@@ -9,7 +9,7 @@
     "theme": "dragonflight",
     "file": "data/df-s1.json"
   },
-  "generated_at": "2026-08-19T00:29:28.782Z",
+  "generated_at": "2026-08-19T06:21:17.697Z",
   "summary": {
     "total_score": 3320.9,
     "average_score": 1107,
@@ -82,7 +82,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-28T22:49:49.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24370870-17-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24370870-17-algethar-academy"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -92,7 +92,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-27T15:07:44.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24004935-16-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24004935-16-the-nokhud-offensive"
         },
         {
           "dungeon": "Shadowmoon Burial Grounds",
@@ -102,7 +102,7 @@
           "upgrades": 0,
           "completed_at": "2023-03-01T13:39:05.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24495083-17-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24495083-17-shadowmoon-burial-grounds"
         },
         {
           "dungeon": "The Azure Vault",
@@ -112,7 +112,7 @@
           "upgrades": 2,
           "completed_at": "2023-03-24T15:31:31.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/29685865-15-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/29685865-15-the-azure-vault"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -122,7 +122,7 @@
           "upgrades": 0,
           "completed_at": "2023-02-27T17:50:12.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24037180-16-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24037180-16-ruby-life-pools"
         },
         {
           "dungeon": "Temple of the Jade Serpent",
@@ -132,7 +132,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-27T14:23:15.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23998799-15-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/23998799-15-temple-of-the-jade-serpent"
         },
         {
           "dungeon": "Halls of Valor",
@@ -142,7 +142,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-28T15:40:49.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24266762-14-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24266762-14-halls-of-valor"
         },
         {
           "dungeon": "Court of Stars",
@@ -152,7 +152,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-26T20:35:50.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23821928-14-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/23821928-14-court-of-stars"
         }
       ],
       "alternate_runs": [
@@ -164,7 +164,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-28T16:32:36.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24278722-14-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24278722-14-shadowmoon-burial-grounds"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -174,7 +174,7 @@
           "upgrades": 0,
           "completed_at": "2023-03-01T14:41:39.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24506693-15-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24506693-15-ruby-life-pools"
         },
         {
           "dungeon": "Halls of Valor",
@@ -184,7 +184,7 @@
           "upgrades": 2,
           "completed_at": "2023-03-01T15:19:42.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24513595-13-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24513595-13-halls-of-valor"
         },
         {
           "dungeon": "Court of Stars",
@@ -194,7 +194,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-21T15:13:00.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22245004-8-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/22245004-8-court-of-stars"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -204,7 +204,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-20T21:59:07.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22039976-7-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/22039976-7-algethar-academy"
         },
         {
           "dungeon": "The Azure Vault",
@@ -214,7 +214,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-19T21:11:37.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21722240-6-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/21722240-6-the-azure-vault"
         },
         {
           "dungeon": "Temple of the Jade Serpent",
@@ -224,7 +224,7 @@
           "upgrades": 3,
           "completed_at": "2023-02-19T21:31:49.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21714846-5-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/21714846-5-temple-of-the-jade-serpent"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -234,7 +234,7 @@
           "upgrades": 3,
           "completed_at": "2023-02-21T15:37:47.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22249842-5-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/22249842-5-the-nokhud-offensive"
         }
       ],
       "mythic_plus_best_runs": [
@@ -246,7 +246,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-28T22:49:49.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24370870-17-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24370870-17-algethar-academy"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -256,7 +256,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-27T15:07:44.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24004935-16-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24004935-16-the-nokhud-offensive"
         },
         {
           "dungeon": "Shadowmoon Burial Grounds",
@@ -266,7 +266,7 @@
           "upgrades": 0,
           "completed_at": "2023-03-01T13:39:05.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24495083-17-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24495083-17-shadowmoon-burial-grounds"
         },
         {
           "dungeon": "The Azure Vault",
@@ -276,7 +276,7 @@
           "upgrades": 2,
           "completed_at": "2023-03-24T15:31:31.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/29685865-15-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/29685865-15-the-azure-vault"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -286,7 +286,7 @@
           "upgrades": 0,
           "completed_at": "2023-02-27T17:50:12.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24037180-16-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24037180-16-ruby-life-pools"
         },
         {
           "dungeon": "Temple of the Jade Serpent",
@@ -296,7 +296,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-27T14:23:15.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23998799-15-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/23998799-15-temple-of-the-jade-serpent"
         },
         {
           "dungeon": "Halls of Valor",
@@ -306,7 +306,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-28T15:40:49.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24266762-14-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24266762-14-halls-of-valor"
         },
         {
           "dungeon": "Court of Stars",
@@ -316,7 +316,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-26T20:35:50.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23821928-14-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/23821928-14-court-of-stars"
         }
       ],
       "mythic_plus_alternate_runs": [
@@ -328,7 +328,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-28T16:32:36.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24278722-14-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24278722-14-shadowmoon-burial-grounds"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -338,7 +338,7 @@
           "upgrades": 0,
           "completed_at": "2023-03-01T14:41:39.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24506693-15-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24506693-15-ruby-life-pools"
         },
         {
           "dungeon": "Halls of Valor",
@@ -348,7 +348,7 @@
           "upgrades": 2,
           "completed_at": "2023-03-01T15:19:42.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24513595-13-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24513595-13-halls-of-valor"
         },
         {
           "dungeon": "Court of Stars",
@@ -358,7 +358,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-21T15:13:00.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22245004-8-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/22245004-8-court-of-stars"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -368,7 +368,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-20T21:59:07.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22039976-7-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/22039976-7-algethar-academy"
         },
         {
           "dungeon": "The Azure Vault",
@@ -378,7 +378,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-19T21:11:37.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21722240-6-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/21722240-6-the-azure-vault"
         },
         {
           "dungeon": "Temple of the Jade Serpent",
@@ -388,7 +388,7 @@
           "upgrades": 3,
           "completed_at": "2023-02-19T21:31:49.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/21714846-5-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/21714846-5-temple-of-the-jade-serpent"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -398,7 +398,7 @@
           "upgrades": 3,
           "completed_at": "2023-02-21T15:37:47.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22249842-5-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/22249842-5-the-nokhud-offensive"
         }
       ]
     },
@@ -461,7 +461,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-16T18:12:52.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20587544-13-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/20587544-13-court-of-stars"
         },
         {
           "dungeon": "Shadowmoon Burial Grounds",
@@ -471,7 +471,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-14T18:31:34.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19846315-11-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19846315-11-shadowmoon-burial-grounds"
         },
         {
           "dungeon": "The Azure Vault",
@@ -481,7 +481,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-16T17:42:18.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20579498-11-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/20579498-11-the-azure-vault"
         },
         {
           "dungeon": "Halls of Valor",
@@ -491,7 +491,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-14T18:01:18.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19825895-10-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19825895-10-halls-of-valor"
         },
         {
           "dungeon": "Temple of the Jade Serpent",
@@ -501,7 +501,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-08T22:56:59.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18287577-9-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18287577-9-temple-of-the-jade-serpent"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -511,7 +511,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-10T15:45:06.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18654402-8-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18654402-8-ruby-life-pools"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -521,7 +521,7 @@
           "upgrades": 3,
           "completed_at": "2023-02-08T22:10:16.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18279041-6-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18279041-6-the-nokhud-offensive"
         }
       ],
       "alternate_runs": [
@@ -533,7 +533,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-05T20:16:07.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17424733-5-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17424733-5-temple-of-the-jade-serpent"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -543,7 +543,7 @@
           "upgrades": 3,
           "completed_at": "2023-02-05T18:36:11.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17399240-2-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17399240-2-ruby-life-pools"
         }
       ],
       "mythic_plus_best_runs": [
@@ -555,7 +555,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-16T18:12:52.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20587544-13-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/20587544-13-court-of-stars"
         },
         {
           "dungeon": "Shadowmoon Burial Grounds",
@@ -565,7 +565,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-14T18:31:34.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19846315-11-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19846315-11-shadowmoon-burial-grounds"
         },
         {
           "dungeon": "The Azure Vault",
@@ -575,7 +575,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-16T17:42:18.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20579498-11-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/20579498-11-the-azure-vault"
         },
         {
           "dungeon": "Halls of Valor",
@@ -585,7 +585,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-14T18:01:18.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19825895-10-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19825895-10-halls-of-valor"
         },
         {
           "dungeon": "Temple of the Jade Serpent",
@@ -595,7 +595,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-08T22:56:59.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18287577-9-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18287577-9-temple-of-the-jade-serpent"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -605,7 +605,7 @@
           "upgrades": 1,
           "completed_at": "2023-02-10T15:45:06.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18654402-8-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18654402-8-ruby-life-pools"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -615,7 +615,7 @@
           "upgrades": 3,
           "completed_at": "2023-02-08T22:10:16.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18279041-6-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18279041-6-the-nokhud-offensive"
         }
       ],
       "mythic_plus_alternate_runs": [
@@ -627,7 +627,7 @@
           "upgrades": 2,
           "completed_at": "2023-02-05T20:16:07.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17424733-5-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17424733-5-temple-of-the-jade-serpent"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -637,7 +637,7 @@
           "upgrades": 3,
           "completed_at": "2023-02-05T18:36:11.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/17399240-2-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17399240-2-ruby-life-pools"
         }
       ]
     },
@@ -700,7 +700,7 @@
           "upgrades": 3,
           "completed_at": "2023-03-30T14:43:19.000Z",
           "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30955588-2-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/30955588-2-shadowmoon-burial-grounds"
         },
         {
           "dungeon": "Halls of Valor",
@@ -710,7 +710,7 @@
           "upgrades": 3,
           "completed_at": "2023-03-27T19:55:41.000Z",
           "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30440449-2-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/30440449-2-halls-of-valor"
         },
         {
           "dungeon": "Court of Stars",
@@ -720,7 +720,7 @@
           "upgrades": 3,
           "completed_at": "2023-03-05T14:04:47.000Z",
           "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25414675-2-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/25414675-2-court-of-stars"
         }
       ],
       "alternate_runs": [],
@@ -733,7 +733,7 @@
           "upgrades": 3,
           "completed_at": "2023-03-30T14:43:19.000Z",
           "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30955588-2-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/30955588-2-shadowmoon-burial-grounds"
         },
         {
           "dungeon": "Halls of Valor",
@@ -743,7 +743,7 @@
           "upgrades": 3,
           "completed_at": "2023-03-27T19:55:41.000Z",
           "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30440449-2-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/30440449-2-halls-of-valor"
         },
         {
           "dungeon": "Court of Stars",
@@ -753,7 +753,7 @@
           "upgrades": 3,
           "completed_at": "2023-03-05T14:04:47.000Z",
           "character": "Ahldrak",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25414675-2-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/25414675-2-court-of-stars"
         }
       ],
       "mythic_plus_alternate_runs": []
@@ -770,7 +770,7 @@
           "score": 440,
           "upgrades": 1,
           "completed_at": "2023-02-28T22:49:49.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24370870-17-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24370870-17-algethar-academy"
         }
       ]
     },
@@ -784,7 +784,7 @@
           "score": 419.5,
           "upgrades": 2,
           "completed_at": "2023-03-24T15:31:31.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/29685865-15-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/29685865-15-the-azure-vault"
         },
         {
           "character": "Warlockzz",
@@ -792,7 +792,7 @@
           "score": 346.3,
           "upgrades": 2,
           "completed_at": "2023-02-16T17:42:18.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20579498-11-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/20579498-11-the-azure-vault"
         }
       ]
     },
@@ -806,7 +806,7 @@
           "score": 401.6,
           "upgrades": 1,
           "completed_at": "2023-02-26T20:35:50.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23821928-14-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/23821928-14-court-of-stars"
         },
         {
           "character": "Warlockzz",
@@ -814,7 +814,7 @@
           "score": 393.5,
           "upgrades": 2,
           "completed_at": "2023-02-16T18:12:52.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20587544-13-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/20587544-13-court-of-stars"
         },
         {
           "character": "Ahldrak",
@@ -822,7 +822,7 @@
           "score": 170,
           "upgrades": 3,
           "completed_at": "2023-03-05T14:04:47.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25414675-2-court-of-stars"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/25414675-2-court-of-stars"
         }
       ]
     },
@@ -836,7 +836,7 @@
           "score": 405.9,
           "upgrades": 2,
           "completed_at": "2023-02-28T15:40:49.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24266762-14-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24266762-14-halls-of-valor"
         },
         {
           "character": "Warlockzz",
@@ -844,7 +844,7 @@
           "score": 326.5,
           "upgrades": 1,
           "completed_at": "2023-02-14T18:01:18.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19825895-10-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19825895-10-halls-of-valor"
         },
         {
           "character": "Ahldrak",
@@ -852,7 +852,7 @@
           "score": 170,
           "upgrades": 3,
           "completed_at": "2023-03-27T19:55:41.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30440449-2-halls-of-valor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/30440449-2-halls-of-valor"
         }
       ]
     },
@@ -866,7 +866,7 @@
           "score": 431.6,
           "upgrades": 1,
           "completed_at": "2023-02-27T15:07:44.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24004935-16-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24004935-16-the-nokhud-offensive"
         },
         {
           "character": "Warlockzz",
@@ -874,7 +874,7 @@
           "score": 245,
           "upgrades": 3,
           "completed_at": "2023-02-08T22:10:16.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18279041-6-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18279041-6-the-nokhud-offensive"
         }
       ]
     },
@@ -888,7 +888,7 @@
           "score": 317.9,
           "upgrades": 0,
           "completed_at": "2023-02-27T17:50:12.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24037180-16-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24037180-16-ruby-life-pools"
         },
         {
           "character": "Warlockzz",
@@ -896,7 +896,7 @@
           "score": 279.8,
           "upgrades": 1,
           "completed_at": "2023-02-10T15:45:06.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18654402-8-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18654402-8-ruby-life-pools"
         }
       ]
     },
@@ -910,7 +910,7 @@
           "score": 311.6,
           "upgrades": 0,
           "completed_at": "2023-03-01T13:39:05.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/24495083-17-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24495083-17-shadowmoon-burial-grounds"
         },
         {
           "character": "Warlockzz",
@@ -918,7 +918,7 @@
           "score": 349.1,
           "upgrades": 2,
           "completed_at": "2023-02-14T18:31:34.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19846315-11-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19846315-11-shadowmoon-burial-grounds"
         },
         {
           "character": "Ahldrak",
@@ -926,7 +926,7 @@
           "score": 170,
           "upgrades": 3,
           "completed_at": "2023-03-30T14:43:19.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30955588-2-shadowmoon-burial-grounds"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/30955588-2-shadowmoon-burial-grounds"
         }
       ]
     },
@@ -940,7 +940,7 @@
           "score": 411.3,
           "upgrades": 1,
           "completed_at": "2023-02-27T14:23:15.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23998799-15-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/23998799-15-temple-of-the-jade-serpent"
         },
         {
           "character": "Warlockzz",
@@ -948,7 +948,7 @@
           "score": 291.8,
           "upgrades": 1,
           "completed_at": "2023-02-08T22:56:59.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18287577-9-temple-of-the-jade-serpent"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18287577-9-temple-of-the-jade-serpent"
         }
       ]
     }
@@ -962,7 +962,7 @@
       "upgrades": 1,
       "completed_at": "2023-02-28T22:49:49.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24370870-17-algethar-academy"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24370870-17-algethar-academy"
     },
     {
       "dungeon": "Shadowmoon Burial Grounds",
@@ -972,7 +972,7 @@
       "upgrades": 0,
       "completed_at": "2023-03-01T13:39:05.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24495083-17-shadowmoon-burial-grounds"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24495083-17-shadowmoon-burial-grounds"
     },
     {
       "dungeon": "The Nokhud Offensive",
@@ -982,7 +982,7 @@
       "upgrades": 1,
       "completed_at": "2023-02-27T15:07:44.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24004935-16-the-nokhud-offensive"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24004935-16-the-nokhud-offensive"
     },
     {
       "dungeon": "Ruby Life Pools",
@@ -992,7 +992,7 @@
       "upgrades": 0,
       "completed_at": "2023-02-27T17:50:12.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24037180-16-ruby-life-pools"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24037180-16-ruby-life-pools"
     },
     {
       "dungeon": "The Azure Vault",
@@ -1002,7 +1002,7 @@
       "upgrades": 2,
       "completed_at": "2023-03-24T15:31:31.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/29685865-15-the-azure-vault"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/29685865-15-the-azure-vault"
     },
     {
       "dungeon": "Temple of the Jade Serpent",
@@ -1012,7 +1012,7 @@
       "upgrades": 1,
       "completed_at": "2023-02-27T14:23:15.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/23998799-15-temple-of-the-jade-serpent"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/23998799-15-temple-of-the-jade-serpent"
     },
     {
       "dungeon": "Ruby Life Pools",
@@ -1022,7 +1022,7 @@
       "upgrades": 0,
       "completed_at": "2023-03-01T14:41:39.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24506693-15-ruby-life-pools"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24506693-15-ruby-life-pools"
     },
     {
       "dungeon": "Shadowmoon Burial Grounds",
@@ -1032,7 +1032,7 @@
       "upgrades": 2,
       "completed_at": "2023-02-28T16:32:36.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24278722-14-shadowmoon-burial-grounds"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24278722-14-shadowmoon-burial-grounds"
     },
     {
       "dungeon": "Halls of Valor",
@@ -1042,7 +1042,7 @@
       "upgrades": 2,
       "completed_at": "2023-02-28T15:40:49.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24266762-14-halls-of-valor"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24266762-14-halls-of-valor"
     },
     {
       "dungeon": "Court of Stars",
@@ -1052,7 +1052,7 @@
       "upgrades": 1,
       "completed_at": "2023-02-26T20:35:50.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/23821928-14-court-of-stars"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/23821928-14-court-of-stars"
     },
     {
       "dungeon": "Court of Stars",
@@ -1062,7 +1062,7 @@
       "upgrades": 2,
       "completed_at": "2023-02-16T18:12:52.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/20587544-13-court-of-stars"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/20587544-13-court-of-stars"
     },
     {
       "dungeon": "Halls of Valor",
@@ -1072,7 +1072,7 @@
       "upgrades": 2,
       "completed_at": "2023-03-01T15:19:42.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/24513595-13-halls-of-valor"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/24513595-13-halls-of-valor"
     },
     {
       "dungeon": "Shadowmoon Burial Grounds",
@@ -1082,7 +1082,7 @@
       "upgrades": 2,
       "completed_at": "2023-02-14T18:31:34.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/19846315-11-shadowmoon-burial-grounds"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/19846315-11-shadowmoon-burial-grounds"
     },
     {
       "dungeon": "The Azure Vault",
@@ -1092,7 +1092,7 @@
       "upgrades": 2,
       "completed_at": "2023-02-16T17:42:18.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/20579498-11-the-azure-vault"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/20579498-11-the-azure-vault"
     },
     {
       "dungeon": "Halls of Valor",
@@ -1102,7 +1102,7 @@
       "upgrades": 1,
       "completed_at": "2023-02-14T18:01:18.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/19825895-10-halls-of-valor"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/19825895-10-halls-of-valor"
     },
     {
       "dungeon": "Temple of the Jade Serpent",
@@ -1112,7 +1112,7 @@
       "upgrades": 1,
       "completed_at": "2023-02-08T22:56:59.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18287577-9-temple-of-the-jade-serpent"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/18287577-9-temple-of-the-jade-serpent"
     },
     {
       "dungeon": "Court of Stars",
@@ -1122,7 +1122,7 @@
       "upgrades": 2,
       "completed_at": "2023-02-21T15:13:00.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22245004-8-court-of-stars"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/22245004-8-court-of-stars"
     },
     {
       "dungeon": "Ruby Life Pools",
@@ -1132,7 +1132,7 @@
       "upgrades": 1,
       "completed_at": "2023-02-10T15:45:06.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18654402-8-ruby-life-pools"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/18654402-8-ruby-life-pools"
     },
     {
       "dungeon": "Algeth'ar Academy",
@@ -1142,7 +1142,7 @@
       "upgrades": 2,
       "completed_at": "2023-02-20T21:59:07.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22039976-7-algethar-academy"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/22039976-7-algethar-academy"
     },
     {
       "dungeon": "The Nokhud Offensive",
@@ -1152,7 +1152,7 @@
       "upgrades": 3,
       "completed_at": "2023-02-08T22:10:16.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/18279041-6-the-nokhud-offensive"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/18279041-6-the-nokhud-offensive"
     },
     {
       "dungeon": "The Azure Vault",
@@ -1162,7 +1162,7 @@
       "upgrades": 2,
       "completed_at": "2023-02-19T21:11:37.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/21722240-6-the-azure-vault"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/21722240-6-the-azure-vault"
     },
     {
       "dungeon": "Temple of the Jade Serpent",
@@ -1172,7 +1172,7 @@
       "upgrades": 3,
       "completed_at": "2023-02-19T21:31:49.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/21714846-5-temple-of-the-jade-serpent"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/21714846-5-temple-of-the-jade-serpent"
     },
     {
       "dungeon": "The Nokhud Offensive",
@@ -1182,7 +1182,7 @@
       "upgrades": 3,
       "completed_at": "2023-02-21T15:37:47.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/22249842-5-the-nokhud-offensive"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/22249842-5-the-nokhud-offensive"
     },
     {
       "dungeon": "Temple of the Jade Serpent",
@@ -1192,7 +1192,7 @@
       "upgrades": 2,
       "completed_at": "2023-02-05T20:16:07.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17424733-5-temple-of-the-jade-serpent"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/17424733-5-temple-of-the-jade-serpent"
     },
     {
       "dungeon": "Ruby Life Pools",
@@ -1202,7 +1202,7 @@
       "upgrades": 3,
       "completed_at": "2023-02-05T18:36:11.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/17399240-2-ruby-life-pools"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/17399240-2-ruby-life-pools"
     },
     {
       "dungeon": "Shadowmoon Burial Grounds",
@@ -1212,7 +1212,7 @@
       "upgrades": 3,
       "completed_at": "2023-03-30T14:43:19.000Z",
       "character": "Ahldrak",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/30955588-2-shadowmoon-burial-grounds"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/30955588-2-shadowmoon-burial-grounds"
     },
     {
       "dungeon": "Halls of Valor",
@@ -1222,7 +1222,7 @@
       "upgrades": 3,
       "completed_at": "2023-03-27T19:55:41.000Z",
       "character": "Ahldrak",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/30440449-2-halls-of-valor"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/30440449-2-halls-of-valor"
     },
     {
       "dungeon": "Court of Stars",
@@ -1232,7 +1232,7 @@
       "upgrades": 3,
       "completed_at": "2023-03-05T14:04:47.000Z",
       "character": "Ahldrak",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/25414675-2-court-of-stars"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/25414675-2-court-of-stars"
     }
   ]
 }

@@ -9,7 +9,7 @@
     "theme": "dragonflight",
     "file": "data/df-s4.json"
   },
-  "generated_at": "2026-08-19T00:29:28.782Z",
+  "generated_at": "2026-08-19T06:21:17.697Z",
   "summary": {
     "total_score": 4506.8,
     "average_score": 901.4,
@@ -82,7 +82,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-17T15:26:26.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12766720-10-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12766720-10-algethar-academy"
         },
         {
           "dungeon": "Neltharus",
@@ -92,7 +92,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-17T14:45:43.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12765672-10-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12765672-10-neltharus"
         },
         {
           "dungeon": "The Azure Vault",
@@ -102,7 +102,7 @@
           "upgrades": 3,
           "completed_at": "2024-08-18T09:08:29.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12810596-9-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12810596-9-the-azure-vault"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -112,7 +112,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-14T18:45:43.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12633353-8-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12633353-8-ruby-life-pools"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -122,7 +122,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-31T16:22:22.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11754831-8-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11754831-8-the-nokhud-offensive"
         },
         {
           "dungeon": "Brackenhide Hollow",
@@ -132,7 +132,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-14T15:56:43.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12626961-7-brackenhide-hollow"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12626961-7-brackenhide-hollow"
         },
         {
           "dungeon": "Uldaman: Legacy of Tyr",
@@ -142,7 +142,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-30T23:55:19.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11718089-7-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718089-7-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -152,7 +152,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-25T00:15:07.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11343966-6-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11343966-6-halls-of-infusion"
         }
       ],
       "alternate_runs": [
@@ -164,7 +164,7 @@
           "upgrades": 3,
           "completed_at": "2024-07-30T23:01:20.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11718269-8-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718269-8-algethar-academy"
         },
         {
           "dungeon": "Brackenhide Hollow",
@@ -174,7 +174,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-30T22:26:35.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11716042-7-brackenhide-hollow"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11716042-7-brackenhide-hollow"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -184,7 +184,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-28T15:40:58.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11570876-6-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11570876-6-the-nokhud-offensive"
         },
         {
           "dungeon": "The Azure Vault",
@@ -194,7 +194,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-28T14:56:44.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11587521-5-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11587521-5-the-azure-vault"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -204,7 +204,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-28T13:47:06.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11564146-5-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11564146-5-ruby-life-pools"
         },
         {
           "dungeon": "Neltharus",
@@ -214,7 +214,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-27T21:33:21.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11524092-4-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11524092-4-neltharus"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -224,7 +224,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-22T13:44:49.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11237762-4-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11237762-4-halls-of-infusion"
         }
       ],
       "mythic_plus_best_runs": [
@@ -236,7 +236,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-17T15:26:26.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12766720-10-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12766720-10-algethar-academy"
         },
         {
           "dungeon": "Neltharus",
@@ -246,7 +246,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-17T14:45:43.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12765672-10-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12765672-10-neltharus"
         },
         {
           "dungeon": "The Azure Vault",
@@ -256,7 +256,7 @@
           "upgrades": 3,
           "completed_at": "2024-08-18T09:08:29.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12810596-9-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12810596-9-the-azure-vault"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -266,7 +266,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-14T18:45:43.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12633353-8-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12633353-8-ruby-life-pools"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -276,7 +276,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-31T16:22:22.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11754831-8-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11754831-8-the-nokhud-offensive"
         },
         {
           "dungeon": "Brackenhide Hollow",
@@ -286,7 +286,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-14T15:56:43.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12626961-7-brackenhide-hollow"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12626961-7-brackenhide-hollow"
         },
         {
           "dungeon": "Uldaman: Legacy of Tyr",
@@ -296,7 +296,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-30T23:55:19.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11718089-7-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718089-7-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -306,7 +306,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-25T00:15:07.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11343966-6-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11343966-6-halls-of-infusion"
         }
       ],
       "mythic_plus_alternate_runs": [
@@ -318,7 +318,7 @@
           "upgrades": 3,
           "completed_at": "2024-07-30T23:01:20.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11718269-8-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718269-8-algethar-academy"
         },
         {
           "dungeon": "Brackenhide Hollow",
@@ -328,7 +328,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-30T22:26:35.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11716042-7-brackenhide-hollow"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11716042-7-brackenhide-hollow"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -338,7 +338,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-28T15:40:58.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11570876-6-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11570876-6-the-nokhud-offensive"
         },
         {
           "dungeon": "The Azure Vault",
@@ -348,7 +348,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-28T14:56:44.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11587521-5-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11587521-5-the-azure-vault"
         },
         {
           "dungeon": "Ruby Life Pools",
@@ -358,7 +358,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-28T13:47:06.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11564146-5-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11564146-5-ruby-life-pools"
         },
         {
           "dungeon": "Neltharus",
@@ -368,7 +368,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-27T21:33:21.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11524092-4-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11524092-4-neltharus"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -378,7 +378,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-22T13:44:49.000Z",
           "character": "Starseeker",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11237762-4-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11237762-4-halls-of-infusion"
         }
       ]
     },
@@ -441,7 +441,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-07T14:27:02.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10473955-5-brackenhide-hollow"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10473955-5-brackenhide-hollow"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -451,7 +451,7 @@
           "upgrades": 3,
           "completed_at": "2024-07-22T23:39:58.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11257593-4-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11257593-4-the-nokhud-offensive"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -461,7 +461,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-22T11:28:50.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11234816-4-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11234816-4-algethar-academy"
         },
         {
           "dungeon": "The Azure Vault",
@@ -471,7 +471,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-16T22:46:30.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017370-4-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017370-4-the-azure-vault"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -481,7 +481,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-16T22:07:10.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017903-4-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017903-4-halls-of-infusion"
         },
         {
           "dungeon": "Uldaman: Legacy of Tyr",
@@ -491,7 +491,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-06T13:19:21.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10400055-2-uldaman-legacy-of-tyr"
         }
       ],
       "alternate_runs": [],
@@ -504,7 +504,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-07T14:27:02.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10473955-5-brackenhide-hollow"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10473955-5-brackenhide-hollow"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -514,7 +514,7 @@
           "upgrades": 3,
           "completed_at": "2024-07-22T23:39:58.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11257593-4-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11257593-4-the-nokhud-offensive"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -524,7 +524,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-22T11:28:50.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11234816-4-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11234816-4-algethar-academy"
         },
         {
           "dungeon": "The Azure Vault",
@@ -534,7 +534,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-16T22:46:30.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017370-4-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017370-4-the-azure-vault"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -544,7 +544,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-16T22:07:10.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017903-4-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017903-4-halls-of-infusion"
         },
         {
           "dungeon": "Uldaman: Legacy of Tyr",
@@ -554,7 +554,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-06T13:19:21.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10400055-2-uldaman-legacy-of-tyr"
         }
       ],
       "mythic_plus_alternate_runs": []
@@ -618,7 +618,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-18T01:16:23.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058754-5-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11058754-5-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -628,7 +628,7 @@
           "upgrades": 3,
           "completed_at": "2024-07-18T00:39:38.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058257-2-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11058257-2-the-nokhud-offensive"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -638,7 +638,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-15T00:35:58.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10909186-2-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10909186-2-algethar-academy"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -648,7 +648,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-18T10:04:29.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12812180-2-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12812180-2-halls-of-infusion"
         }
       ],
       "alternate_runs": [
@@ -660,7 +660,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-15T01:10:10.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10910267-2-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10910267-2-the-nokhud-offensive"
         }
       ],
       "mythic_plus_best_runs": [
@@ -672,7 +672,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-18T01:16:23.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058754-5-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11058754-5-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "The Nokhud Offensive",
@@ -682,7 +682,7 @@
           "upgrades": 3,
           "completed_at": "2024-07-18T00:39:38.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058257-2-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11058257-2-the-nokhud-offensive"
         },
         {
           "dungeon": "Algeth'ar Academy",
@@ -692,7 +692,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-15T00:35:58.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10909186-2-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10909186-2-algethar-academy"
         },
         {
           "dungeon": "Halls of Infusion",
@@ -702,7 +702,7 @@
           "upgrades": 2,
           "completed_at": "2024-08-18T10:04:29.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12812180-2-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12812180-2-halls-of-infusion"
         }
       ],
       "mythic_plus_alternate_runs": [
@@ -714,7 +714,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-15T01:10:10.000Z",
           "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10910267-2-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10910267-2-the-nokhud-offensive"
         }
       ]
     },
@@ -777,7 +777,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-10T12:37:33.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10653637-2-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "Neltharus",
@@ -787,7 +787,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-16T17:38:33.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11039149-2-neltharus"
         }
       ],
       "alternate_runs": [
@@ -799,7 +799,7 @@
           "upgrades": 1,
           "completed_at": "2024-08-17T14:01:02.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12764637-2-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "Neltharus",
@@ -809,7 +809,7 @@
           "upgrades": 0,
           "completed_at": "2024-07-09T23:52:42.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10627018-2-neltharus"
         }
       ],
       "mythic_plus_best_runs": [
@@ -821,7 +821,7 @@
           "upgrades": 2,
           "completed_at": "2024-07-10T12:37:33.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10653637-2-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "Neltharus",
@@ -831,7 +831,7 @@
           "upgrades": 1,
           "completed_at": "2024-07-16T17:38:33.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11039149-2-neltharus"
         }
       ],
       "mythic_plus_alternate_runs": [
@@ -843,7 +843,7 @@
           "upgrades": 1,
           "completed_at": "2024-08-17T14:01:02.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12764637-2-uldaman-legacy-of-tyr"
         },
         {
           "dungeon": "Neltharus",
@@ -853,7 +853,7 @@
           "upgrades": 0,
           "completed_at": "2024-07-09T23:52:42.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10627018-2-neltharus"
         }
       ]
     },
@@ -916,7 +916,7 @@
           "upgrades": 3,
           "completed_at": "2024-07-06T14:20:14.000Z",
           "character": "Megakûk",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10403425-2-ruby-life-pools"
         }
       ],
       "alternate_runs": [],
@@ -929,7 +929,7 @@
           "upgrades": 3,
           "completed_at": "2024-07-06T14:20:14.000Z",
           "character": "Megakûk",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10403425-2-ruby-life-pools"
         }
       ],
       "mythic_plus_alternate_runs": []
@@ -946,7 +946,7 @@
           "score": 332.2,
           "upgrades": 2,
           "completed_at": "2024-08-17T15:26:26.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12766720-10-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12766720-10-algethar-academy"
         },
         {
           "character": "Ahldroni",
@@ -954,7 +954,7 @@
           "score": 193,
           "upgrades": 2,
           "completed_at": "2024-07-22T11:28:50.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11234816-4-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11234816-4-algethar-academy"
         },
         {
           "character": "Lifekiller",
@@ -962,7 +962,7 @@
           "score": 168.5,
           "upgrades": 2,
           "completed_at": "2024-07-15T00:35:58.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10909186-2-algethar-academy"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10909186-2-algethar-academy"
         }
       ]
     },
@@ -976,7 +976,7 @@
           "score": 305,
           "upgrades": 3,
           "completed_at": "2024-08-18T09:08:29.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12810596-9-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12810596-9-the-azure-vault"
         },
         {
           "character": "Ahldroni",
@@ -984,7 +984,7 @@
           "score": 192.4,
           "upgrades": 1,
           "completed_at": "2024-07-16T22:46:30.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017370-4-the-azure-vault"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017370-4-the-azure-vault"
         }
       ]
     },
@@ -998,7 +998,7 @@
           "score": 272.5,
           "upgrades": 2,
           "completed_at": "2024-08-14T15:56:43.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12626961-7-brackenhide-hollow"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12626961-7-brackenhide-hollow"
         },
         {
           "character": "Ahldroni",
@@ -1006,7 +1006,7 @@
           "score": 225.5,
           "upgrades": 2,
           "completed_at": "2024-07-07T14:27:02.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10473955-5-brackenhide-hollow"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10473955-5-brackenhide-hollow"
         }
       ]
     },
@@ -1020,7 +1020,7 @@
           "score": 239.1,
           "upgrades": 2,
           "completed_at": "2024-07-25T00:15:07.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11343966-6-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11343966-6-halls-of-infusion"
         },
         {
           "character": "Ahldroni",
@@ -1028,7 +1028,7 @@
           "score": 189.6,
           "upgrades": 1,
           "completed_at": "2024-07-16T22:07:10.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017903-4-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017903-4-halls-of-infusion"
         },
         {
           "character": "Lifekiller",
@@ -1036,7 +1036,7 @@
           "score": 167.3,
           "upgrades": 2,
           "completed_at": "2024-08-18T10:04:29.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12812180-2-halls-of-infusion"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12812180-2-halls-of-infusion"
         }
       ]
     },
@@ -1050,7 +1050,7 @@
           "score": 331.4,
           "upgrades": 2,
           "completed_at": "2024-08-17T14:45:43.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12765672-10-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12765672-10-neltharus"
         },
         {
           "character": "Warlockzz",
@@ -1058,7 +1058,7 @@
           "score": 158.6,
           "upgrades": 1,
           "completed_at": "2024-07-16T17:38:33.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11039149-2-neltharus"
         }
       ]
     },
@@ -1072,7 +1072,7 @@
           "score": 286.4,
           "upgrades": 2,
           "completed_at": "2024-07-31T16:22:22.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11754831-8-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11754831-8-the-nokhud-offensive"
         },
         {
           "character": "Ahldroni",
@@ -1080,7 +1080,7 @@
           "score": 200,
           "upgrades": 3,
           "completed_at": "2024-07-22T23:39:58.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11257593-4-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11257593-4-the-nokhud-offensive"
         },
         {
           "character": "Lifekiller",
@@ -1088,7 +1088,7 @@
           "score": 170,
           "upgrades": 3,
           "completed_at": "2024-07-18T00:39:38.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058257-2-the-nokhud-offensive"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11058257-2-the-nokhud-offensive"
         }
       ]
     },
@@ -1102,7 +1102,7 @@
           "score": 289.1,
           "upgrades": 2,
           "completed_at": "2024-08-14T18:45:43.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/12633353-8-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12633353-8-ruby-life-pools"
         },
         {
           "character": "Megakûk",
@@ -1110,7 +1110,7 @@
           "score": 170,
           "upgrades": 3,
           "completed_at": "2024-07-06T14:20:14.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10403425-2-ruby-life-pools"
         }
       ]
     },
@@ -1124,7 +1124,7 @@
           "score": 270.3,
           "upgrades": 2,
           "completed_at": "2024-07-30T23:55:19.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11718089-7-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718089-7-uldaman-legacy-of-tyr"
         },
         {
           "character": "Lifekiller",
@@ -1132,7 +1132,7 @@
           "score": 221.4,
           "upgrades": 1,
           "completed_at": "2024-07-18T01:16:23.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058754-5-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11058754-5-uldaman-legacy-of-tyr"
         },
         {
           "character": "Warlockzz",
@@ -1140,7 +1140,7 @@
           "score": 164.6,
           "upgrades": 2,
           "completed_at": "2024-07-10T12:37:33.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10653637-2-uldaman-legacy-of-tyr"
         },
         {
           "character": "Ahldroni",
@@ -1148,7 +1148,7 @@
           "score": 159.8,
           "upgrades": 1,
           "completed_at": "2024-07-06T13:19:21.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10400055-2-uldaman-legacy-of-tyr"
         }
       ]
     }
@@ -1162,7 +1162,7 @@
       "upgrades": 2,
       "completed_at": "2024-08-17T15:26:26.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12766720-10-algethar-academy"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12766720-10-algethar-academy"
     },
     {
       "dungeon": "Neltharus",
@@ -1172,7 +1172,7 @@
       "upgrades": 2,
       "completed_at": "2024-08-17T14:45:43.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12765672-10-neltharus"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12765672-10-neltharus"
     },
     {
       "dungeon": "The Azure Vault",
@@ -1182,7 +1182,7 @@
       "upgrades": 3,
       "completed_at": "2024-08-18T09:08:29.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12810596-9-the-azure-vault"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12810596-9-the-azure-vault"
     },
     {
       "dungeon": "Algeth'ar Academy",
@@ -1192,7 +1192,7 @@
       "upgrades": 3,
       "completed_at": "2024-07-30T23:01:20.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11718269-8-algethar-academy"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718269-8-algethar-academy"
     },
     {
       "dungeon": "Ruby Life Pools",
@@ -1202,7 +1202,7 @@
       "upgrades": 2,
       "completed_at": "2024-08-14T18:45:43.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12633353-8-ruby-life-pools"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12633353-8-ruby-life-pools"
     },
     {
       "dungeon": "The Nokhud Offensive",
@@ -1212,7 +1212,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-31T16:22:22.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11754831-8-the-nokhud-offensive"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11754831-8-the-nokhud-offensive"
     },
     {
       "dungeon": "Brackenhide Hollow",
@@ -1222,7 +1222,7 @@
       "upgrades": 2,
       "completed_at": "2024-08-14T15:56:43.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12626961-7-brackenhide-hollow"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12626961-7-brackenhide-hollow"
     },
     {
       "dungeon": "Uldaman: Legacy of Tyr",
@@ -1232,7 +1232,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-30T23:55:19.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11718089-7-uldaman-legacy-of-tyr"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718089-7-uldaman-legacy-of-tyr"
     },
     {
       "dungeon": "Brackenhide Hollow",
@@ -1242,7 +1242,7 @@
       "upgrades": 1,
       "completed_at": "2024-07-30T22:26:35.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11716042-7-brackenhide-hollow"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11716042-7-brackenhide-hollow"
     },
     {
       "dungeon": "Halls of Infusion",
@@ -1252,7 +1252,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-25T00:15:07.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11343966-6-halls-of-infusion"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11343966-6-halls-of-infusion"
     },
     {
       "dungeon": "The Nokhud Offensive",
@@ -1262,7 +1262,7 @@
       "upgrades": 1,
       "completed_at": "2024-07-28T15:40:58.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11570876-6-the-nokhud-offensive"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11570876-6-the-nokhud-offensive"
     },
     {
       "dungeon": "The Azure Vault",
@@ -1272,7 +1272,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-28T14:56:44.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11587521-5-the-azure-vault"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11587521-5-the-azure-vault"
     },
     {
       "dungeon": "Ruby Life Pools",
@@ -1282,7 +1282,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-28T13:47:06.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11564146-5-ruby-life-pools"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11564146-5-ruby-life-pools"
     },
     {
       "dungeon": "Brackenhide Hollow",
@@ -1292,7 +1292,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-07T14:27:02.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10473955-5-brackenhide-hollow"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/10473955-5-brackenhide-hollow"
     },
     {
       "dungeon": "Uldaman: Legacy of Tyr",
@@ -1302,7 +1302,7 @@
       "upgrades": 1,
       "completed_at": "2024-07-18T01:16:23.000Z",
       "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058754-5-uldaman-legacy-of-tyr"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11058754-5-uldaman-legacy-of-tyr"
     },
     {
       "dungeon": "The Nokhud Offensive",
@@ -1312,7 +1312,7 @@
       "upgrades": 3,
       "completed_at": "2024-07-22T23:39:58.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11257593-4-the-nokhud-offensive"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11257593-4-the-nokhud-offensive"
     },
     {
       "dungeon": "Neltharus",
@@ -1322,7 +1322,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-27T21:33:21.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11524092-4-neltharus"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11524092-4-neltharus"
     },
     {
       "dungeon": "Algeth'ar Academy",
@@ -1332,7 +1332,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-22T11:28:50.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11234816-4-algethar-academy"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11234816-4-algethar-academy"
     },
     {
       "dungeon": "The Azure Vault",
@@ -1342,7 +1342,7 @@
       "upgrades": 1,
       "completed_at": "2024-07-16T22:46:30.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017370-4-the-azure-vault"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017370-4-the-azure-vault"
     },
     {
       "dungeon": "Halls of Infusion",
@@ -1352,7 +1352,7 @@
       "upgrades": 1,
       "completed_at": "2024-07-16T22:07:10.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11017903-4-halls-of-infusion"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017903-4-halls-of-infusion"
     },
     {
       "dungeon": "Halls of Infusion",
@@ -1362,7 +1362,7 @@
       "upgrades": 1,
       "completed_at": "2024-07-22T13:44:49.000Z",
       "character": "Starseeker",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11237762-4-halls-of-infusion"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11237762-4-halls-of-infusion"
     },
     {
       "dungeon": "The Nokhud Offensive",
@@ -1372,7 +1372,7 @@
       "upgrades": 3,
       "completed_at": "2024-07-18T00:39:38.000Z",
       "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11058257-2-the-nokhud-offensive"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11058257-2-the-nokhud-offensive"
     },
     {
       "dungeon": "Ruby Life Pools",
@@ -1382,7 +1382,7 @@
       "upgrades": 3,
       "completed_at": "2024-07-06T14:20:14.000Z",
       "character": "Megakûk",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10403425-2-ruby-life-pools"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/10403425-2-ruby-life-pools"
     },
     {
       "dungeon": "Algeth'ar Academy",
@@ -1392,7 +1392,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-15T00:35:58.000Z",
       "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10909186-2-algethar-academy"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/10909186-2-algethar-academy"
     },
     {
       "dungeon": "Halls of Infusion",
@@ -1402,7 +1402,7 @@
       "upgrades": 2,
       "completed_at": "2024-08-18T10:04:29.000Z",
       "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12812180-2-halls-of-infusion"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12812180-2-halls-of-infusion"
     },
     {
       "dungeon": "Uldaman: Legacy of Tyr",
@@ -1412,7 +1412,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-10T12:37:33.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10653637-2-uldaman-legacy-of-tyr"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/10653637-2-uldaman-legacy-of-tyr"
     },
     {
       "dungeon": "The Nokhud Offensive",
@@ -1422,7 +1422,7 @@
       "upgrades": 2,
       "completed_at": "2024-07-15T01:10:10.000Z",
       "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10910267-2-the-nokhud-offensive"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/10910267-2-the-nokhud-offensive"
     },
     {
       "dungeon": "Uldaman: Legacy of Tyr",
@@ -1432,7 +1432,7 @@
       "upgrades": 1,
       "completed_at": "2024-08-17T14:01:02.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/12764637-2-uldaman-legacy-of-tyr"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12764637-2-uldaman-legacy-of-tyr"
     },
     {
       "dungeon": "Uldaman: Legacy of Tyr",
@@ -1442,7 +1442,7 @@
       "upgrades": 1,
       "completed_at": "2024-07-06T13:19:21.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10400055-2-uldaman-legacy-of-tyr"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/10400055-2-uldaman-legacy-of-tyr"
     },
     {
       "dungeon": "Neltharus",
@@ -1452,7 +1452,7 @@
       "upgrades": 1,
       "completed_at": "2024-07-16T17:38:33.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/11039149-2-neltharus"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11039149-2-neltharus"
     },
     {
       "dungeon": "Neltharus",
@@ -1462,7 +1462,7 @@
       "upgrades": 0,
       "completed_at": "2024-07-09T23:52:42.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/10627018-2-neltharus"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/10627018-2-neltharus"
     }
   ]
 }

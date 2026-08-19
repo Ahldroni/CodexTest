@@ -9,7 +9,7 @@
     "theme": "shadowlands",
     "file": "data/sl-s4.json"
   },
-  "generated_at": "2026-08-19T00:29:28.782Z",
+  "generated_at": "2026-08-19T06:21:17.697Z",
   "summary": {
     "total_score": 505.3,
     "average_score": 505.3,
@@ -82,7 +82,7 @@
           "upgrades": 1,
           "completed_at": "2022-08-03T14:16:37.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/95000-16-operation-mechagon-junkyard"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/95000-16-operation-mechagon-junkyard"
         },
         {
           "dungeon": "Mechagon Workshop",
@@ -92,7 +92,7 @@
           "upgrades": 1,
           "completed_at": "2022-08-04T12:56:44.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/279445-15-operation-mechagon-workshop"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/279445-15-operation-mechagon-workshop"
         },
         {
           "dungeon": "Tazavesh: So'leah's Gambit",
@@ -102,7 +102,7 @@
           "upgrades": 2,
           "completed_at": "2022-08-03T13:31:28.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/89740-7-tazavesh-soleahs-gambit"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/89740-7-tazavesh-soleahs-gambit"
         }
       ],
       "alternate_runs": [],
@@ -115,7 +115,7 @@
           "upgrades": 1,
           "completed_at": "2022-08-03T14:16:37.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/95000-16-operation-mechagon-junkyard"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/95000-16-operation-mechagon-junkyard"
         },
         {
           "dungeon": "Mechagon Workshop",
@@ -125,7 +125,7 @@
           "upgrades": 1,
           "completed_at": "2022-08-04T12:56:44.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/279445-15-operation-mechagon-workshop"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/279445-15-operation-mechagon-workshop"
         },
         {
           "dungeon": "Tazavesh: So'leah's Gambit",
@@ -135,7 +135,7 @@
           "upgrades": 2,
           "completed_at": "2022-08-03T13:31:28.000Z",
           "character": "Warlockzz",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/89740-7-tazavesh-soleahs-gambit"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/89740-7-tazavesh-soleahs-gambit"
         }
       ],
       "mythic_plus_alternate_runs": []
@@ -152,7 +152,7 @@
           "score": 271.2,
           "upgrades": 2,
           "completed_at": "2022-08-03T13:31:28.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/89740-7-tazavesh-soleahs-gambit"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/89740-7-tazavesh-soleahs-gambit"
         }
       ]
     },
@@ -166,7 +166,7 @@
           "score": 413.1,
           "upgrades": 1,
           "completed_at": "2022-08-04T12:56:44.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/279445-15-operation-mechagon-workshop"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/279445-15-operation-mechagon-workshop"
         }
       ]
     },
@@ -180,7 +180,7 @@
           "score": 431.4,
           "upgrades": 1,
           "completed_at": "2022-08-03T14:16:37.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/95000-16-operation-mechagon-junkyard"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/95000-16-operation-mechagon-junkyard"
         }
       ]
     }
@@ -194,7 +194,7 @@
       "upgrades": 1,
       "completed_at": "2022-08-03T14:16:37.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/95000-16-operation-mechagon-junkyard"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/95000-16-operation-mechagon-junkyard"
     },
     {
       "dungeon": "Mechagon Workshop",
@@ -204,7 +204,7 @@
       "upgrades": 1,
       "completed_at": "2022-08-04T12:56:44.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/279445-15-operation-mechagon-workshop"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/279445-15-operation-mechagon-workshop"
     },
     {
       "dungeon": "Tazavesh: So'leah's Gambit",
@@ -214,7 +214,7 @@
       "upgrades": 2,
       "completed_at": "2022-08-03T13:31:28.000Z",
       "character": "Warlockzz",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/89740-7-tazavesh-soleahs-gambit"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/89740-7-tazavesh-soleahs-gambit"
     }
   ]
 }

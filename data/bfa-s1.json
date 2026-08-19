@@ -9,7 +9,7 @@
     "theme": "bfa",
     "file": "data/bfa-s1.json"
   },
-  "generated_at": "2026-08-19T00:29:28.782Z",
+  "generated_at": "2026-08-19T06:21:17.697Z",
   "summary": {
     "total_score": 152.9,
     "average_score": 152.9,
@@ -82,7 +82,7 @@
           "upgrades": 1,
           "completed_at": "2018-11-20T20:01:09.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8588638-6-freehold"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/8588638-6-freehold"
         },
         {
           "dungeon": "Kings' Rest",
@@ -92,7 +92,7 @@
           "upgrades": 0,
           "completed_at": "2018-11-01T16:38:25.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/7051609-5-kings-rest"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/7051609-5-kings-rest"
         },
         {
           "dungeon": "Shrine of the Storm",
@@ -102,7 +102,7 @@
           "upgrades": 0,
           "completed_at": "2018-10-31T14:08:50.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6937574-4-shrine-of-the-storm"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6937574-4-shrine-of-the-storm"
         },
         {
           "dungeon": "Tol Dagor",
@@ -112,7 +112,7 @@
           "upgrades": 2,
           "completed_at": "2018-10-30T10:06:29.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6842975-2-tol-dagor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6842975-2-tol-dagor"
         }
       ],
       "alternate_runs": [],
@@ -125,7 +125,7 @@
           "upgrades": 1,
           "completed_at": "2018-11-20T20:01:09.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8588638-6-freehold"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/8588638-6-freehold"
         },
         {
           "dungeon": "Kings' Rest",
@@ -135,7 +135,7 @@
           "upgrades": 0,
           "completed_at": "2018-11-01T16:38:25.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/7051609-5-kings-rest"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/7051609-5-kings-rest"
         },
         {
           "dungeon": "Shrine of the Storm",
@@ -145,7 +145,7 @@
           "upgrades": 0,
           "completed_at": "2018-10-31T14:08:50.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6937574-4-shrine-of-the-storm"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6937574-4-shrine-of-the-storm"
         },
         {
           "dungeon": "Tol Dagor",
@@ -155,7 +155,7 @@
           "upgrades": 2,
           "completed_at": "2018-10-30T10:06:29.000Z",
           "character": "Ahldroni",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6842975-2-tol-dagor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6842975-2-tol-dagor"
         }
       ],
       "mythic_plus_alternate_runs": []
@@ -172,7 +172,7 @@
           "score": 234.1,
           "upgrades": 1,
           "completed_at": "2018-11-20T20:01:09.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/8588638-6-freehold"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/8588638-6-freehold"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "score": 199.1,
           "upgrades": 0,
           "completed_at": "2018-11-01T16:38:25.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/7051609-5-kings-rest"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/7051609-5-kings-rest"
         }
       ]
     },
@@ -200,7 +200,7 @@
           "score": 167.2,
           "upgrades": 0,
           "completed_at": "2018-10-31T14:08:50.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6937574-4-shrine-of-the-storm"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6937574-4-shrine-of-the-storm"
         }
       ]
     },
@@ -214,7 +214,7 @@
           "score": 166.5,
           "upgrades": 2,
           "completed_at": "2018-10-30T10:06:29.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/6842975-2-tol-dagor"
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6842975-2-tol-dagor"
         }
       ]
     }
@@ -228,7 +228,7 @@
       "upgrades": 1,
       "completed_at": "2018-11-20T20:01:09.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/8588638-6-freehold"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/8588638-6-freehold"
     },
     {
       "dungeon": "Kings' Rest",
@@ -238,7 +238,7 @@
       "upgrades": 0,
       "completed_at": "2018-11-01T16:38:25.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/7051609-5-kings-rest"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/7051609-5-kings-rest"
     },
     {
       "dungeon": "Shrine of the Storm",
@@ -248,7 +248,7 @@
       "upgrades": 0,
       "completed_at": "2018-10-31T14:08:50.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/6937574-4-shrine-of-the-storm"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/6937574-4-shrine-of-the-storm"
     },
     {
       "dungeon": "Tol Dagor",
@@ -258,7 +258,7 @@
       "upgrades": 2,
       "completed_at": "2018-10-30T10:06:29.000Z",
       "character": "Ahldroni",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-1/6842975-2-tol-dagor"
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/6842975-2-tol-dagor"
     }
   ]
 }
