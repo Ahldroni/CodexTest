@@ -60,16 +60,6 @@
     "file": "data/df-s1.json"
   },
   {
-    "id": "sl-s4",
-    "apiSeasonId": "season-sl-4",
-    "expansion": "Shadowlands",
-    "name": "Shadowlands Season 4",
-    "shortName": "SL S4",
-    "isCurrent": false,
-    "theme": "shadowlands",
-    "file": "data/sl-s4.json"
-  },
-  {
     "id": "sl-s3",
     "apiSeasonId": "season-sl-3",
     "expansion": "Shadowlands",
