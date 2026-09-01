@@ -9,7 +9,7 @@
     "theme": "legion",
     "file": "data/legion-7-3-2.json"
   },
-  "generated_at": "2026-08-31T18:37:03.857Z",
+  "generated_at": "2026-09-01T02:16:07.019Z",
   "summary": {
     "total_score": 453.7,
     "average_score": 226.8,
@@ -207,7 +207,7 @@
       "realm": "Silvermoon",
       "region": "eu",
       "class_name": "Druid",
-      "spec": "Feral",
+      "spec": "Balance",
       "role": "dps",
       "level": 0,
       "ilvl": 246,

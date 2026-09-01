@@ -9,7 +9,7 @@
     "theme": "bfa",
     "file": "data/bfa-s3.json"
   },
-  "generated_at": "2026-08-31T18:37:03.857Z",
+  "generated_at": "2026-09-01T02:16:07.019Z",
   "summary": {
     "total_score": 640.8,
     "average_score": 320.4,
@@ -30,7 +30,7 @@
       "realm": "Silvermoon",
       "region": "eu",
       "class_name": "Druid",
-      "spec": "Feral",
+      "spec": "Balance",
       "role": "dps",
       "level": 0,
       "ilvl": 246,
