@@ -9,7 +9,7 @@
     "theme": "shadowlands",
     "file": "data/sl-s1.json"
   },
-  "generated_at": "2026-09-02T10:02:21.284Z",
+  "generated_at": "2026-09-02T15:26:17.549Z",
   "summary": {
     "total_score": 923.6,
     "average_score": 230.9,
@@ -30,10 +30,10 @@
       "realm": "Silvermoon",
       "region": "eu",
       "class_name": "Druid",
-      "spec": "Balance",
+      "spec": "Feral",
       "role": "dps",
       "level": 0,
-      "ilvl": 246,
+      "ilvl": 249,
       "color": "#59d46d",
       "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
