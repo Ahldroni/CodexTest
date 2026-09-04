@@ -9,10 +9,10 @@
     "theme": "midnight",
     "file": "data/midnight-current.json"
   },
-  "generated_at": "2026-09-03T20:11:56.738Z",
+  "generated_at": "2026-09-04T01:36:41.746Z",
   "summary": {
-    "total_score": 7305.3,
-    "average_score": 2435.1,
+    "total_score": 7305,
+    "average_score": 2435,
     "scored_characters": 3,
     "character_count": 3,
     "dungeon_count": 8,
@@ -72,7 +72,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 3297.4,
+      "score": 3297.3,
       "best_runs": [
         {
           "dungeon": "Maisara Caverns",
@@ -289,7 +289,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 3080.6,
+      "score": 3080.5,
       "best_runs": [
         {
           "dungeon": "Seat of the Triumvirate",
@@ -506,7 +506,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 927.3,
+      "score": 927.2,
       "best_runs": [
         {
           "dungeon": "Algeth'ar Academy",

@@ -9,10 +9,10 @@
     "theme": "dragonflight",
     "file": "data/df-s1.json"
   },
-  "generated_at": "2026-09-03T20:11:56.738Z",
+  "generated_at": "2026-09-04T01:36:41.746Z",
   "summary": {
-    "total_score": 3320.9,
-    "average_score": 1107,
+    "total_score": 3320.8,
+    "average_score": 1106.9,
     "scored_characters": 3,
     "character_count": 3,
     "dungeon_count": 8,
@@ -72,7 +72,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 2032.9,
+      "score": 2032.8,
       "best_runs": [
         {
           "dungeon": "Algeth'ar Academy",
@@ -118,7 +118,7 @@
           "dungeon": "Ruby Life Pools",
           "short_name": "RLP",
           "level": 16,
-          "score": 317.9,
+          "score": 317.8,
           "upgrades": 0,
           "completed_at": "2023-02-27T17:50:12.000Z",
           "character": "Ahldroni",
@@ -282,7 +282,7 @@
           "dungeon": "Ruby Life Pools",
           "short_name": "RLP",
           "level": 16,
-          "score": 317.9,
+          "score": 317.8,
           "upgrades": 0,
           "completed_at": "2023-02-27T17:50:12.000Z",
           "character": "Ahldroni",
@@ -885,7 +885,7 @@
         {
           "character": "Ahldroni",
           "level": 16,
-          "score": 317.9,
+          "score": 317.8,
           "upgrades": 0,
           "completed_at": "2023-02-27T17:50:12.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/24037180-16-ruby-life-pools"
@@ -988,7 +988,7 @@
       "dungeon": "Ruby Life Pools",
       "short_name": "RLP",
       "level": 16,
-      "score": 317.9,
+      "score": 317.8,
       "upgrades": 0,
       "completed_at": "2023-02-27T17:50:12.000Z",
       "character": "Ahldroni",

@@ -9,7 +9,7 @@
     "theme": "war-within",
     "file": "data/tww-s3.json"
   },
-  "generated_at": "2026-09-03T20:11:56.738Z",
+  "generated_at": "2026-09-04T01:36:41.746Z",
   "summary": {
     "total_score": 474.4,
     "average_score": 474.4,
@@ -88,7 +88,7 @@
           "dungeon": "Ara-Kara, City of Echoes",
           "short_name": "ARAK",
           "level": 2,
-          "score": 169.8,
+          "score": 169.7,
           "upgrades": 2,
           "completed_at": "2025-09-21T12:14:06.000Z",
           "character": "Ahldroni",
@@ -121,7 +121,7 @@
           "dungeon": "Ara-Kara, City of Echoes",
           "short_name": "ARAK",
           "level": 2,
-          "score": 169.8,
+          "score": 169.7,
           "upgrades": 2,
           "completed_at": "2025-09-21T12:14:06.000Z",
           "character": "Ahldroni",
@@ -149,7 +149,7 @@
         {
           "character": "Ahldroni",
           "level": 2,
-          "score": 169.8,
+          "score": 169.7,
           "upgrades": 2,
           "completed_at": "2025-09-21T12:14:06.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/18685737-2-arakara-city-of-echoes"
@@ -200,7 +200,7 @@
       "dungeon": "Ara-Kara, City of Echoes",
       "short_name": "ARAK",
       "level": 2,
-      "score": 169.8,
+      "score": 169.7,
       "upgrades": 2,
       "completed_at": "2025-09-21T12:14:06.000Z",
       "character": "Ahldroni",

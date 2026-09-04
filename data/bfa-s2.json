@@ -9,10 +9,10 @@
     "theme": "bfa",
     "file": "data/bfa-s2.json"
   },
-  "generated_at": "2026-09-03T20:11:56.738Z",
+  "generated_at": "2026-09-04T01:36:41.746Z",
   "summary": {
-    "total_score": 633.4,
-    "average_score": 316.7,
+    "total_score": 633.3,
+    "average_score": 316.6,
     "scored_characters": 2,
     "character_count": 2,
     "dungeon_count": 10,
@@ -72,7 +72,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 609.9,
+      "score": 609.8,
       "best_runs": [
         {
           "dungeon": "Temple of Sethraliss",
@@ -98,7 +98,7 @@
           "dungeon": "Kings' Rest",
           "short_name": "KR",
           "level": 8,
-          "score": 286.9,
+          "score": 286.8,
           "upgrades": 2,
           "completed_at": "2019-04-27T17:49:07.000Z",
           "character": "Ahldroni",
@@ -118,7 +118,7 @@
           "dungeon": "The Underrot",
           "short_name": "UNDR",
           "level": 8,
-          "score": 276.5,
+          "score": 276.4,
           "upgrades": 1,
           "completed_at": "2019-04-23T14:33:28.000Z",
           "character": "Ahldroni",
@@ -201,7 +201,7 @@
           "dungeon": "Kings' Rest",
           "short_name": "KR",
           "level": 8,
-          "score": 286.9,
+          "score": 286.8,
           "upgrades": 2,
           "completed_at": "2019-04-27T17:49:07.000Z",
           "character": "Ahldroni",
@@ -221,7 +221,7 @@
           "dungeon": "The Underrot",
           "short_name": "UNDR",
           "level": 8,
-          "score": 276.5,
+          "score": 276.4,
           "upgrades": 1,
           "completed_at": "2019-04-23T14:33:28.000Z",
           "character": "Ahldroni",
@@ -394,7 +394,7 @@
         {
           "character": "Ahldroni",
           "level": 8,
-          "score": 286.9,
+          "score": 286.8,
           "upgrades": 2,
           "completed_at": "2019-04-27T17:49:07.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/9188843-8-kings-rest"
@@ -478,7 +478,7 @@
         {
           "character": "Ahldroni",
           "level": 8,
-          "score": 276.5,
+          "score": 276.4,
           "upgrades": 1,
           "completed_at": "2019-04-23T14:33:28.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/8802216-8-the-underrot"
@@ -533,7 +533,7 @@
       "dungeon": "Kings' Rest",
       "short_name": "KR",
       "level": 8,
-      "score": 286.9,
+      "score": 286.8,
       "upgrades": 2,
       "completed_at": "2019-04-27T17:49:07.000Z",
       "character": "Ahldroni",
@@ -553,7 +553,7 @@
       "dungeon": "The Underrot",
       "short_name": "UNDR",
       "level": 8,
-      "score": 276.5,
+      "score": 276.4,
       "upgrades": 1,
       "completed_at": "2019-04-23T14:33:28.000Z",
       "character": "Ahldroni",

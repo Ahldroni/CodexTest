@@ -9,9 +9,9 @@
     "theme": "bfa",
     "file": "data/bfa-s4.json"
   },
-  "generated_at": "2026-09-03T20:11:56.738Z",
+  "generated_at": "2026-09-04T01:36:41.746Z",
   "summary": {
-    "total_score": 3468.1,
+    "total_score": 3467.9,
     "average_score": 867,
     "scored_characters": 4,
     "character_count": 4,
@@ -72,7 +72,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 1320.2,
+      "score": 1320.1,
       "best_runs": [
         {
           "dungeon": "Kings' Rest",
@@ -98,7 +98,7 @@
           "dungeon": "Mechagon Junkyard",
           "short_name": "YARD",
           "level": 17,
-          "score": 319.1,
+          "score": 319,
           "upgrades": 0,
           "completed_at": "2020-09-01T13:52:17.000Z",
           "character": "Warlockzz",
@@ -108,7 +108,7 @@
           "dungeon": "Shrine of the Storm",
           "short_name": "SOTS",
           "level": 15,
-          "score": 418.3,
+          "score": 418.2,
           "upgrades": 2,
           "completed_at": "2020-08-30T14:48:35.000Z",
           "character": "Warlockzz",
@@ -118,7 +118,7 @@
           "dungeon": "Atal'Dazar",
           "short_name": "AD",
           "level": 14,
-          "score": 399.1,
+          "score": 399,
           "upgrades": 1,
           "completed_at": "2020-08-30T13:53:40.000Z",
           "character": "Warlockzz",
@@ -201,7 +201,7 @@
           "dungeon": "Mechagon Junkyard",
           "short_name": "YARD",
           "level": 17,
-          "score": 319.1,
+          "score": 319,
           "upgrades": 0,
           "completed_at": "2020-09-01T13:52:17.000Z",
           "character": "Warlockzz",
@@ -211,7 +211,7 @@
           "dungeon": "Shrine of the Storm",
           "short_name": "SOTS",
           "level": 15,
-          "score": 418.3,
+          "score": 418.2,
           "upgrades": 2,
           "completed_at": "2020-08-30T14:48:35.000Z",
           "character": "Warlockzz",
@@ -221,7 +221,7 @@
           "dungeon": "Atal'Dazar",
           "short_name": "AD",
           "level": 14,
-          "score": 399.1,
+          "score": 399,
           "upgrades": 1,
           "completed_at": "2020-08-30T13:53:40.000Z",
           "character": "Warlockzz",
@@ -329,7 +329,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 1259.6,
+      "score": 1259.5,
       "best_runs": [
         {
           "dungeon": "The MOTHERLODE!!",
@@ -355,7 +355,7 @@
           "dungeon": "Freehold",
           "short_name": "FH",
           "level": 12,
-          "score": 367.8,
+          "score": 367.7,
           "upgrades": 1,
           "completed_at": "2020-05-12T17:33:36.000Z",
           "character": "Ahldroni",
@@ -365,7 +365,7 @@
           "dungeon": "Atal'Dazar",
           "short_name": "AD",
           "level": 12,
-          "score": 366.4,
+          "score": 366.3,
           "upgrades": 1,
           "completed_at": "2020-04-24T09:33:46.000Z",
           "character": "Ahldroni",
@@ -458,7 +458,7 @@
           "dungeon": "Freehold",
           "short_name": "FH",
           "level": 12,
-          "score": 367.8,
+          "score": 367.7,
           "upgrades": 1,
           "completed_at": "2020-05-12T17:33:36.000Z",
           "character": "Ahldroni",
@@ -468,7 +468,7 @@
           "dungeon": "Atal'Dazar",
           "short_name": "AD",
           "level": 12,
-          "score": 366.4,
+          "score": 366.3,
           "upgrades": 1,
           "completed_at": "2020-04-24T09:33:46.000Z",
           "character": "Ahldroni",
@@ -612,7 +612,7 @@
           "dungeon": "Freehold",
           "short_name": "FH",
           "level": 6,
-          "score": 241.7,
+          "score": 241.6,
           "upgrades": 2,
           "completed_at": "2020-07-28T22:20:26.000Z",
           "character": "Lifekiller",
@@ -705,7 +705,7 @@
           "dungeon": "Freehold",
           "short_name": "FH",
           "level": 6,
-          "score": 241.7,
+          "score": 241.6,
           "upgrades": 2,
           "completed_at": "2020-07-28T22:20:26.000Z",
           "character": "Lifekiller",
@@ -980,7 +980,7 @@
         {
           "character": "Warlockzz",
           "level": 14,
-          "score": 399.1,
+          "score": 399,
           "upgrades": 1,
           "completed_at": "2020-08-30T13:53:40.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/27319568-14-ataldazar"
@@ -988,7 +988,7 @@
         {
           "character": "Ahldroni",
           "level": 12,
-          "score": 366.4,
+          "score": 366.3,
           "upgrades": 1,
           "completed_at": "2020-04-24T09:33:46.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/10992656-12-ataldazar"
@@ -1018,7 +1018,7 @@
         {
           "character": "Ahldroni",
           "level": 12,
-          "score": 367.8,
+          "score": 367.7,
           "upgrades": 1,
           "completed_at": "2020-05-12T17:33:36.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/13660708-12-freehold"
@@ -1034,7 +1034,7 @@
         {
           "character": "Lifekiller",
           "level": 6,
-          "score": 241.7,
+          "score": 241.6,
           "upgrades": 2,
           "completed_at": "2020-07-28T22:20:26.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/24139235-6-freehold"
@@ -1130,7 +1130,7 @@
         {
           "character": "Warlockzz",
           "level": 15,
-          "score": 418.3,
+          "score": 418.2,
           "upgrades": 2,
           "completed_at": "2020-08-30T14:48:35.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/27313472-15-shrine-of-the-storm"
@@ -1302,7 +1302,7 @@
         {
           "character": "Warlockzz",
           "level": 17,
-          "score": 319.1,
+          "score": 319,
           "upgrades": 0,
           "completed_at": "2020-09-01T13:52:17.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/27474642-17-operation-mechagon-junkyard"
@@ -1359,7 +1359,7 @@
       "dungeon": "Mechagon Junkyard",
       "short_name": "YARD",
       "level": 17,
-      "score": 319.1,
+      "score": 319,
       "upgrades": 0,
       "completed_at": "2020-09-01T13:52:17.000Z",
       "character": "Warlockzz",
@@ -1369,7 +1369,7 @@
       "dungeon": "Shrine of the Storm",
       "short_name": "SOTS",
       "level": 15,
-      "score": 418.3,
+      "score": 418.2,
       "upgrades": 2,
       "completed_at": "2020-08-30T14:48:35.000Z",
       "character": "Warlockzz",
@@ -1379,7 +1379,7 @@
       "dungeon": "Atal'Dazar",
       "short_name": "AD",
       "level": 14,
-      "score": 399.1,
+      "score": 399,
       "upgrades": 1,
       "completed_at": "2020-08-30T13:53:40.000Z",
       "character": "Warlockzz",
@@ -1409,7 +1409,7 @@
       "dungeon": "Freehold",
       "short_name": "FH",
       "level": 12,
-      "score": 367.8,
+      "score": 367.7,
       "upgrades": 1,
       "completed_at": "2020-05-12T17:33:36.000Z",
       "character": "Ahldroni",
@@ -1419,7 +1419,7 @@
       "dungeon": "Atal'Dazar",
       "short_name": "AD",
       "level": 12,
-      "score": 366.4,
+      "score": 366.3,
       "upgrades": 1,
       "completed_at": "2020-04-24T09:33:46.000Z",
       "character": "Ahldroni",
@@ -1589,7 +1589,7 @@
       "dungeon": "Freehold",
       "short_name": "FH",
       "level": 6,
-      "score": 241.7,
+      "score": 241.6,
       "upgrades": 2,
       "completed_at": "2020-07-28T22:20:26.000Z",
       "character": "Lifekiller",

@@ -9,10 +9,10 @@
     "theme": "bfa",
     "file": "data/bfa-s3.json"
   },
-  "generated_at": "2026-09-03T20:11:56.738Z",
+  "generated_at": "2026-09-04T01:36:41.746Z",
   "summary": {
-    "total_score": 640.8,
-    "average_score": 320.4,
+    "total_score": 640.7,
+    "average_score": 320.3,
     "scored_characters": 2,
     "character_count": 2,
     "dungeon_count": 7,
@@ -72,7 +72,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 536.5,
+      "score": 536.4,
       "best_runs": [
         {
           "dungeon": "Atal'Dazar",
@@ -88,7 +88,7 @@
           "dungeon": "The Underrot",
           "short_name": "UNDR",
           "level": 10,
-          "score": 304.9,
+          "score": 304.8,
           "upgrades": 0,
           "completed_at": "2019-08-20T17:54:44.000Z",
           "character": "Ahldroni",
@@ -118,7 +118,7 @@
           "dungeon": "Freehold",
           "short_name": "FH",
           "level": 9,
-          "score": 262.4,
+          "score": 262.3,
           "upgrades": 0,
           "completed_at": "2019-07-15T02:42:23.000Z",
           "character": "Ahldroni",
@@ -161,7 +161,7 @@
           "dungeon": "The Underrot",
           "short_name": "UNDR",
           "level": 10,
-          "score": 304.9,
+          "score": 304.8,
           "upgrades": 0,
           "completed_at": "2019-08-20T17:54:44.000Z",
           "character": "Ahldroni",
@@ -191,7 +191,7 @@
           "dungeon": "Freehold",
           "short_name": "FH",
           "level": 9,
-          "score": 262.4,
+          "score": 262.3,
           "upgrades": 0,
           "completed_at": "2019-07-15T02:42:23.000Z",
           "character": "Ahldroni",
@@ -285,7 +285,7 @@
           "dungeon": "Kings' Rest",
           "short_name": "KR",
           "level": 5,
-          "score": 194.4,
+          "score": 194.3,
           "upgrades": 0,
           "completed_at": "2019-07-15T01:48:59.000Z",
           "character": "Lifekiller",
@@ -318,7 +318,7 @@
           "dungeon": "Kings' Rest",
           "short_name": "KR",
           "level": 5,
-          "score": 194.4,
+          "score": 194.3,
           "upgrades": 0,
           "completed_at": "2019-07-15T01:48:59.000Z",
           "character": "Lifekiller",
@@ -368,7 +368,7 @@
         {
           "character": "Ahldroni",
           "level": 9,
-          "score": 262.4,
+          "score": 262.3,
           "upgrades": 0,
           "completed_at": "2019-07-15T02:42:23.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/393771-9-freehold"
@@ -390,7 +390,7 @@
         {
           "character": "Lifekiller",
           "level": 5,
-          "score": 194.4,
+          "score": 194.3,
           "upgrades": 0,
           "completed_at": "2019-07-15T01:48:59.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/391269-5-kings-rest"
@@ -432,7 +432,7 @@
         {
           "character": "Ahldroni",
           "level": 10,
-          "score": 304.9,
+          "score": 304.8,
           "upgrades": 0,
           "completed_at": "2019-08-20T17:54:44.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/4012750-10-the-underrot"
@@ -467,7 +467,7 @@
       "dungeon": "The Underrot",
       "short_name": "UNDR",
       "level": 10,
-      "score": 304.9,
+      "score": 304.8,
       "upgrades": 0,
       "completed_at": "2019-08-20T17:54:44.000Z",
       "character": "Ahldroni",
@@ -507,7 +507,7 @@
       "dungeon": "Freehold",
       "short_name": "FH",
       "level": 9,
-      "score": 262.4,
+      "score": 262.3,
       "upgrades": 0,
       "completed_at": "2019-07-15T02:42:23.000Z",
       "character": "Ahldroni",
@@ -537,7 +537,7 @@
       "dungeon": "Kings' Rest",
       "short_name": "KR",
       "level": 5,
-      "score": 194.4,
+      "score": 194.3,
       "upgrades": 0,
       "completed_at": "2019-07-15T01:48:59.000Z",
       "character": "Lifekiller",

@@ -9,7 +9,7 @@
     "theme": "dragonflight",
     "file": "data/df-s2.json"
   },
-  "generated_at": "2026-09-03T20:11:56.738Z",
+  "generated_at": "2026-09-04T01:36:41.746Z",
   "summary": {
     "total_score": 921,
     "average_score": 460.5,
@@ -118,7 +118,7 @@
           "dungeon": "The Vortex Pinnacle",
           "short_name": "VP",
           "level": 5,
-          "score": 226.6,
+          "score": 226.5,
           "upgrades": 2,
           "completed_at": "2023-07-26T17:08:46.000Z",
           "character": "Ahldroni",
@@ -202,7 +202,7 @@
           "dungeon": "The Vortex Pinnacle",
           "short_name": "VP",
           "level": 5,
-          "score": 226.6,
+          "score": 226.5,
           "upgrades": 2,
           "completed_at": "2023-07-26T17:08:46.000Z",
           "character": "Ahldroni",
@@ -440,7 +440,7 @@
         {
           "character": "Ahldroni",
           "level": 5,
-          "score": 226.6,
+          "score": 226.5,
           "upgrades": 2,
           "completed_at": "2023-07-26T17:08:46.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/16545131-5-the-vortex-pinnacle"
@@ -513,7 +513,7 @@
       "dungeon": "The Vortex Pinnacle",
       "short_name": "VP",
       "level": 5,
-      "score": 226.6,
+      "score": 226.5,
       "upgrades": 2,
       "completed_at": "2023-07-26T17:08:46.000Z",
       "character": "Ahldroni",

@@ -9,10 +9,10 @@
     "theme": "shadowlands",
     "file": "data/sl-s2.json"
   },
-  "generated_at": "2026-09-03T20:11:56.738Z",
+  "generated_at": "2026-09-04T01:36:41.746Z",
   "summary": {
-    "total_score": 1162.3,
-    "average_score": 1162.3,
+    "total_score": 1162.2,
+    "average_score": 1162.2,
     "scored_characters": 1,
     "character_count": 1,
     "dungeon_count": 6,
@@ -72,7 +72,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 1162.3,
+      "score": 1162.2,
       "best_runs": [
         {
           "dungeon": "Sanguine Depths",

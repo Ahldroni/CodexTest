@@ -9,9 +9,9 @@
     "theme": "legion",
     "file": "data/legion-7-3-2.json"
   },
-  "generated_at": "2026-09-03T20:11:56.738Z",
+  "generated_at": "2026-09-04T01:36:41.746Z",
   "summary": {
-    "total_score": 453.7,
+    "total_score": 453.6,
     "average_score": 226.8,
     "scored_characters": 2,
     "character_count": 2,
@@ -72,7 +72,7 @@
           "mythic_bosses_killed": 0
         }
       },
-      "score": 422,
+      "score": 421.9,
       "best_runs": [
         {
           "dungeon": "Black Rook Hold",
@@ -118,7 +118,7 @@
           "dungeon": "Darkheart Thicket",
           "short_name": "DHT",
           "level": 7,
-          "score": 243.3,
+          "score": 243.2,
           "upgrades": 0,
           "completed_at": "2018-03-17T17:38:39.000Z",
           "character": "Warlockzz",
@@ -181,7 +181,7 @@
           "dungeon": "Darkheart Thicket",
           "short_name": "DHT",
           "level": 7,
-          "score": 243.3,
+          "score": 243.2,
           "upgrades": 0,
           "completed_at": "2018-03-17T17:38:39.000Z",
           "character": "Warlockzz",
@@ -314,7 +314,7 @@
         {
           "character": "Warlockzz",
           "level": 7,
-          "score": 243.3,
+          "score": 243.2,
           "upgrades": 0,
           "completed_at": "2018-03-17T17:38:39.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/6576550-7-darkheart-thicket"
@@ -417,7 +417,7 @@
       "dungeon": "Darkheart Thicket",
       "short_name": "DHT",
       "level": 7,
-      "score": 243.3,
+      "score": 243.2,
       "upgrades": 0,
       "completed_at": "2018-03-17T17:38:39.000Z",
       "character": "Warlockzz",
