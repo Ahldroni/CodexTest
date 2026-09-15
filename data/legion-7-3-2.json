@@ -9,14 +9,14 @@
     "theme": "legion",
     "file": "data/legion-7-3-2.json"
   },
-  "generated_at": "2026-09-15T02:05:38.200Z",
+  "generated_at": "2026-09-15T15:47:06.224Z",
   "summary": {
-    "total_score": 421.9,
-    "average_score": 421.9,
-    "scored_characters": 1,
-    "character_count": 1,
+    "total_score": 453.6,
+    "average_score": 226.8,
+    "scored_characters": 2,
+    "character_count": 2,
     "dungeon_count": 6,
-    "best_run_count": 6,
+    "best_run_count": 7,
     "highest_key": {
       "level": 9,
       "short_name": "LOWR"
@@ -199,6 +199,83 @@
         }
       ],
       "mythic_plus_alternate_runs": []
+    },
+    {
+      "key": "eu:silvermoon:ahldroni",
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Feral",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 249,
+      "color": "#ffffff",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progression": {
+        "the-tidebound-grotto": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 31.7,
+      "best_runs": [
+        {
+          "dungeon": "Halls of Valor",
+          "short_name": "HOV",
+          "level": 3,
+          "score": 177.4,
+          "upgrades": 1,
+          "completed_at": "2018-03-07T16:52:44.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5991934-3-halls-of-valor"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Halls of Valor",
+          "short_name": "HOV",
+          "level": 3,
+          "score": 177.4,
+          "upgrades": 1,
+          "completed_at": "2018-03-07T16:52:44.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5991934-3-halls-of-valor"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
     }
   ],
   "dungeons": [
@@ -255,6 +332,14 @@
           "upgrades": 2,
           "completed_at": "2018-03-14T13:42:14.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/6419373-4-halls-of-valor"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 3,
+          "score": 177.4,
+          "upgrades": 1,
+          "completed_at": "2018-03-07T16:52:44.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5991934-3-halls-of-valor"
         }
       ]
     },
@@ -347,6 +432,16 @@
       "completed_at": "2018-03-14T13:42:14.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/6419373-4-halls-of-valor"
+    },
+    {
+      "dungeon": "Halls of Valor",
+      "short_name": "HOV",
+      "level": 3,
+      "score": 177.4,
+      "upgrades": 1,
+      "completed_at": "2018-03-07T16:52:44.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/5991934-3-halls-of-valor"
     }
   ]
 }

@@ -9,20 +9,556 @@
     "theme": "dragonflight",
     "file": "data/df-s4.json"
   },
-  "generated_at": "2026-09-15T02:05:38.200Z",
+  "generated_at": "2026-09-15T15:47:06.224Z",
   "summary": {
-    "total_score": 1212.1,
-    "average_score": 404,
-    "scored_characters": 3,
-    "character_count": 3,
-    "dungeon_count": 6,
-    "best_run_count": 10,
+    "total_score": 4506.7,
+    "average_score": 901.3,
+    "scored_characters": 5,
+    "character_count": 5,
+    "dungeon_count": 8,
+    "best_run_count": 31,
     "highest_key": {
-      "level": 5,
-      "short_name": "ULD"
+      "level": 10,
+      "short_name": "AA"
     }
   },
   "characters": [
+    {
+      "key": "eu:stormrage:starseeker",
+      "name": "Starseeker",
+      "display_name": "Starseeker",
+      "realm": "Stormrage",
+      "region": "eu",
+      "class_name": "Priest",
+      "spec": "Discipline",
+      "role": "healing",
+      "level": 0,
+      "ilvl": 83,
+      "color": "#1572da",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/stormrage/221/143915229-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/stormrage/Starseeker",
+      "url": "https://raider.io/characters/eu/stormrage/Starseeker",
+      "raid_progression": {
+        "the-tidebound-grotto": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 2293,
+      "best_runs": [
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 10,
+          "score": 332.2,
+          "upgrades": 2,
+          "completed_at": "2024-08-17T15:26:26.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12766720-10-algethar-academy"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 10,
+          "score": 331.4,
+          "upgrades": 2,
+          "completed_at": "2024-08-17T14:45:43.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12765672-10-neltharus"
+        },
+        {
+          "dungeon": "The Azure Vault",
+          "short_name": "AV",
+          "level": 9,
+          "score": 305,
+          "upgrades": 3,
+          "completed_at": "2024-08-18T09:08:29.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12810596-9-the-azure-vault"
+        },
+        {
+          "dungeon": "Ruby Life Pools",
+          "short_name": "RLP",
+          "level": 8,
+          "score": 289.1,
+          "upgrades": 2,
+          "completed_at": "2024-08-14T18:45:43.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12633353-8-ruby-life-pools"
+        },
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 8,
+          "score": 286.3,
+          "upgrades": 2,
+          "completed_at": "2024-07-31T16:22:22.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11754831-8-the-nokhud-offensive"
+        },
+        {
+          "dungeon": "Brackenhide Hollow",
+          "short_name": "BH",
+          "level": 7,
+          "score": 272.5,
+          "upgrades": 2,
+          "completed_at": "2024-08-14T15:56:43.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12626961-7-brackenhide-hollow"
+        },
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 7,
+          "score": 270.3,
+          "upgrades": 2,
+          "completed_at": "2024-07-30T23:55:19.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718089-7-uldaman-legacy-of-tyr"
+        },
+        {
+          "dungeon": "Halls of Infusion",
+          "short_name": "HOI",
+          "level": 6,
+          "score": 239.1,
+          "upgrades": 2,
+          "completed_at": "2024-07-25T00:15:07.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11343966-6-halls-of-infusion"
+        }
+      ],
+      "alternate_runs": [
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2024-07-30T23:01:20.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718269-8-algethar-academy"
+        },
+        {
+          "dungeon": "Brackenhide Hollow",
+          "short_name": "BH",
+          "level": 7,
+          "score": 266.5,
+          "upgrades": 1,
+          "completed_at": "2024-07-30T22:26:35.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11716042-7-brackenhide-hollow"
+        },
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 6,
+          "score": 235.9,
+          "upgrades": 1,
+          "completed_at": "2024-07-28T15:40:58.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11570876-6-the-nokhud-offensive"
+        },
+        {
+          "dungeon": "The Azure Vault",
+          "short_name": "AV",
+          "level": 5,
+          "score": 228.8,
+          "upgrades": 2,
+          "completed_at": "2024-07-28T14:56:44.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11587521-5-the-azure-vault"
+        },
+        {
+          "dungeon": "Ruby Life Pools",
+          "short_name": "RLP",
+          "level": 5,
+          "score": 225.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-28T13:47:06.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11564146-5-ruby-life-pools"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 4,
+          "score": 195.6,
+          "upgrades": 2,
+          "completed_at": "2024-07-27T21:33:21.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11524092-4-neltharus"
+        },
+        {
+          "dungeon": "Halls of Infusion",
+          "short_name": "HOI",
+          "level": 4,
+          "score": 189.3,
+          "upgrades": 1,
+          "completed_at": "2024-07-22T13:44:49.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11237762-4-halls-of-infusion"
+        }
+      ],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 10,
+          "score": 332.2,
+          "upgrades": 2,
+          "completed_at": "2024-08-17T15:26:26.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12766720-10-algethar-academy"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 10,
+          "score": 331.4,
+          "upgrades": 2,
+          "completed_at": "2024-08-17T14:45:43.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12765672-10-neltharus"
+        },
+        {
+          "dungeon": "The Azure Vault",
+          "short_name": "AV",
+          "level": 9,
+          "score": 305,
+          "upgrades": 3,
+          "completed_at": "2024-08-18T09:08:29.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12810596-9-the-azure-vault"
+        },
+        {
+          "dungeon": "Ruby Life Pools",
+          "short_name": "RLP",
+          "level": 8,
+          "score": 289.1,
+          "upgrades": 2,
+          "completed_at": "2024-08-14T18:45:43.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12633353-8-ruby-life-pools"
+        },
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 8,
+          "score": 286.3,
+          "upgrades": 2,
+          "completed_at": "2024-07-31T16:22:22.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11754831-8-the-nokhud-offensive"
+        },
+        {
+          "dungeon": "Brackenhide Hollow",
+          "short_name": "BH",
+          "level": 7,
+          "score": 272.5,
+          "upgrades": 2,
+          "completed_at": "2024-08-14T15:56:43.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12626961-7-brackenhide-hollow"
+        },
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 7,
+          "score": 270.3,
+          "upgrades": 2,
+          "completed_at": "2024-07-30T23:55:19.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718089-7-uldaman-legacy-of-tyr"
+        },
+        {
+          "dungeon": "Halls of Infusion",
+          "short_name": "HOI",
+          "level": 6,
+          "score": 239.1,
+          "upgrades": 2,
+          "completed_at": "2024-07-25T00:15:07.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11343966-6-halls-of-infusion"
+        }
+      ],
+      "mythic_plus_alternate_runs": [
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 8,
+          "score": 290,
+          "upgrades": 3,
+          "completed_at": "2024-07-30T23:01:20.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718269-8-algethar-academy"
+        },
+        {
+          "dungeon": "Brackenhide Hollow",
+          "short_name": "BH",
+          "level": 7,
+          "score": 266.5,
+          "upgrades": 1,
+          "completed_at": "2024-07-30T22:26:35.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11716042-7-brackenhide-hollow"
+        },
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 6,
+          "score": 235.9,
+          "upgrades": 1,
+          "completed_at": "2024-07-28T15:40:58.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11570876-6-the-nokhud-offensive"
+        },
+        {
+          "dungeon": "The Azure Vault",
+          "short_name": "AV",
+          "level": 5,
+          "score": 228.8,
+          "upgrades": 2,
+          "completed_at": "2024-07-28T14:56:44.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11587521-5-the-azure-vault"
+        },
+        {
+          "dungeon": "Ruby Life Pools",
+          "short_name": "RLP",
+          "level": 5,
+          "score": 225.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-28T13:47:06.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11564146-5-ruby-life-pools"
+        },
+        {
+          "dungeon": "Neltharus",
+          "short_name": "NELT",
+          "level": 4,
+          "score": 195.6,
+          "upgrades": 2,
+          "completed_at": "2024-07-27T21:33:21.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11524092-4-neltharus"
+        },
+        {
+          "dungeon": "Halls of Infusion",
+          "short_name": "HOI",
+          "level": 4,
+          "score": 189.3,
+          "upgrades": 1,
+          "completed_at": "2024-07-22T13:44:49.000Z",
+          "character": "Starseeker",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11237762-4-halls-of-infusion"
+        }
+      ]
+    },
+    {
+      "key": "eu:silvermoon:ahldroni",
+      "name": "Ahldroni",
+      "display_name": "Ahldroni",
+      "realm": "Silvermoon",
+      "region": "eu",
+      "class_name": "Druid",
+      "spec": "Feral",
+      "role": "dps",
+      "level": 0,
+      "ilvl": 249,
+      "color": "#34f72c",
+      "avatar": "https://render.worldofwarcraft.com/eu/character/silvermoon/183/209840311-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
+      "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
+      "raid_progression": {
+        "the-tidebound-grotto": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "the-venomous-abyss": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 8,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "sporefall": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
+        "tier-mn-1": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 9,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        }
+      },
+      "score": 1001.6,
+      "best_runs": [
+        {
+          "dungeon": "Brackenhide Hollow",
+          "short_name": "BH",
+          "level": 5,
+          "score": 225.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-07T14:27:02.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10473955-5-brackenhide-hollow"
+        },
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2024-07-22T23:39:58.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11257593-4-the-nokhud-offensive"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 4,
+          "score": 192.9,
+          "upgrades": 2,
+          "completed_at": "2024-07-22T11:28:50.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11234816-4-algethar-academy"
+        },
+        {
+          "dungeon": "The Azure Vault",
+          "short_name": "AV",
+          "level": 4,
+          "score": 192.4,
+          "upgrades": 1,
+          "completed_at": "2024-07-16T22:46:30.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017370-4-the-azure-vault"
+        },
+        {
+          "dungeon": "Halls of Infusion",
+          "short_name": "HOI",
+          "level": 4,
+          "score": 189.6,
+          "upgrades": 1,
+          "completed_at": "2024-07-16T22:07:10.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017903-4-halls-of-infusion"
+        },
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 2,
+          "score": 159.7,
+          "upgrades": 1,
+          "completed_at": "2024-07-06T13:19:21.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10400055-2-uldaman-legacy-of-tyr"
+        }
+      ],
+      "alternate_runs": [],
+      "mythic_plus_best_runs": [
+        {
+          "dungeon": "Brackenhide Hollow",
+          "short_name": "BH",
+          "level": 5,
+          "score": 225.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-07T14:27:02.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10473955-5-brackenhide-hollow"
+        },
+        {
+          "dungeon": "The Nokhud Offensive",
+          "short_name": "NO",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2024-07-22T23:39:58.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11257593-4-the-nokhud-offensive"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "level": 4,
+          "score": 192.9,
+          "upgrades": 2,
+          "completed_at": "2024-07-22T11:28:50.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11234816-4-algethar-academy"
+        },
+        {
+          "dungeon": "The Azure Vault",
+          "short_name": "AV",
+          "level": 4,
+          "score": 192.4,
+          "upgrades": 1,
+          "completed_at": "2024-07-16T22:46:30.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017370-4-the-azure-vault"
+        },
+        {
+          "dungeon": "Halls of Infusion",
+          "short_name": "HOI",
+          "level": 4,
+          "score": 189.6,
+          "upgrades": 1,
+          "completed_at": "2024-07-16T22:07:10.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017903-4-halls-of-infusion"
+        },
+        {
+          "dungeon": "Uldaman: Legacy of Tyr",
+          "short_name": "ULD",
+          "level": 2,
+          "score": 159.7,
+          "upgrades": 1,
+          "completed_at": "2024-07-06T13:19:21.000Z",
+          "character": "Ahldroni",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10400055-2-uldaman-legacy-of-tyr"
+        }
+      ],
+      "mythic_plus_alternate_runs": []
+    },
     {
       "key": "eu:stormrage:lifekiller",
       "name": "Lifekiller",
@@ -405,6 +941,22 @@
       "name": "Algeth'ar Academy",
       "entries": [
         {
+          "character": "Starseeker",
+          "level": 10,
+          "score": 332.2,
+          "upgrades": 2,
+          "completed_at": "2024-08-17T15:26:26.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12766720-10-algethar-academy"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 192.9,
+          "upgrades": 2,
+          "completed_at": "2024-07-22T11:28:50.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11234816-4-algethar-academy"
+        },
+        {
           "character": "Lifekiller",
           "level": 2,
           "score": 168.4,
@@ -415,9 +967,69 @@
       ]
     },
     {
+      "short_name": "AV",
+      "name": "The Azure Vault",
+      "entries": [
+        {
+          "character": "Starseeker",
+          "level": 9,
+          "score": 305,
+          "upgrades": 3,
+          "completed_at": "2024-08-18T09:08:29.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12810596-9-the-azure-vault"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 192.4,
+          "upgrades": 1,
+          "completed_at": "2024-07-16T22:46:30.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017370-4-the-azure-vault"
+        }
+      ]
+    },
+    {
+      "short_name": "BH",
+      "name": "Brackenhide Hollow",
+      "entries": [
+        {
+          "character": "Starseeker",
+          "level": 7,
+          "score": 272.5,
+          "upgrades": 2,
+          "completed_at": "2024-08-14T15:56:43.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12626961-7-brackenhide-hollow"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 5,
+          "score": 225.5,
+          "upgrades": 2,
+          "completed_at": "2024-07-07T14:27:02.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10473955-5-brackenhide-hollow"
+        }
+      ]
+    },
+    {
       "short_name": "HOI",
       "name": "Halls of Infusion",
       "entries": [
+        {
+          "character": "Starseeker",
+          "level": 6,
+          "score": 239.1,
+          "upgrades": 2,
+          "completed_at": "2024-07-25T00:15:07.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11343966-6-halls-of-infusion"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 189.6,
+          "upgrades": 1,
+          "completed_at": "2024-07-16T22:07:10.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017903-4-halls-of-infusion"
+        },
         {
           "character": "Lifekiller",
           "level": 2,
@@ -433,6 +1045,14 @@
       "name": "Neltharus",
       "entries": [
         {
+          "character": "Starseeker",
+          "level": 10,
+          "score": 331.4,
+          "upgrades": 2,
+          "completed_at": "2024-08-17T14:45:43.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12765672-10-neltharus"
+        },
+        {
           "character": "Warlockzz",
           "level": 2,
           "score": 158.6,
@@ -446,6 +1066,22 @@
       "short_name": "NO",
       "name": "The Nokhud Offensive",
       "entries": [
+        {
+          "character": "Starseeker",
+          "level": 8,
+          "score": 286.3,
+          "upgrades": 2,
+          "completed_at": "2024-07-31T16:22:22.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11754831-8-the-nokhud-offensive"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 4,
+          "score": 200,
+          "upgrades": 3,
+          "completed_at": "2024-07-22T23:39:58.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11257593-4-the-nokhud-offensive"
+        },
         {
           "character": "Lifekiller",
           "level": 2,
@@ -461,6 +1097,14 @@
       "name": "Ruby Life Pools",
       "entries": [
         {
+          "character": "Starseeker",
+          "level": 8,
+          "score": 289.1,
+          "upgrades": 2,
+          "completed_at": "2024-08-14T18:45:43.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/12633353-8-ruby-life-pools"
+        },
+        {
           "character": "Megakûk",
           "level": 2,
           "score": 170,
@@ -474,6 +1118,14 @@
       "short_name": "ULD",
       "name": "Uldaman: Legacy of Tyr",
       "entries": [
+        {
+          "character": "Starseeker",
+          "level": 7,
+          "score": 270.3,
+          "upgrades": 2,
+          "completed_at": "2024-07-30T23:55:19.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718089-7-uldaman-legacy-of-tyr"
+        },
         {
           "character": "Lifekiller",
           "level": 5,
@@ -489,11 +1141,159 @@
           "upgrades": 2,
           "completed_at": "2024-07-10T12:37:33.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/10653637-2-uldaman-legacy-of-tyr"
+        },
+        {
+          "character": "Ahldroni",
+          "level": 2,
+          "score": 159.7,
+          "upgrades": 1,
+          "completed_at": "2024-07-06T13:19:21.000Z",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/10400055-2-uldaman-legacy-of-tyr"
         }
       ]
     }
   ],
   "best_runs": [
+    {
+      "dungeon": "Algeth'ar Academy",
+      "short_name": "AA",
+      "level": 10,
+      "score": 332.2,
+      "upgrades": 2,
+      "completed_at": "2024-08-17T15:26:26.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12766720-10-algethar-academy"
+    },
+    {
+      "dungeon": "Neltharus",
+      "short_name": "NELT",
+      "level": 10,
+      "score": 331.4,
+      "upgrades": 2,
+      "completed_at": "2024-08-17T14:45:43.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12765672-10-neltharus"
+    },
+    {
+      "dungeon": "The Azure Vault",
+      "short_name": "AV",
+      "level": 9,
+      "score": 305,
+      "upgrades": 3,
+      "completed_at": "2024-08-18T09:08:29.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12810596-9-the-azure-vault"
+    },
+    {
+      "dungeon": "Algeth'ar Academy",
+      "short_name": "AA",
+      "level": 8,
+      "score": 290,
+      "upgrades": 3,
+      "completed_at": "2024-07-30T23:01:20.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718269-8-algethar-academy"
+    },
+    {
+      "dungeon": "Ruby Life Pools",
+      "short_name": "RLP",
+      "level": 8,
+      "score": 289.1,
+      "upgrades": 2,
+      "completed_at": "2024-08-14T18:45:43.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12633353-8-ruby-life-pools"
+    },
+    {
+      "dungeon": "The Nokhud Offensive",
+      "short_name": "NO",
+      "level": 8,
+      "score": 286.3,
+      "upgrades": 2,
+      "completed_at": "2024-07-31T16:22:22.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11754831-8-the-nokhud-offensive"
+    },
+    {
+      "dungeon": "Brackenhide Hollow",
+      "short_name": "BH",
+      "level": 7,
+      "score": 272.5,
+      "upgrades": 2,
+      "completed_at": "2024-08-14T15:56:43.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/12626961-7-brackenhide-hollow"
+    },
+    {
+      "dungeon": "Uldaman: Legacy of Tyr",
+      "short_name": "ULD",
+      "level": 7,
+      "score": 270.3,
+      "upgrades": 2,
+      "completed_at": "2024-07-30T23:55:19.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11718089-7-uldaman-legacy-of-tyr"
+    },
+    {
+      "dungeon": "Brackenhide Hollow",
+      "short_name": "BH",
+      "level": 7,
+      "score": 266.5,
+      "upgrades": 1,
+      "completed_at": "2024-07-30T22:26:35.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11716042-7-brackenhide-hollow"
+    },
+    {
+      "dungeon": "Halls of Infusion",
+      "short_name": "HOI",
+      "level": 6,
+      "score": 239.1,
+      "upgrades": 2,
+      "completed_at": "2024-07-25T00:15:07.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11343966-6-halls-of-infusion"
+    },
+    {
+      "dungeon": "The Nokhud Offensive",
+      "short_name": "NO",
+      "level": 6,
+      "score": 235.9,
+      "upgrades": 1,
+      "completed_at": "2024-07-28T15:40:58.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11570876-6-the-nokhud-offensive"
+    },
+    {
+      "dungeon": "The Azure Vault",
+      "short_name": "AV",
+      "level": 5,
+      "score": 228.8,
+      "upgrades": 2,
+      "completed_at": "2024-07-28T14:56:44.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11587521-5-the-azure-vault"
+    },
+    {
+      "dungeon": "Ruby Life Pools",
+      "short_name": "RLP",
+      "level": 5,
+      "score": 225.5,
+      "upgrades": 2,
+      "completed_at": "2024-07-28T13:47:06.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11564146-5-ruby-life-pools"
+    },
+    {
+      "dungeon": "Brackenhide Hollow",
+      "short_name": "BH",
+      "level": 5,
+      "score": 225.5,
+      "upgrades": 2,
+      "completed_at": "2024-07-07T14:27:02.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/10473955-5-brackenhide-hollow"
+    },
     {
       "dungeon": "Uldaman: Legacy of Tyr",
       "short_name": "ULD",
@@ -503,6 +1303,66 @@
       "completed_at": "2024-07-18T01:16:23.000Z",
       "character": "Lifekiller",
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/11058754-5-uldaman-legacy-of-tyr"
+    },
+    {
+      "dungeon": "The Nokhud Offensive",
+      "short_name": "NO",
+      "level": 4,
+      "score": 200,
+      "upgrades": 3,
+      "completed_at": "2024-07-22T23:39:58.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11257593-4-the-nokhud-offensive"
+    },
+    {
+      "dungeon": "Neltharus",
+      "short_name": "NELT",
+      "level": 4,
+      "score": 195.6,
+      "upgrades": 2,
+      "completed_at": "2024-07-27T21:33:21.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11524092-4-neltharus"
+    },
+    {
+      "dungeon": "Algeth'ar Academy",
+      "short_name": "AA",
+      "level": 4,
+      "score": 192.9,
+      "upgrades": 2,
+      "completed_at": "2024-07-22T11:28:50.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11234816-4-algethar-academy"
+    },
+    {
+      "dungeon": "The Azure Vault",
+      "short_name": "AV",
+      "level": 4,
+      "score": 192.4,
+      "upgrades": 1,
+      "completed_at": "2024-07-16T22:46:30.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017370-4-the-azure-vault"
+    },
+    {
+      "dungeon": "Halls of Infusion",
+      "short_name": "HOI",
+      "level": 4,
+      "score": 189.6,
+      "upgrades": 1,
+      "completed_at": "2024-07-16T22:07:10.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11017903-4-halls-of-infusion"
+    },
+    {
+      "dungeon": "Halls of Infusion",
+      "short_name": "HOI",
+      "level": 4,
+      "score": 189.3,
+      "upgrades": 1,
+      "completed_at": "2024-07-22T13:44:49.000Z",
+      "character": "Starseeker",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/11237762-4-halls-of-infusion"
     },
     {
       "dungeon": "The Nokhud Offensive",
@@ -573,6 +1433,16 @@
       "completed_at": "2024-08-17T14:01:02.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/12764637-2-uldaman-legacy-of-tyr"
+    },
+    {
+      "dungeon": "Uldaman: Legacy of Tyr",
+      "short_name": "ULD",
+      "level": 2,
+      "score": 159.7,
+      "upgrades": 1,
+      "completed_at": "2024-07-06T13:19:21.000Z",
+      "character": "Ahldroni",
+      "url": "https://raider.io/mythic-plus-runs/season-mn-2/10400055-2-uldaman-legacy-of-tyr"
     },
     {
       "dungeon": "Neltharus",

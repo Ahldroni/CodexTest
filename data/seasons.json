@@ -10,6 +10,16 @@
     "file": "data/midnight-current.json"
   },
   {
+    "id": "tww-s3",
+    "apiSeasonId": "season-tww-3",
+    "expansion": "The War Within",
+    "name": "The War Within Season 3",
+    "shortName": "TWW S3",
+    "isCurrent": false,
+    "theme": "war-within",
+    "file": "data/tww-s3.json"
+  },
+  {
     "id": "df-s4",
     "apiSeasonId": "season-df-4",
     "expansion": "Dragonflight",
@@ -70,6 +80,16 @@
     "file": "data/sl-s3.json"
   },
   {
+    "id": "sl-s2",
+    "apiSeasonId": "season-sl-2",
+    "expansion": "Shadowlands",
+    "name": "Shadowlands Season 2",
+    "shortName": "SL S2",
+    "isCurrent": false,
+    "theme": "shadowlands",
+    "file": "data/sl-s2.json"
+  },
+  {
     "id": "sl-s1",
     "apiSeasonId": "season-sl-1",
     "expansion": "Shadowlands",
@@ -108,6 +128,16 @@
     "isCurrent": false,
     "theme": "bfa",
     "file": "data/bfa-s2.json"
+  },
+  {
+    "id": "bfa-s1",
+    "apiSeasonId": "season-bfa-1",
+    "expansion": "Battle for Azeroth",
+    "name": "Battle for Azeroth Season 1",
+    "shortName": "BFA S1",
+    "isCurrent": false,
+    "theme": "bfa",
+    "file": "data/bfa-s1.json"
   },
   {
     "id": "legion-7-3-2",
