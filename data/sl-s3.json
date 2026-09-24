@@ -9,14 +9,14 @@
     "theme": "shadowlands",
     "file": "data/sl-s3.json"
   },
-  "generated_at": "2026-09-24T10:36:39.476Z",
+  "generated_at": "2026-09-24T15:59:52.710Z",
   "summary": {
-    "total_score": 4002.7,
-    "average_score": 2001.3,
-    "scored_characters": 2,
-    "character_count": 2,
+    "total_score": 2719.9,
+    "average_score": 2719.9,
+    "scored_characters": 1,
+    "character_count": 1,
     "dungeon_count": 10,
-    "best_run_count": 32,
+    "best_run_count": 19,
     "highest_key": {
       "level": 21,
       "short_name": "SOA"
@@ -461,325 +461,6 @@
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/15305310-10-tazavesh-streets-of-wonder"
         }
       ]
-    },
-    {
-      "key": "eu:stormrage:lifekiller",
-      "name": "Lifekiller",
-      "display_name": "Lifekiller",
-      "realm": "Stormrage",
-      "region": "eu",
-      "class_name": "Death Knight",
-      "spec": "Unholy",
-      "role": "dps",
-      "level": 0,
-      "ilvl": 188,
-      "color": "#5bd171",
-      "avatar": "https://render.worldofwarcraft.com/eu/character/stormrage/145/138253713-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
-      "profile_url": "https://raider.io/characters/eu/stormrage/Lifekiller",
-      "url": "https://raider.io/characters/eu/stormrage/Lifekiller",
-      "raid_progression": {
-        "the-tidebound-grotto": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "the-venomous-abyss": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "tier-mn-1": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        }
-      },
-      "score": 1282.8,
-      "best_runs": [
-        {
-          "dungeon": "The Necrotic Wake",
-          "short_name": "NW",
-          "level": 13,
-          "score": 314.6,
-          "upgrades": 0,
-          "completed_at": "2022-07-23T13:24:29.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19198248-13-the-necrotic-wake"
-        },
-        {
-          "dungeon": "Plaguefall",
-          "short_name": "PF",
-          "level": 11,
-          "score": 343,
-          "upgrades": 2,
-          "completed_at": "2022-07-07T21:31:02.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17881920-11-plaguefall"
-        },
-        {
-          "dungeon": "Theater of Pain",
-          "short_name": "TOP",
-          "level": 11,
-          "score": 337.6,
-          "upgrades": 1,
-          "completed_at": "2022-07-03T20:35:48.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17518964-11-theater-of-pain"
-        },
-        {
-          "dungeon": "Tazavesh: So'leah's Gambit",
-          "short_name": "GMBT",
-          "level": 10,
-          "score": 324.1,
-          "upgrades": 1,
-          "completed_at": "2022-07-24T12:15:08.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19284735-10-tazavesh-soleahs-gambit"
-        },
-        {
-          "dungeon": "Tazavesh: Streets of Wonder",
-          "short_name": "STRT",
-          "level": 10,
-          "score": 323.6,
-          "upgrades": 1,
-          "completed_at": "2022-06-30T12:43:08.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17183300-10-tazavesh-streets-of-wonder"
-        },
-        {
-          "dungeon": "Mists of Tirna Scithe",
-          "short_name": "MISTS",
-          "level": 7,
-          "score": 275,
-          "upgrades": 3,
-          "completed_at": "2022-06-29T13:56:23.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17096042-7-mists-of-tirna-scithe"
-        },
-        {
-          "dungeon": "Halls of Atonement",
-          "short_name": "HOA",
-          "level": 7,
-          "score": 268.3,
-          "upgrades": 2,
-          "completed_at": "2022-07-06T22:46:21.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17809920-7-halls-of-atonement"
-        },
-        {
-          "dungeon": "Spires of Ascension",
-          "short_name": "SOA",
-          "level": 5,
-          "score": 228.6,
-          "upgrades": 2,
-          "completed_at": "2022-06-21T23:53:28.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16263670-5-spires-of-ascension"
-        }
-      ],
-      "alternate_runs": [
-        {
-          "dungeon": "Halls of Atonement",
-          "short_name": "HOA",
-          "level": 7,
-          "score": 265.2,
-          "upgrades": 1,
-          "completed_at": "2022-07-27T13:26:04.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19535984-7-halls-of-atonement"
-        },
-        {
-          "dungeon": "Theater of Pain",
-          "short_name": "TOP",
-          "level": 7,
-          "score": 263.5,
-          "upgrades": 1,
-          "completed_at": "2022-06-22T15:07:34.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16317521-7-theater-of-pain"
-        },
-        {
-          "dungeon": "Mists of Tirna Scithe",
-          "short_name": "MISTS",
-          "level": 5,
-          "score": 227.3,
-          "upgrades": 2,
-          "completed_at": "2022-06-22T12:51:13.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16307684-5-mists-of-tirna-scithe"
-        },
-        {
-          "dungeon": "Plaguefall",
-          "short_name": "PF",
-          "level": 5,
-          "score": 226.3,
-          "upgrades": 2,
-          "completed_at": "2022-06-30T23:34:23.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17233819-5-plaguefall"
-        },
-        {
-          "dungeon": "The Necrotic Wake",
-          "short_name": "NW",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2022-06-21T22:09:57.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16256531-2-the-necrotic-wake"
-        }
-      ],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "The Necrotic Wake",
-          "short_name": "NW",
-          "level": 13,
-          "score": 314.6,
-          "upgrades": 0,
-          "completed_at": "2022-07-23T13:24:29.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19198248-13-the-necrotic-wake"
-        },
-        {
-          "dungeon": "Plaguefall",
-          "short_name": "PF",
-          "level": 11,
-          "score": 343,
-          "upgrades": 2,
-          "completed_at": "2022-07-07T21:31:02.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17881920-11-plaguefall"
-        },
-        {
-          "dungeon": "Theater of Pain",
-          "short_name": "TOP",
-          "level": 11,
-          "score": 337.6,
-          "upgrades": 1,
-          "completed_at": "2022-07-03T20:35:48.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17518964-11-theater-of-pain"
-        },
-        {
-          "dungeon": "Tazavesh: So'leah's Gambit",
-          "short_name": "GMBT",
-          "level": 10,
-          "score": 324.1,
-          "upgrades": 1,
-          "completed_at": "2022-07-24T12:15:08.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19284735-10-tazavesh-soleahs-gambit"
-        },
-        {
-          "dungeon": "Tazavesh: Streets of Wonder",
-          "short_name": "STRT",
-          "level": 10,
-          "score": 323.6,
-          "upgrades": 1,
-          "completed_at": "2022-06-30T12:43:08.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17183300-10-tazavesh-streets-of-wonder"
-        },
-        {
-          "dungeon": "Mists of Tirna Scithe",
-          "short_name": "MISTS",
-          "level": 7,
-          "score": 275,
-          "upgrades": 3,
-          "completed_at": "2022-06-29T13:56:23.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17096042-7-mists-of-tirna-scithe"
-        },
-        {
-          "dungeon": "Halls of Atonement",
-          "short_name": "HOA",
-          "level": 7,
-          "score": 268.3,
-          "upgrades": 2,
-          "completed_at": "2022-07-06T22:46:21.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17809920-7-halls-of-atonement"
-        },
-        {
-          "dungeon": "Spires of Ascension",
-          "short_name": "SOA",
-          "level": 5,
-          "score": 228.6,
-          "upgrades": 2,
-          "completed_at": "2022-06-21T23:53:28.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16263670-5-spires-of-ascension"
-        }
-      ],
-      "mythic_plus_alternate_runs": [
-        {
-          "dungeon": "Halls of Atonement",
-          "short_name": "HOA",
-          "level": 7,
-          "score": 265.2,
-          "upgrades": 1,
-          "completed_at": "2022-07-27T13:26:04.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19535984-7-halls-of-atonement"
-        },
-        {
-          "dungeon": "Theater of Pain",
-          "short_name": "TOP",
-          "level": 7,
-          "score": 263.5,
-          "upgrades": 1,
-          "completed_at": "2022-06-22T15:07:34.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16317521-7-theater-of-pain"
-        },
-        {
-          "dungeon": "Mists of Tirna Scithe",
-          "short_name": "MISTS",
-          "level": 5,
-          "score": 227.3,
-          "upgrades": 2,
-          "completed_at": "2022-06-22T12:51:13.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16307684-5-mists-of-tirna-scithe"
-        },
-        {
-          "dungeon": "Plaguefall",
-          "short_name": "PF",
-          "level": 5,
-          "score": 226.3,
-          "upgrades": 2,
-          "completed_at": "2022-06-30T23:34:23.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17233819-5-plaguefall"
-        },
-        {
-          "dungeon": "The Necrotic Wake",
-          "short_name": "NW",
-          "level": 2,
-          "score": 170,
-          "upgrades": 3,
-          "completed_at": "2022-06-21T22:09:57.000Z",
-          "character": "Lifekiller",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16256531-2-the-necrotic-wake"
-        }
-      ]
     }
   ],
   "dungeons": [
@@ -808,14 +489,6 @@
           "upgrades": 1,
           "completed_at": "2022-07-05T12:05:54.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/17672823-17-tazavesh-soleahs-gambit"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 10,
-          "score": 324.1,
-          "upgrades": 1,
-          "completed_at": "2022-07-24T12:15:08.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19284735-10-tazavesh-soleahs-gambit"
         }
       ]
     },
@@ -830,14 +503,6 @@
           "upgrades": 1,
           "completed_at": "2022-07-02T14:59:47.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/17379859-20-halls-of-atonement"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 7,
-          "score": 268.3,
-          "upgrades": 2,
-          "completed_at": "2022-07-06T22:46:21.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17809920-7-halls-of-atonement"
         }
       ]
     },
@@ -852,14 +517,6 @@
           "upgrades": 1,
           "completed_at": "2022-07-02T14:12:25.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/17376631-19-mists-of-tirna-scithe"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 7,
-          "score": 275,
-          "upgrades": 3,
-          "completed_at": "2022-06-29T13:56:23.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17096042-7-mists-of-tirna-scithe"
         }
       ]
     },
@@ -874,14 +531,6 @@
           "upgrades": 3,
           "completed_at": "2022-06-30T17:52:51.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/17204440-17-the-necrotic-wake"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 13,
-          "score": 314.6,
-          "upgrades": 0,
-          "completed_at": "2022-07-23T13:24:29.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19198248-13-the-necrotic-wake"
         }
       ]
     },
@@ -896,14 +545,6 @@
           "upgrades": 2,
           "completed_at": "2022-07-14T19:51:04.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/18482518-17-plaguefall"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 11,
-          "score": 343,
-          "upgrades": 2,
-          "completed_at": "2022-07-07T21:31:02.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17881920-11-plaguefall"
         }
       ]
     },
@@ -932,14 +573,6 @@
           "upgrades": 1,
           "completed_at": "2022-07-14T21:31:42.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/18490759-21-spires-of-ascension"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 5,
-          "score": 228.6,
-          "upgrades": 2,
-          "completed_at": "2022-06-21T23:53:28.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16263670-5-spires-of-ascension"
         }
       ]
     },
@@ -954,14 +587,6 @@
           "upgrades": 1,
           "completed_at": "2022-07-05T20:38:27.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/17713274-19-tazavesh-streets-of-wonder"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 10,
-          "score": 323.6,
-          "upgrades": 1,
-          "completed_at": "2022-06-30T12:43:08.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17183300-10-tazavesh-streets-of-wonder"
         }
       ]
     },
@@ -976,14 +601,6 @@
           "upgrades": 0,
           "completed_at": "2022-06-28T23:31:36.000Z",
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/17049157-18-theater-of-pain"
-        },
-        {
-          "character": "Lifekiller",
-          "level": 11,
-          "score": 337.6,
-          "upgrades": 1,
-          "completed_at": "2022-07-03T20:35:48.000Z",
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17518964-11-theater-of-pain"
         }
       ]
     }
@@ -1160,16 +777,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/15468572-13-halls-of-atonement"
     },
     {
-      "dungeon": "The Necrotic Wake",
-      "short_name": "NW",
-      "level": 13,
-      "score": 314.6,
-      "upgrades": 0,
-      "completed_at": "2022-07-23T13:24:29.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/19198248-13-the-necrotic-wake"
-    },
-    {
       "dungeon": "Plaguefall",
       "short_name": "PF",
       "level": 13,
@@ -1180,26 +787,6 @@
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/17793111-13-plaguefall"
     },
     {
-      "dungeon": "Plaguefall",
-      "short_name": "PF",
-      "level": 11,
-      "score": 343,
-      "upgrades": 2,
-      "completed_at": "2022-07-07T21:31:02.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/17881920-11-plaguefall"
-    },
-    {
-      "dungeon": "Theater of Pain",
-      "short_name": "TOP",
-      "level": 11,
-      "score": 337.6,
-      "upgrades": 1,
-      "completed_at": "2022-07-03T20:35:48.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/17518964-11-theater-of-pain"
-    },
-    {
       "dungeon": "Tazavesh: Streets of Wonder",
       "short_name": "STRT",
       "level": 10,
@@ -1208,106 +795,6 @@
       "completed_at": "2022-06-13T18:29:17.000Z",
       "character": "Warlockzz",
       "url": "https://raider.io/mythic-plus-runs/season-mn-2/15305310-10-tazavesh-streets-of-wonder"
-    },
-    {
-      "dungeon": "Tazavesh: So'leah's Gambit",
-      "short_name": "GMBT",
-      "level": 10,
-      "score": 324.1,
-      "upgrades": 1,
-      "completed_at": "2022-07-24T12:15:08.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/19284735-10-tazavesh-soleahs-gambit"
-    },
-    {
-      "dungeon": "Tazavesh: Streets of Wonder",
-      "short_name": "STRT",
-      "level": 10,
-      "score": 323.6,
-      "upgrades": 1,
-      "completed_at": "2022-06-30T12:43:08.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/17183300-10-tazavesh-streets-of-wonder"
-    },
-    {
-      "dungeon": "Mists of Tirna Scithe",
-      "short_name": "MISTS",
-      "level": 7,
-      "score": 275,
-      "upgrades": 3,
-      "completed_at": "2022-06-29T13:56:23.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/17096042-7-mists-of-tirna-scithe"
-    },
-    {
-      "dungeon": "Halls of Atonement",
-      "short_name": "HOA",
-      "level": 7,
-      "score": 268.3,
-      "upgrades": 2,
-      "completed_at": "2022-07-06T22:46:21.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/17809920-7-halls-of-atonement"
-    },
-    {
-      "dungeon": "Halls of Atonement",
-      "short_name": "HOA",
-      "level": 7,
-      "score": 265.2,
-      "upgrades": 1,
-      "completed_at": "2022-07-27T13:26:04.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/19535984-7-halls-of-atonement"
-    },
-    {
-      "dungeon": "Theater of Pain",
-      "short_name": "TOP",
-      "level": 7,
-      "score": 263.5,
-      "upgrades": 1,
-      "completed_at": "2022-06-22T15:07:34.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/16317521-7-theater-of-pain"
-    },
-    {
-      "dungeon": "Spires of Ascension",
-      "short_name": "SOA",
-      "level": 5,
-      "score": 228.6,
-      "upgrades": 2,
-      "completed_at": "2022-06-21T23:53:28.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/16263670-5-spires-of-ascension"
-    },
-    {
-      "dungeon": "Mists of Tirna Scithe",
-      "short_name": "MISTS",
-      "level": 5,
-      "score": 227.3,
-      "upgrades": 2,
-      "completed_at": "2022-06-22T12:51:13.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/16307684-5-mists-of-tirna-scithe"
-    },
-    {
-      "dungeon": "Plaguefall",
-      "short_name": "PF",
-      "level": 5,
-      "score": 226.3,
-      "upgrades": 2,
-      "completed_at": "2022-06-30T23:34:23.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/17233819-5-plaguefall"
-    },
-    {
-      "dungeon": "The Necrotic Wake",
-      "short_name": "NW",
-      "level": 2,
-      "score": 170,
-      "upgrades": 3,
-      "completed_at": "2022-06-21T22:09:57.000Z",
-      "character": "Lifekiller",
-      "url": "https://raider.io/mythic-plus-runs/season-mn-2/16256531-2-the-necrotic-wake"
     }
   ]
 }
