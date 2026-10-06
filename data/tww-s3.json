@@ -9,7 +9,7 @@
     "theme": "war-within",
     "file": "data/tww-s3.json"
   },
-  "generated_at": "2026-10-06T12:18:03.418Z",
+  "generated_at": "2026-10-06T21:56:20.453Z",
   "summary": {
     "total_score": 474.4,
     "average_score": 474.4,
@@ -39,6 +39,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "",
           "expansion_id": 11,

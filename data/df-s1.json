@@ -9,7 +9,7 @@
     "theme": "dragonflight",
     "file": "data/df-s1.json"
   },
-  "generated_at": "2026-10-06T12:18:03.418Z",
+  "generated_at": "2026-10-06T21:56:20.453Z",
   "summary": {
     "total_score": 3320.8,
     "average_score": 1106.9,
@@ -39,6 +39,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "url": "https://raider.io/characters/eu/silvermoon/Ahldroni",
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "",
           "expansion_id": 11,
@@ -418,6 +426,14 @@
       "profile_url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "url": "https://raider.io/characters/eu/silvermoon/Warlockzz",
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "",
           "expansion_id": 11,
@@ -657,6 +673,14 @@
       "profile_url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "url": "https://raider.io/characters/eu/stormscale/Ahldrak",
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "",
           "expansion_id": 11,
